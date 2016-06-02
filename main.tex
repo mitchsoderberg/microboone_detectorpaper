@@ -1,0 +1,106 @@
+%----------------------------------------------------------------
+%
+% declare the document class
+
+% for official submission
+%\documentclass[aps,prl,twocolumn,showpacs,superscriptaddress,epsfig]{revtex4}
+
+
+
+\RequirePackage{ifpdf}
+\RequirePackage{morefloats}
+%\RequirePackage{authblk}
+% for preprint
+%\documentclass[aps,prl,twocolumn,showpacs,preprintnumbers,superscriptaddress,floatfix,authblk]{revtex4}
+\documentclass[cits,floatfix,hyper]{JINST}
+\pdfoutput=1
+\usepackage{multirow}
+\usepackage{booktabs}
+
+%needed for line-numbers during editing stage
+\usepackage{lineno}
+
+\usepackage{subfig}
+
+
+
+%***************************************************
+% preamble
+%\include{preamble}
+
+%***************************************************
+
+%====================================
+% header
+\input{header}
+
+
+% begin document
+\begin{document}
+%next two lines needed to turn on line-numbers during editing stage
+\setpagewiselinenumbers
+\linenumbers
+Date:~\today ; Paper Version:~1.0
+
+
+
+\newcommand{\lartpc}{LArTPC~}
+\newcommand{\lartpcs}{LArTPCs~}
+% make the title (must come after abstract)
+%\maketitle
+
+
+%====================================
+
+%************************************
+% Intro
+\input{introduction}
+
+%************************************
+% Experiment Overview
+\input{experiment-overview}
+
+%************************************
+% Cryostat and Cryogenics
+\input{cryogenic-system}
+
+%************************************
+% TPC
+\input{tpc}
+
+%************************************
+% Light Collection System
+\input{light-collection}
+
+%************************************
+% Electronics
+\input{electronics}
+
+%************************************
+% Auxiliary instrumentation and slow controls
+\input{slow-control}
+
+%************************************
+% UV Laser
+\input{laser}
+
+%************************************
+% First performance measurements
+%\input{first-performance}
+
+%*************************************
+% Conclusions
+\input{conclusion}
+
+%====================================
+% acknowledgments
+\input{acknowledgments}
+
+%====================================
+% bibliography
+\bibliographystyle{JHEP}
+\bibliography{references}
+
+%***************************************************
+% end the document
+\end{document}

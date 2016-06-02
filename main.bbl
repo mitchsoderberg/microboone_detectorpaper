@@ -1,0 +1,517 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
+
+\bibitem{Doke:1993}
+T.~Doke, {\it A historical view on the r\&d for liquid rare gas detectors},
+  {\em Nuclear Instruments and Methods in Physics Research Section A} {\bf 327}
+  (1993), no.~1 113 -- 118.
+
+\bibitem{Willis:1974}
+W.~Willis and V.~Radeka, {\it Liquid-argon ionization chambers as
+  total-absorption detectors},  {\em Nuclear Instruments and Methods} {\bf 120}
+  (1974), no.~2 221 -- 236.
+
+\bibitem{Rubbia:1977}
+C.~Rubbia, {\it The liquid-argon time projection chamber: A new concept for
+  neutrino detectors},  EP Internal Report 77-8, CERN, May, 1977.
+
+\bibitem{Benetti:1993-3ton}
+P.~Benetti et~al., {\it A three-ton liquid argon time projection chamber},
+  {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment} {\bf 332}
+  (1993), no.~3 395 -- 412.
+
+\bibitem{Cennini:1994-3ton}
+P.~Cennini et~al., {\it Performance of a three-ton liquid argon time projection
+  chamber},  {\em Nuclear Instruments and Methods in Physics Research Section
+  A: Accelerators, Spectrometers, Detectors and Associated Equipment} {\bf 345}
+  (1994), no.~2 230 -- 243.
+
+\bibitem{Arneodo:1999-50l}
+F.~Arneodo et~al., {\it {The ICARUS 50-l LAr TPC in the CERN $\nu$ beam}},
+  \href{http://xxx.lanl.gov/abs/hep-ex/9812006}{{\tt hep-ex/9812006}}.
+
+\bibitem{Amerio:2004-T600}
+S.~Amerio et~al., {\it Design, construction and tests of the {ICARUS} {T600}
+  detector},  {\em Nuclear Instruments and Methods in Physics Research Section
+  A: Accelerators, Spectrometers, Detectors and Associated Equipment} {\bf 527}
+  (2004), no.~3 329 -- 410.
+
+\bibitem{Amoruso:2004-muon}
+S.~Amoruso et~al., {\it Measurement of the muon decay spectrum with the icarus
+  liquid argon tpc},  {\em The European Physical Journal C - Particles and
+  Fields} {\bf 33} (2004), no.~2 233--241.
+
+\bibitem{Amoruso:2004-electron}
+S.~Amoruso et~al., {\it Study of electron recombination in liquid argon with
+  the \{ICARUS\} \{TPC\}},  {\em Nuclear Instruments and Methods in Physics
+  Research Section A: Accelerators, Spectrometers, Detectors and Associated
+  Equipment} {\bf 523} (2004), no.~3 275 -- 286.
+
+\bibitem{Antonello:2004-cherenkov}
+M.~Antonello et~al., {\it Detection of cherenkov light emission in liquid
+  argon},  {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment} {\bf 516}
+  (2004), no.~2--3 348 -- 363.
+
+\bibitem{Amoruso:2004-purity}
+S.~Amoruso et~al., {\it Analysis of the liquid argon purity in the {{ICARUS}}
+  {{T600}} {{TPC}}},  {\em Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+  {\bf 516} (2004), no.~1 68 -- 79.
+
+\bibitem{Arneodo:2003-tracks}
+F.~Arneodo et~al., {\it Observation of long ionizing tracks with the {{ICARUS}}
+  {{T600}} first half-module},  {\em Nuclear Instruments and Methods in Physics
+  Research Section A: Accelerators, Spectrometers, Detectors and Associated
+  Equipment} {\bf 508} (2003), no.~3 287 -- 294.
+
+\bibitem{Aprili:2002-proposal}
+P.~Aprili et~al., {\it The {{ICARUS}} experiment: A second-generation proton
+  decay experiment and neutrino observatory at the gran sasso laboratory.
+  cloning of t600 modules to reach the design sensitive mass. (addendum)},
+  LNGS-EXP 13/89 add.2/01 CERN-SPSC-2002-027, CERN, 2002.
+
+\bibitem{Cline:2003-LANNDD}
+D.~B. Cline, J.~G. Learned, K.~McDonald, and F.~Sergiampietri, {\it {LANNDD}--a
+  massive liquid argon detector for proton decay, supernova and solar neutrino
+  studies and a neutrino factory detector},  {\em Nuclear Instruments and
+  Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors
+  and Associated Equipment} {\bf 503} (2003), no.~1--2 136 -- 140. Proceedings
+  of the 3rd International Workshop on Neutrino Factories based on Muon Storage
+  Rings.
+
+\bibitem{Rubbia:2004-glacier}
+A.~Rubbia, {\it {Experiments for CP violation: A Giant liquid argon
+  scintillation, Cerenkov and charge imaging experiment?}},
+  \href{http://xxx.lanl.gov/abs/hep-ph/0402110}{{\tt hep-ph/0402110}}.
+
+\bibitem{Rubbia:2009-glacier}
+A.~Rubbia, {\it {Underground Neutrino Detectors for Particle and Astroparticle
+  Science: The Giant Liquid Argon Charge Imaging ExpeRiment (GLACIER)}},  {\em
+  J.Phys.Conf.Ser.} {\bf 171} (2009) 012020,
+  [\href{http://xxx.lanl.gov/abs/0908.1286}{{\tt arXiv:0908.1286}}].
+
+\bibitem{LAGUNAcollab}
+{\bf {LAGUNA}} Collaboration.
+\newblock http://laguna.ethz.ch/LAGUNA/Welcome.html.
+
+\bibitem{Stahl:2012-LBNO}
+A.~Stahl et~al., {\it {Expression of Interest for a very long baseline neutrino
+  oscillation experiment ({LBNO})}},  Tech. Rep. CERN-SPSC-2012-021.
+  SPSC-EOI-007, CERN, Geneva, Jun, 2012.
+
+\bibitem{Agarwalla:2013-LBNO}
+S.~Agarwalla et~al., {\it {The mass-hierarchy and CP-violation discovery reach
+  of the LBNO long-baseline neutrino experiment}},  {\em JHEP} {\bf 1405}
+  (2014) 094, [\href{http://xxx.lanl.gov/abs/1312.6520}{{\tt
+  arXiv:1312.6520}}].
+
+\bibitem{WA105collab}
+``{WA105}.''
+\newblock http://laguna.ethz.ch:8080/Plone/wa105.
+
+\bibitem{Adams:2013-LBNE}
+C.~Adams et~al., {\it {The Long-Baseline Neutrino Experiment: Exploring
+  Fundamental Symmetries of the Universe}},
+  \href{http://xxx.lanl.gov/abs/1307.7335}{{\tt arXiv:1307.7335}}.
+
+\bibitem{Ereditato:2005}
+A.~Ereditato and A.~Rubbia, {\it {Ideas for future liquid argon detectors}},
+  {\em Nucl.Phys.Proc.Suppl.} {\bf 139} (2005) 301--310,
+  [\href{http://xxx.lanl.gov/abs/hep-ph/0409143}{{\tt hep-ph/0409143}}].
+
+\bibitem{Ereditato:2006}
+A.~Ereditato and A.~Rubbia, {\it {The Liquid Argon TPC: A Powerful detector for
+  future neutrino experiments and proton decay searches}},  {\em
+  Nucl.Phys.Proc.Suppl.} {\bf 154} (2006) 163--178,
+  [\href{http://xxx.lanl.gov/abs/hep-ph/0509022}{{\tt hep-ph/0509022}}].
+
+\bibitem{Rossi:2009-UVlaser}
+B.~Rossi et~al., {\it {A Prototype liquid Argon Time Projection Chamber for the
+  study of UV laser multi-photonic ionization}},  {\em JINST} {\bf 4} (2009)
+  P07011, [\href{http://xxx.lanl.gov/abs/0906.3437}{{\tt arXiv:0906.3437}}].
+
+\bibitem{Badhrees:2012-argontube}
+I.~Badhrees et~al., {\it {Argontube: An R\&D Liquid Argon Time Projection
+  Chamber}},  {\em JINST} {\bf 7} (2012) C02011.
+
+\bibitem{Ereditato:2013-argontube}
+A.~Ereditato et~al., {\it {Design and operation of ARGONTUBE: a 5~m long drift
+  liquid argon TPC}},  {\em JINST} {\bf 8} (2013) P07002,
+  [\href{http://xxx.lanl.gov/abs/1304.6961}{{\tt arXiv:1304.6961}}].
+
+\bibitem{Zeller:2013-argontube}
+M.~Zeller et~al., {\it {First measurements with ARGONTUBE, a 5m long drift
+  Liquid Argon TPC}},  {\em Nucl.Instrum.Meth.} {\bf A718} (2013) 454--458.
+
+\bibitem{Horikawa:2010-ethz}
+S.~Horikawa et~al., {\it {Feasibility of high-voltage systems for a very long
+  drift in liquid argon TPCs}},  {\em J.Phys.Conf.Ser.} {\bf 308} (2011)
+  012027, [\href{http://xxx.lanl.gov/abs/1009.4908}{{\tt arXiv:1009.4908}}].
+
+\bibitem{Badertscher:2011-ethz}
+A.~Badertscher et~al., {\it First operation of a double phase {LAr} large
+  electron multiplier time projection chamber with a 2d projective readout
+  anode},  {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment} {\bf 641}
+  (2011), no.~1 48 -- 57.
+
+\bibitem{Badertscher:2012-ethz}
+A.~Badertscher et~al., {\it {First operation and drift field performance of a
+  large area double phase LAr Electron Multiplier Time Projection Chamber with
+  an immersed Greinacher high-voltage multiplier}},  {\em JINST} {\bf 7} (2012)
+  P08026, [\href{http://xxx.lanl.gov/abs/1204.3530}{{\tt arXiv:1204.3530}}].
+
+\bibitem{Cantini:2013-ethz}
+C.~Cantini et~al., {\it {Long-term operation of a double phase LAr LEM Time
+  Projection Chamber with a simplified anode and extraction-grid design}},
+  {\em JINST} {\bf 9} (2014) P03017,
+  [\href{http://xxx.lanl.gov/abs/1312.6487}{{\tt arXiv:1312.6487}}].
+
+\bibitem{Baller:2014-USlarrd}
+B.~Baller et~al., {\it {Liquid Argon Time Projection Chamber Research and
+  Development in the United States}},  {\em JINST} {\bf 9} (2013) T05005,
+  [\href{http://xxx.lanl.gov/abs/1307.8166}{{\tt arXiv:1307.8166}}].
+
+\bibitem{Anderson:2012-argoneut}
+C.~Anderson et~al., {\it {The ArgoNeuT Detector in the NuMI Low-Energy beam
+  line at Fermilab}},  {\em JINST} {\bf 7} (2012) P10019,
+  [\href{http://xxx.lanl.gov/abs/1205.6747}{{\tt arXiv:1205.6747}}].
+
+\bibitem{Acciarri:2013-argoneut-recomb}
+R.~Acciarri et~al., {\it {A study of electron recombination using highly
+  ionizing particles in the ArgoNeuT Liquid Argon TPC}},  {\em JINST} {\bf 8}
+  (2013) P08005, [\href{http://xxx.lanl.gov/abs/1306.1712}{{\tt
+  arXiv:1306.1712}}].
+
+\bibitem{Anderson:2012-argoneut-CCincl}
+C.~Anderson et~al., {\it {First Measurements of Inclusive Muon Neutrino Charged
+  Current Differential Cross Sections on Argon}},  {\em Phys.Rev.Lett.} {\bf
+  108} (2012) 161802, [\href{http://xxx.lanl.gov/abs/1111.0103}{{\tt
+  arXiv:1111.0103}}].
+
+\bibitem{Acciarri:2014-argoneut-CCxsec}
+R.~Acciarri et~al., {\it {Measurements of Inclusive Muon Neutrino and
+  Antineutrino Charged Current Differential Cross Sections on Argon in the NuMI
+  Antineutrino Beam}},  {\em Phys.Rev.} {\bf D89} (2014) 112003,
+  [\href{http://xxx.lanl.gov/abs/1404.4809}{{\tt arXiv:1404.4809}}].
+
+\bibitem{Acciarri:2014-argoneut-CCcohpi}
+R.~Acciarri et~al., {\it {First Measurement of Neutrino and Antineutrino
+  Coherent Charged Pion Production on Argon}},
+  \href{http://xxx.lanl.gov/abs/1408.0598}{{\tt arXiv:1408.0598}}.
+
+\bibitem{Cavanna:2014-lariat}
+R.~Acciarri et~al., {\it {LArIAT: Liquid Argon In A Testbeam}},
+  \href{http://xxx.lanl.gov/abs/1406.5560}{{\tt arXiv:1406.5560}}.
+
+\bibitem{Szelc:2013-lariatlight}
+A.~Szelc, {\it {The LArIAT light readout system}},  {\em JINST} {\bf 8} (2013)
+  C09011.
+
+\bibitem{Adamowski:2014-LAPD}
+M.~Adamowski et~al., {\it {The Liquid Argon Purity Demonstrator}},  {\em JINST}
+  {\bf 9} (2014) P07005, [\href{http://xxx.lanl.gov/abs/1403.7236}{{\tt
+  arXiv:1403.7236}}].
+
+\bibitem{Rebel:2011-MTS}
+B.~Rebel et~al., {\it {Results from the Fermilab materials test stand and
+  status of the liquid argon purity demonstrator}},  {\em J.Phys.Conf.Ser.}
+  {\bf 308} (2011) 012023.
+
+\bibitem{Montanari:2013-35ton}
+D.~Montanari et~al., {\it {First scientific application of the membrane
+  cryostat technology.}}, .
+
+\bibitem{P5:2014}
+{\bf HEPAP Subcommittee} Collaboration, S.~Ritz et~al., {\it {Building for
+  Discovery: Strategic Plan for U.S. Particle Physics in the Global Context}},
+  .
+
+\bibitem{Marchionni:2013}
+A.~Marchionni, {\it {Status and New Ideas Regarding Liquid Argon Detectors}},
+  {\em Ann.Rev.Nucl.Part.Sci.} {\bf 63} (2013) 269--290,
+  [\href{http://xxx.lanl.gov/abs/1307.6918}{{\tt arXiv:1307.6918}}].
+
+\bibitem{AguilarArevalo:2008-MBflux}
+{\bf MiniBooNE} Collaboration, A.~Aguilar-Arevalo et~al., {\it {The Neutrino
+  Flux prediction at MiniBooNE}},  {\em Phys.Rev.} {\bf D79} (2009) 072002,
+  [\href{http://xxx.lanl.gov/abs/0806.1449}{{\tt arXiv:0806.1449}}].
+
+\bibitem{Aprile:1985}
+E.~Aprile, K.~Giboni, and C.~Rubbia, {\it A study of ionization electrons
+  drifting large distances in liquid and solid argon},  {\em Nuclear
+  Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment} {\bf 241} (1985), no.~1 62
+  -- 71.
+
+\bibitem{Jones:2013bca}
+B.~Jones, C.~Chiu, J.~Conrad, C.~Ignarra, T.~Katori, et~al., {\it {A
+  Measurement of the Absorption of Liquid Argon Scintillation Light by
+  Dissolved Nitrogen at the Part-Per-Million Level}},  {\em JINST} {\bf 8}
+  (2013) P07011, [\href{http://xxx.lanl.gov/abs/1306.4605}{{\tt
+  arXiv:1306.4605}}].
+
+\bibitem{barber-nichols}
+Barber-Nichols Inc., 6325 West 55th Avenue, Arvada, CO 80002 USA.
+
+\bibitem{sigma-aldrich}
+Sigma-Aldrich, P.O. Box 14508, St. Louis, MO 63178 USA.
+
+\bibitem{basf}
+BASF Corp., 100 Park Avenue, Florham Park, NJ 07932 USA.
+
+\bibitem{aspen-aerogels}
+Aspen Aerogels, Inc., 30 Forbes Road, Building B, Northborough, MA 01532 USA.
+
+\bibitem{Carugno:1990-purityMonitor}
+G.~Carugno et~al., {\it Electron lifetime detector for liquid argon},  {\em
+  Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment} {\bf 292} (1990) 580.
+
+\bibitem{citranox}
+{\it {Citranox acid detergent}}, .
+  http://www.alconox.com/resources/StandardDocuments/MSDS/msds\_citranox\_english\_ghs.pdf.
+
+\bibitem{simplegreen}
+{\it {Simple Green detergent}}, .
+  http://simplegreen.com/pdfs/MSDS\_EN-US\_AllPurposeCleaner.pdf.
+
+\bibitem{Katori:2013wqa}
+{\bf MicroBooNE} Collaboration, T.~Katori, {\it {The MicroBooNE light
+  collection system}},  {\em JINST} {\bf 8} (2013) C10011,
+  [\href{http://xxx.lanl.gov/abs/1307.5256}{{\tt arXiv:1307.5256}}].
+
+\bibitem{Bugel:2011xg}
+L.~Bugel, J.~M. Conrad, C.~Ignarra, B.~J.~P. Jones, T.~Katori, T.~Smidt, and
+  H.~K. Tanaka, {\it {Demonstration of a Lightguide Detector for Liquid Argon
+  TPCs}},  {\em Nucl. Instrum. Meth.} {\bf A640} (2011) 69--75,
+  [\href{http://xxx.lanl.gov/abs/1101.3013}{{\tt arXiv:1101.3013}}].
+
+\bibitem{Katori:2011uq}
+{\bf MicroBooNE} Collaboration, T.~Katori, {\it {MicroBooNE, A Liquid Argon
+  Time Projection Chamber (LArTPC) Neutrino Experiment}},  {\em AIP Conf.
+  Proc.} {\bf 1405} (2011) 250--255,
+  [\href{http://xxx.lanl.gov/abs/1107.5112}{{\tt arXiv:1107.5112}}].
+
+\bibitem{Briese:2013wua}
+T.~Briese, L.~Bugel, J.~Conrad, M.~Fournier, C.~Ignarra, et~al., {\it {Testing
+  of Cryogenic Photomultiplier Tubes for the MicroBooNE Experiment}},  {\em
+  JINST} {\bf 8} (2013) T07005, [\href{http://xxx.lanl.gov/abs/1304.0821}{{\tt
+  arXiv:1304.0821}}].
+
+\bibitem{Jones:2013mfa}
+B.~Jones, T.~Alexander, H.~Back, G.~Collin, J.~Conrad, et~al., {\it {The
+  Effects of Dissolved Methane upon Liquid Argon Scintillation Light}},  {\em
+  JINST} {\bf 8} (2013) P12015, [\href{http://xxx.lanl.gov/abs/1308.3658}{{\tt
+  arXiv:1308.3658}}].
+
+\bibitem{Bromberg:2013fla}
+B.~Baller, N.~Buchanan, F.~Cavanna, H.~Chen, E.~Church, et~al., {\it {Liquid
+  Argon Time Projection Chamber Research and Development in the United
+  States}},  {\em JINST} {\bf 9} (2014) T05005,
+  [\href{http://xxx.lanl.gov/abs/1307.8166}{{\tt arXiv:1307.8166}}].
+
+\bibitem{Moss:2014ota}
+Z.~Moss, L.~Bugel, G.~Collin, J.~Conrad, B.~Jones, et~al., {\it {Improved
+  TPB-coated Light Guides for Liquid Argon TPC Light Detection Systems}},
+  \href{http://xxx.lanl.gov/abs/1410.6256}{{\tt arXiv:1410.6256}}.
+
+\bibitem{Conrad:2015xta}
+{\bf MicroBooNE} Collaboration, J.~Conrad, B.~Jones, Z.~Moss, T.~Strauss, and
+  M.~Toups, {\it {The Photomultiplier Tube Calibration System of the MicroBooNE
+  Experiment}},  {\em JINST} {\bf 10} (2015), no.~06 T06001,
+  [\href{http://xxx.lanl.gov/abs/1502.0415}{{\tt arXiv:1502.0415}}].
+
+\bibitem{Acciarri:2015hha}
+R.~Acciarri, M.~Adamowski, D.~Artrip, B.~Baller, C.~Bromberg, et~al., {\it
+  {Summary of the Second Workshop on Liquid Argon Time Projection Chamber
+  Research and Development in the United States}},
+  \href{http://xxx.lanl.gov/abs/1504.0560}{{\tt arXiv:1504.0560}}.
+
+\bibitem{Moss:2015hha}
+Z.~Moss, M.~Toups, L.~Bugel, G.~Collin, and J.~Conrad, {\it {Anode-Coupled
+  Readout for Light Collection in Liquid Argon TPCs}},
+  \href{http://xxx.lanl.gov/abs/1507.0199}{{\tt arXiv:1507.0199}}.
+
+\bibitem{Hamamatsu-Datasheet8inch}
+{Hamamatsu}, ``Large area photomultipier tubes.'' {Specification for R5912 and
+  R5912-02 photomultiplier tubes:
+  http://www.hamamatsu.com/resources/pdf/etd/LARGE\_AREA\_PMT\_TPMH1286E05.pdf}.
+
+\bibitem{Bellamy:1994bv}
+E.~H. Bellamy, G.~Bellettini, F.~Gervelli, M.~Incagli, D.~Lucchesi,
+  C.~Pagliarone, F.~Zetti, {\relax Yu}.~Budagov, I.~Chirikov-Zorin, and
+  S.~Tokar, {\it {Absolute calibration and monitoring of a spectrometric
+  channel using a photomultiplier}},  {\em Nucl. Instrum. Meth.} {\bf A339}
+  (1994) 468--476.
+
+\bibitem{Meyer:2008qb}
+H.~O. Meyer, {\it {Dark Rate of a Photomultiplier at Cryogenic Temperatures}},
+  \href{http://xxx.lanl.gov/abs/0805.0771}{{\tt arXiv:0805.0771}}.
+
+\bibitem{MeyerDark}
+H.~Meyer, {\it {Spontaneous electron emission from a cold surface}},  {\em EPL}
+  (2010), no.~89 58001.
+
+\bibitem{HamamatsuBook}
+{Hamamatsu Photonics}, {\it {Photomultiplier Tubes, Basics and Applications,
+  Third Edition, Chapter 13.9}}, .
+  https://www.hamamatsu.com/resources/pdf/etd/PMT\_handbook\_v3aE.pdf.
+
+\bibitem{Burton:1973}
+W.~Burton and B.~Powell, {\it Fluorescence of tetraphenyl-butadiene in the
+  vacuum ultraviolet.},  {\em Appl Opt.} {\bf 12} (1973), no.~1 87--9.
+
+\bibitem{Ignarra:2014-thesis}
+C.~Ignarra, ``{Sterile Neutrino Searches in MiniBooNE and MicroBooNE}.'' PhD
+  Thesis - I would like a URL for this.
+
+\bibitem{Gehman:2011}
+V.~Gehman, S.~Seibert, K.~Rielage, A.~Hime, Y.~Sun, et~al., {\it {Fluorescence
+  Efficiency and Visible Re-emission Spectrum of Tetraphenyl Butadiene Films at
+  Extreme Ultraviolet Wavelengths}},  {\em Nucl.Instrum.Meth.} {\bf A654}
+  (2011) 116--121, [\href{http://xxx.lanl.gov/abs/1104.3259}{{\tt
+  arXiv:1104.3259}}].
+
+\bibitem{Francini:2013-jinst}
+R.~Francini, R.~Montereali, E.~Nichelatti, M.~Vincenti, N.~Canci, et~al., {\it
+  {VUV-Vis optical characterization of Tetraphenyl-butadiene films on glass and
+  specular reflector substrates from room to liquid Argon temperature}},  {\em
+  JINST} {\bf 8} (2013) P09006.
+
+\bibitem{Chiu:2012}
+C.~Chiu, C.~Ignarra, L.~Bugel, H.~Chen, J.~Conrad, et~al., {\it {Environmental
+  Effects on TPB Wavelength-Shifting Coatings}},  {\em JINST} {\bf 7} (2012)
+  P07007, [\href{http://xxx.lanl.gov/abs/1204.5762}{{\tt arXiv:1204.5762}}].
+
+\bibitem{Jones:2013}
+B.~J.~P. Jones, {\it {A simulation of the optical attenuation of TPB coated
+  light-guide detectors}},  {\em JINST} {\bf 8} (2013) C10015,
+  [\href{http://xxx.lanl.gov/abs/1307.6906}{{\tt arXiv:1307.6906}}].
+
+\bibitem{LexanThermoclear}
+{Sundance Supply}, ``{Lexan Thermoclear Multiwall Polycarbonate Sheet}.''
+  {https://www.sundancesupply.com/Lexan.pdf}.
+
+\bibitem{Baptista:2012}
+B.~Baptista, L.~Bugel, C.~Chiu, J.~Conrad, C.~Ignarra, et~al., {\it
+  {Benchmarking TPB-coated Light Guides for Liquid Argon TPC Light Detection
+  Systems}},  \href{http://xxx.lanl.gov/abs/1210.3793}{{\tt arXiv:1210.3793}}.
+
+\bibitem{Birks:1959}
+J.~B. Birks and K.~N. Kuchela, {\it Energy transfer in fluorescent plastic
+  solutions},  {\em Disc. Faraday. Soc} {\bf 27} (1959) 57--63.
+
+\bibitem{Birks:1961}
+J.~B. Birks and K.~N. Kuchela, {\it Energy transfer in organic systems ii:
+  Solute-solute transfer in liquid solutions},  {\em Proc. Phys.Soc} {\bf 77}
+  (1961) 1083.
+
+\bibitem{Hanagodimath:2008}
+S.~Hanagodimath, B.~Siddlingeshwar, J.~Thipperudrappa, S.~Kumar, and
+  B.~Hadimani, {\it Fluorescence-quenching studies and temperature dependence
+  of fluorescence quantum yield, decay time and intersystem crossing activation
+  energy of tpb},  {\em J. Lumin} {\bf 129} (2008), no.~4 335--339.
+
+\bibitem{Liu:1997}
+L.~Liu, ``Time resolved fluoresence studies of dye-polymers as excited by laser
+  and beta radiation.'' {PhD Thesis at Texas Tech Univeristy -
+  http://repositories.tdl.org/ttu-ir/bitstream/handle/2346/13744/31295012500558.pdf?sequence=1}.
+
+\bibitem{Hamamatsu-Datasheet2inch}
+{Hamamatsu}, ``Photomultipler tube r7723, r7724, r7725.''
+  {http://www.hamamatsu.com/resources/pdf/etd/R7723\_TPMH1315E01.pdf}.
+
+\bibitem{EPICS}
+``Experimental physics and industrial control system.''
+\newblock http://www.aps.anl.gov/epics/.
+
+\bibitem{ControlSystemStudio}
+``Control system studio.''
+\newblock http://controlsystemstudio.org/; developer's manual:
+  http://cs-studio.sourceforge.net/docbook/.
+
+\bibitem{EPICS_CAP_Spec}
+{\it Channel access protocol specification},  September, 2014.
+\newblock http://www.aps.anl.gov/epics/docs/ca.php.
+
+\bibitem{NetSNMP}
+``Net-snmp.''
+\newblock http://www.net-snmp.org.
+
+\bibitem{devSNMP}
+J.~Priller, {\it Epics snmp device support module: Release 1.0.0},  April,
+  2014.
+\newblock https://groups.nscl.msu.edu/controls/.
+
+\bibitem{asynDriver}
+M.~Rivers, {\it asyndriver: Asynchronous driver support},  September, 2014.
+\newblock http://www.aps.anl.gov/epics/modules/soft/asyn/.
+
+\bibitem{StreamDevice}
+D.~Zimoch, {\it Epics streamdevice},  September, 2014.
+\newblock http://epics.web.psi.ch/software/streamdevice/doc/.
+
+\bibitem{GlomationInc}
+{\it Glomation, inc., gesbc-9g20 user's manual, version 0.2},  June, 2009.
+\newblock http://www.glomationinc.com/GESBC-9G20-user-manual.pdf.
+
+\bibitem{HuffmanFanInterfacePage}
+D.~Huffman, {\it Peripheral interface: Fan and temperature probe},  September,
+  2014.
+\newblock
+  http://www-ppd.fnal.gov/EEDOffice-W/Infrastructure\_group/Huffman/WEB/uboone/pia.html.
+
+\bibitem{GangliaBook}
+M.~Massie et~al., {\em Monitoring with Ganglia: Tracking Dynamic Host and
+  Application Metrics at Scale}.
+\newblock O'Reilly Media, 2012.
+
+\bibitem{GangliaHomePage}
+{\it Ganglia},  September, 2014.
+\newblock http://ganglia.info/.
+
+\bibitem{PyEPICS}
+M.~Newville, {\it Pyepics: Epics channel access for python},  September, 2014.
+\newblock http://cars9.uchicago.edu/software/python/pyepics3/.
+
+\bibitem{FreeIPMI}
+{\it Gnu freeipmi},  September, 2014.
+\newblock http://www.gnu.org/software/freeipmi/.
+
+\bibitem{IFBeamDB}
+I.~Mandrichenko, A.~Norman, A.~Petrov, and V.~Podstavkov, {\it Implementation
+  of beam conditions database for intensity frontier experiments},  June, 2012.
+\newblock http://cd-docdb.fnal.gov/cgi-bin/ShowDocument?docid=4781.
+
+\bibitem{Badhrees:2010}
+I.~Badhrees et~al., {\it {Measurement of the two-photon absorption
+  cross-section of liquid argon with a time projection chamber}},  {\em New
+  J.Phys.} {\bf 12} (2010) 113024,
+  [\href{http://xxx.lanl.gov/abs/1011.6001}{{\tt arXiv:1011.6001}}].
+
+\bibitem{Ereditato:2014-argontubedrift}
+A.~Ereditato et~al., {\it {Measurement of the drift field in the ARGONTUBE LAr
+  TPC with 266~nm pulsed laser beams}},
+  \href{http://xxx.lanl.gov/abs/1408.6635}{{\tt arXiv:1408.6635}}.
+
+\bibitem{Ereditato:2014-laser}
+A.~Ereditato et~al., {\it {A steerable UV laser system for the calibration of
+  liquid argon time projection chambers}},
+  \href{http://xxx.lanl.gov/abs/1406.6400}{{\tt arXiv:1406.6400}}.
+
+\bibitem{BernLaser}
+I.~Badhrees, A.~Ereditato, I.~Kreslo, M.~Messina, U.~Moser, B.~Rossi, M.~S.
+  Weber, M.~Zeller, C.~Altucci, S.~Amoruso, R.~Bruzzese, and R.~Velotta, {\it
+  Measurement of the two-photon absorption cross-section of liquid argon with a
+  time projection chamber},  {\em New Journal of Physics} {\bf 12} (2010),
+  no.~11 113024.
+
+\bibitem{lasertest}
+A.~Ereditato, I.~Kreslo, M.~Lüthi, C.~R. von Rohr, M.~Schenk, T.~Strauss,
+  M.~Weber, and M.~Zeller, {\it A steerable uv laser system for the calibration
+  of liquid argon time projection chambers},  {\em Journal of Instrumentation}
+  {\bf 9} (2014), no.~11 T11007.
+
+\end{thebibliography}\endgroup
