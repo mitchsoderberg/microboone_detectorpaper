@@ -3,12 +3,12 @@
 
 The MicroBooNE \lartpc is the primary detector featured in the experiment, and it is capable of producing fine-grained images of the ionization that is liberated by charged particles traversing a volume of highly-purified liquid argon.  This section describes the design and implementation of the \lartpc in the experiment.
 
-The \lartpc is composed of three major structures: the cathode, the field cage, and the anode. A negative voltage is introduced via a feedthrough passing through nozzle N2 on the cryostat and applied at the cathode, which defines an equipotential surface.  This cathode voltage is incrementally stepped down in magnitude by means of a voltage divider chain spanning across the field cage, defining a region of uniform electric field within the \lartpc. Opposite the cathode, and oriented parallel to it, are the anode wire planes: two induction planes (referred to as the ``U" and ``V" planes) with wires oriented at $\pm60$ from vertical, followed by one collection plane (referred to as the ``Y" plane) with vertically-oriented wires.   The wires of the anode planes are the sensitive elements that capture the signals created by charged particles traveling through the \lartpc.  Figure \ref{fig:tpc-cryostat} depicts the assembled MicroBooNE \lartpc after insertion into the cryostat, showing details of the cathode, field cage, and anode plane.  Table \ref{tab:tpcparam} lists the main parameters of the MicroBooNE \lartpc, which will be described in detail in this section.  
+The \lartpc is composed of three major structures: the cathode, the field cage, and the anode. A negative voltage is introduced via a feedthrough passing through nozzle N2 on the cryostat and applied at the cathode, which defines an equipotential surface.  This cathode voltage is incrementally stepped down in magnitude by means of a voltage divider chain spanning the field cage, creating a region of uniform electric field within the LArTPC. Opposite the cathode, and oriented parallel to it, are the anode wire planes: two induction planes (referred to as the ``U" and ``V" planes) with wires oriented at $\pm60$ from vertical, followed by one collection plane (referred to as the ``Y" plane) with vertically-oriented wires.   The wires of the anode planes are the sensitive elements that detect the ionization created by charged particles traveling through the LArTPC.  Figure \ref{fig:tpc-cryostat} depicts the assembled MicroBooNE \lartpc after insertion into the cryostat, showing details of the cathode, field cage, and anode plane.  Table \ref{tab:tpcparam} lists the main parameters of the MicroBooNE LArTPC, which will be described in detail in this section.  
 
 
 \begin{table}[!htb]
    \centering
-     \caption{MicroBooNE \lartpc parameters and nominal operating conditions.} 
+     \caption{MicroBooNE \lartpc design parameters and nominal operating conditions.} 
     \begin{tabular}{lr} % Column formatting, @{} suppresses leading/trailing space
     \hline
     Parameter & Value \\
@@ -17,7 +17,7 @@ The \lartpc is composed of three major structures: the cathode, the field cage, 
     \lartpc (active) mass & 90 tons\\
     \hline
     $\#$ Anode planes & 3\\
-     Anode plane spacing& 3 mm \\
+     Anode planes spacing& 3 mm \\
      Wire pitch & 3 mm  \\
      Wire type & SS, diam. 150 $\mu$m\\
      Wire coating & 2$\mu$m Cu, 0.1$\mu$m Ag\\
@@ -25,14 +25,14 @@ The \lartpc is composed of three major structures: the cathode, the field cage, 
      $\#$ Induction0 plane (U) wires & 2400 \\
      $\#$ Induction1 plane (V) wires & 2400 \\
      $\#$ Collection plane (Y) wires & 3456 \\
-     Wire orientation (w.r.t. horizontal) & +30$^{\circ}$,-30$^{\circ}$,90$^{\circ}$ (U,V,Y) \\
+     Wire orientation (w.r.t. vertical) & +60$^{\circ}$,-60$^{\circ}$,0$^{\circ}$ (U,V,Y) \\
      \hline
      Cathode voltage (nominal) & -128 kV \\
      Bias voltages (U,V,Y) & -200 V, 0 V, +440 V \\
      Drift-field & 500 V/cm\\
      U-V gap field & 666.7 V/cm \\
      V-Y gap field & 1466.7 V/cm \\
-     Max. Drift Time, Cathode to U (at 500 V/cm) & 1.4 ms\\
+     Max. Drift Time, Cathode to U (at 500 V/cm) & 1.6 ms\\
     \hline
     $\#$ Field-cage steps & 64\\
     Ring-to-ring voltage step & 2.0 kV\\
@@ -52,7 +52,7 @@ The \lartpc is composed of three major structures: the cathode, the field cage, 
 %\input{tpc-mechanical}
 \subsection{Cathode}
 %{\it{(Jen, (Bo?))}}
-The cathode is assembled from 9 individual stainless steel sheets (Type 304, 0.09 inches thick) that are fastened to a supporting frame by hex button head stainless steel screws. The outer edge of the cathode frame consists of round stainless steel tubes of 50.8 mm outer diameter and 3.2 mm wall thickness.  Within this outer edge, square tubes with 50.8 mm $\times$ 50.8 mm cross-sectional area, and 3.2 mm wall thickness, are welded to form a support structure to attach the sheets to.  The exterior frame and support structure of the cathode is shown in figure~\ref{fig:tpc-cathode} and a view of the interior is shown in figure~\ref{fig:tpc-cathode-interior}. The cathode plane is required to be parallel to the anode wire planes, and a survey of the constructed and shimmed cathode showed it is flat to better than $\pm$6.6~mm over its 10.368 m length.  Figure~\ref{fig:tpc-cathode-survey} shows the results of the survey, with deviations from flat represented as color-coded data extending away from the nominal plane of an ideal cathode. %%Source: Jonathan's SBND DocDB #437
+The cathode is assembled from 9 individual stainless steel sheets (Type 304, 0.09 inches thick) that are fastened to a supporting frame by hex button head stainless steel screws. The outer edge of the cathode frame consists of round stainless steel tubes of 50.8 mm outer diameter and 3.2 mm wall thickness.  Within this outer edge, square tubes with 50.8 mm $\times$ 50.8 mm cross-sectional area, and 3.2 mm wall thickness, are fastened together with button head screws, forming a support structure upon which the cathode sheets are attached.  The individual components of the support structure are further welded together to eliminate sharp features from this high-potential surface.  The exterior frame and support structure of the cathode are shown in figure~\ref{fig:tpc-cathode} and a view of the interior is shown in figure~\ref{fig:tpc-cathode-interior}. The cathode plane sheets are shimmed according to survey data to make the cathode as flat and as parallel to the anode frame as possible. Flatness of the cathode is evaluated relative to a best fit plane of survey data (more than 10000 survey points recorded with a laser tracker). The largest deviations of the cathode from the best fit plane are +6.6mm and -6.5mm. Approximately 55$\%$ of the measured survey points fall within +/-3mm of the best fit plane, and more than 90$\%$ of the points fall within $\pm$5 mm.  Figure~\ref{fig:tpc-cathode-survey} shows the results of the survey, with deviations from flat represented as color-coded data extending away from the nominal plane of an ideal cathode. %%Source: Jonathan's SBND DocDB #437
 
 \begin{figure}[htb]
 \centering	
@@ -91,7 +91,7 @@ The four corners of each field cage loop are curved with a radius of 2.0625 inch
 \label{fig:tpc-fieldcage-elbows}
 \end{figure}
 
-In order to avoid electrical breakdown between the inner cryostat surface and field cage parts at high potential on or near the cathode, the electric field strength is minimized at the corners and edges of the field cage. Loop 0 is the cathode frame, which is at the same potential as the cathode plane sheets attached to it. The frame is made from larger diameter piping of 2~inch OD, and it has a slightly smaller circumference than the other field cage loops, as shown in figure~\ref{fig:tpc-smooshed-elbow}. The elbow of loop 1 has a specially designed "smooshed" shape in order to minimize the electric field potential, and the elbow of loop 2 has a softer radius of curvature than the standard elbows. For all three of these loops (loop 0, 1, and 2), connections at corners and joints are made by welding instead of screws to avoid sharp edges that would result in higher electric fields and greater chance of electrical breakdown.
+In order to avoid electrical breakdown between the inner cryostat surface and field cage parts at high potential on or near the cathode, the electric field strength is minimized at the corners and edges of the field cage. Loop 0 is the cathode frame, which is at the same potential as the cathode plane sheets attached to it. The frame is made from larger diameter piping of 2~inch OD, and it has a slightly smaller circumference than the other field cage loops, as shown in figure~\ref{fig:tpc-smooshed-elbow}. The elbow of loop 1 has a specially designed shape in order to minimize the electric field potential, and the elbow of loop 2 has a softer radius of curvature than the standard elbows. For all three of these loops (loop 0, 1, and 2), connections at corners and joints are made by welding instead of screws to avoid sharp edges that would result in higher electric fields and greater chance of electrical breakdown.
 
 \begin{figure}[htb]
 \centering	
@@ -121,7 +121,7 @@ While the designed operating voltage difference across each resistor in the dete
 
 The field cage behaves like a capacitance network. Based on measurements and simulations, the total energy stored inside the field cage when fully charged is estimated to be approximately 24~J. In the case of a discharge between the cryostat and the cathode or one of the field cage loops close to the cathode, simulations show that voltages of up to 80~kV can develop across the resistors over the timescale of a few seconds. The observed peak voltages in such discharge scenarios decrease the further the breakdown occurs from the cathode, such that discharges occurring between the cryostat and field cage loops 32 through 63 do not exceed the 10~kV rating of the resistors.
 
-In order to protect the Ohmite Slim-Mox 104E resistors near the cathode from damage, two strategies have been implemented.  First, as previously mentioned, on the first 16 field cage loops near the cathode the Ohmite Slim-Mox 104E resistors are replaced by Metallux HVR 969.23 resistors that have a higher voltage rating. An extensive study of resistor breakdown in liquid argon of several resistor brands and models (reference resistor paper) has revealed that the breakdown voltage observed in liquid argon exceeds the rating in air substantially for all resistors. No breakdown has been observed up to 32~kV for the Ohmite Slim-Mox 104E resistor. The resistor model chosen for the first 16 field cage loops is the Metallux HVR 969.23 with a glass coating, which is rated to a voltage up to 48~kV. For this model, no breakdown has been observed up to the limit of the test apparatus of 130~kV. The Metallux HVR 969.23 are 499~M$\Omega$ resistors and are installed in groups of two in order to achieve a 250~M$\Omega$ total resistance. Since they are significantly larger physically than the loop-to-loop distance, they are mounted diagonally between each pair of field cage loops. They are held by copper brackets, which are attached to studs welded onto the field cage tubes, shown in figure~\ref{fig:tpc-voltage-divider-metallux}.
+In order to protect the Ohmite Slim-Mox 104E resistors near the cathode from damage, two strategies have been implemented.  First, as previously mentioned, on the first 16 field cage loops near the cathode the Ohmite Slim-Mox 104E resistors are replaced by 499~M$\Omega$ Metallux HVR 969.23 resistors that have a higher voltage rating of 48~kV. An extensive study of resistor breakdown in liquid argon of several resistor brands and models \cite{reference_resistor_paper} has revealed that the breakdown voltage observed in liquid argon exceeds the rating in air substantially for all resistors. No breakdown has been observed up to 32~kV for the Ohmite Slim-Mox 104E resistor. For the Metallux HVR 969.23 resistors, no breakdown has been observed up to the limit of the test apparatus of 130~kV.  Since the Metallux HVR 969.23 resistors are significantly larger physically than the loop-to-loop distance, they are mounted diagonally between each pair of field cage loops. They are held by copper brackets, which are attached to studs welded onto the field cage tubes, shown in figure~\ref{fig:tpc-voltage-divider-metallux}.
 
 \begin{figure}[htb]
 \centering	
@@ -131,7 +131,7 @@ In order to protect the Ohmite Slim-Mox 104E resistors near the cathode from dam
 \end{figure}
 
 
-The second protection mode installed for all resistors on field cage loops 1 to 32, is the installation of surge protection devices. Such devices are designed to short the circuit in the case of a voltage spike, therefore protecting other electrical components if installed in parallel. Below their clamping voltage, they exhibit a very high resistance and do not influence the circuit. The behavior of Gas Discharge Tubes (GDTs) and varistors in liquid argon has been studied extensively for application in the MicroBooNE field cage (reference to surge protection paper). The surge protection device chosen is a Panasonic ERZ-V14D182 varistor with a clamping voltage of 1700V. In order to obtain a very high resistance in normal operation and a clamping voltage above the 2~kV in normal operation mode, three of these devices are mounted in series across a block of four Slim-Mox 104E or two Metallux 969.23 resistors. These additional varistor boards are mounted in the same way as the resistor boards, by a screwed connection to the field cage couplings, shown in figure~\ref{fig:tpc-voltage-divider-varistors}.
+The second type of protection installed for all resistors on field cage loops 1 through 32 is a surge protection circuit. The chosen surge protection devices are designed to short the circuit in the case of a voltage spike, which protects any other electrical components installed in parallel.  Below their clamping voltage, they exhibit a very high resistance and do not influence the circuit. The behavior of Gas Discharge Tubes (GDTs) and varistors in liquid argon has been studied extensively for application in the MicroBooNE field cage \cite{surge_protection_paper}. The surge protection device chosen is a Panasonic ERZ-V14D182 varistor with a clamping voltage of 1700V. In order to obtain a very high resistance in normal operation and a clamping voltage above the 2~kV in normal operation mode, three of these devices are mounted in series across a block of four Slim-Mox 104E or two Metallux 969.23 resistors. These additional varistor boards make electrical contact with the field cage via brass mounting brackets that are fastened to the field cage with button head screws, as shown in figure~\ref{fig:tpc-voltage-divider-varistors}.
 
 \begin{figure}[htb]
 \centering	
@@ -148,7 +148,7 @@ The second protection mode installed for all resistors on field cage loops 1 to 
 \subsection{Anode}
 %{\it{Bo, Jen}}
 
-The anode frame holds the induction and collection plane sense wires at tension and provides overall structural support for the beam-right side of the \lartpc.  Individual sense wires for all anode planes are held in place by wire carrier boards, which are printed circuit board assemblies that locate the wires as well as provide the electrical connection to the electronic readout system of the experiment.
+The anode frame holds the induction and collection plane sense wires at tension and provides overall structural support for the beam-right side of the LArTPC.  Individual sense wires for all anode planes are held in place by wire carrier boards, which are printed circuit board assemblies that locate the wires as well as provide the electrical connection to the electronic readout system of the experiment.
 
 \subsubsection{Mechanical structure}
 
@@ -164,20 +164,18 @@ The anode frame is comprised of a stainless steel C-channel hosting adjustable t
 \subsubsection{Wire winding and quality assurance}
 %{\it{Roxanne (and Corey?)}}
 
-The three anode planes are constructed from wire carrier boards that have had individually-prepared wires attached to them in groups of 16 (for the U- and V- angled planes) or 32 (for the vertical Y-plane).  Consistent quality in wire preparation was achieved by a semi-automated winding machine, which terminated the ends of each wire around brass ferrules as shown in figure~\ref{fig:ferrules}. Each wire was tested for strength by being placed on a tensioning stand where a load of 2.5~kg (more than 3 times the nominal load of 0.7 kg) was applied for 10 minutes, ensuring that the wire preparation did not leave any weaknesses that could result in a breakage later on.  Upon successful completion of the quality assurance testing for each wire, it was placed onto a wire carrier board, shown in figure~\ref{fig:carrier-boards}
+The three anode planes are constructed from wire carrier boards that have had individually-prepared wires attached to them in groups of 16 (for the U- and V- angled planes) or 32 (for the vertical Y-plane).  Consistent quality in wire preparation was achieved by a semi-automated winding machine, which terminated the ends of each wire via wrapping around 3~mm diameter brass ferrules as shown in figure~\ref{fig:ferrules}. Each wire was tested for strength by being placed on a tensioning stand where a load of 2.5~kg (more than 3 times the nominal load of 0.7 kg) was applied for 10 minutes, ensuring that the wire preparation did not leave any weaknesses that could result in a breakage later on.  Upon successful completion of the quality assurance testing for each wire, it was placed onto a wire carrier board, shown in figure~\ref{fig:carrier-boards}
 
 \begin{figure}[htb]
 \centering
 %\includegraphics[width=2in]{figures/temp.pdf}
 \includegraphics[width=0.5\textwidth]{figures/wire-twist.pdf}
-\caption{Picture of the wire termination on the brass ferrules.}
+\caption{Picture of the wire termination on the brass ferrules.  Each ferrule is 3~mm in diameter, and 1.5~mm thick.}
 \label{fig:ferrules}
 \end{figure}
 
 
-
-
- After fully filling a wire carrier board with wires, a cover plate was installed and press-fit rivets were installed to hold the assembly together. The assembled wire carrier board was then placed onto a tension stand, to reapply a 2.5 kg tension/wire to the whole board for 10 minutes. This is to ensure that the wires were not weakened during the board assembly process. The tension stand is depicted in figure \ref{fig:stress-stand}.
+When installed, the wires make contact with gold pins positioned on the wire carrier board, and these pins are connected to a trace that routes to the cold electronics described in section \ref{sec:coldelectronics}.  After fully filling a wire carrier board with wires, a cover plate was installed and press-fit rivets were installed to hold the assembly together. The assembled wire carrier board was then placed onto a tension stand, to reapply a 2.5 kg tension/wire to the whole board for 10 minutes. This is to ensure that the wires were not weakened during the board assembly process. The tension stand is depicted in figure \ref{fig:stress-stand}.   A comprehensive description of the MicroBooNE wire preparation and associated quality assurance studies can be found in \cite{Wire_Paper}.%Finally, the assembled wire carrier boards were placed into storage boxes, as shown in figure \ref{boxes}, where they remained until the wire plane installation onto the anode frame. 
 
 \begin{figure}[htb]
 \centering
@@ -196,31 +194,31 @@ The three anode planes are constructed from wire carrier boards that have had in
 \label{fig:stress-stand}
 \end{figure}
 
-Finally, the assembled wire carrier boards were placed into storage boxes, as shown in figure \ref{boxes}, where they remained until the wire plane installation onto the anode frame. An example of the whole process setup is depicted in figure \ref{lab_setup}, where the winding machine, the  tension stands for wires and boards, and the storage boxes are shown for the Y-plane wire preparation.
 
-\begin{figure}[htb]
-\centering
-%\includegraphics[width=2in]{figures/temp.pdf}
-\includegraphics[angle =0,width=0.7\textwidth]{figures/wire-storagebox.jpg}
-\caption{Picture of the storage and transport box for induction plane wire carrier boards.}
-\label{boxes}
-\end{figure}
 
-\begin{figure}[htb]
-\centering
-%\includegraphics[width=2in]{figures/temp.pdf}
-\includegraphics[angle =0,width=\textwidth]{figures/wirewinding-layout.png}
-\caption{Schematic of the layout for the full wire winding procedure.}
-\label{lab_setup}
-\end{figure}
+%\begin{figure}[htb]
+%\centering
+%%\includegraphics[width=2in]{figures/temp.pdf}
+%\includegraphics[angle =0,width=0.7\textwidth]{figures/wire-storagebox.jpg}
+%\caption{Picture of the storage and transport box for induction plane wire carrier boards.}
+%\label{boxes}
+%\end{figure}
 
-\subsubsection{Quality Assurance}
+%\begin{figure}[htb]
+%\centering
+%%\includegraphics[width=2in]{figures/temp.pdf}
+%\includegraphics[angle =0,width=\textwidth]{figures/wirewinding-layout.png}
+%\caption{Schematic of the layout for the full wire winding procedure.}
+%\label{lab_setup}
+%\end{figure}
+
+%\subsubsection{Quality Assurance}
 
 %One of the largest threats to a \lartpc is that a wire would break after installation in the sealed cryostat filled with liquid argon. If even only one of the 8256 wires happened to break after installation, it could short-circuit a significant portion of the signal wires if the broken wire made contact with neighboring wires. Even worse, it could short-circuit the entire TPC if the broken wire touched the cathode plane where the high voltage is applied. Re-opening the cryostat to repair a broken wire would be expensive and time-consuming. 
 
-In order to ensure that no wires on the MicroBooNE \lartpc break during the lifetime of the experiment, a series of tests were performed to understand the wire mechanics. In addition, many different tests were conducted during and after the wire winding process and a detailed Quality Assurance (QA) program was put into place.
-
-Every aspect of the wire preparation was studied carefully to maximize the quality of the wires. The wire diameter, number of twists onto the brass rings, the twisting angle, and the post-preparation tests were all studied in great detail. Full details of the tests and results of the QA program can be found in \cite{Wire_Paper}.
+%In order to ensure that no wires on the MicroBooNE \lartpc break during the lifetime of the experiment, a series of tests were performed to understand the wire mechanics. In addition, many different tests were conducted during and after the wire winding process and a detailed Quality Assurance (QA) program was put into place.
+%
+%Every aspect of the wire preparation was studied carefully to maximize the quality of the wires. The wire diameter, number of twists onto the brass rings, the twisting angle, and the post-preparation tests were all studied in great detail. Full details of the tests and results of the QA program can be found in \cite{Wire_Paper}.
 
 %It was found that a wire diameter of 150~$\mu$m was more than sufficient to withstand the nominal tension of 7.0 N in the \lartpc. The strength of the MicroBooNE wire was intensively tested, and it was demonstrated that the wire breakload was more than four times the nominal 7.0 N TPC tension at room temperature, providing a comfortable safety margin.  Several tests were also performed on damaged wires, such as kinked or bent wires, like those shown in figure \ref{bent_wires}, with different degrees of kinked-ness and bentness. Figure \ref{summary_breaks} shows the summary of all the breakload results for the different tests performed on the wires.
 %
@@ -245,14 +243,14 @@ Every aspect of the wire preparation was studied carefully to maximize the quali
 %\label{summary_breaks}
 %\end{figure} 
 
-The winding of the wires around the brass ferrules was also studied. It was found that six twists was optimal to combine maximal strength and minimal length in the carrier board, providing a safety margin for the breakload of about four times the nominal load (for both room and LN$_{2}$ temperatures). The twisting angles by the winding heads of the winding machines were investigated and it was found that an angle of 50$^{\circ}$ was optimal.
-
-Finally, as previously described, each individually prepared wire and each assembled wire carrier boards were tested in case the wires were damaged during preparation or assembly.  A tension of 25 N~, 3.5 times the nominal tension in the \lartpc, was chosen. The quality assurance procedures ensured that all the wires were controlled.
+%The winding of the wires around the brass ferrules was also studied. It was found that six twists was optimal to combine maximal strength and minimal length in the carrier board, providing a safety margin for the breakload of about four times the nominal load (for both room and LN$_{2}$ temperatures). The twisting angles by the winding heads of the winding machines were investigated and it was found that an angle of 50$^{\circ}$ was optimal.
+%
+%Finally, as previously described, each individually prepared wire and each assembled wire carrier boards were tested in case the wires were damaged during preparation or assembly.  A tension of 25 N~, 3.5 times the nominal tension in the \lartpc, was chosen. The quality assurance procedures ensured that all the wires were controlled.
 
 
 \subsubsection{Wire installation and tension measurements}
 %{\it{Jonathan (and Ryan?)}}
-During detector construction the completed wire carrier assemblies were manually installed onto the adjustable tensioning bars residing in the C-channel of the supporting anode frame.  A team of two people installed each assembly (consisting of wires and supporting carrier boards on either end) onto the anode frame.  The collection plane was the first installed, followed by the middle induction plane, and then finally the inner induction plane.  Once all three anode planes were completely installed, the tensioning bars were adjusted and a survey was taken of the tension of all anode wires.  The tensioning bars were adjusted iteratively until the surveyed tension of all wires was within a range where no single wire was too taught or loose to create detector performance issues.  Figure \ref{fig:heatmap} shows the final surveyed tension of the wires within the \lartpc.
+During detector construction the completed wire carrier assemblies were manually installed onto the adjustable tensioning bars residing in the C-channel of the supporting anode frame.  A team of two people installed each assembly (consisting of wires and supporting carrier boards on either end) onto the anode frame.  The collection plane was the first installed, followed by the middle induction plane, and then finally the inner induction plane.  Once all three anode planes were completely installed, the tensioning bars were adjusted and a survey was taken of the tension of all anode wires.  Tension was measured via measuring the resonant frequency of a laser beam reflected off of a plucked wire and incident on a photodiode connected to a spectrum analyzer program \cite{PSL}.  The tensioning bars were adjusted iteratively until the surveyed tension of all wires was within a range where no single wire was too taught or loose to create detector performance issues.  Figure \ref{fig:heatmap} shows the final surveyed tension of the wires within the LArTPC.
 
 \begin{figure}[htb]
 \centering
@@ -269,13 +267,13 @@ During detector construction the completed wire carrier assemblies were manually
 \subsection{Parts Preparation}
 %{\it{(More details in internal uB note: DocDB 2259, also 1820, 1922, 1923)}}
 
-The majority of the parts that make up the \lartpc are either stainless steel or G-10. These two material types, as well as any others used in the \lartpc, were tested in the Fermilab Materials Test Stand (MTS)~\cite{Rebel:2011-MTS}, whose purpose was to investigate the suitability of materials for use in LArTPCs.  Using this system, it was verified that none of these materials would contaminate the liquid argon.  Before assembly, all \lartpc parts were cleaned according to the procedures described in the following sections.
+The majority of the parts that make up the \lartpc are either stainless steel or G-10. These two material types, as well as any others used in the LArTPC, were tested in the Fermilab Materials Test Stand (MTS)~\cite{Rebel:2011-MTS}, whose purpose was to investigate the suitability of materials for use in LArTPCs.  The MTS confirmed that none of the materials used in the \lartpc assembly would contaminate the liquid argon.  Before assembly, all \lartpc parts were cleaned according to the procedures described in the following sections.
 
 \subsubsection{Cleaning stainless steel}
 
 The delivered stainless steel parts were often greasy due to machining, and those with holes or interior cavities generally had a significant amount of trapped metal shavings due to the machining processes. Many of the pieces also had markings from permanent ink pens, dirt smears, rust spots, and/or dried oil from machining. These pieces were scrubbed with ScotchBrite 7447 general-purpose hand pads before cleaning.
 
-Parts that were small enough to fit in an ultrasonic bath were then prepared according to the following prescription. A pre-rinse with tap water was performed to remove large particulate matter. This was followed by a preparation step that removed any sharp edges using a deburring tool. The first ultrasonic wash was 15 minutes in heated distilled water with a 3\% solution of Citranox acid detergent~\cite{citranox}. After a first rinse in distilled water, a second ultrasonic wash was performed, again for 15 minutes, but using heated distilled water with a weak solution of Simple Green detergent~\cite{simplegreen}. A second rinse in distilled water was performed, followed by a final rinse in a fresh bath of distilled water. The parts were then wiped dry with lint-free cloths and air dried completely. They were then wrapped in plastic film for storage.
+Parts that were small enough to fit in an ultrasonic bath were prepared according to the following prescription. A pre-rinse with tap water was performed to remove particulate matter, followed by deburring of sharp edges. The first ultrasonic wash was 15 minutes in heated distilled water with a 3\% solution of Citranox acid detergent~\cite{citranox}. After a first rinse in distilled water, a second ultrasonic wash was performed, again for 15 minutes, but using heated distilled water with a weak solution of Simple Green detergent~\cite{simplegreen}. A second rinse in distilled water was performed, followed by a final rinse in a fresh bath of distilled water. The parts were then wiped dry with lint-free cloths, air dried completely, and wrapped in plastic film for storage.
 
 Stainless steel parts which were too large to fit in the ultrasonic bath were prepared by a simpler prescription out of necessity. A pre-rinse with tap water was followed by deburring to remove sharp edges. Both the first and second washes were done with tap water and a weak solution of Simple Green detergent, scrubbing with brushes and lint-free sponges. Two tap water rinses were done, and the parts were then wiped dry with lint-free cloths. As a final additional step, each part was wiped with 200-proof ethyl alcohol, and then air dried completely. These parts were also wrapped in plastic film for storage.
 
@@ -331,9 +329,7 @@ Assembly was done inside of a clean tent, shown in figure \ref{fig:tent}, on a f
 
 To create the drift electric field, an adjustable negative voltage (referred to as the ``high-voltage" or ``HV") is supplied to the \lartpc cathode, generated outside of the cryostat by a Glassman LX150N12 power supply.  Before entering the cryostat, the output of the power supply is passed through a current-limiting resistor series that serves as both a low-pass filter for the power supply ripple, and a stored energy partition in case of a sudden reduction in voltage.  The resistor series is a set of eight 10 M$\Omega$ resistors submerged in a transformer oil in an aluminum container.  This assembly was successfully tested to -200~kV. The capacitance of the cable is $\sim$50~pF/m making the time constant of the component upstream of the \lartpc $\sim$35~ms.
 
-
-\paragraph{HV feedthrough}
-The potential is introduced into the cryostat by a custom-designed HV feedthrough.  The feedthrough is based on an ICARUS design~\cite{}; an inner stainless steel conductor carrying the HV is surrounded by an insulating tube of ultra high molecular weight polyethylene (UHMW PE), which is further encased in an outer ground tube.  A photograph and drawing of the production feedthrough are shown in figure~\ref{fig:hv_ftpic}.
+The potential is introduced into the cryostat by a custom-designed HV feedthrough.  The feedthrough is based on an ICARUS design~\cite{Amerio:2004-T600}; an inner 1.0 in diameter stainless steel conductor carrying the HV is surrounded by an insulating tube, 2.0 in outer diameter and 1.0 in inner diameter, of ultra-high molecular weight polyethylene (UHMW PE), which is further encased in an outer ground tube.  A photograph and drawing of the production feedthrough are shown in figure~\ref{fig:hv_ftpic}.
 
 % The label/referencing is terrible here because
 % JINST does not like subfigures

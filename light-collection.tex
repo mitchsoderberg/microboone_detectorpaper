@@ -23,26 +23,29 @@
 \section{Light Collection System}
 \label{sec:light-collection}
 
-Liquid argon is a very bright scintillator, and collecting the light produced when charged particles travel through the \lartpc is an essential aspect of fully understanding the interactions taking place in the detector.  This section describes the light collection systems which has been developed and implemented in MicroBooNE.
+Liquid argon is a very bright scintillator, and collecting the light produced when charged particles travel through the \lartpc is an essential aspect of fully understanding the interactions taking place in the detector.  This section describes the MicroBooNE light collection system.
 
 
 
 \subsection{Motivation and General Design \label{sint}}
 
+The installed system is designed to meet MicroBooNE's physics goals for light collection, which are twofold.
+First, for accelerator-induced events, the light collection system is required to trigger on 40~MeV kinetic energy protons produced in neutrino interactions.  Second, for non-beam events,  efficient observation of 5 to 10~MeV electrons from supernova neutrinos are required.   
+
 The light produced by neutrino interactions in MicroBooNE is an important input for both event selection and reconstruction.  
 One of the critical capabilities the light collection system provides is the ability to form a beam-event trigger when a pulse of light is observed in coincidence with the beam spill.  Because a vast majority of beam spills will not produce a neutrino interaction in the detector, such a trigger will substantially reduce the data output rate.  
 For non-beam physics studies, the light system provides triggering and an event interaction time ($t_0$). For accelerator-induced events, the start time of a beam spill is, in principle, sufficient.  
-However, because of the long window over which an event occurs (about 1.6 ms maximum drift time at 500 V/cm field), there are many accelerated-induced events in which a cosmic ray muon crosses the detector near the time of the spill.  
-Utilizing the more accurate $t_0$ from the light collection system and the position of hits in the photodetectors, one can better reject cosmic ray muon tracks.  
-The light can also be used to trigger and select specific types of cosmic-ray calibration events (Michel electrons, straight-through muons, etc.) and non-beam events (supernova neutrinos, atmospheric neutrinos, etc.).
+However, because of the long window over which the ionization electrons of an event drift (about 1.6 ms maximum drift time at 500 V/cm field), there are many accelerator-induced events in which a cosmic ray muon crosses the detector during the drift time.  Utilizing the more accurate $t_0$ from the light collection system and the position of hits in the photodetectors, one can better reject cosmic ray muon tracks.  
+The light can also be used to trigger and select specific types of cosmic-ray calibration events (Michel electrons, straight-through muons, etc.) and non-beam events (supernova neutrinos, cosmic background events to proton decay studies, etc.).
+
 
 
 \begin{table}[t]
    \centering
-    \caption{Important properties of scintilation light in liquid argon that affect detection in MicroBooNE} 
+    \caption{Important properties of scintillation light in liquid argon that affect detection in MicroBooNE.} 
     \begin{tabular}{llr} % Column formatting, @{} suppresses leading/trailing space
     \hline
-    Propery & Note & Ref.\\
+    Property & Note & Ref.\\
     \hline
     Wavelength & 128 nm & \cite{saito_wavelength}\\
     Singlet, Triplet state time constants & 6 ns, 1.6 $\mu$s &\cite{singtrip_collection} \\
@@ -56,9 +59,9 @@ The light can also be used to trigger and select specific types of cosmic-ray ca
    \label{tab:lightparam}
 \end{table} 
 
-The two sources of light in liquid argon are from scintillation and Cherenkov radiation.  
+Light produced in liquid argon arises from two processes: scintillation and Cherenkov radiation.  
 Scintillation light is produced by the formation and eventual radiative decay of excited argon dimers (or eximers) and is emitted in an isotropic distribution.  Liquid argon is an excellent scintillator: it produces a large amount of light per unit energy deposited (about 40,000 per MeV at no drift field) and is transparent to its own scintillation. %Scintillation light dominates the Cherenkov radiation by a factor of five and thus represents the bulk of the light detected.
-The scintillation light has a prompt and slow component with decay times of about 6 ns and 1.6 $\mu$s, respectively. The two lifetimes correspond to the two lowest-lying eximer states with the prompt component coming from the decay of a singlet state and the slow from the decay of a triplet state.  The prompt to slow ratio is about 1:3 for minimum ionizing particles and varies with ionization density argon and particle type. Both components consist of photons with a wavelength of 128 nm.
+The scintillation light has a prompt and slow component with decay times of about 6 ns and 1.6 $\mu$s, respectively. The two lifetimes correspond to the two lowest-lying eximer states with the prompt component coming from the decay of a singlet state and the slow from the decay of a triplet state.  The prompt to slow ratio is about 1:3 for minimum ionizing particles and varies with ionization density and particle type. Both components consist of photons with a wavelength of 128 nm.
 
 There is a significant uncertainty on the expected triplet lifetime \cite{singtrip_collection} and this may be further modified by quenching (non-radiative dissociation of excimers by impurities)  \cite{WARPquench}.  Other factors that can affect the arrival of the light include Rayleigh scattering, absorption by impurities, and obstructions.  For detailed discussion of the physics of scintillation light production and propagation in MicroBooNE, see Ref.~\cite{Benthesis}. Table~\ref{tab:lightparam} summarizes information about the scintillation light.  
 
@@ -85,23 +88,15 @@ This organic fluor absorbs in the UV (green line) and emits in the visible with 
 \begin{figure}[t]
 	\centering
     \includegraphics[width=0.95\textwidth]{./light_figures/muondecay.pdf} 
-    \caption{Two sequential event displays for the light collection system.  The sequence is consistent with a muon that stops (top) and decays (bottom).  The circles correspond to the PMT units. Red circles indicate those units with hits.    The waveforms versus time are shown below.}\label{fig:muondecaylight}
+    \caption{Two sequential event displays for the light collection system.  The sequence is consistent with a muon that stops (top) and decays (bottom).  The circles correspond to the optical units. Red circles indicate those units with hits.    The waveforms versus time are shown below.}\label{fig:muondecaylight}
 \end{figure}
 
-The light collection system consists of primary and secondary sub-systems.
-The primary light collection system is comprised of PMTs located behind wavelength shifting plates, called ``optical units.''
-In total, 32 optical units were installed, yielding 0.85\% photocathode coverage.
-The secondary system consists of four light guide paddles.   These paddles are introduced for R\&D studies for future LArTPCs, and are placed near the primary optical units to allow a comparison of their performances.
-A flasher system, used for calibration, consists of optical
-fibers bringing visible light from an LED to each PMT face.
+The light collection system consists of primary and secondary sub-systems.  The primary light collection system is made up of ``optical units", each one consisting of a PMT located behind a wavelength-shifting plate.  In total, 32 optical units were installed, yielding 0.85\% photocathode coverage.  The secondary system consists of four light guide paddles.   These paddles are introduced for R\&D studies for future LArTPCs, and are placed near the primary optical units to allow a comparison of their performances.  A flasher system, used for calibration, consists of optical fibers bringing visible light from an LED to each PMT face.
 
-The light collection detectors are located in the $y$-$z$ plane behind the anode planes of the LArTPC, as shown in figure~\ref{fig:lightlayout}.  The combined transparency of the three anode planes is 86\% for light at normal incidence.  This transparency value assumes 100$\%$ of VUV photons impinging on the wires (150 $\mu$m diameter and 3 mm pitch) are absorbed: $(1-0.150/3)^3 = 86\%$.  The detectors were placed so as not to be obscured by the \lartpc structural cross-bars, shown in figure~\ref{fig:lightlayout}.  Locating the light detectors behind the anode plane places them in a very weak electric field due to the +440 V bias of the collection plane.  To test for an effect from weak electric fields, the response of a PMT placed between a +700 V mesh and ground, separated by 50 cm, was studied  The PMT zenith was 25 cm from the HV.   No effects on the signal were observed.  This was expected, as the photocathode is held at ground, effectively acting as a Faraday cage.  
+The light collection detectors are located in the $y$-$z$ plane behind the anode planes of the LArTPC, as shown in figure~\ref{fig:lightlayout}.  The combined transparency of the three anode planes is 86\% for light at normal incidence.  This transparency value assumes 100$\%$ of VUV photons impinging on the wires (150 $\mu$m diameter and 3 mm pitch) are absorbed.  The detectors were placed so as not to be obscured by the \lartpc structural cross-bars, shown in figure~\ref{fig:lightlayout}.  Locating the light detectors behind the anode plane places them in a very weak electric field due to the +440 V bias of the collection plane.  To test for an effect from weak electric fields, the response of a PMT placed between a +700 V mesh and ground, separated by 50 cm, was studied.  The PMT zenith was 25 cm from the HV.   No effects on the signal were observed.  This was expected, as the photocathode is held at ground, effectively acting as a Faraday cage.  
+%: $(1-0.150/3)^3 = 86\%$. 
 
 Throughout the design and construction of the light collection system,  substantial R\&D was performed.   The reader should refer to Refs.~\cite{Bugel:2011xg,Katori:2011uq,Chiu:2012ju,Baptista:2012bf,Briese:2013wua,Jones:2013bca,Jones:2013mfa,Katori:2013wqa,Bromberg:2013fla,Moss:2014ota,Conrad:2015xta,Acciarri:2015hha,Moss:2015hha} for detailed results of these studies.    A useful overall review is available in Ref.~\cite{Benthesis}. 
-
-The installed system is designed to meet MicroBooNE's physics goals for light collection, which are twofold.
-First, for accelerator-induced events, the light collection system is required to trigger on 40~MeV kinetic energy protons produced in neutrino interactions.  Second, for non-beam events,  efficient observation of 5 to 10~MeV electrons from supernova neutrinos are required.   
-
 
 Figure~\ref{fig:muondecaylight} shows the light observed in two sequential events, consistent with a muon entering the detector followed by a Michel electron from the decay.   One can see that the light is relatively well localized.   This allows the light to be correlated with specific tracks in the detector.  This ``flash-track matching'' is used to identify and reconstruct the tracks that are in time with the beam spill--an important goal of the light collection system.
 
@@ -137,7 +132,7 @@ Figure~\ref{fig:muondecaylight} shows the light observed in two sequential event
 
 Each of the 32 optical units of the primary light collection system consist of a cryogenic Hamamatsu 5912-02MOD PMT seated behind an acrylic plate coated with a TPB-rich layer and surrounded by a mu-metal shield. 
 Figure~\ref{fig:unitmounted} shows a diagram of one unit (left) and a photograph of installed units (right).  Past experiments have directly coated PMTs with wavelength shifter \cite{Icarus}.  However, 
-the MicroBooNE design separates the PMT from the wavelength shifting plate for simplicity of quality control and installation.  This proved important, as R\&D indicated that TPB is particularly vulnerable to environmental degradation (see section~\ref{environ}).  In this section, description is provided for each component of the optical unit, as well as for the overall assembly.
+the MicroBooNE design separates the PMT from the wavelength-shifting plate for simplicity of quality control and installation.  This proved important, as R\&D indicated that TPB is particularly vulnerable to environmental degradation (see section~\ref{environ}).  In this section, description is provided for each component of the optical unit, as well as for the overall assembly.
 
 
 \subsubsection{Photomultiplier Tubes and Bases}
@@ -146,7 +141,7 @@ Ref. \cite{Briese:2013wua} provides detailed information on the selection
 and testing of the 8" Hamamatsu R5912-02mod cryogenic PMTs employed in MicroBooNE.   
 In this section a brief summary of the findings from this testing is presented.
 
-The R5912-02mod employs a bi-alkali photo-cathode.  Because the PMT is designed for cryogenic use, the R5912-02mod also features a thin platinum layer between the photocathode and the borosilicate glass envelope to preserve the conductance at low temperatures.   While this allows the PMT to function below 150 K \cite{HOMeyer}, absorption in the platinum reduces the efficiency of the PMT by 20\%.
+The R5912-02mod employs a bi-alkali photocathode.  Because the PMT is designed for cryogenic use, the R5912-02mod also features a thin platinum layer between the photocathode and the borosilicate glass envelope to preserve the conductance at low temperatures.   While this allows the PMT to function below 150 K \cite{HOMeyer}, absorption in the platinum reduces the efficiency of the PMT by 20\%.
 Figure \ref{fig:TPBSpectraPlate} provides quantum efficiency curves for the 8 inch photomultiplier tubes. The manufacturer's specifications do not include the effects of the platinum photocathode coating, but a wavelength dependent quantum efficiency was provided by Hamamatsu for 4 of the 32 installed PMTs.  The mean and standard deviation of these curves is shown in figure \ref{fig:TPBSpectraPlate}. 
 
 The  R5912-02mod is a 14-stage PMT.
@@ -158,7 +153,7 @@ The high gain also has the additional advantage of allowing operation at lower t
 \centering 
 %\includegraphics[width=0.65\textwidth]{./light_figures/PlateSpectra.png}
 \includegraphics[width=0.65\textwidth]{./light_figures/PlateSpectra.png}
-\caption{The specification for the non-platinum undercoated PMT from \cite{Hamamatsu-Datasheet8inch}.  The blue band shows the mean and standard deviation of the four quantum efficiency curves provided by Hamamatsu for installed MicroBooNE PMTs. Also shown is the measured emission spectra of MicroBooNE wavelength shifting coatings, discussed in the next section.  \cite{Benthesis}
+\caption{The specification for the non-platinum undercoated PMT from \cite{Hamamatsu-Datasheet8inch}.  The blue band shows the mean and standard deviation of the four quantum efficiency curves provided by Hamamatsu for installed MicroBooNE PMTs. Also shown is the measured emission spectra of MicroBooNE wavelength-shifting coatings, discussed in section \ref{sec:wavelengthshift}.  \cite{Benthesis}
  \label{fig:TPBSpectraPlate}  }
 \end{figure}
 
@@ -167,7 +162,7 @@ The PMT base is designed such that the photocathode is
 grounded and the last dynode in the chain is held at large, positive voltage. 
 Thus the PMT bulb, which is closest to the \lartpc anode plane, 
 is at ground and does not disturb the electric field on the wires.  
-The result is that the high voltage (HV) and signal can be provided to the PMT using a single cable, 
+The result is that the high voltage (HV) can be provided and the signal can be extracted from the PMT using a single cable, 
 reducing the cable volume in the vapor region and removing a possible source of out-gassing water impurity.
 
 The flat PC-board base was made of Rogers RO4000-series woven glass-reinforced laminate, 
@@ -180,11 +175,11 @@ which have the minimum temperature coefficients, and the performance at cryogeni
 Because the supplied HV and return signal share a single cable, the signal must be split from the HV through an AC-coupling capacitor, as is discussed in section~\ref{LCUnitimplement}.
 
 All installed PMTs were tested in a PMT test stand, both
-at room temperature and in liquid nitrogen (LN2) which is at 77 K.  
+at room temperature and in liquid nitrogen which is at 77 K.  
 %Figure~\ref{fig:PMTteststand} shows a drawing of the PMT test stand. 
 The details are described in Ref.~\cite{Briese:2013wua}.  
 In brief, the test stand consisted of a light-tight 346~L, 
-LN2-filled dewar into which up to four PMTs could be installed. 
+liquid nitrogen filled dewar into which up to four PMTs could be installed. 
 The PMTs were immersed and maintained in the dark environment 
 for up to three days before most measurements of the dark rate and gain were performed.  
 A fiber brought in light from a pulsed blue LED, which was tested for linearity with bias voltage.  
@@ -200,16 +195,16 @@ Among the important results from cryogenic testing  were the following \cite{Bri
 \begin{itemize}
 \item The PMTs could be ramped to voltage quickly in the cold environment, 
 and after 30 minutes, the gains were found to be stable.
-\item If the room temperature PMTs were immersed in LN2, 
+\item If the room temperature PMTs were immersed in liquid nitrogen, 
 dramatic changes in the gain were observed after initial turn-on. 
 The PMT gain remained high in the first $\sim$5 hours after immersion, 
 and then suddenly dropped by more than a factor of two, 
 afterwards reaching a stable value with a small drift.
 \item The PMT response showed good linearity up to 100 photoelectrons (PE), 
 which was the maximum attainable by the PMT test stand LED.  
-\item The HV for each PMT was selected to produce a gain of $3\times 10^7$ in LN2,
+\item The HV for each PMT was selected to produce a gain of $3\times 10^7$ in liquid nitrogen,
 and was typically chosen to be $\sim$1300 V.
-\item The dark current plateaus extended up to 1800 V in LN2, also the dark current is higher than room temperature.
+\item The dark current plateaus extended up to 1800 V in liquid nitrogen, and the dark current is higher in liquid nitrogen than at room temperature.
 \item The PMT performance depended on rate of the pulsed LED.  
 \end{itemize}
 No PMTs were rejected on the basis of the testing.  
@@ -224,18 +219,17 @@ However, there were three unexpected results to note here.
 
 The first unexpected behavior was that, at room temperature, 
 most of the PMTs showed gains that were 10 to 30\% higher than manufacturer's specifications.
-As expected at cryogenic temperatures, the gain is $\sim$10\% to 50\% reduced.
-To measure the PMT gain, the LED was run producing 1 to 2 PEs.  
-The gain was found from the separation of the single photo-electron peak from the pedestal, where the single photo-electron response is fitted using the  procedure
-described in Ref.~\cite{Bellamy:1994bv}.   
+As expected at cryogenic temperatures, the gain is reduced by $\sim$10\% to 50\%.
+To measure the PMT gain, the LED was set to produce one to two PEs.  
+The gain was found from the separation of the single PE peak from the pedestal, where the single PE response is fitted using the procedure described in Ref.~\cite{Bellamy:1994bv}.   
 
 Second, it was found that the PMTs are noisier in the cryogenic environment. 
-Naively, thermal emission is suppressed at the cold temperature and one can expect lower dark current 
-at the low temperature operation of PMT.  
-However, the dark current measured in the LN2 is higher than at room temperature. 
+It would typically be expected that thermal emission is suppressed at cryogenic temperatures and one would expect a lower dark current 
+for PMTs operating in this regime.  
+However, the dark current measured in the liquid nitrogen is higher than at room temperature. 
 Although the cause is unknown, this phenomenon has previously been observed, see Ref.~\cite{Meyer:2008qb}. A proposed explanation is provided in Ref.~\cite{MeyerDark}.
 
-Third, an LED pulse rate dependent gain shift was found during testing, as shown on figure~9 of Ref.~\cite{Briese:2013wua}.  This behavior is described qualitatively in \cite{HamamatsuBook}.  With 10 kHz LED pulsing, PMT gain of cold and dark-adapted tubes were shown to steadily increase, requiring nearly 24 hours from turn-on to stabilize. The effect was not observable at 10 Hz.   This is relevant to MicroBooNE because the
+Third, an LED pulse-rate-dependent gain shift was found during testing, as shown on figure~9 of Ref.~\cite{Briese:2013wua}.  This behavior is described qualitatively in \cite{HamamatsuBook}.  With 10 kHz LED pulsing, the gains of cold and dark-adapted PMTs were shown to steadily increase, requiring nearly 24 hours from turn-on to stabilize. The effect was not observable at 10 Hz.   This is relevant to MicroBooNE because the
 cosmic muon rate in the MicroBooNE detector is $\sim 5$ kHz.  Therefore a similar effect is expected in the MicroBooNE detector.  Preliminary results from measurements of the PMTs installed in the LAr-filled MicroBooNE cryostat shows the expected effect. 
 %(figure~\ref{fig:lightrate}).  
 
@@ -246,7 +240,8 @@ cosmic muon rate in the MicroBooNE detector is $\sim 5$ kHz.  Therefore a simila
 %\end{figure}
 
 
-\subsubsection{Wavelength Shifting Plates}
+\subsubsection{Wavelength-Shifting Plates}
+\label{sec:wavelengthshift}
 
 
 In order to be sensitive to 128~nm VUV liquid argon scintillation photons, the optical assemblies use a wavelength-shifting coating to convert this VUV light to visible wavelengths that are detectable by photomultiplier tubes.  In MicroBooNE, the active ingredient of this coating is TPB, an organic fluor which absorbs efficiently in the vacuum ultraviolet with an emission spectrum peaked around 425~nm \cite{Burton:1973} as shown in figure~\ref{fig:lightchallenge}. 
@@ -260,7 +255,7 @@ This leads to a final layer which is oversaturated with TPB, and white crystals 
 \centering 
 %\includegraphics[width=\textwidth]{./light_figures/PlateModeAndPhoto.pdf}
 \includegraphics[width=\textwidth]{./light_figures/PlateModeAndPhoto.pdf}
-\caption{Left : Illustration of transmission mode, used but the optical units. Right: photograph of a coated plate. \label{fig:PlateCoating}}
+\caption{Left : Illustration of transmission mode, used by the optical units. Right: photograph of a coated plate. \label{fig:PlateCoating}}
 \end{figure}
 
 The emission spectrum in figure \ref{fig:TPBSpectraPlate} was measured using a Hitachi F-4500 fluorescence spectrophotometer with an incident beam of wavelength 270 nm, selected by a diffraction grating from a xenon lamp.  A standard rhodamine dye calibration sample was used to correct for drift in the lamp and spectrometer.  The measurement was made in transmission mode, and an artifact peak at a harmonic of the twice incident wavelength was observed between 525 and 600 nm.  This region is omitted from the reported spectrum of figure \ref{fig:TPBSpectraPlate}.  
@@ -271,17 +266,17 @@ As shown in figure \ref{fig:TPBSpectraPlate}, although the absolute quantum effi
 \centering 
 %\includegraphics[width=0.6\textwidth]{./light_figures/EfficienciesIgnarraThesis.pdf}
 \includegraphics[width=0.6\textwidth]{./light_figures/EfficienciesIgnarraThesis.pdf}
-\caption{Measured efficiencies of various wavelength shifting coatings, from \cite{Ignarra:2014-thesis}. In this plot, 50\%TPB-PS is the MicroBooNE plate coating used in the optical units.  The 33\%TPB-UVT is the light guide coating for the secondary light collection system described below.  Connected points were measured in a vacuum monochromator at room temperature, and non-connected points were measured in liquid argon with 128 nm scintillation light. All points are normalized to the performance of an evaporatively coated plate. \label{fig:CoatingEfficiency}  }
+\caption{Measured efficiencies of various wavelength-shifting coatings, from \cite{Ignarra:2014-thesis}. In this plot, 50\%TPB-PS is the MicroBooNE plate coating used in the optical units.  The 33\%TPB-UVT is the light guide coating for the secondary light collection system described below.  Connected points were measured in a vacuum monochromator at room temperature, and non-connected points were measured in liquid argon with 128 nm scintillation light. All points are normalized to the performance of an evaporatively coated plate. \label{fig:CoatingEfficiency}  }
 \end{figure}
 
-The wavelength shifting performance of the coating was measured at 128~nm relative to evaporative coatings of the type studied in \cite{Gehman:2011}.  Coating efficiencies were measured as a function of wavelength between 128 and 250~nm using a vacuum monochromator at room temperature.  They were also measured in liquid argon using 128 nm scintillation light, relative to the same evaporatively coated plate.  These data are shown in figure~\ref{fig:CoatingEfficiency}, and more information about these measurements can be found in \cite{Ignarra:2014-thesis}.  
+The wavelength-shifting performance of the coating was measured at 128~nm relative to evaporative coatings of the type studied in \cite{Gehman:2011}.  Coating efficiencies were measured as a function of wavelength between 128 and 250~nm using a vacuum monochromator at room temperature.  They were also measured in liquid argon using 128 nm scintillation light, relative to the same evaporatively coated plate.  These data are shown in figure~\ref{fig:CoatingEfficiency}, and more information about these measurements can be found in \cite{Ignarra:2014-thesis}.  
   
-The absolute efficiency of the MicroBooNE coatings can be obtained by multiplying the relative efficiencies of figure \ref{fig:CoatingEfficiency} by the measured absolute efficiencies from \cite{Gehman:2011}, and accounting for the temperature dependence in the wavelength shifting efficiency of pure TPB reported in \cite{Francini:2013-jinst}.  The expected efficiency of MicroBooNE coatings is found to be $0.98 \pm 0.17$ emitted visible photons per incident 128 nm photon for the plate coating.
+The absolute efficiency of the MicroBooNE coatings can be obtained by multiplying the relative efficiencies of figure \ref{fig:CoatingEfficiency} by the measured absolute efficiencies from \cite{Gehman:2011}, and accounting for the temperature dependence in the wavelength-shifting efficiency of pure TPB reported in \cite{Francini:2013-jinst}.  The expected efficiency of MicroBooNE coatings is found to be $0.98 \pm 0.17$ emitted visible photons per incident 128 nm photon for the plate coating.
 
 
-\subsubsection{UV Light Protection for the Wavelength Shifting Plates \label{environ}}
+\subsubsection{UV Light Protection for the Wavelength-Shifting Plates \label{environ}}
 
-TPB coatings have been shown to degrade under exposure to ultraviolet light \cite{Chiu:2012} through a radical mediated photo-oxidation to the UV-blocker and photo-initiator benzophenone \cite{Jones:2013}.  Several measures were taken to ensure that degradation was minimized during the construction of the experiment.  The TPB powder and coated elements were stored in the dark at all times, with coated plates and light guides being kept wrapped in foil and stored in a dark container before installation.  The detector construction area was covered with a UV blocking plastic \cite{LexanThermoclear}, and test plates were placed at various positions in the clean tent to check for degradation from stray light.  After several weeks of exposure, one test plate with a clear line of sight to the tent entrance demonstrated a few percent degradation, and all others showed no observable loss of efficiency. The open end of the MicroBooNE cryostat was shielded from light by a black curtain after installation, and the feedthroughs of the cryostat were blocked when not in use to prevent stray light from entering.  The coated plates were the final component of the optical system to be installed into the detector to give the minimum possible light exposure prior during the detector construction process.
+TPB coatings have been shown to degrade under exposure to ultraviolet light \cite{Chiu:2012} through a radical mediated photo-oxidation to the UV-blocker and photo-initiator benzophenone \cite{Jones:2013}.  Several measures were taken to ensure that degradation was minimized during the construction of the experiment.  The TPB powder and coated elements were stored in the dark at all times, with coated plates and light guides being kept wrapped in foil and stored in a dark container before installation.  The detector construction area was covered with a UV blocking plastic \cite{LexanThermoclear}, and test plates were placed at various positions in the clean tent to check for degradation from stray light.  After several weeks of exposure, one test plate with a clear line of sight to the tent entrance demonstrated a few percent degradation, and all others showed no observable loss of efficiency. The open end of the MicroBooNE cryostat was shielded from light by a black curtain after installation, and the feedthroughs of the cryostat were blocked when not in use to prevent stray light from entering.  The coated plates were the final component of the optical system to be installed into the detector to give the minimum possible light exposure during the detector construction process.
 
 \subsubsection{Cryogenic Mu Metal Shields}
 
@@ -304,10 +299,10 @@ TPB coatings have been shown to degrade under exposure to ultraviolet light \cit
 
 %{\bf The following text is from  http://microboone-docdb.fnal.gov:8080/cgi-bin/ShowDocument?docid=2085 and  http://microboone-docdb.fnal.gov:8080/cgi-bin/ShowDocument?docid=2159}
 
-The trajectories of electrons within the 8" PMT can be deflected by the Earth's magnetic field.  This effect can be reduced or removed by surrounding PMT with mu metal, a metal of low magnetic permeability.  Commonly used mu-metal fails to provide shielding at cryogenic temperatures. Two types of cryogenic mu metal,Cryoperm 10 and A4K, both products of Amuneal, were identified that did provide shielding at cryogenic temperature. 
+The trajectories of electrons within the 8" PMT can be deflected by the Earth's magnetic field.  This effect can be reduced or removed by surrounding the PMT with mu metal, a metal of low magnetic permeability.  Commonly used mu-metal fails to provide shielding at cryogenic temperatures. Two types of cryogenic mu metal,Cryoperm 10 and A4K, both products of Amuneal, were identified that did provide shielding at cryogenic temperature. 
 
-The mu metal shields were tested in the apparatus shown in figure~\ref{fig:shieldcartoon}.  The system allowed for the PMT to be positioned at an angle relative to the vertical axis, with the rotator set to 30 positions from 0 to 348$^\circ$.    The set-up was on a dolly that allowed for rotation about the vertical axis.
-PMT tests were performed in air and in LN$_2$.   PMTs were dark adapted for 5 hours before testing.  Each data run consisted of a single dolly position and 30 angles from vertical, and took about four hours to complete.  A blue LED provided 1 to 2 single photo-electron of light through an optical fiber.   The fiber was fixed to the PMT mount such that the endpoint was stationary with respect to the tube as the system was rotated.   
+The mu metal shields were tested in the apparatus shown in figure~\ref{fig:shieldcartoon}.  The system allowed for the PMT to be positioned at an angle relative to the vertical axis, with the rotator set to 30 positions from 0 to 348$^\circ$.    The set-up was on a dolly that allowed for rotation about the vertical axis.  PMT tests were performed in air and in liquid nitrogen.   PMTs were dark adapted for 5 hours before testing.  %Each data run consisted of a single dolly position and 30 angles from vertical, and took about four hours to complete.
+A blue LED provided 1 to 2 single PEs of light through an optical fiber.   The fiber was fixed to the PMT mount such that the endpoint was stationary with respect to the tube as the system was rotated.   
 
 The mean charge from the PMT as a function of angle was recorded.  The error was primarily systematic.   The $\sim10^6$ to LED pulses per data point give $<1\%$ statistical error on the mean.  However, 24-hour studies of a single point showed $\sim5\%$ variations in collected charge due to gain drift.  Results showed that A4K and Cryoperm function essentially identically, to within the measurement error, and so MicroBooNE chose A4K, based on significant cost savings.    A plot of the relative PMT gain variation versus angle from vertical, figure~\ref{fig:shield}, shows that adding the shield significantly improves PMT performance.  This plot shows the effect of the A4K shield with the height aligned with the equator of of the PMT (black) and aligned with the zenith of the bulb (blue), compared to no shield (red) as a function of PMT azimuthal angle.  Given the 5\% systematic error, the two shield positions are indistinguishable.  
 
@@ -318,7 +313,7 @@ As a result of these tests, the A4K shields were designed to extend just past th
 
 %This section describes the implementation of the light collection system.  Specifically, description is provided for the unit assembly, rack mounting of units, cable system, feedthroughs, an AC-coupling circuit referred to as the "splitter", and high voltage supplies.
 
-The light collection system is composed of optical units assembled as shown in the left-hand picture of figure~\ref{fig:unitmodel}.  The PMT is seated within the mu metal shield on three teflon pads attached to an equatorial support ring.  The neck of the tube slides inside a loose wire guide-loop that prevents the PMT from tipping.  The PMT is held within this assembly using teflon-encased wires that extend across the bulb and connect to wire hooks attached to the equatorial ring with stainless steel springs. Legs extending from the support at the equator screwed into a backplate for final mounting.  Concern about differences in contraction of the materials led to this design which holds the PMT in place, but with only moderate rigidity.  The units were tested to assure the PMTs would not be displaced during installation and filling.  Three posts extend upward from the equatorial ring to hold the plate 3.0 cm above the apex of the bulb.   The optical units slide into a cylindrical mu-metal shield, which screws into the equatorial ring.  The unit is then mounted on stainless steel back-plates affixed to a support rack, as shown in the right-hand picture of figure~\ref{fig:unitmodel}.
+The light collection system is composed of optical units assembled as shown in the left-hand picture of figure~\ref{fig:unitmodel}.  The PMT is seated within the mu metal shield on three teflon pads attached to an equatorial support ring.  The neck of the tube slides inside a loose wire guide-loop that prevents the PMT from tipping.  The PMT is held within this assembly using teflon-encased wires that extend across the bulb and connect to wire hooks attached to the equatorial ring with stainless steel springs. Legs extending from the support at the equator are screwed into a backplate for final mounting.  Concern about differences in contraction of the materials led to this design which holds the PMT in place, but with only moderate rigidity.  The units were tested to ensure the PMTs would not be displaced during installation and filling.  Three posts extend upward from the equatorial ring to hold the plate 3.0 cm above the apex of the bulb.   The optical units slide into a cylindrical mu-metal shield, which screws into the equatorial ring.  The unit is then mounted on stainless steel back-plates affixed to a support rack, as shown in the right-hand picture of figure~\ref{fig:unitmodel}.
 
 \begin{figure}[t]
 \centering	
@@ -330,9 +325,9 @@ The light collection system is composed of optical units assembled as shown in t
 \label{fig:unitmodel}
 \end{figure}
 
-The support rack consists of five stainless steel components, or modules, for ease of installation.  Each module has vertical height 1.83 m and horizontal length 2.07 m, resulting in a total horizontal length of 10.36 m.  Unlubricated Thomson bearings fitted to the lower edge allow each module to slide into the cryostat on rails mounted in the vessel.   The system was designed to allow the light detection system to slide into the vessel after the \lartpc was installed.  However, in the end, scheduling permitted installation of the system before the \lartpc installation.  This had the advantage of making installation and surveying easier, but the drawback that the system would be exposed to UV light for a long period.  Therefore, the units were installed with dummy clear acrylic plates, and the TPB coated plates were installed only just before the \lartpc was moved in and the detector could be easily protected from light.  During optical unit installation, each rack module was supported by a temporary mounting rail.  The optical units were then mounted in positions chosen to avoid obstruction by the \lartpc cross-bars.  As the units were mounted and slid into the cryostat, the cables were loosely tied to the bars of the rack for support and constraint, as shown in figure~\ref{fig:lightlayout}.  
+The support rack consists of five stainless steel components, or modules, for ease of installation.  Each module has vertical height 1.83 m and horizontal length 2.07 m, resulting in a total horizontal length of 10.36 m.  Unlubricated Thomson bearings fitted to the lower edge allow each module to slide into the cryostat on rails mounted in the vessel.   The system was designed to allow the light detection system to slide into the vessel after the \lartpc was installed.  However, in the end, scheduling permitted installation of the system before the \lartpc installation.  This had the advantage of making installation and surveying easier, but the drawback that the system would be exposed to UV light for a long period.  Therefore, the units were installed with dummy clear acrylic plates, and the TPB coated plates were installed only just before the \lartpc was moved in and the detector could be easily protected from light.  During optical unit installation, each rack module was supported by a temporary mounting rail.  The optical units were then mounted in positions chosen to avoid obstruction by the \lartpc cross-bars, as shown in figure~\ref{fig:lightlayout}.  As the units were mounted and slid into the cryostat, the cables were loosely tied to the bars of the rack for support and constraint.  
 
-The ``splitter" circuit, located outside of the cryostat, is shown in figure~\ref{fig:splitter}. The splitter separates the HV input signal from the PMT and subsequently splits the PMT signal in a high-gain (HG) and a low-gain (LG) channel. The HG channel carries 1/5th of the original output signal while the remaining 1/50th is carried by the LG channel.  This allows a wide dynamic range for ADC readout of the PMT pulses.  The capacitance was chosen to minimize reflections, since the bases are not back-terminated.  The HV is supplied to the splitter using BiRa Corporation, Model 4877PS modules.
+The ``splitter" circuit, located outside of the cryostat, is shown in figure~\ref{fig:splitter}. The splitter separates the HV of the PMT from its output signal which is subsequently split into a high-gain (HG) and a low-gain (LG) channel. The HG and LG channels respectively carry 1/5th and 1/50th of the output signal.  This allows a wide dynamic range for ADC readout of the PMT pulses.  The capacitance was chosen to minimize reflections, since the bases are not back-terminated.  The HV is supplied to the splitter using BiRa Corporation, Model 4877PS modules.
 
 \begin{figure}[h]
 \centering 
@@ -359,10 +354,10 @@ The cable carries an AC voltage rating of 1100 V; however tests showed the DC ra
 
 The Bo cryostat at Fermilab is a 250-liter vacuum-insulated vessel with an inner diameter 22 inches and a depth of 40 inches used for R\&D studies, and, relevant to this paper, a vertical slice test of the MicroBooNE optical units.  The system is described in detail in Ref.~\cite{Benthesis}.  The cryostat can be filled with purified LAr with parts per billion level contamination of oxygen and water and parts per million level of nitrogen.  The light collection system was tested with light from visible (420 nm) and UV (250 nm) LEDs piped in via fiber, as well as scintillation light from $^{210}$Po alpha sources and cosmic rays.
 
-A vertical slice test (VST) of the MicroBooNE optical system was performed in the Bo Cryostat.  The slice consisted of two 8 inch PMTs with base electronics, mu-metal shield, TPB plates,  cable feed throughs, splitters, the HV power supply and the interlock system.   Tests were performed without and with the mu-metal shield.   The test made use of the DAQ components described in section~\ref{sec:electronics}, including the shaper, FEM, trigger card, control card, server.  The MicroBooNE trace impurity monitors were also used.
+A vertical slice test (VST) of the MicroBooNE optical system was performed in the Bo Cryostat.  The slice consisted of two 8 inch PMTs with base electronics, mu-metal shield, TPB plates,  cable feed throughs, splitters, the HV power supply and the interlock system.   Tests were performed without and with the mu-metal shield.   The test made use of the DAQ components described in section~\ref{sec:electronics}, including the shaper, FEM, trigger card, control card, and server.  The MicroBooNE trace impurity monitors were also used.
 
 The VST informed the final design of many components, as well as producing results relevant to understanding the running conditions and performance expectations.   For example, during studies of the response of the slice to 128 nm scintillation light from the alpha source, 
-valuable information was gathered on the single photo-electron dark rate and cosmic ray rate that could be scaled to the MicroBooNE detector expectations.    As a second example, these runs allowed characterization of the pulse shape nonlinearities of the optical units, as seen in figure~\ref{fig:nonlinear}  These were shown to be significant at $\sim$300 photo-electron in pulse amplitude.  Full amplitude saturation occurred at $\sim$670 PE. Thus, it is concluded that for pulses of more than 300 PE, pulse shape cannot be described by linear superposition of single photoelectron pulses. 
+valuable information was gathered on the single photo-electron dark rate and cosmic ray rate that could be scaled to the MicroBooNE detector expectations.    As a second example, these runs allowed characterization of the pulse shape nonlinearities of the optical units, as seen in figure~\ref{fig:nonlinear}.  These were shown to be significant at $\sim$300 photo-electron in pulse amplitude.  Full amplitude saturation occurred at $\sim$670 PE. Thus, it is concluded that for pulses of more than 300 PE, pulse shape cannot be described by linear superposition of single photoelectron pulses. 
 
 
 \subsection{Acrylic Light Guides as a Secondary System for R\&D}
@@ -380,7 +375,7 @@ A secondary light collection system consisting of four lightguide paddles was al
 
 In the case of the lightguides, the 128 nm light is absorbed and shifted by a clear wavelength-shifting coating, and the re-emitted light is guided to a 2-inch Hamamatsu R7725-MOD PMT, as illustrated in figure~\ref{fig:LGCoating}, left. The installed paddles consist of six bars.  A photograph of one coated paddle with eight bars is shown in figure~\ref{fig:LGCoating}, right.  The active length of each bar is 20 inches.  This system was added for R\&D purposes and made use of 8 spare channels available of HV, cables, feedthroughs, and electronics.  The impedance of the 2 inch PMTs, tested at the feedthrough, was 4.89$\pm$0.01 M$\Omega$.  As shown in figure~\ref{fig:lightlayout}, each paddle is installed next to an optical unit for direct comparison of performance.
 
-The coating requirements for plate assemblies and light guides are different, and so the composition and coating methods for each were separately optimized.    In the case of the light guide coatings, the figure of merit is the light emitted in guided mode.  Guided mode light is the light that is detected at one of the ends of a test sample, which is orthogonal to the illuminated face of the sample.  In addition to the wavelength shifting efficiency of the active layer, the detected light yield is affected by the reabsorpative and scattering losses in the coating as visible light propagates along the bar. The light guide assemblies have a TPB coating of 33\% TPB to 67\% UVT acrylic by mass, also with ethanol surfactant. The coating is applied as a single layer and the TPB remains suspended in the acrylic matrix as the coating dries, leading to a smooth, visibly transparent surface.  The performance and attenuation behavior of similar light guides to those installed in MicroBooNE were studied experimentally in \cite{Baptista:2012}.  The reported non-exponential attenuation suggests that surface losses dominate over bulk losses as the attenuation mechanism, and that the fractional loss per reflection within the light guide is of order 2-3\% \cite{Jones:2013}. 
+The coating requirements for plate assemblies and light guides are different, and so the composition and coating methods for each were separately optimized.    In the case of the light guide coatings, the figure of merit is the light emitted in guided mode.  Guided mode light is the light that is detected at one of the ends of a test sample, which is orthogonal to the illuminated face of the sample.  In addition to the wavelength-shifting efficiency of the active layer, the detected light yield is affected by the reabsorpative and scattering losses in the coating as visible light propagates along the bar. The light guide assemblies have a TPB coating of 33\% TPB to 67\% UVT acrylic by mass, also with ethanol surfactant. The coating is applied as a single layer and the TPB remains suspended in the acrylic matrix as the coating dries, leading to a smooth, visibly transparent surface.  The performance and attenuation behavior of similar light guides to those installed in MicroBooNE were studied experimentally in \cite{Baptista:2012}.  The reported non-exponential attenuation suggests that surface losses dominate over bulk losses as the attenuation mechanism, and that the fractional loss per reflection within the light guide is of order 2-3\% \cite{Jones:2013}. 
 
 In the light guide coatings, the TPB is suspended in an acrylic matrix which leads to a slight broadening of the emission spectrum compared to the spectrum from the plates. This is an expected effect--TPB fluorescence has been shown to have dependence upon its microenvironment \cite{Birks:1959,Birks:1961,Francini:2013-jinst,Hanagodimath:2008, Liu:1997}, and Ref.~\cite{Francini:2013-jinst} demonstrated spectral broadening in the presence of a polystyrene substrate.  Using the monochromater described for the plate spectrum studies, the light guide coating spectrum was measured in guided mode. A 10 cm section of light guide, with the incident beam perpendicular to the TPB coated surface, was used.  Based on reference \cite{Francini:2013-jinst} it is expected that the emission spectrum for the light guide coating, with TPB embedded in the substrate, will not change significantly as it cools to 87 K.  The expected efficiency for the light guide coating is found to be $0.25 \pm 0.05$ emitted visible photons per incident 128~nm photon.
 
@@ -394,10 +389,10 @@ In the light guide coatings, the TPB is suspended in an acrylic matrix which lea
 
 \subsection{Flasher System}
 
-The flasher system for the optical units and the light guides is described in Ref.~\cite{Conrad:2015xta}. This system was developed to check the timing of the installed optical units, exercise the optical units during construction and commissioning, and to calibrate them once the detector is operational  The reference provides engineering drawings and details.  The system is briefly summarized here.
+The flasher system for the optical units and the light guides is described in Ref.~\cite{Conrad:2015xta}. This system was developed to check the timing of the installed optical units, exercise the optical units during construction and commissioning, and to calibrate them once the detector is operational.  The reference provides engineering drawings and details.  The system is briefly summarized here.
 
 A control board pulses an array of 400 nm LEDs, each of which is
-coupled through an optical feedthrough to 10 m optical fibers within the cryostat.  The custom feedthrough/patch panel design encases the fibers in Arathane CW 5620 blue with HY 5610 hardener.  The internal fibers are Molex FVP polymide fibers with diameter of 600 mm, cladding of 30 $\mu$m and an additional buffer layer of 25 $\mu$m.  Each PMT has an individual calibration fiber.  Each fiber is routed along the rack  and attached to the PMTs by a fiber holder constructed of an aluminum standoff with a nylon-tipped set screw at a distance of about 2 inches from the PMT glass.
+coupled through an optical feedthrough to 10 m optical fibers within the cryostat.  The custom feedthrough/patch panel design encases the fibers in Arathane CW 5620 blue with HY 5610 hardener.  The internal fibers are Molex FVP polymide fibers with diameter of 600 mm, cladding of 30 $\mu$m, and an additional buffer layer of 25 $\mu$m.  Each PMT has an individual calibration fiber.  Each fiber is routed along the rack  and attached to the PMTs by a fiber holder constructed of an aluminum standoff with a nylon-tipped set screw at a distance of about 2 inches from the PMT glass.
 
 Figure~\ref{fig:flasherresult} shows the results of flasher tests on all 32 optical units and four PMTs on the paddles.  Time is along the $x$ axis and PMT channel number is along the $y$ axis.  The white region separating the optical unit PMTs from the paddle PMTs represents unused channels.  The colored bars indicate charge detected in the PMTs during flashing.  One can see that all tubes respond properly.
 
@@ -444,7 +439,7 @@ The system was first powered on after the cryostat had been filled with liquid a
 %\includegraphics[width=0.95\textwidth]{./light_figures/flasher_mc_example_replaceme.png}
 %\includegraphics[width=0.95\textwidth]{pylard.pdf}
 \includegraphics[height=0.7\textheight]{./light_figures/eventtriplet.pdf}
-\caption{Top:  Example waveforms from all 32 PMTs of the primary light collection system over a 31.25 microsecond readout window.  The waveforms from the PMTs are in white.  The blue waveforms are from the secondary lightguide PMTs, which are off in this picture.  Waveforms from channels reserved for logic inputs are shown in green.  In this image, the PMTs see two, successive flashes of light at different parts of the detector.  Middle and Bottom:   Magenta highlights the early and late pulse, with the insets showing the PMTs which fired.   Each pulse is likely from two cosmic ray muons traveling through the detector.}
+\caption{Top:  Example waveforms from all 32 PMTs of the primary light collection system over a 31.25 microsecond readout window.  The waveforms from the PMTs are in white.  The blue waveforms are from the secondary lightguide PMTs, which are off in this picture.  Waveforms from channels reserved for logic inputs are shown in green.  In this image, the PMTs see two successive flashes of light at different parts of the detector.  Middle and Bottom:   Magenta highlights the early and late pulse, with the insets showing the PMTs which fired.   Each pulse is likely from two cosmic ray muons traveling through the detector.}
  \label{fig:example_readout}
  \end{figure}
 

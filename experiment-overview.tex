@@ -2,7 +2,7 @@
 \label{sec:overview}
 %{\it{Overview of detector, beam, and associated systems.}}
 
-MicroBooNE is hosted at Fermilab in Batavia, Illinois. MicroBooNE is located on-axis to the BNB which delivers a beam of predominantly muon-type neutrinos with energies peaking at 700~MeV. The characteristics of this beamline have been well-understood by MiniBooNE~\cite{AguilarArevalo:2008-MBflux}, which operates directly downstream of the MicroBooNE location. MicroBooNE will also record neutrino interactions from an off-axis component of the NuMI beamline~\cite{NuMIbeam}.  Figure \ref{fnalmap} shows the arrangement of MicroBooNE with respect to the BNB and NuMI beamlines at Fermilab.  The physics program of MicroBooNE will utilize both BNB and NuMI samples, as well as data collected out-of-time with either beam, which will be useful for developing analyses (e.g. - development of proton decay searches) relevant for next-generation detectors.  The primary detector technology employed by MicroBooNE is the \lartpc, whose operating principle is described in this section.
+MicroBooNE is hosted at Fermilab in Batavia, Illinois and is located on-axis to the BNB, which delivers a beam of predominantly muon-type neutrinos with energies peaking at 700~MeV. The characteristics of this beamline have been well-understood by MiniBooNE~\cite{AguilarArevalo:2008-MBflux}, which operates directly downstream of the MicroBooNE location. MicroBooNE will also record neutrino interactions from an off-axis component of the NuMI beamline~\cite{NuMIbeam}.  Figure \ref{fnalmap} shows the arrangement of MicroBooNE with respect to the BNB and NuMI beamlines at Fermilab.  The physics program of MicroBooNE will utilize both BNB and NuMI samples, as well as data collected out-of-time with either beam, which will be useful for developing analyses (e.g. development of proton decay searches) relevant for next-generation detectors.  The primary detector technology employed by MicroBooNE is the \lartpc, whose operating principle is described in this section.
 
 \begin{figure}
 \centering 
@@ -16,7 +16,7 @@ MicroBooNE is hosted at Fermilab in Batavia, Illinois. MicroBooNE is located on-
 
 \subsection{The \lartpc Technique}
 
-In a \lartpc, charged particles traversing a volume of highly-purified liquid argon leave trails of ionization electrons in their wake and also create prompt vacuum ultraviolet (VUV) scintillation photons.  The ionization trails are transported practically undistorted over distances of the order of meters~\cite{Aprile:1985} under the influence of a uniform electric field in the detector volume, until they reach anode planes located along one side of the active volume.   The uniform electric field is created by introducing voltage onto a cathode plane and gradually stepping that voltage down in magnitude across a field cage, which is formed from a series of equipotential rings surrounding the drift volume.  The anode planes are arranged parallel to the cathode plane, and are composed of wires with a characteristic pitch, held at a predetermined bias voltage, that continuously sense the signals induced by the ionization electrons drifting towards them. The electrostatic potentials of the sequence of anode planes allow ionization electrons to pass undisturbed by the first planes before ultimately ending their trajectory on a wire in the last plane. The drifting ionization thus induces signals on the first two planes (referred to as Induction planes) and directly contributes to the signals in the final plane (referred to as the Collection plane).  Figure \ref{fig:lartpc} depicts a simplified arrangement for a \lartpc.  
+In a \lartpc, charged particles traversing a volume of highly-purified liquid argon leave trails of ionization electrons in their wake and also create prompt vacuum ultraviolet (VUV) scintillation photons.  The ionization trails are transported practically undistorted over distances of the order of meters~\cite{Aprile:1985} under the influence of a uniform electric field in the detector volume, until they reach anode planes located along one side of the active volume.   The uniform electric field is created by introducing voltage onto a cathode plane and gradually stepping that voltage down in magnitude across a field cage, which is formed from a series of equipotential rings surrounding the drift volume.  The anode planes are arranged parallel to the cathode plane, and are composed of wires with a characteristic pitch, held at a predetermined bias voltage, that continuously sense the signals induced by the ionization electrons drifting towards them. The electrostatic potentials of the sequence of anode planes allow ionization electrons to pass undisturbed by the first planes before ultimately ending their trajectory on a wire in the last plane. The drifting ionization thus induces signals on the first planes (referred to as Induction planes) and directly contributes to the signals in the final plane (referred to as the Collection plane).  Figure \ref{fig:lartpc} depicts a simplified arrangement for a LArTPC.
 
 \begin{figure}
 \centering 
@@ -27,30 +27,41 @@ In a \lartpc, charged particles traversing a volume of highly-purified liquid ar
 \end{figure}
 
 
-The charged particle trajectory reconstruction is done by utilizing the known wire positions within the anode planes and the drift time of the ionization.  The drift time is the difference between the arrival times of ionization signals on the wires and the time the interaction took place in the detector ($t_0$) which is provided by an accelerator clock synced to the beam (e.g. - BNB or NuMI) or from a trigger provided by the light collection system.  The characteristics of the waveforms observed by each wire provide a measure of the energy deposition of the traversing particles near that wire, which, when taken as a whole for each particle's trajectory, allow for determination of momentum and particle identity. 
+The charged particle trajectory is reconstructed using the known positions of the anode plane wires and the recorded drift time of the ionization.  The drift time is the difference between the arrival times of ionization signals on the wires and the time the interaction took place in the detector ($t_0$) which is provided by an accelerator clock synced to the beam (e.g. - BNB or NuMI) or from a trigger provided by the light collection system.  The characteristics of the waveforms observed by each wire provide a measure of the energy deposition of the traversing particles near that wire, which, when taken as a whole for each contained particle's trajectory, allow for determination of momentum and particle identity. 
 
 
-The scintillation photons are detected by a light collection system that is immersed in the liquid argon and faces into the detector volume.  This system provides signals that can establish the event $t_0$ and supplies trigger information to an electronic readout system.  The precision timing of a typical light collection device relative to that of the comparatively coarser beam structure means that $t_0$ derived from the light collection system is more precise, and hence the knowledge of the drift coordinate is more precise.  The light collection system signals are vital in distinguishing detector activity that is in-time with the beam (e.g. - originating from beam interactions) from that which is out-of-time (e.g. - likely not originating from beam-related interactions), benefiting event reconstruction.  Spatial information transverse to the drift direction can also be inferred from the light collection signals, further aiding in the reconstruction of the activity occurring inside the detector.
+The scintillation photons are detected by a light collection system that is immersed in the liquid argon and faces into the detector volume.  This system provides signals that can establish the event $t_0$ and supplies trigger information to an electronic readout system.  The precision timing of a typical light collection device relative to that of the comparatively coarser beam structure means that $t_0$ derived from the light collection system is more precise, and hence the knowledge of the drift coordinate is more precise.  The light collection system signals are vital in distinguishing detector activity that is in-time with the beam (e.g. originating from beam interactions) from that which is out-of-time (e.g. likely not originating from beam-related interactions), benefiting event reconstruction.  Spatial information transverse to the drift direction can also be inferred from the light collection signals, further aiding in the reconstruction of the activity occurring inside the detector.
 
 
-The choice of liquid argon as both the neutrino target and detector medium in \lartpcs is well motivated, though not without introducing unique considerations for experimental design.  Liquid argon as a target for neutrinos is attractive due to its density, allowing a more compact detector with a substantial boost in event rate over a comparable detector using less dense media (e.g. - water).  A tradeoff to this aspect is that the complicated structure of the argon atom, relative to simpler targets such as hydrogen or helium, does introduce nuclear effects that must be considered during data analysis.  The cryogenic temperatures at which the noble elements are in the liquid phase also introduces the need for additional design considerations to ensure stable and safe operations.
+The choice of liquid argon as both the neutrino target and detector medium in \lartpcs is well motivated, though not without introducing unique considerations for experimental design.  Liquid argon as a target for neutrinos is attractive due to its density, allowing a more compact detector with a substantial boost in event rate over a comparable detector using less dense media, such as water.  A tradeoff to this aspect is the short radiation length (14 cm) and that the complicated structure of the argon atom, relative to simpler targets such as hydrogen or helium, does introduce nuclear effects that must be considered during data analysis.  The cryogenic temperatures at which the noble elements are in the liquid phase also introduces the need for additional design considerations to ensure stable and safe operations.
 
-Table \ref{tab:nobleparam} lists some of the salient properties of the noble liquids.  The noble liquids are all characterized by their excellent dielectric properties, able to maintain high voltages without suffering electrical breakdown.  The long drift lengths over which ionization electrons must travel in large \lartpc detectors requires the presence of a uniform electric field over that distance.  This is achieved via the introduction of extremely high voltage ($\mathcal{O}$(100 kV) magnitude) onto the \lartpc cathode; this voltage is suitably maintained due to the dielectric properties of liquid argon and by ensuring the detector components have no sharp edges.  The noble liquids are all very bright scintillators, with wavelengths deep in the UV, and also produce copious amounts of ionization.  Both the scintillation and the ionization signals are necessary for a robust accounting of the activity occurring inside the LArTPC.  Finally, the desire to build \lartpcs on increasingly larger scales, such as those necessary in neutrino experiments, is bolstered by the abundance (1$\%$ of atmosphere) and low cost of argon.
+Table \ref{tab:nobleparam} lists some of the salient properties of liquid argon.  The noble liquids are all characterized by their excellent dielectric properties, able to maintain high voltages without suffering electrical breakdown.  The long drift lengths over which ionization electrons must travel in large \lartpc detectors requires the presence of a uniform electric field over that distance.  This is achieved via the introduction of extremely high voltage ($\mathcal{O}$(100 kV) magnitude) onto the \lartpc cathode; this voltage is suitably maintained due to the dielectric properties of liquid argon and by ensuring the detector components have no sharp edges.  The noble liquids are all very bright scintillators, with wavelengths deep in the UV, and also produce copious amounts of ionization.  Both the scintillation and the ionization signals are necessary for a robust accounting of the activity occurring inside the LArTPC.  Finally, the desire to build \lartpcs on increasingly larger scales, such as those necessary in neutrino experiments, is bolstered by the abundance (1$\%$ of atmosphere) and low cost of argon.
 
 \begin{table}[!htb]
    \centering
-    \caption{Noble liquid properties (excluding Radon, which is too radioactive for consideration).} 
-    \begin{tabular}{ccccc} % Column formatting, @{} suppresses leading/trailing space
+    \caption{Liquid argon properties.} 
+      \begin{tabular}{lc} % Column formatting, @{} suppresses leading/trailing space
+      \hline
+      Property & Value\\
     \hline
-    Element & Boiling Point [K] & Density [g/cm$^3$] & Scintillation $\lambda$ [nm] & Rad. Length [cm] \\
-    \hline
-     Helium & 4.2 & 0.125 & 80 & 755.2\\
-     Neon &   27.1 & 1.2 & 78 & 24\\	
-     Argon &  87.3 & 1.4 & 128 & 14\\
-     Krypton & 120 & 2.4 & 150 & 4.9\\
-     Xenon & 165 & 3 & 175 & 2.8 \\
-    \hline
+   Boiling Point [K] & 87.3\\
+   Density [g/cm$^3$] & 1.4\\
+   Scintillation $\lambda$ [nm] & 128 \\
+   Rad. Length [cm] & 14\\
+   \hline
    \end{tabular}
+
+%    \begin{tabular}{ccccc} % Column formatting, @{} suppresses leading/trailing space
+%    \hline
+%    Element & Boiling Point [K] & Density [g/cm$^3$] & Scintillation $\lambda$ [nm] & Rad. Length [cm] \\
+%    \hline
+%     Helium & 4.2 & 0.125 & 80 & 755.2\\
+%     Neon &   27.1 & 1.2 & 78 & 24\\	
+%     Argon &  87.3 & 1.4 & 128 & 14\\
+%     Krypton & 120 & 2.4 & 150 & 4.9\\
+%     Xenon & 165 & 3 & 175 & 2.8 \\
+%    \hline
+%   \end{tabular}
    \label{tab:nobleparam}
 \end{table} 
 
@@ -63,16 +74,16 @@ The successful implementation of the \lartpc technique depends critically on sev
 
 \subsection{MicroBooNE \lartpc Implementation}
 
-MicroBooNE's \lartpc active volume, which is defined as the volume immediately within the confines of the \lartpc field cage, is a rectangular liquid argon volume with dimensions 2.3~m vertical x 2.5~m horizontal x 10.4~m long. This is the maximum volume that can be used for physics analyses.  The cathode (anode) defines the beam-left (beam-right) side of the active volume.  The end of the \lartpc that the beam first encounters is referred to as the ``upstream" end, while the opposite end is referred to as ``downstream".  Anode plane-to-plane spacing is 3~mm, and each plane has 3~mm wire pitch. The induction plane wires are oriented at $\pm60^{\circ}$ relative to vertical, and the collection plane has vertically oriented wires. Field cage loops are employed to maintain uniformity of the electric field across the entire width of the detector, and these loops also act to define the top, bottom, upstream, and downstream sides of the active volume.  
+MicroBooNE's \lartpc active volume, which is defined as the volume immediately within the confines of the \lartpc field cage, is a rectangular liquid argon volume with dimensions 2.3~m vertical x 2.5~m horizontal x 10.4~m along the beam direction. This is the maximum volume that can be used for physics analyses.  The cathode (anode) defines the beam-left (beam-right) side of the active volume.  The end of the \lartpc that the beam first encounters is referred to as the ``upstream" end, while the opposite end is referred to as ``downstream".  Anode plane-to-plane spacing is 3~mm, and each plane has 3~mm wire pitch. The induction plane wires are oriented at $\pm60^{\circ}$ relative to vertical, and the collection plane has vertically oriented wires. Field cage loops are employed to maintain uniformity of the electric field across the entire width of the detector, and these loops also act to define the top, bottom, upstream, and downstream sides of the active volume.  
 
 MicroBooNE uses a right-handed Cartesian coordinate system, with the origin defined to be located on the upstream face of the LArTPC, centered halfway up the vertical height of the active volume and horizontally centered on the anode plane closest to the cathode (the innermost anode plane).  In this system, $x$ ranges from 0.0 m at the innermost anode plane to $+2.5$~m at the cathode, $y$ ranges from $-1.15$~m on the bottom of the active volume to $+1.15$~m at the top of the active volume, and $z$ ranges from 0.0~m at the upstream end of the active volume to $+10.4$~m at the downstream end.  
 
-The light collection system, which is an array of photomultiplier tubes and scintillator paddles, is located directly behind the anode planes on beam-right, facing the detector volume through the anode planes.  The \lartpc and light collection system are immersed in liquid argon contained within a single-walled cryostat with a 170 ton capacity.  Electronics mounted directly on the \lartpc amplify the signals on the wires, which are then passed out of the cryostat for further processing and storage on disk.  Table \ref{tab:detectorparam} lists the primary detector parameters of MicroBooNE, and figure \ref{fig:microboonetpc} depicts the detector arrangement. Details of these design parameters and construction of all detector subsystems will be provided in the subsequent sections.
+The light collection system, which is an array of photomultiplier tubes and scintillator paddles, is located directly behind the anode planes on beam-right, facing the detector volume through the anode planes.  The \lartpc and light collection system are immersed in liquid argon contained within a single-walled cryostat with a 170 ton capacity.  Electronics mounted directly on the \lartpc amplify the signals on the wires, which are then passed out of the cryostat for further processing and storage on disk.  Table \ref{tab:detectorparam} lists the primary detector design parameters of MicroBooNE, and figure \ref{fig:microboonetpc} depicts the detector arrangement. Details of these design parameters and construction of all detector subsystems will be provided in the subsequent sections.
 
 \begin{figure}
 \centering 
 \includegraphics[width=0.45\textwidth]{figures/microboone_tpc_diagram.jpg}
-\caption{Diagram of MicroBooNE LArTPC.  In this view, the beam would be directed into the page (in the $z$ direction).}
+\caption{Diagram of MicroBooNE LArTPC.  In this view, the beam would be directed out of the page (in the $z$ direction).}
 \label{fig:microboonetpc}
 %%NOTE:  Need a figure for this. - MPS, June 30, 2015
 \end{figure}
@@ -82,21 +93,23 @@ The light collection system, which is an array of photomultiplier tubes and scin
 
 \begin{table}[!htb]
    \centering
-    \caption{Primary detector parameters for MicroBooNE.} 
+    \caption{Primary detector design parameters for MicroBooNE.} 
     \begin{tabular}{lr} % Column formatting, @{} suppresses leading/trailing space
     \hline
     Parameter & Value \\
     \hline
      \lartpc Dimensions & 2.325 m vertically \\
-     & 2.5604 m horizontally \\
+     & 2.560 m horizontally \\
      & 10.368 m longitudinally  \\	
-     \lartpc mass & 90 tons \\
-      Number of Wires & 8256 \\
-     Induction0/Induction1/Collection & 2400/2400/3456\\
+     \lartpc argon mass & 90 tons \\
+     Total Number of Wires & 8256 \\
+     Induction0 Wires & 2400\\
+     Induction1 Wires & 2400\\
+     Collection Plane Wires & 3456\\
      Drift field & 500 V/cm\\
       Light collection & 30 8'' diameter PMTs \\
       & 4 scintillator paddles \\
-      Cryostat capacity & 170 tons  \\
+      Cryostat liquid argon capacity & 170 tons  \\
       Operating temperature & 87 K\\
       Operating pressure & 2 psig\\
     \hline
