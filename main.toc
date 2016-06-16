@@ -62,8 +62,8 @@
 \contentsline {subsection}{\numberline {7.2}Slow monitoring and control system}{79}
 \contentsline {subsection}{\numberline {7.3}Beam Monitoring}{80}
 \contentsline {section}{\numberline {8}UV Laser System}{81}
-\contentsline {subsection}{\numberline {8.1}UV Laser Calibration}{84}
+\contentsline {subsection}{\numberline {8.1}UV Laser Calibration}{83}
 \contentsline {subsection}{\numberline {8.2}Laser Source and Optics}{84}
-\contentsline {subsection}{\numberline {8.3}Steering System}{86}
-\contentsline {subsection}{\numberline {8.4}Performance Tests and Initial Operation}{87}
+\contentsline {subsection}{\numberline {8.3}Steering System}{85}
+\contentsline {subsection}{\numberline {8.4}Performance Tests and Initial Operation}{86}
 \contentsline {section}{\numberline {9}Conclusion}{88}
