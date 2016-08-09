@@ -1,4 +1,4 @@
-\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
 
 \bibitem{Doke:1993}
 T.~Doke, {\it A historical view on the r\&d for liquid rare gas detectors},
@@ -106,72 +106,10 @@ S.~Agarwalla et~al., {\it {The mass-hierarchy and CP-violation discovery reach
   (2014) 094, [\href{http://xxx.lanl.gov/abs/1312.6520}{{\tt
   arXiv:1312.6520}}].
 
-\bibitem{WA105collab}
-``{WA105}.''
-\newblock http://laguna.ethz.ch:8080/Plone/wa105.
-
 \bibitem{Adams:2013-LBNE}
 C.~Adams et~al., {\it {The Long-Baseline Neutrino Experiment: Exploring
   Fundamental Symmetries of the Universe}},
   \href{http://xxx.lanl.gov/abs/1307.7335}{{\tt arXiv:1307.7335}}.
-
-\bibitem{Ereditato:2005}
-A.~Ereditato and A.~Rubbia, {\it {Ideas for future liquid argon detectors}},
-  {\em Nucl.Phys.Proc.Suppl.} {\bf 139} (2005) 301--310,
-  [\href{http://xxx.lanl.gov/abs/hep-ph/0409143}{{\tt hep-ph/0409143}}].
-
-\bibitem{Ereditato:2006}
-A.~Ereditato and A.~Rubbia, {\it {The Liquid Argon TPC: A Powerful detector for
-  future neutrino experiments and proton decay searches}},  {\em
-  Nucl.Phys.Proc.Suppl.} {\bf 154} (2006) 163--178,
-  [\href{http://xxx.lanl.gov/abs/hep-ph/0509022}{{\tt hep-ph/0509022}}].
-
-\bibitem{Rossi:2009-UVlaser}
-B.~Rossi et~al., {\it {A Prototype liquid Argon Time Projection Chamber for the
-  study of UV laser multi-photonic ionization}},  {\em JINST} {\bf 4} (2009)
-  P07011, [\href{http://xxx.lanl.gov/abs/0906.3437}{{\tt arXiv:0906.3437}}].
-
-\bibitem{Badhrees:2012-argontube}
-I.~Badhrees et~al., {\it {Argontube: An R\&D Liquid Argon Time Projection
-  Chamber}},  {\em JINST} {\bf 7} (2012) C02011.
-
-\bibitem{Ereditato:2013-argontube}
-A.~Ereditato et~al., {\it {Design and operation of ARGONTUBE: a 5~m long drift
-  liquid argon TPC}},  {\em JINST} {\bf 8} (2013) P07002,
-  [\href{http://xxx.lanl.gov/abs/1304.6961}{{\tt arXiv:1304.6961}}].
-
-\bibitem{Zeller:2013-argontube}
-M.~Zeller et~al., {\it {First measurements with ARGONTUBE, a 5m long drift
-  Liquid Argon TPC}},  {\em Nucl.Instrum.Meth.} {\bf A718} (2013) 454--458.
-
-\bibitem{Horikawa:2010-ethz}
-S.~Horikawa et~al., {\it {Feasibility of high-voltage systems for a very long
-  drift in liquid argon TPCs}},  {\em J.Phys.Conf.Ser.} {\bf 308} (2011)
-  012027, [\href{http://xxx.lanl.gov/abs/1009.4908}{{\tt arXiv:1009.4908}}].
-
-\bibitem{Badertscher:2011-ethz}
-A.~Badertscher et~al., {\it First operation of a double phase {LAr} large
-  electron multiplier time projection chamber with a 2d projective readout
-  anode},  {\em Nuclear Instruments and Methods in Physics Research Section A:
-  Accelerators, Spectrometers, Detectors and Associated Equipment} {\bf 641}
-  (2011), no.~1 48 -- 57.
-
-\bibitem{Badertscher:2012-ethz}
-A.~Badertscher et~al., {\it {First operation and drift field performance of a
-  large area double phase LAr Electron Multiplier Time Projection Chamber with
-  an immersed Greinacher high-voltage multiplier}},  {\em JINST} {\bf 7} (2012)
-  P08026, [\href{http://xxx.lanl.gov/abs/1204.3530}{{\tt arXiv:1204.3530}}].
-
-\bibitem{Cantini:2013-ethz}
-C.~Cantini et~al., {\it {Long-term operation of a double phase LAr LEM Time
-  Projection Chamber with a simplified anode and extraction-grid design}},
-  {\em JINST} {\bf 9} (2014) P03017,
-  [\href{http://xxx.lanl.gov/abs/1312.6487}{{\tt arXiv:1312.6487}}].
-
-\bibitem{Baller:2014-USlarrd}
-B.~Baller et~al., {\it {Liquid Argon Time Projection Chamber Research and
-  Development in the United States}},  {\em JINST} {\bf 9} (2013) T05005,
-  [\href{http://xxx.lanl.gov/abs/1307.8166}{{\tt arXiv:1307.8166}}].
 
 \bibitem{Anderson:2012-argoneut}
 C.~Anderson et~al., {\it {The ArgoNeuT Detector in the NuMI Low-Energy beam
@@ -490,6 +428,19 @@ I.~Badhrees et~al., {\it {Measurement of the two-photon absorption
   cross-section of liquid argon with a time projection chamber}},  {\em New
   J.Phys.} {\bf 12} (2010) 113024,
   [\href{http://xxx.lanl.gov/abs/1011.6001}{{\tt arXiv:1011.6001}}].
+
+\bibitem{Badhrees:2012-argontube}
+I.~Badhrees et~al., {\it {Argontube: An R\&D Liquid Argon Time Projection
+  Chamber}},  {\em JINST} {\bf 7} (2012) C02011.
+
+\bibitem{Ereditato:2013-argontube}
+A.~Ereditato et~al., {\it {Design and operation of ARGONTUBE: a 5~m long drift
+  liquid argon TPC}},  {\em JINST} {\bf 8} (2013) P07002,
+  [\href{http://xxx.lanl.gov/abs/1304.6961}{{\tt arXiv:1304.6961}}].
+
+\bibitem{Zeller:2013-argontube}
+M.~Zeller et~al., {\it {First measurements with ARGONTUBE, a 5m long drift
+  Liquid Argon TPC}},  {\em Nucl.Instrum.Meth.} {\bf A718} (2013) 454--458.
 
 \bibitem{Ereditato:2014-argontubedrift}
 A.~Ereditato et~al., {\it {Measurement of the drift field in the ARGONTUBE LAr

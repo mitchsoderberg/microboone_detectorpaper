@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  21 JUN 2016 10:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 AUG 2016 08:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -419,73 +419,75 @@ Package caption Info: End \AtBeginDocument code.
 
 (./introduction.tex [2]
 
+LaTeX Warning: Citation `miniboone' on page 3 undefined on input line 6.
+
+
+LaTeX Warning: Citation `reactor anomaly' on page 3 undefined on input line 6.
+
+
+LaTeX Warning: Citation `gallexSage' on page 3 undefined on input line 6.
+
+
 LaTeX Warning: Citation `solar' on page 3 undefined on input line 6.
-
-
-LaTeX Warning: Citation `reactor anomaly' on page 3 undefined on input line 8.
-
-
-LaTeX Warning: Citation `gallexSage' on page 3 undefined on input line 8.
-
-
-LaTeX Warning: Citation `miniboone' on page 3 undefined on input line 8.
 
 [3]
 
-LaTeX Warning: Citation `send' on page 4 undefined on input line 14.
+LaTeX Warning: Citation `send' on page 4 undefined on input line 12.
+
+
+LaTeX Warning: Citation `DUNE' on page 4 undefined on input line 20.
 
 [4]
 
-LaTeX Warning: Citation `argoneutpapers' on page 5 undefined on input line 24.
+LaTeX Warning: Citation `argoneutpapers' on page 5 undefined on input line 22.
 
 ) (./experiment-overview.tex
 
 LaTeX Warning: Citation `NuMIbeam' on page 5 undefined on input line 5.
 
-[5] <figures/current_long_plot-PLAN.pdf, id=372, 3130.95111pt x 1510.69693pt>
+[5] <figures/current_long_plot-PLAN.pdf, id=354, 3130.95111pt x 1510.69693pt>
 File: figures/current_long_plot-PLAN.pdf Graphic file (type pdf)
 
 <use figures/current_long_plot-PLAN.pdf>
 Package pdftex.def Info: figures/current_long_plot-PLAN.pdf used on input line 
-9.
+11.
 (pdftex.def)             Requested size: 408.69475pt x 197.18124pt.
 
-<figures/current_long_plot-SECTION.pdf, id=373, 2995.45099pt x 386.3233pt>
+<figures/current_long_plot-SECTION.pdf, id=355, 2995.45099pt x 386.3233pt>
 File: figures/current_long_plot-SECTION.pdf Graphic file (type pdf)
 
 <use figures/current_long_plot-SECTION.pdf>
 Package pdftex.def Info: figures/current_long_plot-SECTION.pdf used on input li
-ne 10.
+ne 12.
 (pdftex.def)             Requested size: 408.69475pt x 52.7055pt.
  [6 <./figures/current_long_plot-PLAN.pdf> <./figures/current_long_plot-SECTION
 .pdf>]
-<figures/my_tpc.pdf, id=418, 786.6501pt x 458.63184pt>
+<figures/my_tpc.pdf, id=402, 786.6501pt x 458.63184pt>
 File: figures/my_tpc.pdf Graphic file (type pdf)
 
 <use figures/my_tpc.pdf>
-Package pdftex.def Info: figures/my_tpc.pdf used on input line 23.
+Package pdftex.def Info: figures/my_tpc.pdf used on input line 26.
 (pdftex.def)             Requested size: 322.65479pt x 188.11725pt.
  [7 <./figures/my_tpc.pdf>]
-Overfull \hbox (14.55586pt too wide) in paragraph at lines 38--39
+Overfull \hbox (14.55586pt too wide) in paragraph at lines 41--42
 \T1/ptm/m/n/10.95 achieved via the in-tro-duc-tion of ex-tremely high volt-age 
 ($\OMS/ztmcm/m/n/10.95 O$\T1/ptm/m/n/10.95 (100 kV) mag-ni-tude) onto the LArTP
 C cath-
  []
 
-[8] <figures/microboone_tpc_diagram.jpg, id=447, 1163.34625pt x 1391.1975pt>
+[8] <figures/microboone_tpc_diagram.jpg, id=431, 1163.34625pt x 1391.1975pt>
 File: figures/microboone_tpc_diagram.jpg Graphic file (type jpg)
 
 <use figures/microboone_tpc_diagram.jpg>
 Package pdftex.def Info: figures/microboone_tpc_diagram.jpg used on input line 
-85.
+88.
 (pdftex.def)             Requested size: 193.59155pt x 231.49065pt.
-) (./cryogenic-system.tex
+) (./cryogenic-system.tex [9 <./figures/microboone_tpc_diagram.jpg>]
 Overfull \hbox (8.62885pt too wide) in paragraph at lines 10--24
  [][] 
  []
 
-[9 <./figures/microboone_tpc_diagram.jpg>]
-<figures/FULL-ASSY-1.jpg, id=458, 987.69pt x 958.58125pt>
+<figures/FULL-ASSY-1.jpg, id=441, 987.69pt x 958.58125pt>
 File: figures/FULL-ASSY-1.jpg Graphic file (type jpg)
 
 <use figures/FULL-ASSY-1.jpg>
@@ -498,44 +500,44 @@ Underfull \vbox (badness 2875) has occurred while \output is active []
 
 LaTeX Warning: Citation `ASMEref' on page 12 undefined on input line 47.
 
-<figures/cryostat_nozzles.pdf, id=473, 456.60841pt x 289.58237pt>
+<figures/cryostat_nozzles.pdf, id=456, 456.60841pt x 289.58237pt>
 File: figures/cryostat_nozzles.pdf Graphic file (type pdf)
 
 <use figures/cryostat_nozzles.pdf>
 Package pdftex.def Info: figures/cryostat_nozzles.pdf used on input line 51.
 (pdftex.def)             Requested size: 430.20639pt x 272.84373pt.
 
-<figures/14-0222-03D.jpg, id=474, 803.0pt x 534.99875pt>
+<figures/14-0222-03D.jpg, id=457, 803.0pt x 534.99875pt>
 File: figures/14-0222-03D.jpg Graphic file (type jpg)
 
 <use figures/14-0222-03D.jpg>
 Package pdftex.def Info: figures/14-0222-03D.jpg used on input line 58.
 (pdftex.def)             Requested size: 193.59155pt x 128.98192pt.
- <figures/foam2.jpg, id=475, 602.25pt x 803.0pt>
+ <figures/foam2.jpg, id=458, 602.25pt x 803.0pt>
 File: figures/foam2.jpg Graphic file (type jpg)
 
 <use figures/foam2.jpg>
 Package pdftex.def Info: figures/foam2.jpg used on input line 59.
 (pdftex.def)             Requested size: 193.59155pt x 258.117pt.
  [12 <./figures/cryostat_nozzles.pdf>]
-<figures/flow_diagram.jpg, id=530, 1231.60126pt x 737.75626pt>
+<figures/flow_diagram.jpg, id=513, 1231.60126pt x 737.75626pt>
 File: figures/flow_diagram.jpg Graphic file (type jpg)
 
 <use figures/flow_diagram.jpg>
 Package pdftex.def Info: figures/flow_diagram.jpg used on input line 110.
 (pdftex.def)             Requested size: 193.59155pt x 115.96082pt.
  [13 <./figures/14-0222-03D.jpg> <./figures/foam2.jpg>]
-Underfull \vbox (badness 4621) has occurred while \output is active []
+Underfull \vbox (badness 2368) has occurred while \output is active []
 
  [14 <./figures/flow_diagram.jpg>]
-<figures/cryo-filter-skid.jpg, id=547, 675.52374pt x 928.46875pt>
+<figures/cryo-filter-skid.jpg, id=530, 675.52374pt x 928.46875pt>
 File: figures/cryo-filter-skid.jpg Graphic file (type jpg)
 
 <use figures/cryo-filter-skid.jpg>
 Package pdftex.def Info: figures/cryo-filter-skid.jpg used on input line 131.
 (pdftex.def)             Requested size: 193.59155pt x 266.07558pt.
 
-<figures/cryo-filter-skid-cutaway.jpg, id=548, 649.42625pt x 913.4125pt>
+<figures/cryo-filter-skid-cutaway.jpg, id=531, 649.42625pt x 913.4125pt>
 File: figures/cryo-filter-skid-cutaway.jpg Graphic file (type jpg)
 
 <use figures/cryo-filter-skid-cutaway.jpg>
@@ -543,7 +545,7 @@ Package pdftex.def Info: figures/cryo-filter-skid-cutaway.jpg used on input lin
 e 132.
 (pdftex.def)             Requested size: 193.59155pt x 272.28368pt.
  [15]
-<figures/condenser.png, id=554, 562.35094pt x 592.46344pt>
+<figures/condenser.png, id=538, 562.35094pt x 592.46344pt>
 File: figures/condenser.png Graphic file (type png)
 
 <use figures/condenser.png>
@@ -551,14 +553,14 @@ Package pdftex.def Info: figures/condenser.png used on input line 148.
 (pdftex.def)             Requested size: 322.65479pt x 339.93156pt.
  [16 <./figures/cryo-filter-skid.jpg> <./figures/cryo-filter-skid-cutaway.jpg>]
 ) (./tpc.tex [17 <./figures/condenser.png>]
-<figures/cryo_tpc.pdf, id=568, 415.82135pt x 362.97577pt>
+<figures/cryo_tpc.pdf, id=552, 415.82135pt x 362.97577pt>
 File: figures/cryo_tpc.pdf Graphic file (type pdf)
 
 <use figures/cryo_tpc.pdf>
 Package pdftex.def Info: figures/cryo_tpc.pdf used on input line 46.
 (pdftex.def)             Requested size: 344.16641pt x 300.42793pt.
  [18]
-<figures/tpc-completed-upstream-left.jpg, id=578, 1284.8pt x 963.6pt>
+<figures/tpc-completed-upstream-left.jpg, id=562, 1284.8pt x 963.6pt>
 File: figures/tpc-completed-upstream-left.jpg Graphic file (type jpg)
 
 <use figures/tpc-completed-upstream-left.jpg>
@@ -566,7 +568,7 @@ Package pdftex.def Info: figures/tpc-completed-upstream-left.jpg used on input
 line 59.
 (pdftex.def)             Requested size: 236.61482pt x 177.45453pt.
 
-<figures/tpc-upstream-interior.jpg, id=579, 963.6pt x 1284.8pt>
+<figures/tpc-upstream-interior.jpg, id=563, 963.6pt x 1284.8pt>
 File: figures/tpc-upstream-interior.jpg Graphic file (type jpg)
 
 <use figures/tpc-upstream-interior.jpg>
@@ -574,14 +576,14 @@ Package pdftex.def Info: figures/tpc-upstream-interior.jpg used on input line 6
 6.
 (pdftex.def)             Requested size: 236.61482pt x 315.47472pt.
 
-<figures/cathode_right.jpg, id=580, 811.03pt x 542.025pt>
+<figures/cathode_right.jpg, id=564, 811.03pt x 542.025pt>
 File: figures/cathode_right.jpg Graphic file (type jpg)
 
 <use figures/cathode_right.jpg>
 Package pdftex.def Info: figures/cathode_right.jpg used on input line 73.
 (pdftex.def)             Requested size: 193.59155pt x 129.37738pt.
 
-<figures/cathode_left.jpg, id=581, 812.03375pt x 541.02126pt>
+<figures/cathode_left.jpg, id=565, 812.03375pt x 541.02126pt>
 File: figures/cathode_left.jpg Graphic file (type jpg)
 
 <use figures/cathode_left.jpg>
@@ -592,7 +594,7 @@ Underfull \vbox (badness 3118) has occurred while \output is active []
 
  [20 <./figures/tpc-completed-upstream-left.jpg> <./figures/tpc-upstream-interi
 or.jpg>]
-<figures/tpc-fieldcage-elbows.jpg, id=636, 963.6pt x 1284.8pt>
+<figures/tpc-fieldcage-elbows.jpg, id=619, 963.6pt x 1284.8pt>
 File: figures/tpc-fieldcage-elbows.jpg Graphic file (type jpg)
 
 <use figures/tpc-fieldcage-elbows.jpg>
@@ -600,7 +602,7 @@ Package pdftex.def Info: figures/tpc-fieldcage-elbows.jpg used on input line 89
 .
 (pdftex.def)             Requested size: 344.16641pt x 458.88123pt.
 
-<figures/tpc-smooshed-elbow-3.jpg, id=638, 963.6pt x 1284.8pt>
+<figures/tpc-smooshed-elbow-3.jpg, id=621, 963.6pt x 1284.8pt>
 File: figures/tpc-smooshed-elbow-3.jpg Graphic file (type jpg)
 
 <use figures/tpc-smooshed-elbow-3.jpg>
@@ -620,7 +622,7 @@ t line 111.
 Underfull \vbox (badness 1163) has occurred while \output is active []
 
  [23 <./figures/tpc-smooshed-elbow-3.jpg>]
-<figures/tpc-voltage-divider-slimmox.jpg, id=653, 1284.8pt x 963.6pt>
+<figures/tpc-voltage-divider-slimmox.jpg, id=637, 1284.8pt x 963.6pt>
 File: figures/tpc-voltage-divider-slimmox.jpg Graphic file (type jpg)
 
 <use figures/tpc-voltage-divider-slimmox.jpg>
@@ -636,7 +638,7 @@ LaTeX Warning: Citation `reference_resistor_paper' on page 24 undefined on inpu
 t line 124.
 
 [24 <./figures/tpc-voltage-divider-slimmox.jpg>]
-<figures/tpc-voltage-divider-metallux.jpg, id=661, 1284.8pt x 963.6pt>
+<figures/tpc-voltage-divider-metallux.jpg, id=645, 1284.8pt x 963.6pt>
 File: figures/tpc-voltage-divider-metallux.jpg Graphic file (type jpg)
 
 <use figures/tpc-voltage-divider-metallux.jpg>
@@ -652,7 +654,7 @@ line 134.
 Underfull \vbox (badness 1168) has occurred while \output is active []
 
  [25 <./figures/tpc-voltage-divider-metallux.jpg>]
-<figures/tpc-voltage-divider-varistors.jpg, id=668, 1284.8pt x 963.6pt>
+<figures/tpc-voltage-divider-varistors.jpg, id=652, 1284.8pt x 963.6pt>
 File: figures/tpc-voltage-divider-varistors.jpg Graphic file (type jpg)
 
 <use figures/tpc-voltage-divider-varistors.jpg>
@@ -660,7 +662,7 @@ Package pdftex.def Info: figures/tpc-voltage-divider-varistors.jpg used on inpu
 t line 138.
 (pdftex.def)             Requested size: 344.16641pt x 258.117pt.
 
-<figures/anode-frame-3dmodel.pdf, id=670, 337.26pt x 229.85875pt>
+<figures/anode-frame-3dmodel.pdf, id=654, 337.26pt x 229.85875pt>
 File: figures/anode-frame-3dmodel.pdf Graphic file (type pdf)
 
 <use figures/anode-frame-3dmodel.pdf>
@@ -668,7 +670,7 @@ Package pdftex.def Info: figures/anode-frame-3dmodel.pdf used on input line 159
 .
 (pdftex.def)             Requested size: 344.16641pt x 234.57205pt.
  [26 <./figures/tpc-voltage-divider-varistors.jpg>] <figures/wire-twist.pdf, id
-=678, 562.1pt x 361.35pt>
+=662, 562.1pt x 361.35pt>
 File: figures/wire-twist.pdf Graphic file (type pdf)
 
 <use figures/wire-twist.pdf>
@@ -679,14 +681,14 @@ Package pdftex.def Info: figures/wire-twist.pdf used on input line 172.
 LaTeX Warning: Citation `Wire_Paper' on page 27 undefined on input line 178.
 
 [27 <./figures/anode-frame-3dmodel.pdf> <./figures/wire-twist.pdf>]
-<figures/wire-carrierboard.png, id=711, 408.52625pt x 303.1325pt>
+<figures/wire-carrierboard.png, id=695, 408.52625pt x 303.1325pt>
 File: figures/wire-carrierboard.png Graphic file (type png)
 
 <use figures/wire-carrierboard.png>
 Package pdftex.def Info: figures/wire-carrierboard.png used on input line 183.
 (pdftex.def)             Requested size: 408.52525pt x 303.13176pt.
 
-<figures/wire-boardtension.png, id=712, 455.7025pt x 607.26875pt>
+<figures/wire-boardtension.png, id=696, 455.7025pt x 607.26875pt>
 File: figures/wire-boardtension.png Graphic file (type png)
 
 <use figures/wire-boardtension.png>
@@ -697,7 +699,7 @@ Package pdftex.def Info: figures/wire-boardtension.png used on input line 192.
 LaTeX Warning: Citation `PSL' on page 28 undefined on input line 253.
 
 
-<figures/WireTension_201605_updatedcolors.png, id=714, 1176.5556pt x 641.0349pt
+<figures/WireTension_201605_updatedcolors.png, id=698, 1176.5556pt x 641.0349pt
 >
 File: figures/WireTension_201605_updatedcolors.png Graphic file (type png)
  <use figures/WireTension_201605_updatedcolors.png>
@@ -709,14 +711,14 @@ nput line 258.
 LaTeX Warning: Citation `ElmaClean' on page 30 undefined on input line 282.
 
 [30 <./figures/WireTension_201605_updatedcolors.png>]
-<figures/tpc-3drendering.pdf, id=737, 453.695pt x 323.2075pt>
+<figures/tpc-3drendering.pdf, id=721, 453.695pt x 323.2075pt>
 File: figures/tpc-3drendering.pdf Graphic file (type pdf)
 
 <use figures/tpc-3drendering.pdf>
 Package pdftex.def Info: figures/tpc-3drendering.pdf used on input line 293.
 (pdftex.def)             Requested size: 344.16641pt x 245.1816pt.
 
-<figures/tpc-completed-upstream-right.jpg, id=738, 1284.8pt x 963.6pt>
+<figures/tpc-completed-upstream-right.jpg, id=722, 1284.8pt x 963.6pt>
 File: figures/tpc-completed-upstream-right.jpg Graphic file (type jpg)
 
 <use figures/tpc-completed-upstream-right.jpg>
@@ -724,20 +726,20 @@ Package pdftex.def Info: figures/tpc-completed-upstream-right.jpg used on input
  line 294.
 (pdftex.def)             Requested size: 344.16641pt x 258.117pt.
 
-<figures/tent.jpg, id=742, 240.9pt x 180.675pt>
+<figures/tent.jpg, id=726, 240.9pt x 180.675pt>
 File: figures/tent.jpg Graphic file (type jpg)
  <use figures/tent.jpg>
 Package pdftex.def Info: figures/tent.jpg used on input line 303.
 (pdftex.def)             Requested size: 344.16641pt x 258.14824pt.
 
-<figures/tpc-anode-frame.jpg, id=743, 1606.0pt x 1204.5pt>
+<figures/tpc-anode-frame.jpg, id=727, 1606.0pt x 1204.5pt>
 File: figures/tpc-anode-frame.jpg Graphic file (type jpg)
 
 <use figures/tpc-anode-frame.jpg>
 Package pdftex.def Info: figures/tpc-anode-frame.jpg used on input line 311.
 (pdftex.def)             Requested size: 344.16641pt x 258.117pt.
 
-<figures/tpc-cathode-g10-frame.jpg, id=744, 1606.0pt x 1204.5pt>
+<figures/tpc-cathode-g10-frame.jpg, id=728, 1606.0pt x 1204.5pt>
 File: figures/tpc-cathode-g10-frame.jpg Graphic file (type jpg)
 
 <use figures/tpc-cathode-g10-frame.jpg>
@@ -745,14 +747,14 @@ Package pdftex.def Info: figures/tpc-cathode-g10-frame.jpg used on input line 3
 18.
 (pdftex.def)             Requested size: 344.16641pt x 258.117pt.
 
-<figures/hv-feedthrough.jpg, id=747, 1148.29pt x 133.49875pt>
+<figures/hv-feedthrough.jpg, id=731, 1148.29pt x 133.49875pt>
 File: figures/hv-feedthrough.jpg Graphic file (type jpg)
 
 <use figures/hv-feedthrough.jpg>
 Package pdftex.def Info: figures/hv-feedthrough.jpg used on input line 338.
 (pdftex.def)             Requested size: 430.20639pt x 50.01505pt.
 
-<figures/hv-ftdrawing.pdf, id=748, 2306.39769pt x 487.74442pt>
+<figures/hv-ftdrawing.pdf, id=732, 2306.39769pt x 487.74442pt>
 File: figures/hv-ftdrawing.pdf Graphic file (type pdf)
 
 <use figures/hv-ftdrawing.pdf>
@@ -763,7 +765,7 @@ Underfull \vbox (badness 3068) has occurred while \output is active []
 
  [32 <./figures/tpc-3drendering.pdf> <./figures/tpc-completed-upstream-right.jp
 g>]
-<figures/hv-FT-cryostat.jpg, id=778, 481.8pt x 642.4pt>
+<figures/hv-FT-cryostat.jpg, id=762, 481.8pt x 642.4pt>
 File: figures/hv-FT-cryostat.jpg Graphic file (type jpg)
 
 <use figures/hv-FT-cryostat.jpg>
@@ -804,7 +806,7 @@ LaTeX Warning: Citation `WARPquench' on page 36 undefined on input line 66.
 
 LaTeX Warning: Citation `Benthesis' on page 36 undefined on input line 66.
 
-<./light_figures/pmttpbeff.png, id=820, 1445.4pt x 722.7pt>
+<./light_figures/pmttpbeff.png, id=804, 1445.4pt x 722.7pt>
 File: ./light_figures/pmttpbeff.png Graphic file (type png)
 
 <use ./light_figures/pmttpbeff.png>
@@ -817,7 +819,7 @@ LaTeX Warning: Citation `Benthesis' on page 36 undefined on input line 72.
 
 LaTeX Warning: Citation `Benthesis' on page 36 undefined on input line 72.
 
-<./light_figures/PMTPlacement.pdf, id=822, 722.7pt x 289.08pt>
+<./light_figures/PMTPlacement.pdf, id=806, 722.7pt x 289.08pt>
 File: ./light_figures/PMTPlacement.pdf Graphic file (type pdf)
 
 <use ./light_figures/PMTPlacement.pdf>
@@ -825,7 +827,7 @@ Package pdftex.def Info: ./light_figures/PMTPlacement.pdf used on input line 84
 .
 (pdftex.def)             Requested size: 408.69475pt x 163.47606pt.
 
-<./light_figures/muondecay.pdf, id=825, 794.97pt x 614.295pt>
+<./light_figures/muondecay.pdf, id=809, 794.97pt x 614.295pt>
 File: ./light_figures/muondecay.pdf Graphic file (type pdf)
 
 <use ./light_figures/muondecay.pdf>
@@ -842,14 +844,14 @@ LaTeX Warning: Citation `Baptista:2012bf' on page 38 undefined on input line 99
 
 LaTeX Warning: Citation `Benthesis' on page 38 undefined on input line 99.
 
-<./light_figures/PMTmount2.jpg, id=874, 1507.6325pt x 1131.22626pt>
+<./light_figures/PMTmount2.jpg, id=858, 1507.6325pt x 1131.22626pt>
 File: ./light_figures/PMTmount2.jpg Graphic file (type jpg)
 
 <use ./light_figures/PMTmount2.jpg>
 Package pdftex.def Info: ./light_figures/PMTmount2.jpg used on input line 123.
 (pdftex.def)             Requested size: 193.59155pt x 145.25215pt.
 
-<./light_figures/13-0430-05D.jpg, id=875, 803.0pt x 534.99875pt>
+<./light_figures/13-0430-05D.jpg, id=859, 803.0pt x 534.99875pt>
 File: ./light_figures/13-0430-05D.jpg Graphic file (type jpg)
 
 <use ./light_figures/13-0430-05D.jpg>
@@ -864,7 +866,7 @@ LaTeX Warning: Citation `Icarus' on page 38 undefined on input line 134.
 
 LaTeX Warning: Citation `HOMeyer' on page 39 undefined on input line 144.
 
-<./light_figures/PlateSpectra.png, id=910, 1030.85126pt x 922.44624pt>
+<./light_figures/PlateSpectra.png, id=894, 1030.85126pt x 922.44624pt>
 File: ./light_figures/PlateSpectra.png Graphic file (type png)
 
 <use ./light_figures/PlateSpectra.png>
@@ -880,7 +882,7 @@ LaTeX Warning: Citation `Benthesis' on page 39 undefined on input line 157.
 
 [39 <./light_figures/PMTmount2.jpg> <./light_figures/13-0430-05D.jpg>] [40 <./l
 ight_figures/PlateSpectra.png>] [41]
-<./light_figures/PlateModeAndPhoto.pdf, id=950, 867.24pt x 325.215pt>
+<./light_figures/PlateModeAndPhoto.pdf, id=934, 867.24pt x 325.215pt>
 File: ./light_figures/PlateModeAndPhoto.pdf Graphic file (type pdf)
 
 <use ./light_figures/PlateModeAndPhoto.pdf>
@@ -888,7 +890,7 @@ Package pdftex.def Info: ./light_figures/PlateModeAndPhoto.pdf used on input li
 ne 257.
 (pdftex.def)             Requested size: 430.20639pt x 161.3268pt.
 
-<./light_figures/EfficienciesIgnarraThesis.pdf, id=954, 569.12625pt x 541.02126
+<./light_figures/EfficienciesIgnarraThesis.pdf, id=938, 569.12625pt x 541.02126
 pt>
 File: ./light_figures/EfficienciesIgnarraThesis.pdf Graphic file (type pdf)
  <use ./light_figures/EfficienciesIgnarraThesis.pdf>
@@ -899,7 +901,7 @@ input line 268.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [42 <./light_figures/PlateModeAndPhoto.pdf>]
-<./light_figures/KendzioraRotator.jpg, id=998, 635.976pt x 489.31432pt>
+<./light_figures/KendzioraRotator.jpg, id=982, 635.976pt x 489.31432pt>
 File: ./light_figures/KendzioraRotator.jpg Graphic file (type jpg)
 
 <use ./light_figures/KendzioraRotator.jpg>
@@ -907,7 +909,7 @@ Package pdftex.def Info: ./light_figures/KendzioraRotator.jpg used on input lin
 e 286.
 (pdftex.def)             Requested size: 344.16641pt x 264.80069pt.
 
-<./light_figures/shield.png, id=999, 559.08875pt x 393.47pt>
+<./light_figures/shield.png, id=983, 559.08875pt x 393.47pt>
 File: ./light_figures/shield.png Graphic file (type png)
 
 <use ./light_figures/shield.png>
@@ -918,7 +920,7 @@ Package pdftex.def Info: ./light_figures/shield.png used on input line 295.
 Underfull \vbox (badness 2277) has occurred while \output is active []
 
  [44 <./light_figures/KendzioraRotator.jpg> <./light_figures/shield.png>]
-<./light_figures/mountedpmtlabeled.jpg, id=1060, 426.8748pt x 534.3162pt>
+<./light_figures/mountedpmtlabeled.jpg, id=1043, 426.8748pt x 534.3162pt>
 File: ./light_figures/mountedpmtlabeled.jpg Graphic file (type jpg)
 
 <use ./light_figures/mountedpmtlabeled.jpg>
@@ -926,14 +928,14 @@ Package pdftex.def Info: ./light_figures/mountedpmtlabeled.jpg used on input li
 ne 322.
 (pdftex.def)             Requested size: 193.59155pt x 242.3234pt.
 
-<./light_figures/PMTunit2.pdf, id=1061, 643.40375pt x 480.79625pt>
+<./light_figures/PMTunit2.pdf, id=1044, 643.40375pt x 480.79625pt>
 File: ./light_figures/PMTunit2.pdf Graphic file (type pdf)
 
 <use ./light_figures/PMTunit2.pdf>
 Package pdftex.def Info: ./light_figures/PMTunit2.pdf used on input line 323.
 (pdftex.def)             Requested size: 193.59155pt x 144.66548pt.
  [45]
-<./light_figures/splitter_modified.png, id=1072, 748.7975pt x 454.69875pt>
+<./light_figures/splitter_modified.png, id=1056, 748.7975pt x 454.69875pt>
 File: ./light_figures/splitter_modified.png Graphic file (type png)
 
 <use ./light_figures/splitter_modified.png>
@@ -951,7 +953,7 @@ LaTeX Warning: Citation `Stycast' on page 46 undefined on input line 341.
 Underfull \vbox (badness 4205) has occurred while \output is active []
 
  [46 <./light_figures/mountedpmtlabeled.jpg> <./light_figures/PMTunit2.pdf>]
-<./light_figures/nonlinear.png, id=1081, 501.875pt x 406.51875pt>
+<./light_figures/nonlinear.png, id=1065, 501.875pt x 406.51875pt>
 File: ./light_figures/nonlinear.png Graphic file (type png)
 
 <use ./light_figures/nonlinear.png>
@@ -970,7 +972,7 @@ LaTeX Warning: Citation `Benthesis' on page 47 undefined on input line 352.
 LaTeX Warning: Citation `Benthesis' on page 47 undefined on input line 355.
 
 [47 <./light_figures/splitter_modified.png>]
-<./light_figures/LightguideModeAndPhoto.pdf, id=1089, 722.7pt x 289.08pt>
+<./light_figures/LightguideModeAndPhoto.pdf, id=1073, 722.7pt x 289.08pt>
 File: ./light_figures/LightguideModeAndPhoto.pdf Graphic file (type pdf)
 
 <use ./light_figures/LightguideModeAndPhoto.pdf>
@@ -979,7 +981,7 @@ ut line 369.
 (pdftex.def)             Requested size: 430.20639pt x 172.08192pt.
  [48 <./light_figures/nonlinear.png> <./light_figures/LightguideModeAndPhoto.pd
 f>]
-<./light_figures/BarSpectra.png, id=1130, 1030.85126pt x 922.44624pt>
+<./light_figures/BarSpectra.png, id=1114, 1030.85126pt x 922.44624pt>
 File: ./light_figures/BarSpectra.png Graphic file (type png)
 
 <use ./light_figures/BarSpectra.png>
@@ -987,7 +989,7 @@ Package pdftex.def Info: ./light_figures/BarSpectra.png used on input line 385.
 
 (pdftex.def)             Requested size: 279.63152pt x 250.21799pt.
  [49]
-<./light_figures/flasherresult.png, id=1144, 840.13875pt x 199.74625pt>
+<./light_figures/flasherresult.png, id=1128, 840.13875pt x 199.74625pt>
 File: ./light_figures/flasherresult.png Graphic file (type png)
 
 <use ./light_figures/flasherresult.png>
@@ -995,7 +997,7 @@ Package pdftex.def Info: ./light_figures/flasherresult.png used on input line 4
 03.
 (pdftex.def)             Requested size: 430.20639pt x 102.28374pt.
 
-<./light_figures/PMT_xtalk_PE_plot.png, id=1145, 578.16pt x 433.62pt>
+<./light_figures/PMT_xtalk_PE_plot.png, id=1129, 578.16pt x 433.62pt>
 File: ./light_figures/PMT_xtalk_PE_plot.png Graphic file (type png)
 
 <use ./light_figures/PMT_xtalk_PE_plot.png>
@@ -1018,7 +1020,7 @@ Underfull \vbox (badness 2012) has occurred while \output is active []
 
  [51 <./light_figures/flasherresult.png> <./light_figures/PMT_xtalk_PE_plot.png
 >]
-<./light_figures/eventtriplet.pdf, id=1164, 332.74312pt x 542.62717pt>
+<./light_figures/eventtriplet.pdf, id=1148, 332.74312pt x 542.62717pt>
 File: ./light_figures/eventtriplet.pdf Graphic file (type pdf)
 
 <use ./light_figures/eventtriplet.pdf>
@@ -1026,7 +1028,7 @@ Package pdftex.def Info: ./light_figures/eventtriplet.pdf used on input line 44
 1.
 (pdftex.def)             Requested size: 274.42506pt x 447.52448pt.
 
-<./light_figures/sample_flasher_spe.png, id=1165, 892.33376pt x 585.18625pt>
+<./light_figures/sample_flasher_spe.png, id=1149, 892.33376pt x 585.18625pt>
 File: ./light_figures/sample_flasher_spe.png Graphic file (type png)
 
 <use ./light_figures/sample_flasher_spe.png>
@@ -1034,7 +1036,7 @@ Package pdftex.def Info: ./light_figures/sample_flasher_spe.png used on input l
 ine 449.
 (pdftex.def)             Requested size: 236.61482pt x 155.1629pt.
 
-<./light_figures/h2_ch0_pmt1.png, id=1166, 798.985pt x 575.14874pt>
+<./light_figures/h2_ch0_pmt1.png, id=1150, 798.985pt x 575.14874pt>
 File: ./light_figures/h2_ch0_pmt1.png Graphic file (type png)
 
 <use ./light_figures/h2_ch0_pmt1.png>
@@ -1042,7 +1044,7 @@ Package pdftex.def Info: ./light_figures/h2_ch0_pmt1.png used on input line 458
 .
 (pdftex.def)             Requested size: 236.61482pt x 170.3256pt.
 ) (./electronics.tex
-<./figures/MicroBooNEReadoutScheme.pdf, id=1168, 1228.59pt x 686.565pt>
+<./figures/MicroBooNEReadoutScheme.pdf, id=1152, 1228.59pt x 686.565pt>
 File: ./figures/MicroBooNEReadoutScheme.pdf Graphic file (type pdf)
 
 <use ./figures/MicroBooNEReadoutScheme.pdf>
@@ -1054,13 +1056,13 @@ ne 8.
 LaTeX Warning: Citation `refasic' on page 54 undefined on input line 26.
 
 [54 <./light_figures/sample_flasher_spe.png> <./light_figures/h2_ch0_pmt1.png>]
-<figures/asic.pdf, id=1227, 232.87pt x 227.85126pt>
+<figures/asic.pdf, id=1211, 232.87pt x 227.85126pt>
 File: figures/asic.pdf Graphic file (type pdf)
  <use figures/asic.pdf>
 Package pdftex.def Info: figures/asic.pdf used on input line 33.
 (pdftex.def)             Requested size: 144.0pt x 140.90126pt.
 
-<figures/mb2.pdf, id=1228, 871.255pt x 392.46625pt>
+<figures/mb2.pdf, id=1212, 871.255pt x 392.46625pt>
 File: figures/mb2.pdf Graphic file (type pdf)
  <use figures/mb2.pdf>
 Package pdftex.def Info: figures/mb2.pdf used on input line 37.
@@ -1070,13 +1072,13 @@ Underfull \vbox (badness 4036) has occurred while \output is active []
 
  [55 <./figures/MicroBooNEReadoutScheme.pdf> <./figures/asic.pdf> <./figures/mb
 2.pdf>]
-[56] <figures/noise.pdf, id=1258, 849.1725pt x 596.2275pt>
+[56] <figures/noise.pdf, id=1242, 849.1725pt x 596.2275pt>
 File: figures/noise.pdf Graphic file (type pdf)
 
 <use figures/noise.pdf>
 Package pdftex.def Info: figures/noise.pdf used on input line 64.
 (pdftex.def)             Requested size: 339.66298pt x 238.48677pt.
- <figures/gain.pdf, id=1259, 849.1725pt x 596.2275pt>
+ <figures/gain.pdf, id=1243, 849.1725pt x 596.2275pt>
 File: figures/gain.pdf Graphic file (type pdf)
 
 <use figures/gain.pdf>
@@ -1095,7 +1097,7 @@ iers lo-cated on 14-inch CF sig-nal feedthrough
  []
 
 [57] [58 <./figures/noise.pdf> <./figures/gain.pdf>]
-<figures/signal_feedthrough_standard.pdf, id=1287, 330.30513pt x 266.23314pt>
+<figures/signal_feedthrough_standard.pdf, id=1271, 330.30513pt x 266.23314pt>
 File: figures/signal_feedthrough_standard.pdf Graphic file (type pdf)
 
 <use figures/signal_feedthrough_standard.pdf>
@@ -1103,7 +1105,7 @@ Package pdftex.def Info: figures/signal_feedthrough_standard.pdf used on input
 line 84.
 (pdftex.def)             Requested size: 344.16641pt x 277.42433pt.
 
-<figures/signal_feedthrough_assembly.pdf, id=1289, 397.11331pt x 405.26305pt>
+<figures/signal_feedthrough_assembly.pdf, id=1273, 397.11331pt x 405.26305pt>
 File: figures/signal_feedthrough_assembly.pdf Graphic file (type pdf)
 
 <use figures/signal_feedthrough_assembly.pdf>
@@ -1111,7 +1113,7 @@ Package pdftex.def Info: figures/signal_feedthrough_assembly.pdf used on input
 line 93.
 (pdftex.def)             Requested size: 172.07993pt x 175.60777pt.
 
-<figures/signal_feedthrough_assembly_photo.pdf, id=1290, 564.18199pt x 424.4206
+<figures/signal_feedthrough_assembly_photo.pdf, id=1274, 564.18199pt x 424.4206
 2pt>
 File: figures/signal_feedthrough_assembly_photo.pdf Graphic file (type pdf)
  <use figures/signal_feedthrough_assembly_photo.pdf>
@@ -1119,7 +1121,7 @@ Package pdftex.def Info: figures/signal_feedthrough_assembly_photo.pdf used on
 input line 94.
 (pdftex.def)             Requested size: 172.07993pt x 129.45132pt.
  [59 <./figures/signal_feedthrough_standard.pdf>]
-<figures/intermediate_amplifier.pdf, id=1354, 329.7682pt x 256.94394pt>
+<figures/intermediate_amplifier.pdf, id=1338, 329.7682pt x 256.94394pt>
 File: figures/intermediate_amplifier.pdf Graphic file (type pdf)
 
 <use figures/intermediate_amplifier.pdf>
@@ -1127,7 +1129,7 @@ Package pdftex.def Info: figures/intermediate_amplifier.pdf used on input line
 105.
 (pdftex.def)             Requested size: 172.07993pt x 134.07816pt.
 
-<figures/serviceboard.pdf, id=1355, 600.76453pt x 459.60658pt>
+<figures/serviceboard.pdf, id=1339, 600.76453pt x 459.60658pt>
 File: figures/serviceboard.pdf Graphic file (type pdf)
 
 <use figures/serviceboard.pdf>
@@ -1136,21 +1138,21 @@ Package pdftex.def Info: figures/serviceboard.pdf used on input line 106.
  [60 <./figures/signal_feedthrough_assembly.pdf> <./figures/signal_feedthrough_
 assembly_photo.pdf> <./figures/intermediate_amplifier.pdf> <./figures/servicebo
 ard.pdf>] [61]
-<./figures/readout_2.png, id=1484, 193.2018pt x 229.3368pt>
+<./figures/readout_2.png, id=1468, 193.2018pt x 229.3368pt>
 File: ./figures/readout_2.png Graphic file (type png)
 
 <use ./figures/readout_2.png>
 Package pdftex.def Info: ./figures/readout_2.png used on input line 133.
 (pdftex.def)             Requested size: 258.12645pt x 306.42438pt.
  [62 <./figures/readout_2.png>]
-<./figures/readout_3.jpg, id=1492, 722.7pt x 542.025pt>
+<./figures/readout_3.jpg, id=1476, 722.7pt x 542.025pt>
 File: ./figures/readout_3.jpg Graphic file (type jpg)
 
 <use ./figures/readout_3.jpg>
 Package pdftex.def Info: ./figures/readout_3.jpg used on input line 141.
 (pdftex.def)             Requested size: 344.16641pt x 258.12619pt.
 
-<./figures/readout_4.png, id=1494, 722.7pt x 485.6544pt>
+<./figures/readout_4.png, id=1478, 722.7pt x 485.6544pt>
 File: ./figures/readout_4.png Graphic file (type png)
 
 <use ./figures/readout_4.png>
@@ -1166,21 +1168,21 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [63 <./figures/readout_3.jpg>]
-<./figures/readout_6.jpg, id=1504, 1037.8775pt x 641.39626pt>
+<./figures/readout_6.jpg, id=1488, 1037.8775pt x 641.39626pt>
 File: ./figures/readout_6.jpg Graphic file (type jpg)
 
 <use ./figures/readout_6.jpg>
 Package pdftex.def Info: ./figures/readout_6.jpg used on input line 169.
 (pdftex.def)             Requested size: 344.16641pt x 212.68904pt.
  [64 <./figures/readout_4.png>] [65 <./figures/readout_6.jpg>] <./figures/reado
-ut_7.pdf, id=1524, 574.47736pt x 400.39348pt>
+ut_7.pdf, id=1508, 574.47736pt x 400.39348pt>
 File: ./figures/readout_7.pdf Graphic file (type pdf)
 
 <use ./figures/readout_7.pdf>
 Package pdftex.def Info: ./figures/readout_7.pdf used on input line 192.
 (pdftex.def)             Requested size: 344.16641pt x 239.87135pt.
 
-<./figures/temp.pdf, id=1526, 289.08pt x 216.81pt>
+<./figures/temp.pdf, id=1510, 289.08pt x 216.81pt>
 File: ./figures/temp.pdf Graphic file (type pdf)
  <use ./figures/temp.pdf>
 Package pdftex.def Info: ./figures/temp.pdf used on input line 211.
@@ -1189,7 +1191,7 @@ Package pdftex.def Info: ./figures/temp.pdf used on input line 211.
 [66 <./figures/readout_7.pdf>]
 Underfull \vbox (badness 1466) has occurred while \output is active []
 
- [67 <./figures/temp.pdf>] <./figures/readout_9.jpg, id=1572, 1503.6175pt x 855
+ [67 <./figures/temp.pdf>] <./figures/readout_9.jpg, id=1556, 1503.6175pt x 855
 .195pt>
 File: ./figures/readout_9.jpg Graphic file (type jpg)
 
@@ -1197,7 +1199,7 @@ File: ./figures/readout_9.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./figures/readout_9.jpg used on input line 241.
 (pdftex.def)             Requested size: 344.16641pt x 195.73811pt.
 
-<./figures/placeholder_trig_ub.jpg, id=1574, 758.835pt x 600.2425pt>
+<./figures/placeholder_trig_ub.jpg, id=1558, 758.835pt x 600.2425pt>
 File: ./figures/placeholder_trig_ub.jpg Graphic file (type jpg)
 
 <use ./figures/placeholder_trig_ub.jpg>
@@ -1219,7 +1221,7 @@ Overfull \vbox (1.33592pt too high) has occurred while \output is active []
 
 LaTeX Warning: Citation `SNEWS' on page 70 undefined on input line 263.
 
-<./figures/dataFlow.pdf, id=1589, 1027.84pt x 770.88pt>
+<./figures/dataFlow.pdf, id=1573, 1027.84pt x 770.88pt>
 File: ./figures/dataFlow.pdf Graphic file (type pdf)
 
 <use ./figures/dataFlow.pdf>
@@ -1229,7 +1231,7 @@ Package pdftex.def Info: ./figures/dataFlow.pdf used on input line 269.
 
 LaTeX Warning: Citation `Ganglia' on page 71 undefined on input line 277.
 
-<./figures/stressGanglia.png, id=1596, 298.11375pt x 130.4875pt>
+<./figures/stressGanglia.png, id=1580, 298.11375pt x 130.4875pt>
 File: ./figures/stressGanglia.png Graphic file (type png)
 
 <use ./figures/stressGanglia.png>
@@ -1243,7 +1245,7 @@ LaTeX Warning: Citation `ROOT' on page 71 undefined on input line 286.
 Underfull \vbox (badness 1360) has occurred while \output is active []
 
  [71 <./figures/dataFlow.pdf>]
-<./figures/daqLizard.png, id=1622, 2219.29124pt x 1132.23pt>
+<./figures/daqLizard.png, id=1606, 2219.29124pt x 1132.23pt>
 File: ./figures/daqLizard.png Graphic file (type png)
 
 <use ./figures/daqLizard.png>
@@ -1251,21 +1253,21 @@ Package pdftex.def Info: ./figures/daqLizard.png used on input line 290.
 (pdftex.def)             Requested size: 408.69475pt x 208.49179pt.
  [72 <./figures/stressGanglia.png> <./figures/daqLizard.png>]) (./slow-control.
 tex
-<./figures/ACDist.png, id=1633, 816.04875pt x 416.55624pt>
+<./figures/ACDist.png, id=1617, 816.04875pt x 416.55624pt>
 File: ./figures/ACDist.png Graphic file (type png)
 
 <use ./figures/ACDist.png>
 Package pdftex.def Info: ./figures/ACDist.png used on input line 44.
 (pdftex.def)             Requested size: 344.16641pt x 175.68338pt.
 
-<./figures/ActualRacks.png, id=1634, 445.665pt x 304.13625pt>
+<./figures/ActualRacks.png, id=1618, 445.665pt x 304.13625pt>
 File: ./figures/ActualRacks.png Graphic file (type png)
 
 <use ./figures/ActualRacks.png>
 Package pdftex.def Info: ./figures/ActualRacks.png used on input line 45.
 (pdftex.def)             Requested size: 258.12645pt x 176.15318pt.
 
-<./figures/DataDist.png, id=1635, 808.01875pt x 413.545pt>
+<./figures/DataDist.png, id=1619, 808.01875pt x 413.545pt>
 File: ./figures/DataDist.png Graphic file (type png)
 
 <use ./figures/DataDist.png>
@@ -1280,7 +1282,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [74 <./figures/ACDist.png> <./figures/ActualRacks.png> <./figures/DataDist.png
 >]
-<./figures/PowerDiagPic.png, id=1647, 794.97pt x 619.31375pt>
+<./figures/PowerDiagPic.png, id=1631, 794.97pt x 619.31375pt>
 File: ./figures/PowerDiagPic.png Graphic file (type png)
 
 <use ./figures/PowerDiagPic.png>
@@ -1295,28 +1297,28 @@ Overfull \hbox (30.35855pt too wide) in paragraph at lines 94--110
 
 LaTeX Warning: Citation `D0' on page 79 undefined on input line 151.
 
-[79] <figures/beam_monitoring.png, id=1692, 1270.7475pt x 714.67pt>
+[79] <figures/beam_monitoring.png, id=1676, 1270.7475pt x 714.67pt>
 File: figures/beam_monitoring.png Graphic file (type png)
 
 <use figures/beam_monitoring.png>
 Package pdftex.def Info: figures/beam_monitoring.png used on input line 177.
 (pdftex.def)             Requested size: 408.69475pt x 229.855pt.
 ) (./laser.tex [80]
-<figures/Potential.pdf, id=1707, 579.16376pt x 440.64626pt>
+<figures/Potential.pdf, id=1691, 579.16376pt x 440.64626pt>
 File: figures/Potential.pdf Graphic file (type pdf)
 
 <use figures/Potential.pdf>
 Package pdftex.def Info: figures/Potential.pdf used on input line 9.
 (pdftex.def)             Requested size: 344.16641pt x 261.85495pt.
 
-<figures/Coordinate.pdf, id=1708, 713.66624pt x 555.07375pt>
+<figures/Coordinate.pdf, id=1692, 713.66624pt x 555.07375pt>
 File: figures/Coordinate.pdf Graphic file (type pdf)
 
 <use figures/Coordinate.pdf>
 Package pdftex.def Info: figures/Coordinate.pdf used on input line 16.
 (pdftex.def)             Requested size: 344.16641pt x 267.68588pt.
 
-<figures/Voirin.pdf, id=1709, 656.4525pt x 491.8375pt>
+<figures/Voirin.pdf, id=1693, 656.4525pt x 491.8375pt>
 File: figures/Voirin.pdf Graphic file (type pdf)
 
 <use figures/Voirin.pdf>
@@ -1330,20 +1332,20 @@ Underfull \vbox (badness 5519) has occurred while \output is active []
 LaTeX Warning: Text page 82 contains only floats.
 
 [82 <./figures/Potential.pdf> <./figures/Coordinate.pdf>] [83 <./figures/Voirin
-.pdf>] <figures/Original_Tracks.pdf, id=1761, 1236.62pt x 419.5675pt>
+.pdf>] <figures/Original_Tracks.pdf, id=1746, 1236.62pt x 419.5675pt>
 File: figures/Original_Tracks.pdf Graphic file (type pdf)
 
 <use figures/Original_Tracks.pdf>
 Package pdftex.def Info: figures/Original_Tracks.pdf used on input line 39.
 (pdftex.def)             Requested size: 421.60042pt x 143.04158pt.
 
-<figures/Ydev.pdf, id=1762, 1238.6275pt x 409.53pt>
+<figures/Ydev.pdf, id=1747, 1238.6275pt x 409.53pt>
 File: figures/Ydev.pdf Graphic file (type pdf)
  <use figures/Ydev.pdf>
 Package pdftex.def Info: figures/Ydev.pdf used on input line 40.
 (pdftex.def)             Requested size: 421.60042pt x 139.39458pt.
 
-<figures/Yresidual.pdf, id=1763, 1236.62pt x 419.5675pt>
+<figures/Yresidual.pdf, id=1748, 1236.62pt x 419.5675pt>
 File: figures/Yresidual.pdf Graphic file (type pdf)
 
 <use figures/Yresidual.pdf>
@@ -1358,28 +1360,28 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [84 <./figures/Original_Tracks.pdf> <./figures/Ydev.pdf> <./figures/Yresidual.
 pdf>]
-<figures/optics.pdf, id=1798, 386.5361pt x 258.03099pt>
+<figures/optics.pdf, id=1783, 386.5361pt x 258.03099pt>
 File: figures/optics.pdf Graphic file (type pdf)
 
 <use figures/optics.pdf>
 Package pdftex.def Info: figures/optics.pdf used on input line 54.
 (pdftex.def)             Requested size: 258.12645pt x 172.3129pt.
 
-<figures/feedthrough2.pdf, id=1799, 100.13837pt x 214.4992pt>
+<figures/feedthrough2.pdf, id=1784, 100.13837pt x 214.4992pt>
 File: figures/feedthrough2.pdf Graphic file (type pdf)
 
 <use figures/feedthrough2.pdf>
 Package pdftex.def Info: figures/feedthrough2.pdf used on input line 56.
 (pdftex.def)             Requested size: 86.03996pt x 184.30861pt.
  [85]
-<figures/Feedthrough.pdf, id=1809, 939.587pt x 1001.21594pt>
+<figures/Feedthrough.pdf, id=1794, 939.587pt x 1001.21594pt>
 File: figures/Feedthrough.pdf Graphic file (type pdf)
 
 <use figures/Feedthrough.pdf>
 Package pdftex.def Info: figures/Feedthrough.pdf used on input line 68.
 (pdftex.def)             Requested size: 242.23668pt x 258.12645pt.
 
-<figures/Mirror.pdf, id=1810, 465.58191pt x 999.57639pt>
+<figures/Mirror.pdf, id=1795, 465.58191pt x 999.57639pt>
 File: figures/Mirror.pdf Graphic file (type pdf)
 
 <use figures/Mirror.pdf>
@@ -1395,20 +1397,19 @@ c-tion of the feedthrough sys-tem, namely
 (./acknowledgments.tex) (./main.bbl
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 5.
- [88] [89] [90] [91] [92]) [93] [94]
-(./main.aux)
+ [88] [89] [90] [91] [92]) [93] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5576 strings out of 493089
- 84533 string characters out of 6134842
- 136168 words of memory out of 5000000
- 8441 multiletter control sequences out of 15000+600000
+ 5556 strings out of 493089
+ 84301 string characters out of 6134842
+ 136093 words of memory out of 5000000
+ 8431 multiletter control sequences out of 15000+600000
  94527 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,12n,47p,1947b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,12n,47p,2242b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -1421,10 +1422,10 @@ s/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
 /usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (95 pages, 34636880 bytes).
+Output written on main.pdf (94 pages, 34635241 bytes).
 PDF statistics:
- 2098 PDF objects out of 2487 (max. 8388607)
- 1641 compressed objects within 17 object streams
- 377 named destinations out of 1000 (max. 500000)
+ 2069 PDF objects out of 2073 (max. 8388607)
+ 1613 compressed objects within 17 object streams
+ 367 named destinations out of 1000 (max. 500000)
  461 words of extra memory for PDF output out of 10000 (max. 10000000)
 
