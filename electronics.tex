@@ -109,7 +109,7 @@ In addition to the intermediate amplifiers, there are two service boards mounted
 \end{figure}
 
 
-\subsection{\lartpc Readout Electronics}
+\subsection{Readout Electronics}
 \label{sec:readoutelectronics}
 %{\it{(Georgia)}}
 The MicroBooNE readout electronics system consists of two subsystems: the \lartpc and PMT readout electronics. The \lartpc readout electronics are responsible for the readout, digitization, and processing of the induction and collection wire signals after amplification. The PMT readout electronics are responsible for the amplification, shaping, digitization, and handling of PMT signals, as can be used to provide a trigger signal for the readout and data acquisition systems. While the \lartpc and PMT readout systems share the same back-end design that organizes and packages the data for delivery to the DAQ system, they employ different analog front-end and digitization designs, which are described in this and the following subsection.
@@ -120,11 +120,11 @@ The \lartpc readout crates communicate with the DAQ machines via three duplex 3.
 
 All readout crates are synchronized to a common 16 MHz clock. The clock sync is provided by a clock fanout board which shares the same ground as all readout crates, and is sent via coaxial cable to a distribution board which is mounted on each crate backplane. The readout frame size is set to 1.6 ms, which is equivalent to the time it takes for charge produced on the far end of the \lartpc to drift to the wire planes at the design cathode voltage of -128 kV.
 
-\subsubsection{\label{sssec:tpcdigitization} \lartpc Data Digitization}
+\subsubsection{\label{sssec:tpcdigitization} Data Digitization}
 
 The amplified and shaped analog \lartpc signals are differentially received and digitized in the first section of the readout modules. Each ADC module holds 8 AD9222 octal-channel 12-bit ADCs. Each ADC module handles signals from 64 wires. The wire signals are grouped in two sets of 32 consecutive wire channels: either 32 induction wires plus 32 collection wires or two sets of 32 induction wires. The induction channel sequence alternates wires between the two induction planes. The ADC module digitizes the signals continuously at 16MHz. Each channel has a configurable baseline, which is either set low (450 ADC counts) for collection channels or at the middle of the dynamic range (2055 ADC counts) for induction channels, thus ensuring that both the collection plane unipolar differential signals and the induction plane bipolar differential signals can make use of the full ADC analog input range. The requirement to observe a MIP produced at the far end of the \lartpc in the induction plane determines the lower end of the dynamic range, while the requirement to observe a highly-ionizing stopping proton at the close end of the \lartpc without saturation sets the upper end. The digitized outputs from the ADC board are passed directly to a Front End Module (FEM) in the second section of the \lartpc readout module. The FEM houses an FPGA for data processing, data reduction, and preparation for readout by the DAQ system as described in the following section. 
 
-\subsubsection{\label{sssec:tpcFEM} \lartpc Data Handling}
+\subsubsection{\label{sssec:tpcFEM} Data Handling}
 
 The FEM board consists of a 14-layer printed circuit board which is mechanically integrated with the ADC board as illustrated in figure~\ref{fig:readout_2}. The choice of a smaller board allows for short trace lengths which is beneficial for high speed signals. The full assembly comes together as a standard VME 9U card in height, with a 280 mm depth. Differential outputs from the ADCs connect to the FPGA through HM-Zd connectors that have individual ground shielding on each differential pair. 
 
@@ -159,7 +159,7 @@ After processing by the FPGA, the data passes to the crate backplane dataway on 
 %\end{figure}
 
 
-\subsubsection{\lartpc Compression Schemes}
+\subsubsection{Compression Schemes}
 \label{sec:tpccomp}
 
 In the case of the NU data stream, a lossless Huffman coding scheme implemented in the FEM FPGA compresses the data by approximately a factor of five. Further reduction in the overall rate is achieved by exploiting a PMT trigger in coincidence with the BNB trigger, as described in section~\ref{sec:trigger}. Huffman coding provides for lossless data compression by taking advantage of the slow variation of the waveform TPC data in any given channel. In particular, this compression scheme relies on the fact that successive data samples on any given wire vary relatively slowly in time. As such, when noise levels are low, any two adjacent data samples either coincide or differ by 1 ADC count. The most frequent values for the difference in ADCs between successive data samples are assigned pre-specified bit patterns with the lowest number of bits possible. Those bit patterns are encoded in the 16-bit data words that would otherwise be used for a single 12-bit ADC sample value. As such, data reduction of up to a factor of 14 is theoretically possible\footnote{The uppermost two bits are always reserved for header information, in each 16-bit word.}. In practice, the data reduction is sensitive to noise levels and \lartpc activity, and is also dependent on the gain setting. The compression factor achieved by MicroBooNE is shown in figure~\ref{fig:readout_6}.

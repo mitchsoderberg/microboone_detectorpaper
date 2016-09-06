@@ -1,5 +1,11 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
 
+\bibitem{AguilarArevalo:2008rc}
+{\bf MiniBooNE} Collaboration, A.~A. Aguilar-Arevalo et~al., {\it {Unexplained
+  Excess of Electron-Like Events From a 1-GeV Neutrino Beam}},  {\em Phys. Rev.
+  Lett.} {\bf 102} (2009) 101802,
+  [\href{http://xxx.lanl.gov/abs/0812.2243}{{\tt arXiv:0812.2243}}].
+
 \bibitem{Doke:1993}
 T.~Doke, {\it A historical view on the r\&d for liquid rare gas detectors},
   {\em Nuclear Instruments and Methods in Physics Research Section A} {\bf 327}
@@ -215,11 +221,6 @@ G.~Carugno et~al., {\it Electron lifetime detector for liquid argon},  {\em
 {\it {Simple Green detergent}}, .
   http://simplegreen.com/pdfs/MSDS\_EN-US\_AllPurposeCleaner.pdf.
 
-\bibitem{Katori:2013wqa}
-{\bf MicroBooNE} Collaboration, T.~Katori, {\it {The MicroBooNE light
-  collection system}},  {\em JINST} {\bf 8} (2013) C10011,
-  [\href{http://xxx.lanl.gov/abs/1307.5256}{{\tt arXiv:1307.5256}}].
-
 \bibitem{Bugel:2011xg}
 L.~Bugel, J.~M. Conrad, C.~Ignarra, B.~J.~P. Jones, T.~Katori, T.~Smidt, and
   H.~K. Tanaka, {\it {Demonstration of a Lightguide Detector for Liquid Argon
@@ -243,6 +244,11 @@ B.~Jones, T.~Alexander, H.~Back, G.~Collin, J.~Conrad, et~al., {\it {The
   Effects of Dissolved Methane upon Liquid Argon Scintillation Light}},  {\em
   JINST} {\bf 8} (2013) P12015, [\href{http://xxx.lanl.gov/abs/1308.3658}{{\tt
   arXiv:1308.3658}}].
+
+\bibitem{Katori:2013wqa}
+{\bf MicroBooNE} Collaboration, T.~Katori, {\it {The MicroBooNE light
+  collection system}},  {\em JINST} {\bf 8} (2013) C10011,
+  [\href{http://xxx.lanl.gov/abs/1307.5256}{{\tt arXiv:1307.5256}}].
 
 \bibitem{Bromberg:2013fla}
 B.~Baller, N.~Buchanan, F.~Cavanna, H.~Chen, E.~Church, et~al., {\it {Liquid

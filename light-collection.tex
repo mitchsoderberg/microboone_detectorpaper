@@ -23,20 +23,41 @@
 \section{Light Collection System}
 \label{sec:light-collection}
 
-Liquid argon is a very bright scintillator, and collecting the light produced when charged particles travel through the \lartpc is an essential aspect of fully understanding the interactions taking place in the detector.  This section describes the MicroBooNE light collection system.
-
-
-
-\subsection{Motivation and General Design \label{sint}}
-
-The installed system is designed to meet MicroBooNE's physics goals for light collection, which are twofold.
-First, for accelerator-induced events, the light collection system is required to trigger on 40~MeV kinetic energy protons produced in neutrino interactions.  Second, for non-beam events,  efficient observation of 5 to 10~MeV electrons from supernova neutrinos are required.   
+Liquid argon is a very bright scintillator, and collecting the light produced when charged particles travel through the \lartpc is critical aspect of fully understanding the interactions taking place in the detector.  The light collection system is designed to meet MicroBooNE's physics goals for light collection, which are twofold.
+First, for accelerator-induced events, the light collection system is designed to trigger on 40~MeV kinetic energy protons produced in neutrino interactions.  Second, for non-beam events,  the system is designed for efficient observation of 5 to 10~MeV electrons from supernova neutrinos.   
 
 The light produced by neutrino interactions in MicroBooNE is an important input for both event selection and reconstruction.  
 One of the critical capabilities the light collection system provides is the ability to form a beam-event trigger when a pulse of light is observed in coincidence with the beam spill.  Because a vast majority of beam spills will not produce a neutrino interaction in the detector, such a trigger will substantially reduce the data output rate.  
 For non-beam physics studies, the light system provides triggering and an event interaction time ($t_0$). For accelerator-induced events, the start time of a beam spill is, in principle, sufficient.  
-However, because of the long window over which the ionization electrons of an event drift (about 1.6 ms maximum drift time at 500 V/cm field), there are many accelerator-induced events in which a cosmic ray muon crosses the detector during the drift time.  Utilizing the more accurate $t_0$ from the light collection system and the position of hits in the photodetectors, one can better reject cosmic ray muon tracks.  
+However, because of the long window over which the ionization electrons of an event drift (about 1.6 ms maximum drift time at 500 V/cm field), there are many accelerator-induced events in which a cosmic ray muon crosses the detector during the drift time.  Utilizing the position of hits in the photodetectors, one can better reject cosmic ray muon tracks.  
 The light can also be used to trigger and select specific types of cosmic-ray calibration events (Michel electrons, straight-through muons, etc.) and non-beam events (supernova neutrinos, cosmic background events to proton decay studies, etc.).
+
+The light collection system consists of primary and secondary sub-systems.  The primary light collection system is made up of ``optical units", each one consisting of a PMT located behind a wavelength-shifting plate.  In total, 32 optical units were installed, yielding 0.85\% photocathode coverage.  The secondary system consists of four light guide paddles.   These paddles are introduced for R\&D studies for future LArTPCs, and are placed near the primary optical units to allow a comparison of their performances.  A flasher system, used for calibration, consists of optical fibers bringing visible light from an LED to each PMT face.
+
+The light collection detectors are located in the $y$-$z$ plane behind the anode planes of the LArTPC, as shown in figure~\ref{fig:lightlayout}.  The combined transparency of the three anode planes is 86\% for light at normal incidence.  This transparency value assumes 100$\%$ of VUV photons impinging on the wires (150 $\mu$m diameter and 3 mm pitch) are absorbed.  The detectors were placed so as not to be obscured by the \lartpc structural cross-bars, shown in figure~\ref{fig:lightlayout}.  Locating the light detectors behind the anode plane places them in a very weak electric field due to the +440 V bias of the collection plane.  To test for an effect from weak electric fields, the response of a PMT placed between a +700 V mesh and ground, separated by 50 cm, was studied.  The PMT zenith was 25 cm from the HV.   No effects on the signal were observed.  This was expected, as the photocathode is held at ground, effectively acting as a Faraday cage.  
+%: $(1-0.150/3)^3 = 86\%$. 
+
+Throughout the design and construction of the light collection system,  substantial R\&D was performed.   The reader should refer to Refs.~\cite{Bugel:2011xg,Katori:2011uq,Chiu:2012ju,Baptista:2012bf,Briese:2013wua,Jones:2013bca,Jones:2013mfa,Katori:2013wqa,Bromberg:2013fla,Moss:2014ota,Conrad:2015xta,Acciarri:2015hha,Moss:2015hha} for detailed results of these studies.    A useful overall review is available in Ref.~\cite{Benthesis}. 
+
+Figure~\ref{fig:muondecaylight} shows the light observed in two sequential events, consistent with a muon entering the detector followed by a Michel electron from the decay.   One can see that the light is relatively well localized.   This allows the light to be correlated with specific tracks in the detector.  This ``flash-track matching'' is used to identify and reconstruct the tracks that are in time with the beam spill--an important goal of the light collection system.
+
+
+\begin{figure}[t]
+	\centering
+%       \includegraphics[width=0.95\textwidth]{./light_figures/PMTPlacement.pdf} 
+              \includegraphics[width=0.95\textwidth]{./light_figures/PMTPlacement.pdf} 
+        \caption{The MicroBooNE light collection system consists of a primary system of 32 optical units and a secondary optical system of four lightguide paddles~\cite{Katori:2013wqa}. These are mounted behind the anode wire planes such that the view is not obscured by structural cross bars of the LArTPC. }\label{fig:lightlayout}
+\end{figure}
+
+\begin{figure}[t]
+	\centering
+    \includegraphics[width=0.95\textwidth]{./light_figures/muondecay.pdf} 
+    \caption{Two sequential event displays for the light collection system.  The sequence is consistent with a muon that stops (top) and decays (bottom).  The circles correspond to the optical units. Red circles indicate those units with hits.    The waveforms versus time are shown below.}\label{fig:muondecaylight}
+\end{figure}
+
+
+\subsection{Light Production in Argon \label{sint}}
+
 
 
 
@@ -77,28 +98,8 @@ Because scintillation photons have a wavelength of 128 nm they are are very diff
 In order to detect the scintillation light, with spectrum shown in red, the VUV photons must be shifted into the visible region.   MicroBooNE employs tetraphenyl-butadiene (TPB).
 This organic fluor absorbs in the UV (green line) and emits in the visible with a peak at $425\pm20$~nm (green hatched region), the peak wavelength having a slight dependence on the micro-environment of the fluors.  This is a favorable wavelength for detection by the photomultiplier tubes (PMTs) employed by MicroBooNE.  The efficiency for transmission through borosilicate PMT glass (black) and the quantum efficiency of the cryogenic tubes used in MicroBooNE (blue) are overlaid on the TPB spectrum.
 
+%\subsection{Light Collection System Overview}
 
-\begin{figure}[t]
-	\centering
-%       \includegraphics[width=0.95\textwidth]{./light_figures/PMTPlacement.pdf} 
-              \includegraphics[width=0.95\textwidth]{./light_figures/PMTPlacement.pdf} 
-        \caption{The MicroBooNE light collection system consists of a primary system of 32 optical units and a secondary optical system of four lightguide paddles~\cite{Katori:2013wqa}. These are mounted behind the anode wire planes such that the view is not obscured by structural cross bars of the LArTPC. }\label{fig:lightlayout}
-\end{figure}
-
-\begin{figure}[t]
-	\centering
-    \includegraphics[width=0.95\textwidth]{./light_figures/muondecay.pdf} 
-    \caption{Two sequential event displays for the light collection system.  The sequence is consistent with a muon that stops (top) and decays (bottom).  The circles correspond to the optical units. Red circles indicate those units with hits.    The waveforms versus time are shown below.}\label{fig:muondecaylight}
-\end{figure}
-
-The light collection system consists of primary and secondary sub-systems.  The primary light collection system is made up of ``optical units", each one consisting of a PMT located behind a wavelength-shifting plate.  In total, 32 optical units were installed, yielding 0.85\% photocathode coverage.  The secondary system consists of four light guide paddles.   These paddles are introduced for R\&D studies for future LArTPCs, and are placed near the primary optical units to allow a comparison of their performances.  A flasher system, used for calibration, consists of optical fibers bringing visible light from an LED to each PMT face.
-
-The light collection detectors are located in the $y$-$z$ plane behind the anode planes of the LArTPC, as shown in figure~\ref{fig:lightlayout}.  The combined transparency of the three anode planes is 86\% for light at normal incidence.  This transparency value assumes 100$\%$ of VUV photons impinging on the wires (150 $\mu$m diameter and 3 mm pitch) are absorbed.  The detectors were placed so as not to be obscured by the \lartpc structural cross-bars, shown in figure~\ref{fig:lightlayout}.  Locating the light detectors behind the anode plane places them in a very weak electric field due to the +440 V bias of the collection plane.  To test for an effect from weak electric fields, the response of a PMT placed between a +700 V mesh and ground, separated by 50 cm, was studied.  The PMT zenith was 25 cm from the HV.   No effects on the signal were observed.  This was expected, as the photocathode is held at ground, effectively acting as a Faraday cage.  
-%: $(1-0.150/3)^3 = 86\%$. 
-
-Throughout the design and construction of the light collection system,  substantial R\&D was performed.   The reader should refer to Refs.~\cite{Bugel:2011xg,Katori:2011uq,Chiu:2012ju,Baptista:2012bf,Briese:2013wua,Jones:2013bca,Jones:2013mfa,Katori:2013wqa,Bromberg:2013fla,Moss:2014ota,Conrad:2015xta,Acciarri:2015hha,Moss:2015hha} for detailed results of these studies.    A useful overall review is available in Ref.~\cite{Benthesis}. 
-
-Figure~\ref{fig:muondecaylight} shows the light observed in two sequential events, consistent with a muon entering the detector followed by a Michel electron from the decay.   One can see that the light is relatively well localized.   This allows the light to be correlated with specific tracks in the detector.  This ``flash-track matching'' is used to identify and reconstruct the tracks that are in time with the beam spill--an important goal of the light collection system.
 
 %\begin{table}[~htb]
 %   \centering
@@ -131,7 +132,7 @@ Figure~\ref{fig:muondecaylight} shows the light observed in two sequential event
 
 
 Each of the 32 optical units of the primary light collection system consist of a cryogenic Hamamatsu 5912-02MOD PMT seated behind an acrylic plate coated with a TPB-rich layer and surrounded by a mu-metal shield. 
-Figure~\ref{fig:unitmounted} shows a diagram of one unit (left) and a photograph of installed units (right).  Past experiments have directly coated PMTs with wavelength shifter \cite{Icarus}.  However, 
+Figure~\ref{fig:unitmounted} shows a diagram of one unit (left) and a photograph of installed units (right).  Past experiments have directly coated PMTs with wavelength shifter \cite{ICARUS}.  However, 
 the MicroBooNE design separates the PMT from the wavelength-shifting plate for simplicity of quality control and installation.  This proved important, as R\&D indicated that TPB is particularly vulnerable to environmental degradation (see section~\ref{environ}).  In this section, description is provided for each component of the optical unit, as well as for the overall assembly.
 
 
@@ -342,7 +343,7 @@ The PMT cable system delivers HV and returns signals between the external splitt
 %0.36 cm diameter cable has 95 ohm impedance to match with the pre-amplifier and low capacitance of 6.8 pF/m to preserve small signals.  
 The cable carries an AC voltage rating of 1100 V; however tests showed the DC rating to be at least three times higher and so suitable for this use.  The cables were routed through feedthroughs consisting of a pipe filled with solidified epoxy mounted on a conflat disk.  On the warm side of the feedthrough, the cables were terminated at a patch panel with SHV connectors. The SHV connector impedance has a negligible effect on the 20-30 ns PMT signals.  SHV cables connect the patch panels to the splitters.  The impedance of every channel was tested at the feedthrough patch panel for a stable and correct value for the base resistance, which was 4.04$\pm$0.02 M$\Omega$ for the 8-inch PMTs. 
 
-\subsection{The Bo Vertical Slice Tests}
+\subsection{PMT Testing and Quality Assurance}
 
 \begin{figure}[t]
 \centering 
@@ -352,7 +353,7 @@ The cable carries an AC voltage rating of 1100 V; however tests showed the DC ra
  \label{fig:nonlinear}  }
 \end{figure}
 
-The Bo cryostat at Fermilab is a 250-liter vacuum-insulated vessel with an inner diameter 22 inches and a depth of 40 inches used for R\&D studies, and, relevant to this paper, a vertical slice test of the MicroBooNE optical units.  The system is described in detail in Ref.~\cite{Benthesis}.  The cryostat can be filled with purified LAr with parts per billion level contamination of oxygen and water and parts per million level of nitrogen.  The light collection system was tested with light from visible (420 nm) and UV (250 nm) LEDs piped in via fiber, as well as scintillation light from $^{210}$Po alpha sources and cosmic rays.
+The PMTs were tested and characterized before installation in the detector in the "Bo" cryostat at Fermilab.  The Bo cryostat is a 250-liter vacuum-insulated vessel with an inner diameter 22 inches and a depth of 40 inches used for R\&D studies, and, relevant to this paper, a vertical slice test of the MicroBooNE optical units.  The system is described in detail in Ref.~\cite{Benthesis}.  The cryostat can be filled with purified LAr with parts per billion level contamination of oxygen and water and parts per million level of nitrogen.  The light collection system was tested with light from visible (420 nm) and UV (250 nm) LEDs piped in via fiber, as well as scintillation light from $^{210}$Po alpha sources and cosmic rays.
 
 A vertical slice test (VST) of the MicroBooNE optical system was performed in the Bo Cryostat.  The slice consisted of two 8 inch PMTs with base electronics, mu-metal shield, TPB plates,  cable feed throughs, splitters, the HV power supply and the interlock system.   Tests were performed without and with the mu-metal shield.   The test made use of the DAQ components described in section~\ref{sec:electronics}, including the shaper, FEM, trigger card, control card, and server.  The MicroBooNE trace impurity monitors were also used.
 
@@ -360,7 +361,7 @@ The VST informed the final design of many components, as well as producing resul
 valuable information was gathered on the single photo-electron dark rate and cosmic ray rate that could be scaled to the MicroBooNE detector expectations.    As a second example, these runs allowed characterization of the pulse shape nonlinearities of the optical units, as seen in figure~\ref{fig:nonlinear}.  These were shown to be significant at $\sim$300 photo-electron in pulse amplitude.  Full amplitude saturation occurred at $\sim$670 PE. Thus, it is concluded that for pulses of more than 300 PE, pulse shape cannot be described by linear superposition of single photoelectron pulses. 
 
 
-\subsection{Acrylic Light Guides as a Secondary System for R\&D}
+\subsection{Secondary System: Acrylic Light Guides for R\&D}
 
 
 \begin{figure}[t]
@@ -387,7 +388,7 @@ In the light guide coatings, the TPB is suspended in an acrylic matrix which lea
  \label{fig:TPBSpectra}  }
 \end{figure}
 
-\subsection{Flasher System}
+\subsection{Calibration}
 
 The flasher system for the optical units and the light guides is described in Ref.~\cite{Conrad:2015xta}. This system was developed to check the timing of the installed optical units, exercise the optical units during construction and commissioning, and to calibrate them once the detector is operational.  The reference provides engineering drawings and details.  The system is briefly summarized here.
 
@@ -406,7 +407,7 @@ Figure~\ref{fig:flasherresult} shows the results of flasher tests on all 32 opti
 
 
 
-\subsection{Testing Coupling of PMT Signals to the Anode Wires}
+\subsection{Coupling of PMT Signals to the Anode Wires}
 
 \begin{figure}[t]
 \centering 
