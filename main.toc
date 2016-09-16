@@ -37,34 +37,34 @@
 \contentsline {section}{\numberline {6}Electronics and Readout Systems}{52}
 \contentsline {subsection}{\numberline {6.1}Cryogenic Low-Noise Electronics}{52}
 \contentsline {subsubsection}{\numberline {6.1.1}CMOS ASIC}{52}
-\contentsline {subsubsection}{\numberline {6.1.2}Cold Motherboards}{55}
-\contentsline {subsubsection}{\numberline {6.1.3}Cold Cables}{56}
+\contentsline {subsubsection}{\numberline {6.1.2}Cold Motherboards}{56}
+\contentsline {subsubsection}{\numberline {6.1.3}Cold Cables}{57}
 \contentsline {subsubsection}{\numberline {6.1.4}Electronic Calibration}{57}
 \contentsline {subsubsection}{\numberline {6.1.5}Performance Tests}{57}
 \contentsline {subsection}{\numberline {6.2}Warm Electronic Amplification}{58}
 \contentsline {subsection}{\numberline {6.3}Readout Electronics}{60}
-\contentsline {subsubsection}{\numberline {6.3.1} Data Digitization}{61}
-\contentsline {subsubsection}{\numberline {6.3.2} Data Handling}{61}
+\contentsline {subsubsection}{\numberline {6.3.1} Data Digitization}{62}
+\contentsline {subsubsection}{\numberline {6.3.2} Data Handling}{62}
 \contentsline {subsubsection}{\numberline {6.3.3}Compression Schemes}{63}
-\contentsline {subsection}{\numberline {6.4}PMT Readout Electronics}{64}
-\contentsline {subsubsection}{\numberline {6.4.1}Signal Amplification and Shaping}{66}
-\contentsline {subsubsection}{\numberline {6.4.2}PMT Data Digitization}{66}
-\contentsline {subsubsection}{\numberline {6.4.3}Data Handling and PMT Trigger Generation}{66}
-\contentsline {subsection}{\numberline {6.5}Level-1 Trigger Generation}{67}
+\contentsline {subsection}{\numberline {6.4}PMT Readout Electronics}{65}
+\contentsline {subsubsection}{\numberline {6.4.1}Signal Amplification and Shaping}{67}
+\contentsline {subsubsection}{\numberline {6.4.2}PMT Data Digitization}{67}
+\contentsline {subsubsection}{\numberline {6.4.3}Data Handling and PMT Trigger Generation}{67}
+\contentsline {subsection}{\numberline {6.5}Level-1 Trigger Generation}{68}
 \contentsline {subsection}{\numberline {6.6}DAQ Design}{69}
 \contentsline {subsection}{\numberline {6.7}High-level software trigger}{72}
 \contentsline {section}{\numberline {7}Infrastructure and Monitoring Systems}{73}
 \contentsline {subsection}{\numberline {7.1}Electronics Infrastructure at LArTF}{73}
-\contentsline {subsubsection}{\numberline {7.1.1}AC Power Distribution and Grounding for Low-Noise LArTF Data-taking}{73}
+\contentsline {subsubsection}{\numberline {7.1.1}AC Power Distribution and Grounding for Low-Noise LArTF Data-taking}{74}
 \contentsline {subsubsection}{\numberline {7.1.2}DC Power Distribution to the MicroBooNE Detector}{76}
-\contentsline {subsubsection}{\numberline {7.1.3}Network, Timing, and Data Distribution for Low-Noise LArTF Data-taking}{76}
+\contentsline {subsubsection}{\numberline {7.1.3}Network, Timing, and Data Distribution for Low-Noise LArTF Data-taking}{77}
 \contentsline {subsubsection}{\numberline {7.1.4}Interlocks and Safety Systems}{78}
-\contentsline {subsubsection}{\numberline {7.1.5}Performance Measurements}{78}
-\contentsline {subsection}{\numberline {7.2}Slow monitoring and control system}{78}
+\contentsline {subsubsection}{\numberline {7.1.5}Performance Measurements}{79}
+\contentsline {subsection}{\numberline {7.2}Slow monitoring and control system}{79}
 \contentsline {subsection}{\numberline {7.3}Beam Monitoring}{80}
-\contentsline {section}{\numberline {8}UV Laser System}{80}
-\contentsline {subsection}{\numberline {8.1}UV Laser Calibration}{83}
+\contentsline {section}{\numberline {8}UV Laser System}{81}
+\contentsline {subsection}{\numberline {8.1}UV Laser Calibration}{84}
 \contentsline {subsection}{\numberline {8.2}Laser Source and Optics}{84}
-\contentsline {subsection}{\numberline {8.3}Steering System}{85}
+\contentsline {subsection}{\numberline {8.3}Steering System}{86}
 \contentsline {subsection}{\numberline {8.4}Performance Tests and Initial Operation}{87}
 \contentsline {section}{\numberline {9}Conclusion}{88}

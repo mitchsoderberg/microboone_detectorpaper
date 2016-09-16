@@ -1,10 +1,36 @@
-\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
 
 \bibitem{AguilarArevalo:2008rc}
 {\bf MiniBooNE} Collaboration, A.~A. Aguilar-Arevalo et~al., {\it {Unexplained
   Excess of Electron-Like Events From a 1-GeV Neutrino Beam}},  {\em Phys. Rev.
   Lett.} {\bf 102} (2009) 101802,
   [\href{http://xxx.lanl.gov/abs/0812.2243}{{\tt arXiv:0812.2243}}].
+
+\bibitem{PhysRevC.83.054615}
+T.~A. Mueller, D.~Lhuillier, M.~Fallot, A.~Letourneau, S.~Cormon, M.~Fechner,
+  L.~Giot, T.~Lasserre, J.~Martino, G.~Mention, A.~Porta, and F.~Yermia, {\it
+  Improved predictions of reactor antineutrino spectra},  {\em Phys. Rev. C}
+  {\bf 83} (May, 2011) 054615.
+
+\bibitem{PhysRevC.84.024617}
+P.~Huber, {\it Determination of antineutrino spectra from nuclear reactors},
+  {\em Phys. Rev. C} {\bf 84} (Aug, 2011) 024617.
+
+\bibitem{Hampel:1997fc}
+{\bf GALLEX} Collaboration, W.~Hampel et~al., {\it {Final results of the Cr-51
+  neutrino source experiments in GALLEX}},  {\em Phys. Lett.} {\bf B420} (1998)
+  114--126.
+
+\bibitem{Abdurashitov:1998ne}
+{\bf SAGE} Collaboration, J.~N. Abdurashitov et~al., {\it {Measurement of the
+  response of the Russian-American gallium experiment to neutrinos from a Cr-51
+  source}},  {\em Phys. Rev.} {\bf C59} (1999) 2246--2263,
+  [\href{http://xxx.lanl.gov/abs/hep-ph/9803418}{{\tt hep-ph/9803418}}].
+
+\bibitem{Adams:2013-lar1nd}
+C.~Adams et~al., {\it {LAr1-ND: Testing Neutrino Anomalies with Multiple LArTPC
+  Detectors at Fermilab}},  \href{http://xxx.lanl.gov/abs/1309.7987}{{\tt
+  arXiv:1309.7987}}.
 
 \bibitem{Doke:1993}
 T.~Doke, {\it A historical view on the r\&d for liquid rare gas detectors},
@@ -117,6 +143,11 @@ C.~Adams et~al., {\it {The Long-Baseline Neutrino Experiment: Exploring
   Fundamental Symmetries of the Universe}},
   \href{http://xxx.lanl.gov/abs/1307.7335}{{\tt arXiv:1307.7335}}.
 
+\bibitem{Acciarri:2015uup}
+{\bf DUNE} Collaboration, R.~Acciarri et~al., {\it {Long-Baseline Neutrino
+  Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE)}},
+  \href{http://xxx.lanl.gov/abs/1512.0614}{{\tt arXiv:1512.0614}}.
+
 \bibitem{Anderson:2012-argoneut}
 C.~Anderson et~al., {\it {The ArgoNeuT Detector in the NuMI Low-Energy beam
   line at Fermilab}},  {\em JINST} {\bf 7} (2012) P10019,
@@ -177,6 +208,11 @@ A.~Marchionni, {\it {Status and New Ideas Regarding Liquid Argon Detectors}},
   {\em Ann.Rev.Nucl.Part.Sci.} {\bf 63} (2013) 269--290,
   [\href{http://xxx.lanl.gov/abs/1307.6918}{{\tt arXiv:1307.6918}}].
 
+\bibitem{Adamson:2015dkw}
+P.~Adamson et~al., {\it {The NuMI Neutrino Beam}},  {\em Nucl. Instrum. Meth.}
+  {\bf A806} (2016) 279--306, [\href{http://xxx.lanl.gov/abs/1507.0669}{{\tt
+  arXiv:1507.0669}}].
+
 \bibitem{AguilarArevalo:2008-MBflux}
 {\bf MiniBooNE} Collaboration, A.~Aguilar-Arevalo et~al., {\it {The Neutrino
   Flux prediction at MiniBooNE}},  {\em Phys.Rev.} {\bf D79} (2009) 072002,
@@ -188,6 +224,11 @@ E.~Aprile, K.~Giboni, and C.~Rubbia, {\it A study of ionization electrons
   Instruments and Methods in Physics Research Section A: Accelerators,
   Spectrometers, Detectors and Associated Equipment} {\bf 241} (1985), no.~1 62
   -- 71.
+
+\bibitem{pressure:1316452}
+{\em {ASME boiler and pressure vessel code: an international code. I - Rules
+  for construction of power boiler}}.
+\newblock American Society of Mechanical Engineers, New York, NY, 2010.
 
 \bibitem{Jones:2013bca}
 B.~Jones, C.~Chiu, J.~Conrad, C.~Ignarra, T.~Katori, et~al., {\it {A
@@ -213,6 +254,32 @@ G.~Carugno et~al., {\it Electron lifetime detector for liquid argon},  {\em
   Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
   Spectrometers, Detectors and Associated Equipment} {\bf 292} (1990) 580.
 
+\bibitem{Bagby:2014wva}
+L.~F. Bagby et~al., {\it {Breakdown voltage of metal-oxide resistors in liquid
+  argon}},  {\em JINST} {\bf 9} (2014), no.~11 T11004,
+  [\href{http://xxx.lanl.gov/abs/1408.4013}{{\tt arXiv:1408.4013}}].
+
+\bibitem{Acciarri:2014ica}
+{\bf MicroBooNE} Collaboration, R.~Acciarri et~al., {\it {Liquid Argon
+  Dielectric Breakdown Studies with the MicroBooNE Purification System}},  {\em
+  JINST} {\bf 9} (2014), no.~11 P11001,
+  [\href{http://xxx.lanl.gov/abs/1408.0264}{{\tt arXiv:1408.0264}}].
+
+\bibitem{Asaadi:2014iva}
+J.~Asaadi, J.~M. Conrad, S.~Gollapinni, B.~J.~P. Jones, H.~Jostlein, J.~M.
+  St.~John, T.~Strauss, S.~Wolbers, and J.~Zennamo, {\it {Testing of High
+  Voltage Surge Protection Devices for Use in Liquid Argon TPC Detectors}},
+  {\em JINST} {\bf 9} (2014) P09002,
+  [\href{http://xxx.lanl.gov/abs/1406.5216}{{\tt arXiv:1406.5216}}].
+
+\bibitem{WireWinding}
+R.~Acciarri et~al., {\it {Construction and Assembly of the Wire Planes for the
+  MicroBooNE Time Projection Chamber}},  {\em JINST...to be submitted}.
+
+\bibitem{SpectrumLaboratory}
+W.~Buescher, {\it {Spectrum Laboratory}}, .
+  http://www.qsl.net/dl4yhf/spectra1.html.
+
 \bibitem{citranox}
 {\it {Citranox acid detergent}}, .
   http://www.alconox.com/resources/StandardDocuments/MSDS/msds\_citranox\_english\_ghs.pdf.
@@ -220,6 +287,9 @@ G.~Carugno et~al., {\it Electron lifetime detector for liquid argon},  {\em
 \bibitem{simplegreen}
 {\it {Simple Green detergent}}, .
   http://simplegreen.com/pdfs/MSDS\_EN-US\_AllPurposeCleaner.pdf.
+
+\bibitem{elmaclean}
+``{Elma Clean 65}.''
 
 \bibitem{Bugel:2011xg}
 L.~Bugel, J.~M. Conrad, C.~Ignarra, B.~J.~P. Jones, T.~Katori, T.~Smidt, and
@@ -232,6 +302,16 @@ L.~Bugel, J.~M. Conrad, C.~Ignarra, B.~J.~P. Jones, T.~Katori, T.~Smidt, and
   Time Projection Chamber (LArTPC) Neutrino Experiment}},  {\em AIP Conf.
   Proc.} {\bf 1405} (2011) 250--255,
   [\href{http://xxx.lanl.gov/abs/1107.5112}{{\tt arXiv:1107.5112}}].
+
+\bibitem{Chiu:2012}
+C.~Chiu, C.~Ignarra, L.~Bugel, H.~Chen, J.~Conrad, et~al., {\it {Environmental
+  Effects on TPB Wavelength-Shifting Coatings}},  {\em JINST} {\bf 7} (2012)
+  P07007, [\href{http://xxx.lanl.gov/abs/1204.5762}{{\tt arXiv:1204.5762}}].
+
+\bibitem{Baptista:2012}
+B.~Baptista, L.~Bugel, C.~Chiu, J.~Conrad, C.~Ignarra, et~al., {\it
+  {Benchmarking TPB-coated Light Guides for Liquid Argon TPC Light Detection
+  Systems}},  \href{http://xxx.lanl.gov/abs/1210.3793}{{\tt arXiv:1210.3793}}.
 
 \bibitem{Briese:2013wua}
 T.~Briese, L.~Bugel, J.~Conrad, M.~Fournier, C.~Ignarra, et~al., {\it {Testing
@@ -277,6 +357,34 @@ R.~Acciarri, M.~Adamowski, D.~Artrip, B.~Baller, C.~Bromberg, et~al., {\it
 Z.~Moss, M.~Toups, L.~Bugel, G.~Collin, and J.~Conrad, {\it {Anode-Coupled
   Readout for Light Collection in Liquid Argon TPCs}},
   \href{http://xxx.lanl.gov/abs/1507.0199}{{\tt arXiv:1507.0199}}.
+
+\bibitem{Jones:2015bya}
+B.~J.~P. Jones, {\em {Sterile Neutrinos in Cold Climates}}.
+\newblock PhD thesis, MIT, 2015.
+
+\bibitem{SUZUKI1979197}
+M.~Suzuki and S.~Kubota, {\it Mechanism of proportional scintillation in argon,
+  krypton and xenon},  {\em Nuclear Instruments and Methods} {\bf 164} (1979),
+  no.~1 197 -- 199.
+
+\bibitem{PhysRevB.27.5279}
+A.~Hitachi, T.~Takahashi, N.~Funayama, K.~Masuda, J.~Kikuchi, and T.~Doke, {\it
+  Effect of ionization density on the time dependence of luminescence from
+  liquid argon and xenon},  {\em Phys. Rev. B} {\bf 27} (May, 1983) 5279--5285.
+
+\bibitem{Acciarri:2008kv}
+{\bf WArP} Collaboration, R.~Acciarri et~al., {\it {Effects of Nitrogen
+  contamination in liquid Argon}},  {\em JINST} {\bf 5} (2010) P06003,
+  [\href{http://xxx.lanl.gov/abs/0804.1217}{{\tt arXiv:0804.1217}}].
+
+\bibitem{1997NIMPA.384..380I}
+N.~{Ishida}, M.~{Chen}, T.~{Doke}, K.~{Hasuike}, A.~{Hitachi}, M.~{Gaudreau},
+  M.~{Kase}, Y.~{Kawada}, J.~{Kikuchi}, T.~{Komiyama}, K.~{Kuwahara},
+  K.~{Masuda}, H.~{Okada}, Y.~H. {Qu}, M.~{Suzuki}, and T.~{Takahashi}, {\it
+  {Attenuation length measurements of scintillation light in liquid rare gases
+  and their mixtures using an improved reflection suppresser}},  {\em Nuclear
+  Instruments and Methods in Physics Research A} {\bf 384} (Feb., 1997)
+  380--386.
 
 \bibitem{Hamamatsu-Datasheet8inch}
 {Hamamatsu}, ``Large area photomultipier tubes.'' {Specification for R5912 and
@@ -324,11 +432,6 @@ R.~Francini, R.~Montereali, E.~Nichelatti, M.~Vincenti, N.~Canci, et~al., {\it
   specular reflector substrates from room to liquid Argon temperature}},  {\em
   JINST} {\bf 8} (2013) P09006.
 
-\bibitem{Chiu:2012}
-C.~Chiu, C.~Ignarra, L.~Bugel, H.~Chen, J.~Conrad, et~al., {\it {Environmental
-  Effects on TPB Wavelength-Shifting Coatings}},  {\em JINST} {\bf 7} (2012)
-  P07007, [\href{http://xxx.lanl.gov/abs/1204.5762}{{\tt arXiv:1204.5762}}].
-
 \bibitem{Jones:2013}
 B.~J.~P. Jones, {\it {A simulation of the optical attenuation of TPB coated
   light-guide detectors}},  {\em JINST} {\bf 8} (2013) C10015,
@@ -338,10 +441,8 @@ B.~J.~P. Jones, {\it {A simulation of the optical attenuation of TPB coated
 {Sundance Supply}, ``{Lexan Thermoclear Multiwall Polycarbonate Sheet}.''
   {https://www.sundancesupply.com/Lexan.pdf}.
 
-\bibitem{Baptista:2012}
-B.~Baptista, L.~Bugel, C.~Chiu, J.~Conrad, C.~Ignarra, et~al., {\it
-  {Benchmarking TPB-coated Light Guides for Liquid Argon TPC Light Detection
-  Systems}},  \href{http://xxx.lanl.gov/abs/1210.3793}{{\tt arXiv:1210.3793}}.
+\bibitem{stycast}
+{\it {Stycast 2850}}, . http://www.ellsworth.com/manufacturers/emerson-cuming/.
 
 \bibitem{Birks:1959}
 J.~B. Birks and K.~N. Kuchela, {\it Energy transfer in fluorescent plastic
@@ -367,9 +468,31 @@ L.~Liu, ``Time resolved fluoresence studies of dye-polymers as excited by laser
 {Hamamatsu}, ``Photomultipler tube r7723, r7724, r7725.''
   {http://www.hamamatsu.com/resources/pdf/etd/R7723\_TPMH1315E01.pdf}.
 
+\bibitem{Ankowski:2008aa}
+{\bf ICARUS} Collaboration, A.~Ankowski et~al., {\it {Energy reconstruction of
+  electromagnetic showers from pi0 decays with the ICARUS T600 Liquid Argon
+  TPC}},  {\em Acta Phys. Polon.} {\bf B41} (2010) 103--125,
+  [\href{http://xxx.lanl.gov/abs/0812.2373}{{\tt arXiv:0812.2373}}].
+
+\bibitem{Scholberg:2008fa}
+K.~Scholberg, {\it {The SuperNova Early Warning System}},  {\em Astron. Nachr.}
+  {\bf 329} (2008) 337--339, [\href{http://xxx.lanl.gov/abs/0803.0531}{{\tt
+  arXiv:0803.0531}}].
+
+\bibitem{GangliaBook}
+M.~Massie et~al., {\em Monitoring with Ganglia: Tracking Dynamic Host and
+  Application Metrics at Scale}.
+\newblock O'Reilly Media, 2012.
+
 \bibitem{EPICS}
 ``Experimental physics and industrial control system.''
 \newblock http://www.aps.anl.gov/epics/.
+
+\bibitem{BRUN199781}
+R.~Brun and F.~Rademakers, {\it Root --- an object oriented data analysis
+  framework},  {\em Nuclear Instruments and Methods in Physics Research Section
+  A: Accelerators, Spectrometers, Detectors and Associated Equipment} {\bf 389}
+  (1997), no.~1 81 -- 86.
 
 \bibitem{ControlSystemStudio}
 ``Control system studio.''
@@ -406,11 +529,6 @@ D.~Huffman, {\it Peripheral interface: Fan and temperature probe},  September,
   2014.
 \newblock
   http://www-ppd.fnal.gov/EEDOffice-W/Infrastructure\_group/Huffman/WEB/uboone/pia.html.
-
-\bibitem{GangliaBook}
-M.~Massie et~al., {\em Monitoring with Ganglia: Tracking Dynamic Host and
-  Application Metrics at Scale}.
-\newblock O'Reilly Media, 2012.
 
 \bibitem{GangliaHomePage}
 {\it Ganglia},  September, 2014.
@@ -458,6 +576,9 @@ A.~Ereditato et~al., {\it {A steerable UV laser system for the calibration of
   liquid argon time projection chambers}},
   \href{http://xxx.lanl.gov/abs/1406.6400}{{\tt arXiv:1406.6400}}.
 
+\bibitem{continuum}
+{\it {Continuum Lasers}}, . http://www.continuumlasers.com.
+
 \bibitem{BernLaser}
 I.~Badhrees, A.~Ereditato, I.~Kreslo, M.~Messina, U.~Moser, B.~Rossi, M.~S.
   Weber, M.~Zeller, C.~Altucci, S.~Amoruso, R.~Bruzzese, and R.~Velotta, {\it
@@ -466,7 +587,7 @@ I.~Badhrees, A.~Ereditato, I.~Kreslo, M.~Messina, U.~Moser, B.~Rossi, M.~S.
   no.~11 113024.
 
 \bibitem{lasertest}
-A.~Ereditato, I.~Kreslo, M.~Lüthi, C.~R. von Rohr, M.~Schenk, T.~Strauss,
+A.~Ereditato, I.~Kreslo, M.~L{\"u}thi, C.~R. von Rohr, M.~Schenk, T.~Strauss,
   M.~Weber, and M.~Zeller, {\it A steerable uv laser system for the calibration
   of liquid argon time projection chambers},  {\em Journal of Instrumentation}
   {\bf 9} (2014), no.~11 T11007.
