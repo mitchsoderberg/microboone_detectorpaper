@@ -225,6 +225,49 @@ E.~Aprile, K.~Giboni, and C.~Rubbia, {\it A study of ionization electrons
   Spectrometers, Detectors and Associated Equipment} {\bf 241} (1985), no.~1 62
   -- 71.
 
+\bibitem{ArProperties}
+C.~Tegeler, R.~Span, and W.~Wagner, {\it A new equation of state for argon
+  covering the fluid region for temperatures from the melting line to 700 k at
+  pressures up to 1000 mpa},  {\em Journal of Physical and Chemical Reference
+  Data} {\bf 28} (1999), no.~3 779--850.
+
+\bibitem{DielectricPaper}
+R.~L. Amey and R.~H. Cole, {\it Dielectric constants of liquefied noble gases
+  and methane},  {\em The Journal of Chemical Physics} {\bf 40} (1964), no.~1
+  146--148.
+
+\bibitem{Amsler20081}
+C.~Amsler et~al., {\it Review of particle physics},  {\em Physics Letters B}
+  {\bf 667} (2008), no.~1--5 1 -- 6.
+  http://pdg.lbl.gov/2008/reviews/rpp2008-rev-passage-particles-matter.pdf.
+
+\bibitem{1975NucIM.131..249S}
+E.~{Shibamura}, A.~{Hitachi}, T.~{Doke}, T.~{Takahashi}, S.~{Kubota}, and
+  M.~{Miyajima}, {\it {Drift velocities of electrons, saturation
+  characteristics of ionization and W-values for conversion electrons in liquid
+  argon, liquid argon-gas mixtures and liquid xenon}},  {\em Nuclear
+  Instruments and Methods} {\bf 131} (Dec., 1975) 249--258.
+
+\bibitem{PhysRevA.9.1438}
+M.~Miyajima, T.~Takahashi, S.~Konno, T.~Hamada, S.~Kubota, H.~Shibamura, and
+  T.~Doke, {\it Average energy expended per ion pair in liquid argon},  {\em
+  Phys. Rev. A} {\bf 9} (Mar, 1974) 1438--1443.
+
+\bibitem{PhysRevA.20.2547}
+E.~Shibamura, T.~Takahashi, S.~Kubota, and T.~Doke, {\it Ratio of diffusion
+  coefficient to mobility for electrons in liquid argon},  {\em Phys. Rev. A}
+  {\bf 20} (Dec, 1979) 2547--2554.
+
+\bibitem{Derenzo}
+S.~Derenzo, {\it Electron diffusion and positive ion charge retention in
+  liquid-filled high-resolution multistrip ionization-mode chambers},  {\em
+  Lawrence Berkeley Laboratory, Group A Physics Note No. 786} (1974).
+
+\bibitem{Atrazhev}
+V.~Atrazhev and I.~Timoshkin, {\it Transport of electrons in atomic liquids in
+  high electric fields},  {\em IEEE Transactions on Dielectrics and Electrical
+  Insulation} {\bf 5} (June, 1998) 450 --457.
+
 \bibitem{pressure:1316452}
 {\em {ASME boiler and pressure vessel code: an international code. I - Rules
   for construction of power boiler}}.

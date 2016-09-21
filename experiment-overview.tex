@@ -38,19 +38,26 @@ The scintillation photons are detected by a light collection system that is imme
 
 The choice of liquid argon as both the neutrino target and detector medium in \lartpcs is well motivated, though not without introducing unique considerations for experimental design.  Liquid argon as a target for neutrinos is attractive due to its density, allowing a more compact detector with a substantial boost in event rate over a comparable detector using less dense media, such as water.  A tradeoff to this aspect is the short radiation length (14 cm) and that the complicated structure of the argon atom, relative to simpler targets such as hydrogen or helium, does introduce nuclear effects that must be considered during data analysis.  The cryogenic temperatures at which the noble elements are in the liquid phase also introduces the need for additional design considerations to ensure stable and safe operations.
 
-Table \ref{tab:nobleparam} lists some of the salient properties of liquid argon.  The noble liquids are all characterized by their excellent dielectric properties, able to maintain high voltages without suffering electrical breakdown.  The long drift lengths over which ionization electrons must travel in large \lartpc detectors requires the presence of a uniform electric field over that distance.  This is achieved via the introduction of extremely high voltage ($\mathcal{O}$(100 kV) magnitude) onto the \lartpc cathode; this voltage is suitably maintained due to the dielectric properties of liquid argon and by ensuring the detector components have no sharp edges.  The noble liquids are all very bright scintillators, with wavelengths deep in the UV, and also produce copious amounts of ionization.  Both the scintillation and the ionization signals are necessary for a robust accounting of the activity occurring inside the LArTPC.  Finally, the desire to build \lartpcs on increasingly larger scales, such as those necessary in neutrino experiments, is bolstered by the abundance (1$\%$ of atmosphere) and low cost of argon.
+Table \ref{tab:nobleparam} lists some of the properties of liquid argon that are salient for \lartpc design.  The noble liquids are all characterized by their excellent dielectric properties, able to maintain high voltages without suffering electrical breakdown.  The long drift lengths over which ionization electrons must travel in large \lartpc detectors requires the presence of a uniform electric field over that distance.  This is achieved via the introduction of extremely high voltage ($\mathcal{O}$(100 kV) magnitude) onto the \lartpc cathode; this voltage is suitably maintained due to the dielectric properties of liquid argon and by ensuring the detector components have no sharp edges.  The noble liquids are all very bright scintillators, with wavelengths deep in the UV, and also produce copious amounts of ionization.  Both the scintillation and the ionization signals are necessary for a robust accounting of the activity occurring inside the LArTPC.  Finally, the desire to build \lartpcs on increasingly larger scales, such as those necessary in neutrino experiments, is bolstered by the abundance (1$\%$ of atmosphere) and low cost of argon.
 
 \begin{table}[!htb]
    \centering
-    \caption{Liquid argon properties.} 
-      \begin{tabular}{lc} % Column formatting, @{} suppresses leading/trailing space
+    \caption{Selected properties of liquid argon.} 
+      \begin{tabular}{lcr} % Column formatting, @{} suppresses leading/trailing space
       \hline
-      Property & Value\\
+      Property & Value & Reference\\
     \hline
-   Boiling Point [K] & 87.3\\
-   Density [g/cm$^3$] & 1.4\\
-   Scintillation $\lambda$ [nm] & 128 \\
-   Rad. Length [cm] & 14\\
+   Atomic number & 18 &\\
+   Atomic weight [g/mol] & 39.95 &\\
+   Boiling point [K] @ 1 atm & 87.3 & \cite{ArProperties}\\
+   Density [g/cm$^3$] @ 1 atm & 1.4 & \cite{ArProperties} \\
+   Dielectric constant & 1.505 & \cite{DielectricPaper} \\
+   Radiation length [cm] & 14.0 & \cite{Amsler20081} \\
+   Moli\`{e}re radius [cm] & 10.0 &\cite{Amsler20081} \\
+   W-value for ionization [eV/pair] & 23.6 & \cite{1975NucIM.131..249S,PhysRevA.9.1438} \\
+   Minimum specific energy loss [MeV/cm] & 2.12 & \cite{Amsler20081} \\
+   Electron transverse diffusion coef. [cm$^2$/s] & 13 & \cite{PhysRevA.20.2547,Derenzo,Cennini:1994-3ton} \\
+   Electron longitudinal diffusion coef. [cm$^2$/s] & 5 & \cite{Cennini:1994-3ton, Atrazhev}\\
    \hline
    \end{tabular}
 
