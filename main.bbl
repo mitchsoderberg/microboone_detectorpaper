@@ -272,9 +272,10 @@ J.~Asaadi, J.~M. Conrad, S.~Gollapinni, B.~J.~P. Jones, H.~Jostlein, J.~M.
   {\em JINST} {\bf 9} (2014) P09002,
   [\href{http://xxx.lanl.gov/abs/1406.5216}{{\tt arXiv:1406.5216}}].
 
-\bibitem{WireWinding}
+\bibitem{Acciarri:2016ugk}
 R.~Acciarri et~al., {\it {Construction and Assembly of the Wire Planes for the
-  MicroBooNE Time Projection Chamber}},  {\em JINST...to be submitted}.
+  MicroBooNE Time Projection Chamber}},
+  \href{http://xxx.lanl.gov/abs/1609.0616}{{\tt arXiv:1609.0616}}.
 
 \bibitem{SpectrumLaboratory}
 W.~Buescher, {\it {Spectrum Laboratory}}, .
@@ -415,9 +416,9 @@ H.~Meyer, {\it {Spontaneous electron emission from a cold surface}},  {\em EPL}
 W.~Burton and B.~Powell, {\it Fluorescence of tetraphenyl-butadiene in the
   vacuum ultraviolet.},  {\em Appl Opt.} {\bf 12} (1973), no.~1 87--9.
 
-\bibitem{Ignarra:2014-thesis}
-C.~Ignarra, ``{Sterile Neutrino Searches in MiniBooNE and MicroBooNE}.'' PhD
-  Thesis - I would like a URL for this.
+\bibitem{Ignarra:2014yqa}
+C.~M. Ignarra, {\em {Sterile Neutrino Searches in MiniBooNE and MicroBooNE}}.
+\newblock PhD thesis, MIT, Cambridge, 2014.
 
 \bibitem{Gehman:2011}
 V.~Gehman, S.~Seibert, K.~Rielage, A.~Hime, Y.~Sun, et~al., {\it {Fluorescence
