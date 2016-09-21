@@ -282,15 +282,18 @@ W.~Buescher, {\it {Spectrum Laboratory}}, .
   http://www.qsl.net/dl4yhf/spectra1.html.
 
 \bibitem{citranox}
-{\it {Citranox acid detergent}}, .
-  http://www.alconox.com/resources/StandardDocuments/MSDS/msds\_citranox\_english\_ghs.pdf.
+``{Citranox acid detergent}.''
+\newblock
+  {http://www.alconox.com/resources/StandardDocuments/MSDS/msds\_citranox\_english\_ghs.pdf}.
 
 \bibitem{simplegreen}
-{\it {Simple Green detergent}}, .
-  http://simplegreen.com/pdfs/MSDS\_EN-US\_AllPurposeCleaner.pdf.
+``{Simple Green detergent}.''
+\newblock {http://simplegreen.com/pdfs/MSDS\_EN-US\_AllPurposeCleaner.pdf}.
 
 \bibitem{elmaclean}
 ``{Elma Clean 65}.''
+\newblock
+  {http://www.elma-ultrasonic.com/fileadmin/downloads/CleaningAgents/SafetyDataSheets/GB/S\_EC\%2065\_GB.pdf}.
 
 \bibitem{Bugel:2011xg}
 L.~Bugel, J.~M. Conrad, C.~Ignarra, B.~J.~P. Jones, T.~Katori, T.~Smidt, and
@@ -443,7 +446,8 @@ B.~J.~P. Jones, {\it {A simulation of the optical attenuation of TPB coated
   {https://www.sundancesupply.com/Lexan.pdf}.
 
 \bibitem{stycast}
-{\it {Stycast 2850}}, . http://www.ellsworth.com/manufacturers/emerson-cuming/.
+``{Stycast 2850}.''
+\newblock {http://www.ellsworth.com/manufacturers/emerson-cuming}.
 
 \bibitem{Birks:1959}
 J.~B. Birks and K.~N. Kuchela, {\it Energy transfer in fluorescent plastic
@@ -474,6 +478,9 @@ L.~Liu, ``Time resolved fluoresence studies of dye-polymers as excited by laser
   electromagnetic showers from pi0 decays with the ICARUS T600 Liquid Argon
   TPC}},  {\em Acta Phys. Polon.} {\bf B41} (2010) 103--125,
   [\href{http://xxx.lanl.gov/abs/0812.2373}{{\tt arXiv:0812.2373}}].
+
+\bibitem{BernPrivate}
+A.~Ereditato Private Communication.
 
 \bibitem{Scholberg:2008fa}
 K.~Scholberg, {\it {The SuperNova Early Warning System}},  {\em Astron. Nachr.}
@@ -578,7 +585,8 @@ A.~Ereditato et~al., {\it {A steerable UV laser system for the calibration of
   \href{http://xxx.lanl.gov/abs/1406.6400}{{\tt arXiv:1406.6400}}.
 
 \bibitem{continuum}
-{\it {Continuum Lasers}}, . http://www.continuumlasers.com.
+``{Continuum Lasers}.''
+\newblock {http://www.continuumlasers.com}.
 
 \bibitem{BernLaser}
 I.~Badhrees, A.~Ereditato, I.~Kreslo, M.~Messina, U.~Moser, B.~Rossi, M.~S.
