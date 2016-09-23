@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 SEP 2016 14:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 SEP 2016 11:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1062,43 +1062,69 @@ Package pdftex.def Info: ./figures/placeholder_trig_ub.jpg used on input line 2
 Underfull \vbox (badness 4205) has occurred while \output is active []
 
  [72 <./figures/placeholder_trig_ub.jpg>]
-<./figures/dataFlow.pdf, id=1680, 1027.84pt x 770.88pt>
+<./figures/dataFlow.pdf, id=1681, 1027.84pt x 770.88pt>
 File: ./figures/dataFlow.pdf Graphic file (type pdf)
 
 <use ./figures/dataFlow.pdf>
 Package pdftex.def Info: ./figures/dataFlow.pdf used on input line 272.
 (pdftex.def)             Requested size: 408.69475pt x 306.52333pt.
  [73 <./figures/dataFlow.pdf>]
-<./figures/stressGanglia.png, id=1707, 298.11375pt x 130.4875pt>
-File: ./figures/stressGanglia.png Graphic file (type png)
+<./figures/ganglia_EXT_trigRate.png, id=1709, 287.0725pt x 96.36pt>
+File: ./figures/ganglia_EXT_trigRate.png Graphic file (type png)
 
-<use ./figures/stressGanglia.png>
-Package pdftex.def Info: ./figures/stressGanglia.png used on input line 284.
-(pdftex.def)             Requested size: 408.69475pt x 178.90018pt.
+<use ./figures/ganglia_EXT_trigRate.png>
+Package pdftex.def Info: ./figures/ganglia_EXT_trigRate.png used on input line 
+284.
+(pdftex.def)             Requested size: 193.59155pt x 64.98283pt.
 
-<./figures/daqLizard.png, id=1710, 2219.29124pt x 1132.23pt>
+<./figures/ganglia_RECEIVEDfrag_rate.png, id=1710, 282.05376pt x 102.3825pt>
+File: ./figures/ganglia_RECEIVEDfrag_rate.png Graphic file (type png)
+
+<use ./figures/ganglia_RECEIVEDfrag_rate.png>
+Package pdftex.def Info: ./figures/ganglia_RECEIVEDfrag_rate.png used on input 
+line 285.
+(pdftex.def)             Requested size: 193.59155pt x 70.27219pt.
+
+<./figures/ganglia_WRITEdata_rate.png, id=1711, 284.06125pt x 101.37875pt>
+File: ./figures/ganglia_WRITEdata_rate.png Graphic file (type png)
+
+<use ./figures/ganglia_WRITEdata_rate.png>
+Package pdftex.def Info: ./figures/ganglia_WRITEdata_rate.png used on input lin
+e 286.
+(pdftex.def)             Requested size: 193.59155pt x 69.09286pt.
+
+<./figures/ganglia_WRITEQUE_size.png, id=1712, 283.80429pt x 102.91248pt>
+File: ./figures/ganglia_WRITEQUE_size.png Graphic file (type png)
+
+<use ./figures/ganglia_WRITEQUE_size.png>
+Package pdftex.def Info: ./figures/ganglia_WRITEQUE_size.png used on input line
+ 287.
+(pdftex.def)             Requested size: 193.59155pt x 70.20096pt.
+
+<./figures/daqLizard.png, id=1715, 2219.29124pt x 1132.23pt>
 File: ./figures/daqLizard.png Graphic file (type png)
 
 <use ./figures/daqLizard.png>
-Package pdftex.def Info: ./figures/daqLizard.png used on input line 293.
+Package pdftex.def Info: ./figures/daqLizard.png used on input line 297.
 (pdftex.def)             Requested size: 408.69475pt x 208.49179pt.
- [74 <./figures/stressGanglia.png>])
-(./slow-control.tex [75 <./figures/daqLizard.png>]
-<./figures/ACDist.png, id=1727, 816.04875pt x 416.55624pt>
+ [74 <./figures/ganglia_EXT_trigRate.png> <./figures/ganglia_RECEIVEDfrag_rate.
+png> <./figures/ganglia_WRITEdata_rate.png> <./figures/ganglia_WRITEQUE_size.pn
+g>]) (./slow-control.tex [75 <./figures/daqLizard.png>] <./figures/ACDist.png, 
+id=1735, 816.04875pt x 416.55624pt>
 File: ./figures/ACDist.png Graphic file (type png)
 
 <use ./figures/ACDist.png>
 Package pdftex.def Info: ./figures/ACDist.png used on input line 44.
 (pdftex.def)             Requested size: 344.16641pt x 175.68338pt.
 
-<./figures/ActualRacks.png, id=1728, 445.665pt x 304.13625pt>
+<./figures/ActualRacks.png, id=1736, 445.665pt x 304.13625pt>
 File: ./figures/ActualRacks.png Graphic file (type png)
 
 <use ./figures/ActualRacks.png>
 Package pdftex.def Info: ./figures/ActualRacks.png used on input line 45.
 (pdftex.def)             Requested size: 258.12645pt x 176.15318pt.
 
-<./figures/DataDist.png, id=1729, 808.01875pt x 413.545pt>
+<./figures/DataDist.png, id=1737, 808.01875pt x 413.545pt>
 File: ./figures/DataDist.png Graphic file (type png)
 
 <use ./figures/DataDist.png>
@@ -1113,7 +1139,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [77 <./figures/ACDist.png> <./figures/ActualRacks.png> <./figures/DataDist.png
 >]
-<./figures/PowerDiagPic.png, id=1742, 794.97pt x 619.31375pt>
+<./figures/PowerDiagPic.png, id=1750, 794.97pt x 619.31375pt>
 File: ./figures/PowerDiagPic.png Graphic file (type png)
 
 <use ./figures/PowerDiagPic.png>
@@ -1125,28 +1151,28 @@ Overfull \hbox (30.35855pt too wide) in paragraph at lines 94--110
  []
 
 [79] [80] [81] [82]
-<figures/beam_monitoring.png, id=1790, 1270.7475pt x 714.67pt>
+<figures/beam_monitoring.png, id=1798, 1270.7475pt x 714.67pt>
 File: figures/beam_monitoring.png Graphic file (type png)
 
 <use figures/beam_monitoring.png>
 Package pdftex.def Info: figures/beam_monitoring.png used on input line 177.
 (pdftex.def)             Requested size: 408.69475pt x 229.855pt.
 ) (./laser.tex [83 <./figures/beam_monitoring.png>] <figures/Potential.pdf, id=
-1798, 579.16376pt x 440.64626pt>
+1806, 579.16376pt x 440.64626pt>
 File: figures/Potential.pdf Graphic file (type pdf)
 
 <use figures/Potential.pdf>
 Package pdftex.def Info: figures/Potential.pdf used on input line 9.
 (pdftex.def)             Requested size: 344.16641pt x 261.85495pt.
 
-<figures/Coordinate.pdf, id=1799, 713.66624pt x 555.07375pt>
+<figures/Coordinate.pdf, id=1807, 713.66624pt x 555.07375pt>
 File: figures/Coordinate.pdf Graphic file (type pdf)
 
 <use figures/Coordinate.pdf>
 Package pdftex.def Info: figures/Coordinate.pdf used on input line 16.
 (pdftex.def)             Requested size: 344.16641pt x 267.68588pt.
 
-<figures/Voirin.pdf, id=1800, 656.4525pt x 491.8375pt>
+<figures/Voirin.pdf, id=1808, 656.4525pt x 491.8375pt>
 File: figures/Voirin.pdf Graphic file (type pdf)
 
 <use figures/Voirin.pdf>
@@ -1156,20 +1182,20 @@ Package pdftex.def Info: figures/Voirin.pdf used on input line 23.
 Underfull \vbox (badness 1509) has occurred while \output is active []
 
  [85 <./figures/Coordinate.pdf> <./figures/Voirin.pdf>]
-<figures/Original_Tracks.pdf, id=1847, 1236.62pt x 419.5675pt>
+<figures/Original_Tracks.pdf, id=1855, 1236.62pt x 419.5675pt>
 File: figures/Original_Tracks.pdf Graphic file (type pdf)
 
 <use figures/Original_Tracks.pdf>
 Package pdftex.def Info: figures/Original_Tracks.pdf used on input line 39.
 (pdftex.def)             Requested size: 421.60042pt x 143.04158pt.
 
-<figures/Ydev.pdf, id=1848, 1238.6275pt x 409.53pt>
+<figures/Ydev.pdf, id=1856, 1238.6275pt x 409.53pt>
 File: figures/Ydev.pdf Graphic file (type pdf)
  <use figures/Ydev.pdf>
 Package pdftex.def Info: figures/Ydev.pdf used on input line 40.
 (pdftex.def)             Requested size: 421.60042pt x 139.39458pt.
 
-<figures/Yresidual.pdf, id=1849, 1236.62pt x 419.5675pt>
+<figures/Yresidual.pdf, id=1857, 1236.62pt x 419.5675pt>
 File: figures/Yresidual.pdf Graphic file (type pdf)
 
 <use figures/Yresidual.pdf>
@@ -1180,28 +1206,28 @@ Underfull \vbox (badness 7099) has occurred while \output is active []
 
  [87 <./figures/Original_Tracks.pdf> <./figures/Ydev.pdf> <./figures/Yresidual.
 pdf>]
-<figures/optics.pdf, id=1894, 386.5361pt x 258.03099pt>
+<figures/optics.pdf, id=1902, 386.5361pt x 258.03099pt>
 File: figures/optics.pdf Graphic file (type pdf)
 
 <use figures/optics.pdf>
 Package pdftex.def Info: figures/optics.pdf used on input line 54.
 (pdftex.def)             Requested size: 258.12645pt x 172.3129pt.
 
-<figures/feedthrough2.pdf, id=1895, 100.13837pt x 214.4992pt>
+<figures/feedthrough2.pdf, id=1903, 100.13837pt x 214.4992pt>
 File: figures/feedthrough2.pdf Graphic file (type pdf)
 
 <use figures/feedthrough2.pdf>
 Package pdftex.def Info: figures/feedthrough2.pdf used on input line 56.
 (pdftex.def)             Requested size: 86.03996pt x 184.30861pt.
  [88 <./figures/optics.pdf> <./figures/feedthrough2.pdf>] <figures/Feedthrough.
-pdf, id=1957, 939.587pt x 1001.21594pt>
+pdf, id=1965, 939.587pt x 1001.21594pt>
 File: figures/Feedthrough.pdf Graphic file (type pdf)
 
 <use figures/Feedthrough.pdf>
 Package pdftex.def Info: figures/Feedthrough.pdf used on input line 68.
 (pdftex.def)             Requested size: 242.23668pt x 258.12645pt.
 
-<figures/Mirror.pdf, id=1958, 465.58191pt x 999.57639pt>
+<figures/Mirror.pdf, id=1966, 465.58191pt x 999.57639pt>
 File: figures/Mirror.pdf Graphic file (type pdf)
 
 <use figures/Mirror.pdf>
@@ -1213,20 +1239,20 @@ Overfull \hbox (3.0802pt too wide) in paragraph at lines 87--88
 c-tion of the feedthrough sys-tem, namely
  []
 
-) (./conclusion.tex) (./acknowledgments.tex) (./main.bbl [90]
+) (./conclusion.tex) (./acknowledgments.tex) (./main.bbl
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 4.
- [91] [92]
+ [90] [91] [92]
 [93] [94] [95] [96]) [97] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5590 strings out of 493089
- 84624 string characters out of 6134842
- 136294 words of memory out of 5000000
- 8429 multiletter control sequences out of 15000+600000
+ 5607 strings out of 493089
+ 85251 string characters out of 6134842
+ 136304 words of memory out of 5000000
+ 8442 multiletter control sequences out of 15000+600000
  91724 words of font info for 142 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,12n,47p,2292b,367s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1242,10 +1268,10 @@ s/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
 /usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (98 pages, 34855568 bytes).
+Output written on main.pdf (98 pages, 35324050 bytes).
 PDF statistics:
- 2205 PDF objects out of 2487 (max. 8388607)
- 1727 compressed objects within 18 object streams
- 404 named destinations out of 1000 (max. 500000)
- 461 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2213 PDF objects out of 2487 (max. 8388607)
+ 1729 compressed objects within 18 object streams
+ 405 named destinations out of 1000 (max. 500000)
+ 476 words of extra memory for PDF output out of 10000 (max. 10000000)
 

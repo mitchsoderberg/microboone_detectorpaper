@@ -530,6 +530,10 @@ K.~Scholberg, {\it {The SuperNova Early Warning System}},  {\em Astron. Nachr.}
   {\bf 329} (2008) 337--339, [\href{http://xxx.lanl.gov/abs/0803.0531}{{\tt
   arXiv:0803.0531}}].
 
+\bibitem{larsoft}
+``{LArSoft}.''
+\newblock {http://larsoft.org}.
+
 \bibitem{GangliaBook}
 M.~Massie et~al., {\em Monitoring with Ganglia: Tracking Dynamic Host and
   Application Metrics at Scale}.
