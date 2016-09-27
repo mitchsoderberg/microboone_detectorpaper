@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 SEP 2016 10:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 SEP 2016 14:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -499,20 +499,23 @@ LaTeX Warning: Text page 14 contains only floats.
 Underfull \vbox (badness 4621) has occurred while \output is active []
 
  [15 <./figures/flow_diagram.jpg>]
-<figures/cryo-filter-skid.jpg, id=599, 675.52374pt x 928.46875pt>
+<figures/cryo-filter-skid.jpg, id=598, 675.52374pt x 928.46875pt>
 File: figures/cryo-filter-skid.jpg Graphic file (type jpg)
 
 <use figures/cryo-filter-skid.jpg>
 Package pdftex.def Info: figures/cryo-filter-skid.jpg used on input line 131.
 (pdftex.def)             Requested size: 193.59155pt x 266.07558pt.
 
-<figures/cryo-filter-skid-cutaway.jpg, id=600, 649.42625pt x 913.4125pt>
+<figures/cryo-filter-skid-cutaway.jpg, id=599, 649.42625pt x 913.4125pt>
 File: figures/cryo-filter-skid-cutaway.jpg Graphic file (type jpg)
 
 <use figures/cryo-filter-skid-cutaway.jpg>
 Package pdftex.def Info: figures/cryo-filter-skid-cutaway.jpg used on input lin
 e 132.
 (pdftex.def)             Requested size: 193.59155pt x 272.28368pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [16 <./figures/cryo-filter-skid.jpg> <./figures/cryo-filter-skid-cutaway.jpg>]
 
 <figures/condenser.png, id=607, 562.35094pt x 592.46344pt>
@@ -581,15 +584,15 @@ File: figures/tpc-smooshed-elbow-3.jpg Graphic file (type jpg)
 Package pdftex.def Info: figures/tpc-smooshed-elbow-3.jpg used on input line 99
 .
 (pdftex.def)             Requested size: 344.16641pt x 458.88123pt.
- [24 <./figures/tpc-smooshed-elbow-3.jpg>] <figures/efield.png, id=705, 379.417
-5pt x 277.035pt>
+ [24 <./figures/tpc-smooshed-elbow-3.jpg>] <figures/efield.png, id=704, 379.417
+5pt x 255.95625pt>
 File: figures/efield.png Graphic file (type png)
 
 <use figures/efield.png>
 Package pdftex.def Info: figures/efield.png used on input line 110.
-(pdftex.def)             Requested size: 301.14316pt x 219.88669pt.
+(pdftex.def)             Requested size: 301.14316pt x 203.15617pt.
  [25 <./figures/efield.png>]
-<figures/tpc-voltage-divider-slimmox.jpg, id=715, 1284.8pt x 963.6pt>
+<figures/tpc-voltage-divider-slimmox.jpg, id=714, 1284.8pt x 963.6pt>
 File: figures/tpc-voltage-divider-slimmox.jpg Graphic file (type jpg)
 
 <use figures/tpc-voltage-divider-slimmox.jpg>
@@ -613,7 +616,7 @@ Package pdftex.def Info: figures/tpc-voltage-divider-varistors.jpg used on inpu
 t line 149.
 (pdftex.def)             Requested size: 344.16641pt x 258.117pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1168) has occurred while \output is active []
 
  [27 <./figures/tpc-voltage-divider-metallux.jpg>]
 <figures/anode-frame-3dmodel.pdf, id=736, 337.26pt x 229.85875pt>
@@ -1275,7 +1278,7 @@ ive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/201
 /type1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/
 times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr
 8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (100 pages, 35357857 bytes).
+Output written on main.pdf (100 pages, 35354733 bytes).
 PDF statistics:
  2235 PDF objects out of 2487 (max. 8388607)
  1744 compressed objects within 18 object streams
