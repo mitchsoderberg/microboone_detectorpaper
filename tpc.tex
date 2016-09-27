@@ -79,7 +79,7 @@ The cathode is assembled from 9 individual stainless steel sheets (Type 304, 0.0
 
 \subsection{Field Cage}
 %{\it{Anne, Jen}}
-The field cage encloses the volume between the cathode plane and the anode wire planes, and in doing so creates a region with a uniform electric field.  The volume defined by the interior of the field cage, bounded by the anode and cathode planes, is referred to as the ``active" volume.   The field cage structure consists of 64 individual thin-walled stainless steel tubes (1.0 inch OD, 0.065 inch wall thickness), each shaped into a rectangular loop framing the perimeter of the active volume. These 64 loops are mounted parallel to the cathode and anode planes, as shown in figure~\ref{fig:tpc-cathode}, and are held in place by a G-10 rib support structure. Each field cage loop is electrically connected to its neighbors via a resistor divider chain (described in following section), causing each loop to operate at a different electrical potential which in turn maintains a uniform electric field between the cathode and anode planes. For a nominal -128~kV cathode voltage, the difference in potential between adjacent field cage loops is 2~kV, ramping down the total potential in equidistant steps from cathode to anode. The distance from center-to-center of adjacent field cage loops is 4.0~cm.
+The field cage encloses the volume between the cathode plane and the anode wire planes, and in doing so creates a region with a uniform electric field.  The volume defined by the interior of the field cage, bounded by the anode and cathode planes, is referred to as the ``active" volume.   The field cage structure consists of 64 individual thin-walled stainless steel tubes (1.0 inch OD, 0.020 inch wall thickness), each shaped into a rectangular loop framing the perimeter of the active volume. These 64 loops are mounted parallel to the cathode and anode planes, as shown in figure~\ref{fig:tpc-cathode}, and are held in place by a G-10 rib support structure. Each field cage loop is electrically connected to its neighbors via a resistor divider chain (described in following section), causing each loop to operate at a different electrical potential which in turn maintains a uniform electric field between the cathode and anode planes. For a nominal -128~kV cathode voltage, the difference in potential between adjacent field cage loops is 2~kV, ramping down the total potential in equidistant steps from cathode to anode. The distance from center-to-center of adjacent field cage loops is 4.0~cm.
 
 Each field cage loop is assembled from 6.77 feet long vertical pipes on the upstream and downstream ends of the \lartpc, and on the top and bottom from two 17 feet long horizontal pipes connected by a stainless steel coupling in the center.  Each tube has venting holes approximately every 6~inches so that they fill with liquid argon and allow air and gaseous argon to escape during cryostat cool down and filling.
 
@@ -92,7 +92,7 @@ The four corners of each field cage loop are curved with a radius of 2.0625 inch
 \label{fig:tpc-fieldcage-elbows}
 \end{figure}
 
-In order to avoid electrical breakdown between the inner cryostat surface and field cage parts at high potential on or near the cathode, the electric field strength is minimized at the corners and edges of the field cage. Loop 0 is the cathode frame, which is at the same potential as the cathode plane sheets attached to it. The frame is made from larger diameter piping of 2~inch OD, and it has a slightly smaller circumference than the other field cage loops, as shown in figure~\ref{fig:tpc-smooshed-elbow}. The elbow of loop 1 has a specially designed shape in order to minimize the electric field potential, and the elbow of loop 2 has a softer radius of curvature than the standard elbows. For all three of these loops (loop 0, 1, and 2), connections at corners and joints are made by welding instead of screws to avoid sharp edges that would result in higher electric fields and greater chance of electrical breakdown.
+In order to avoid electrical breakdown between the inner cryostat surface and field cage parts at high potential on or near the cathode, the electric field strength is minimized at the corners and edges of the field cage. Loops 0, 1, and 2 are each designed differently than the other field cage loops.  Loop 0 is a special case in that it is made from larger diameter piping of 2~inch OD, and frames the cathode and also acts as its mechanical support.  It operates at the same electrical potential as the cathode plane sheets attached to it.  Loop 0 has a slightly smaller area than the other field cage loops, as shown in figure~\ref{fig:tpc-smooshed-elbow}.  Loop 1 is the first of the 1.0 in OD tube 64 loops in the field cage, and is the edge of the cathode, operating at the same electrical potential as loop 0.  The elbow of loop 1 has a specially designed geometry in order to minimize the electric field potential.  The elbow of loop 2 has a softer radius of curvature than the standard elbows, also for the purpose of minimizing the electric field potential. For all three of these loops (loop 0, 1, and 2), connections at corners and joints are made by welding instead of screws to avoid sharp edges that would result in higher electric fields and greater chance of electrical breakdown.
 
 \begin{figure}[htb]
 \centering	
@@ -102,6 +102,16 @@ In order to avoid electrical breakdown between the inner cryostat surface and fi
 \end{figure}
 
 Another precaution to minimize the electrical field between the loops and the cryostat surface is the positioning of the coupling screws: for the first 20 loops, the screws are positioned on the sides facing the screws of the neighboring loops instead of facing inward to the \lartpc active volume and outward toward the grounded cryostat surface. Hex head button screws and lock washers are also used here in order to minimize sharp metal edges.
+
+Figure \ref{fig:efield} shows the simulated electric field values inside the MicroBooNE \lartpc, and some of the surrounding volume inside the cryostat, when the cathode is set to an operating voltage of -128 kV.  
+
+\begin{figure}[htb]
+\centering	
+\includegraphics[width=0.7\linewidth]{figures/efield.png}
+\caption{Cross-section view showing electric field simulation inside the field cage when the cathode is set to a voltage of -128 kV.  Loop 0 is represented by the larger diameter circle on the left of the image.}
+\label{fig:efield}
+\end{figure}
+
 
 
 \subsubsection{Resistor Divider Chain}

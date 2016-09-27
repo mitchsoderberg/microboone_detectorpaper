@@ -602,6 +602,15 @@ I.~Mandrichenko, A.~Norman, A.~Petrov, and V.~Podstavkov, {\it Implementation
   of beam conditions database for intensity frontier experiments},  June, 2012.
 \newblock http://cd-docdb.fnal.gov/cgi-bin/ShowDocument?docid=4781.
 
+\bibitem{mcdonald1}
+K.~McDonald and H.~Jostlein, ``{Path Length of Muons Traversing an Arbitrary
+  Volume}.''
+\newblock http://physics.princeton.edu/~mcdonald/examples/muonpath.pdf.
+
+\bibitem{mcdonald2}
+S.~Palestini and K.~McDonald, ``{Space Charge in Ionization Detectors}.''
+\newblock http://physics.princeton.edu/~mcdonald/examples/spacecharge.pdf.
+
 \bibitem{Badhrees:2010}
 I.~Badhrees et~al., {\it {Measurement of the two-photon absorption
   cross-section of liquid argon with a time projection chamber}},  {\em New
