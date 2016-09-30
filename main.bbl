@@ -1,37 +1,5 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
 
-\bibitem{AguilarArevalo:2008rc}
-{\bf MiniBooNE} Collaboration, A.~A. Aguilar-Arevalo et~al., {\it {Unexplained
-  Excess of Electron-Like Events From a 1-GeV Neutrino Beam}},  {\em Phys. Rev.
-  Lett.} {\bf 102} (2009) 101802,
-  [\href{http://xxx.lanl.gov/abs/0812.2243}{{\tt arXiv:0812.2243}}].
-
-\bibitem{PhysRevC.83.054615}
-T.~A. Mueller, D.~Lhuillier, M.~Fallot, A.~Letourneau, S.~Cormon, M.~Fechner,
-  L.~Giot, T.~Lasserre, J.~Martino, G.~Mention, A.~Porta, and F.~Yermia, {\it
-  Improved predictions of reactor antineutrino spectra},  {\em Phys. Rev. C}
-  {\bf 83} (May, 2011) 054615.
-
-\bibitem{PhysRevC.84.024617}
-P.~Huber, {\it Determination of antineutrino spectra from nuclear reactors},
-  {\em Phys. Rev. C} {\bf 84} (Aug, 2011) 024617.
-
-\bibitem{Hampel:1997fc}
-{\bf GALLEX} Collaboration, W.~Hampel et~al., {\it {Final results of the Cr-51
-  neutrino source experiments in GALLEX}},  {\em Phys. Lett.} {\bf B420} (1998)
-  114--126.
-
-\bibitem{Abdurashitov:1998ne}
-{\bf SAGE} Collaboration, J.~N. Abdurashitov et~al., {\it {Measurement of the
-  response of the Russian-American gallium experiment to neutrinos from a Cr-51
-  source}},  {\em Phys. Rev.} {\bf C59} (1999) 2246--2263,
-  [\href{http://xxx.lanl.gov/abs/hep-ph/9803418}{{\tt hep-ph/9803418}}].
-
-\bibitem{Adams:2013-lar1nd}
-C.~Adams et~al., {\it {LAr1-ND: Testing Neutrino Anomalies with Multiple LArTPC
-  Detectors at Fermilab}},  \href{http://xxx.lanl.gov/abs/1309.7987}{{\tt
-  arXiv:1309.7987}}.
-
 \bibitem{Doke:1993}
 T.~Doke, {\it A historical view on the r\&d for liquid rare gas detectors},
   {\em Nuclear Instruments and Methods in Physics Research Section A} {\bf 327}
@@ -97,57 +65,6 @@ F.~Arneodo et~al., {\it Observation of long ionizing tracks with the {{ICARUS}}
   Research Section A: Accelerators, Spectrometers, Detectors and Associated
   Equipment} {\bf 508} (2003), no.~3 287 -- 294.
 
-\bibitem{Aprili:2002-proposal}
-P.~Aprili et~al., {\it The {{ICARUS}} experiment: A second-generation proton
-  decay experiment and neutrino observatory at the gran sasso laboratory.
-  cloning of t600 modules to reach the design sensitive mass. (addendum)},
-  LNGS-EXP 13/89 add.2/01 CERN-SPSC-2002-027, CERN, 2002.
-
-\bibitem{Cline:2003-LANNDD}
-D.~B. Cline, J.~G. Learned, K.~McDonald, and F.~Sergiampietri, {\it {LANNDD}--a
-  massive liquid argon detector for proton decay, supernova and solar neutrino
-  studies and a neutrino factory detector},  {\em Nuclear Instruments and
-  Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors
-  and Associated Equipment} {\bf 503} (2003), no.~1--2 136 -- 140. Proceedings
-  of the 3rd International Workshop on Neutrino Factories based on Muon Storage
-  Rings.
-
-\bibitem{Rubbia:2004-glacier}
-A.~Rubbia, {\it {Experiments for CP violation: A Giant liquid argon
-  scintillation, Cerenkov and charge imaging experiment?}},
-  \href{http://xxx.lanl.gov/abs/hep-ph/0402110}{{\tt hep-ph/0402110}}.
-
-\bibitem{Rubbia:2009-glacier}
-A.~Rubbia, {\it {Underground Neutrino Detectors for Particle and Astroparticle
-  Science: The Giant Liquid Argon Charge Imaging ExpeRiment (GLACIER)}},  {\em
-  J.Phys.Conf.Ser.} {\bf 171} (2009) 012020,
-  [\href{http://xxx.lanl.gov/abs/0908.1286}{{\tt arXiv:0908.1286}}].
-
-\bibitem{LAGUNAcollab}
-{\bf {LAGUNA}} Collaboration.
-\newblock http://laguna.ethz.ch/LAGUNA/Welcome.html.
-
-\bibitem{Stahl:2012-LBNO}
-A.~Stahl et~al., {\it {Expression of Interest for a very long baseline neutrino
-  oscillation experiment ({LBNO})}},  Tech. Rep. CERN-SPSC-2012-021.
-  SPSC-EOI-007, CERN, Geneva, Jun, 2012.
-
-\bibitem{Agarwalla:2013-LBNO}
-S.~Agarwalla et~al., {\it {The mass-hierarchy and CP-violation discovery reach
-  of the LBNO long-baseline neutrino experiment}},  {\em JHEP} {\bf 1405}
-  (2014) 094, [\href{http://xxx.lanl.gov/abs/1312.6520}{{\tt
-  arXiv:1312.6520}}].
-
-\bibitem{Adams:2013-LBNE}
-C.~Adams et~al., {\it {The Long-Baseline Neutrino Experiment: Exploring
-  Fundamental Symmetries of the Universe}},
-  \href{http://xxx.lanl.gov/abs/1307.7335}{{\tt arXiv:1307.7335}}.
-
-\bibitem{Acciarri:2015uup}
-{\bf DUNE} Collaboration, R.~Acciarri et~al., {\it {Long-Baseline Neutrino
-  Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE)}},
-  \href{http://xxx.lanl.gov/abs/1512.0614}{{\tt arXiv:1512.0614}}.
-
 \bibitem{Anderson:2012-argoneut}
 C.~Anderson et~al., {\it {The ArgoNeuT Detector in the NuMI Low-Energy beam
   line at Fermilab}},  {\em JINST} {\bf 7} (2012) P10019,
@@ -176,32 +93,16 @@ R.~Acciarri et~al., {\it {First Measurement of Neutrino and Antineutrino
   Coherent Charged Pion Production on Argon}},
   \href{http://xxx.lanl.gov/abs/1408.0598}{{\tt arXiv:1408.0598}}.
 
-\bibitem{Cavanna:2014-lariat}
-R.~Acciarri et~al., {\it {LArIAT: Liquid Argon In A Testbeam}},
-  \href{http://xxx.lanl.gov/abs/1406.5560}{{\tt arXiv:1406.5560}}.
+\bibitem{AguilarArevalo:2008rc}
+{\bf MiniBooNE} Collaboration, A.~A. Aguilar-Arevalo et~al., {\it {Unexplained
+  Excess of Electron-Like Events From a 1-GeV Neutrino Beam}},  {\em Phys. Rev.
+  Lett.} {\bf 102} (2009) 101802,
+  [\href{http://xxx.lanl.gov/abs/0812.2243}{{\tt arXiv:0812.2243}}].
 
-\bibitem{Szelc:2013-lariatlight}
-A.~Szelc, {\it {The LArIAT light readout system}},  {\em JINST} {\bf 8} (2013)
-  C09011.
-
-\bibitem{Adamowski:2014-LAPD}
-M.~Adamowski et~al., {\it {The Liquid Argon Purity Demonstrator}},  {\em JINST}
-  {\bf 9} (2014) P07005, [\href{http://xxx.lanl.gov/abs/1403.7236}{{\tt
-  arXiv:1403.7236}}].
-
-\bibitem{Rebel:2011-MTS}
-B.~Rebel et~al., {\it {Results from the Fermilab materials test stand and
-  status of the liquid argon purity demonstrator}},  {\em J.Phys.Conf.Ser.}
-  {\bf 308} (2011) 012023.
-
-\bibitem{Montanari:2013-35ton}
-D.~Montanari et~al., {\it {First scientific application of the membrane
-  cryostat technology.}}, .
-
-\bibitem{P5:2014}
-{\bf HEPAP Subcommittee} Collaboration, S.~Ritz et~al., {\it {Building for
-  Discovery: Strategic Plan for U.S. Particle Physics in the Global Context}},
-  .
+\bibitem{Adams:2013-lar1nd}
+C.~Adams et~al., {\it {LAr1-ND: Testing Neutrino Anomalies with Multiple LArTPC
+  Detectors at Fermilab}},  \href{http://xxx.lanl.gov/abs/1309.7987}{{\tt
+  arXiv:1309.7987}}.
 
 \bibitem{Marchionni:2013}
 A.~Marchionni, {\it {Status and New Ideas Regarding Liquid Argon Detectors}},
@@ -268,6 +169,11 @@ V.~Atrazhev and I.~Timoshkin, {\it Transport of electrons in atomic liquids in
   high electric fields},  {\em IEEE Transactions on Dielectrics and Electrical
   Insulation} {\bf 5} (June, 1998) 450 --457.
 
+\bibitem{Adamowski:2014-LAPD}
+M.~Adamowski et~al., {\it {The Liquid Argon Purity Demonstrator}},  {\em JINST}
+  {\bf 9} (2014) P07005, [\href{http://xxx.lanl.gov/abs/1403.7236}{{\tt
+  arXiv:1403.7236}}].
+
 \bibitem{pressure:1316452}
 {\em {ASME boiler and pressure vessel code: an international code. I - Rules
   for construction of power boiler}}.
@@ -323,6 +229,11 @@ R.~Acciarri et~al., {\it {Construction and Assembly of the Wire Planes for the
 \bibitem{SpectrumLaboratory}
 W.~Buescher, {\it {Spectrum Laboratory}}, .
   http://www.qsl.net/dl4yhf/spectra1.html.
+
+\bibitem{Rebel:2011-MTS}
+B.~Rebel et~al., {\it {Results from the Fermilab materials test stand and
+  status of the liquid argon purity demonstrator}},  {\em J.Phys.Conf.Ser.}
+  {\bf 308} (2011) 012023.
 
 \bibitem{citranox}
 ``{Citranox acid detergent}.''
