@@ -3,7 +3,7 @@
 
 The MicroBooNE \lartpc drifts and collects charge to produce fine-grained images of the ionization that is liberated by charged particles traversing a volume of highly-purified liquid argon.  This section describes the design and implementation of the \lartpc in the experiment.
 
-The \lartpc is composed of three major structures: the cathode, the field cage, and the anode. A negative voltage is introduced via a feedthrough passing through nozzle N2 on the cryostat and applied at the cathode, which defines an equipotential surface.  This cathode voltage is incrementally stepped down in magnitude by means of a voltage divider chain spanning the field cage, creating a region of uniform electric field within the LArTPC. Opposite the cathode, and oriented parallel to it, are the anode wire planes: two induction planes (referred to as the ``U" and ``V" planes) with wires oriented at $\pm60$ from vertical, followed by one collection plane (referred to as the ``Y" plane) with vertically-oriented wires.   The wires of the anode planes are the sensitive elements that detect the ionization created by charged particles traveling through the LArTPC.  Figure \ref{fig:tpc-cryostat} depicts the assembled MicroBooNE \lartpc after insertion into the cryostat, showing details of the cathode, field cage, and anode plane.  Table \ref{tab:tpcparam} lists the main parameters of the MicroBooNE LArTPC, which will be described in detail in this section.  
+The \lartpc is composed of three major structures: the cathode, the field cage, and the anode. A negative voltage is introduced via a feedthrough passing through nozzle N2 on the cryostat and applied at the cathode, which defines an equipotential surface.  This cathode voltage is incrementally stepped down in magnitude by means of a voltage divider chain spanning the field cage, creating a region of uniform electric field within the LArTPC. Opposite the cathode, and oriented parallel to it, are the anode wire planes: two induction planes (referred to as the ``U'' and ``V'' planes) with wires oriented at $\pm60^{\circ}$ from vertical, followed by one collection plane (referred to as the ``Y'' plane) with vertically-oriented wires.   The wires of the anode planes are the sensitive elements that detect the ionization created by charged particles traveling through the LArTPC.  Figure \ref{fig:tpc-cryostat} depicts the assembled MicroBooNE \lartpc after insertion into the cryostat, showing details of the cathode, field cage, and anode plane.  Table \ref{tab:tpcparam} lists the main parameters of the MicroBooNE LArTPC, which will be described in detail in this section.  
 
 
 \begin{table}[!htb]
@@ -79,9 +79,9 @@ The cathode is assembled from 9 individual stainless steel sheets (Type 304, 0.0
 
 \subsection{Field Cage}
 %{\it{Anne, Jen}}
-The field cage encloses the volume between the cathode plane and the anode wire planes, and in doing so creates a region with a uniform electric field.  The volume defined by the interior of the field cage, bounded by the anode and cathode planes, is referred to as the ``active" volume.   The field cage structure consists of 64 individual thin-walled stainless steel tubes (1.0 inch OD, 0.020 inch wall thickness), each shaped into a rectangular loop framing the perimeter of the active volume. These 64 loops are mounted parallel to the cathode and anode planes, as shown in figure~\ref{fig:tpc-cathode}, and are held in place by a G-10 rib support structure. Each field cage loop is electrically connected to its neighbors via a resistor divider chain (described in following section), causing each loop to operate at a different electrical potential which in turn maintains a uniform electric field between the cathode and anode planes. For a nominal -128~kV cathode voltage, the difference in potential between adjacent field cage loops is 2~kV, ramping down the total potential in equidistant steps from cathode to anode. The distance from center-to-center of adjacent field cage loops is 4.0~cm.
+The field cage encloses the volume between the cathode plane and the anode wire planes, and in doing so creates a region with a uniform electric field.  The volume defined by the interior of the field cage, bounded by the anode and cathode planes, is referred to as the ``active'' volume.   The field cage structure consists of 64 individual thin-walled stainless steel tubes (1.0 inch OD, 0.020 inch wall thickness), each shaped into a rectangular loop framing the perimeter of the active volume. These 64 loops are mounted parallel to the cathode and anode planes, as shown in figure~\ref{fig:tpc-cathode}, and are held in place by a G-10 rib support structure. Each field cage loop is electrically connected to its neighbors via a resistor divider chain (described in following section), causing each loop to operate at a different electrical potential which in turn maintains a uniform electric field between the cathode and anode planes. For a nominal -128~kV cathode voltage, the difference in potential between adjacent field cage loops is 2~kV, ramping down the total potential in equidistant steps from cathode to anode. The distance from center-to-center of adjacent field cage loops is 4.0~cm.
 
-Each field cage loop is assembled from 6.77 feet long vertical pipes on the upstream and downstream ends of the \lartpc, and on the top and bottom from two 17 feet long horizontal pipes connected by a stainless steel coupling in the center.  Each tube has venting holes approximately every 6~inches so that they fill with liquid argon and allow air and gaseous argon to escape during cryostat cool down and filling.
+Each field cage loop is assembled from 6.8 foot long vertical pipes on the upstream and downstream ends of the \lartpc, and on the top and bottom from two 17 feet long horizontal pipes connected by a stainless steel coupling in the center.  Each tube has venting holes approximately every 6~inches so that they fill with liquid argon and allow air and gaseous argon to escape during cryostat cool down and filling.
 
 The four corners of each field cage loop are curved with a radius of 2.0625 inch. Each corner is formed by three parts: two couplings and an elbow, shown in figure~\ref{fig:tpc-fieldcage-elbows}. The couplings make the connections between the pipes and the elbow. The thin-walled tubes and elbows slip-fit over the ends of the couplings with a 0.88-inch overlap. Each coupling has two 6-32~NC tapped holes and the connections to the adjoining pieces are made by hex head button screws and lock washers.
 
@@ -108,7 +108,7 @@ Figure \ref{fig:efield} shows the simulated electric field values inside the Mic
 \begin{figure}[htb]
 \centering	
 \includegraphics[width=0.7\linewidth]{figures/efield.png}
-\caption{Cross-section view showing electric field simulation inside the field cage when the cathode is set to a voltage of -128 kV.  Loop 0 is represented by the larger diameter circle on the left of the image.}
+\caption{Cross-section view showing electric field simulation inside the field cage when the cathode is set to a voltage of -128 kV.  Loop 0 is represented by the larger diameter circle on the left of the image.  The legend shows the absolute values of electric field modulus in units of V/m.}
 \label{fig:efield}
 \end{figure}
 
@@ -181,7 +181,7 @@ The three anode planes are constructed from wire carrier boards that have had in
 \centering
 %\includegraphics[width=2in]{figures/temp.pdf}
 \includegraphics[width=0.5\textwidth]{figures/wire-twist.pdf}
-\caption{Picture of the wire termination on the brass ferrules.  Each ferrule is 3~mm in diameter, and 1.5~mm thick.}
+\caption{Photograph of the wire termination on the brass ferrules.  Each ferrule is 3~mm in diameter, and 1.5~mm thick.}
 \label{fig:ferrules}
 \end{figure}
 
@@ -192,7 +192,7 @@ When installed, the wires make contact with gold pins positioned on the wire car
 \centering
 %\includegraphics[width=2in]{figures/temp.pdf}
 \includegraphics[angle =0,width=0.7\textwidth]{figures/wire-carrierboard.png}
-\caption{Picture of a collection plane wire carrier board that has been filled with wires, but has not yet had cover plate installed.}
+\caption{Photograph of a collection plane wire carrier board that has been filled with wires, but has not yet had cover plate installed.}
 \label{fig:carrier-boards}
 \end{figure}
 
@@ -201,7 +201,7 @@ When installed, the wires make contact with gold pins positioned on the wire car
 \centering
 %\includegraphics[width=2in]{figures/temp.pdf}
 \includegraphics[angle=0,width=0.7\textwidth]{figures/wire-boardtension.png}
-\caption{Picture of a collection plane wire carrier board on the tension stand.}
+\caption{Photograph of a collection plane wire carrier board on the tension stand.}
 \label{fig:stress-stand}
 \end{figure}
 
@@ -286,7 +286,7 @@ The delivered stainless steel parts were often greasy due to machining, and thos
 
 Parts that were small enough to fit in an ultrasonic bath were prepared according to the following prescription. A pre-rinse with tap water was performed to remove particulate matter, followed by deburring of sharp edges. The first ultrasonic wash was 15 minutes in heated distilled water with a 3\% solution of Citranox acid detergent~\cite{citranox}. After a first rinse in distilled water, a second ultrasonic wash was performed, again for 15 minutes, but using heated distilled water with a weak solution of Simple Green detergent~\cite{simplegreen}. A second rinse in distilled water was performed, followed by a final rinse in a fresh bath of distilled water. The parts were then wiped dry with lint-free cloths, air dried completely, and wrapped in plastic film for storage.
 
-Stainless steel parts which were too large to fit in the ultrasonic bath were prepared by a simpler prescription out of necessity. A pre-rinse with tap water was followed by deburring to remove sharp edges. Both the first and second washes were done with tap water and a weak solution of Simple Green detergent, scrubbing with brushes and lint-free sponges. Two tap water rinses were done, and the parts were then wiped dry with lint-free cloths. As a final additional step, each part was wiped with 200-proof ethyl alcohol, and then air dried completely. These parts were also wrapped in plastic film for storage.
+Stainless steel parts that were too large to fit in the ultrasonic bath were prepared by a simpler prescription out of necessity. A pre-rinse with tap water was followed by deburring to remove sharp edges. Both the first and second washes were done with tap water and a weak solution of Simple Green detergent, scrubbing with brushes and lint-free sponges. Two tap water rinses were done, and the parts were then wiped dry with lint-free cloths. As a final additional step, each part was wiped with 200-proof ethyl alcohol, and then air dried completely. These parts were also wrapped in plastic film for storage.
 
 \subsubsection{Cleaning G-10}
 
@@ -297,7 +297,7 @@ G-10 is known to absorb large quantities of water, which would outgas in the arg
 %\paragraph{Mechanical structure}
 %{\it{Overview of assembly steps (Jen)}}
 
-The full mechanical structure of the \lartpc is shown in figure~\ref{fig:tpc-full}, with the top image depicting the cathode frame on the left, made semi-transparent to show the support structures on which the cathode sheets are attached. The anode frame is on the right of this image, with I-beams configured in a crossed pattern to maintain the shape and rigidity of the outer C-channel structure. Ribs of G-10 connect the anode and cathode, electrically isolating them from each other while also providing mounting holes to hold in place each of 64 field cage loops that define the active volume of the \lartpc.  The field cage loops are visible in the photograph in the bottom frame of figure~\ref{fig:tpc-full}.
+The full mechanical structure of the \lartpc is shown in figure~\ref{fig:tpc-full}, with the top image depicting the cathode frame on the left, made semi-transparent to show the support structures on which the cathode sheets are attached. The anode frame is on the right of this image, with I-beams configured in a crossed pattern to maintain the shape and rigidity of the outer C-channel structure. Ribs of G-10 connect the anode and cathode, electrically isolating them from each other while also providing mounting holes to hold in place each of 64 field cage loops that define the active volume of the LArTPC.  The field cage loops are visible in the photograph in the bottom frame of figure~\ref{fig:tpc-full}.
 
 \begin{figure}[htb]
 \centering	
@@ -307,7 +307,7 @@ The full mechanical structure of the \lartpc is shown in figure~\ref{fig:tpc-ful
 \label{fig:tpc-full}
 \end{figure}
 
-Assembly was done inside of a clean tent, shown in figure \ref{fig:tent}, on a flat surface made up of adjustable-height metal platforms that were installed on the assembly room floor.  These platforms were leveled to better than 0.5~mm before beginning assembly.  The anode frame was the first part of the detector to be assembled on this surface, shown in figure~\ref{fig:tpc-anode-frame}. It was temporarily placed aside, and the cathode frame was assembled on the same set of platforms along with the G-10 ribs, which stood vertically with the help of temporary unistrut support pieces.  The combined cathode and G-10 frame was then lifted and rotated to the proper orientation, with G-10 ribs extending horizontally from the cathode to the anode, as shown in figure~\ref{fig:tpc-cathode-g10-frame}. Finally, the anode frame was brought back over and attached to the G-10 ribs, and the stainless steel tubes that make up the field cage loops were fed through the holes in the G-10 ribs to complete the mechanical structure of the \lartpc. 
+Assembly was done inside of a clean tent, shown in figure \ref{fig:tent}, on a flat surface made up of adjustable-height metal platforms that were installed on the assembly room floor.  These platforms were leveled to better than 0.5~mm before beginning assembly.  The anode frame was the first part of the detector to be assembled on this surface, shown in figure~\ref{fig:tpc-anode-frame}. It was temporarily placed aside, and the cathode frame was assembled on the same set of platforms along with the G-10 ribs, which stood vertically with the help of temporary unistrut support pieces.  The combined cathode and G-10 frame was then lifted and rotated to the proper orientation, with G-10 ribs extending horizontally from the cathode to the anode, as shown in figure~\ref{fig:tpc-cathode-g10-frame}. Finally, the anode frame was brought back over and attached to the G-10 ribs, and the stainless steel tubes that make up the field cage loops were fed through the holes in the G-10 ribs to complete the mechanical structure of the LArTPC. 
 
 \begin{figure}[htb]
 \centering	
@@ -338,7 +338,7 @@ Assembly was done inside of a clean tent, shown in figure \ref{fig:tent}, on a f
 \label{sec:hv}
 %{\it{Sarah, Cat}}
 
-To create the drift field, negative voltage (referred to as the ``high-voltage" or ``HV") is supplied to the \lartpc cathode.  This potential is generated outside of the cryostat by a Glassman LX150N12 power supply.  Before entering the cryostat, the output of the power supply is passed through a current-limiting resistor series that serves as both a low-pass filter for the power supply ripple, and a partition for the stored energy in the system.  The resistor series is a set of eight 10 M$\Omega$ resistors submerged in a transformer oil in an aluminum container.  This assembly was successfully tested to -200~kV. 
+To create the drift field, negative voltage (referred to as the ``high-voltage'' or ``HV'') is supplied to the \lartpc cathode.  This potential is generated outside of the cryostat by a Glassman LX150N12 power supply.  Before entering the cryostat, the output of the power supply is passed through a current-limiting resistor series that serves as both a low-pass filter for the power supply ripple, and a partition for the stored energy in the system.  The resistor series is a set of eight 10 M$\Omega$ resistors submerged in a transformer oil in an aluminum container.  This assembly was successfully tested to -200~kV. 
 
 The potential is introduced into the cryostat by a custom-designed HV feedthrough.  The feedthrough is based on an ICARUS design~\cite{Amerio:2004-T600}; a 1.0 in diameter stainless steel inner conductor is surrounded by a 2.0 in outer diameter ultra-high molecular weight polyethylene (UHMW PE) tube that is encased in an outer ground tube.  A photograph and drawing of the production feedthrough are shown in figure~\ref{fig:hv_ftpic}.
 
@@ -356,7 +356,7 @@ The potential is introduced into the cryostat by a custom-designed HV feedthroug
 %The MicroBooNE TPC is a rectangular box resting inside of a cylindrical cryostat. Due to this geometry, the HV feedthrough must extend relatively deep into the cryostat in order to avoid high electric fields. Figure~\ref{fig:hv-FT-cryostat} shows the HV feedthrough extending into its receptacle cup, which is attached to the TPC cathode.  The lower termination of the outer ground tube is a torus chosen to minimize the electric field between the feedthrough and the nearby cathode plane and also along the feedthrough itself.  The length of exposed UHMW PE was machined with grooves with to reduce surface currents.  The electrical connection to the cathode is accomplished by way of a hemispherical spring-loaded tip attached to the inner conductor of the feedthrough; the tip makes contact with the receptacle cup attached to the cathode.
 
 %MicroBooNE's voltage target combined with its geometry of a cylindrical cryostat with a single drift region necessitate that the HV feedthrough extend deeper into the cryostat than the ICARUS feedthrough to avoid high field regions.  
-Figure~\ref{fig:hv-FT-cryostat} shows the HV feedthrough extending into its receptacle cup attached to the \lartpc cathode.  The lower termination of the outer ground tube is a torus chosen to reduce the electric field between both the feedthrough and the cathode plane and along the feedthrough itself.  The electrical connection to the cathode is made with a hemispherical spring-loaded tip attached to the inner conductor of the feedthrough.  The UHMW PE tube is machined with grooves and extends into the receptacle cup attached to the cathode.
+Figure~\ref{fig:hv-FT-cryostat} shows the HV feedthrough extending into its receptacle cup attached to the LArTPC cathode.  The lower termination of the outer ground tube is a torus chosen to reduce the electric field between both the feedthrough and the cathode plane and along the feedthrough itself.  The electrical connection to the cathode is made with a hemispherical spring-loaded tip attached to the inner conductor of the feedthrough.  The UHMW PE tube is machined with grooves and extends into the receptacle cup attached to the cathode.
 
 \begin{figure}
 \centering{
