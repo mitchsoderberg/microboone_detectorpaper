@@ -28,7 +28,7 @@ First, for accelerator-induced events, the light collection system is designed t
 
 The light produced by neutrino interactions in MicroBooNE is an important input for both event selection and reconstruction.  
 One of the critical capabilities the light collection system provides is the ability to form a beam-event trigger when a pulse of light is observed in coincidence with the beam spill.  Because a vast majority of beam spills will not produce a neutrino interaction in the detector, such a trigger will substantially reduce the data output rate.  
-For non-beam physics studies, the light system provides triggering and an event interaction time ($t_0$). For accelerator-induced events, the start time of a beam spill is, in principle, sufficient.  
+For non-beam physics studies, the light system provides triggering and an event $t_0$. For accelerator-induced events, the start time of a beam spill is, in principle, sufficient.  
 However, because of the long window over which the ionization electrons of an event drift (about 1.6 ms maximum drift time at 500 V/cm field), there are many accelerator-induced events in which a cosmic ray muon crosses the detector during the drift time.  Utilizing the position of hits in the photodetectors, one can better reject cosmic ray muon tracks.  
 The light can also be used to trigger and select specific types of cosmic-ray calibration events (Michel electrons, straight-through muons, etc.) and non-beam events (supernova neutrinos, cosmic background events to proton decay studies, etc.).
 
@@ -37,7 +37,7 @@ The light collection system consists of primary and secondary sub-systems.  The 
 The light collection detectors are located in the $y$-$z$ plane behind the anode planes of the LArTPC, as shown in figure~\ref{fig:lightlayout}.  The combined transparency of the three anode planes is 86\% for light at normal incidence.  This transparency value assumes 100$\%$ of VUV photons impinging on the wires (150 $\mu$m diameter and 3 mm pitch) are absorbed.  The detectors were placed so as not to be obscured by the \lartpc structural cross-bars, shown in figure~\ref{fig:lightlayout}.  Locating the light detectors behind the anode plane places them in a very weak electric field due to the +440 V bias of the collection plane.  To test for an effect from weak electric fields, the response of a PMT placed between a +700 V mesh and ground, separated by 50 cm, was studied.  The PMT zenith was 25 cm from the HV.   No effects on the signal were observed.  This was expected, as the photocathode is held at ground, effectively acting as a Faraday cage.  
 %: $(1-0.150/3)^3 = 86\%$. 
 
-Throughout the design and construction of the light collection system,  substantial R\&D was performed.   The reader should refer to~\cite{Jones:2013bca,Bugel:2011xg,Katori:2011uq,Chiu:2012,Baptista:2012,Briese:2013wua,Jones:2013mfa,Katori:2013wqa,Bromberg:2013fla,Moss:2014ota,Conrad:2015xta,Acciarri:2015hha,Moss:2015hha} for detailed results of these studies.    A useful overall review is available in~\cite{Jones:2015bya}. 
+Throughout the design and construction of the light collection system,  substantial R\&D was performed.   The reader should refer to~\cite{Jones:2013bca,Bugel:2011xg,Katori:2011uq,Chiu:2012,Baptista:2012,Briese:2013wua,Jones:2013mfa,Katori:2013wqa,Moss:2014ota,Conrad:2015xta,Moss:2015hha} for detailed results of these studies.    A useful overall review is available in~\cite{Jones:2015bya}. 
 
 Figure~\ref{fig:muondecaylight} shows the light observed in two sequential events, consistent with a muon entering the detector followed by a Michel electron from the decay.   One can see that the light is relatively well localized.   This allows the light to be correlated with specific tracks in the detector.  This ``flash-track matching'' is used to identify and reconstruct the tracks that are in time with the beam spill--an important goal of the light collection system.
 
@@ -137,6 +137,7 @@ the MicroBooNE design separates the PMT from the wavelength-shifting plate for s
 
 
 \subsubsection{Photomultiplier Tubes and Bases}
+\label{sec:pmt-bases}
 
 Reference \cite{Briese:2013wua} provides detailed information on the selection 
 and testing of the 8" Hamamatsu R5912-02mod cryogenic PMTs employed in MicroBooNE.   
@@ -167,9 +168,7 @@ The result is that the high voltage (HV) can be provided and the signal can be e
 reducing the cable volume in the vapor region and removing a possible source of out-gassing water impurity.
 
 The flat PC-board base was made of Rogers RO4000-series woven glass-reinforced laminate, 
-which is the same material with the \lartpc cryogenic front end boards.
-%The material has been tested to not contaminate liqduid argon.
-The base is attached $\sim 1$ cm from the bottom of the PMT and is the closest possible distance of safe approach to the PMT vacuum seal tip.   
+which is the same material with the \lartpc cryogenic front end boards.  Use of Rogers 4000 series as the base material avoids the potential risk of contamination of the liquid argon. The Rogers material has a similar temperature expansion coefficient as the surface mounted components which enhances the reliability of the electronics assembly when operated at cryogenic temperatures.  The base is attached $\sim 1$ cm from the bottom of the PMT and is the closest possible distance of safe approach to the PMT vacuum seal tip.   
 A schematic and photos of the PMT base are provided in reference~\cite{Briese:2013wua}. 
 The passive components include only metal film resistors and C0G/NP0 capacitors, 
 which have the minimum temperature coefficients, and the performance at cryogenic temperatures were tested.  
@@ -261,7 +260,7 @@ This leads to a final layer which is oversaturated with TPB, and white crystals 
 
 The emission spectrum in figure \ref{fig:TPBSpectraPlate} was measured using a Hitachi F-4500 fluorescence spectrophotometer with an incident beam of wavelength 270 nm, selected by a diffraction grating from a xenon lamp.  A standard rhodamine dye calibration sample was used to correct for drift in the lamp and spectrometer.  The measurement was made in transmission mode, and an artifact peak at a harmonic of the twice incident wavelength was observed between 525 and 600 nm.  This region is omitted from the reported spectrum of figure \ref{fig:TPBSpectraPlate}.  
 
-As shown in figure \ref{fig:TPBSpectraPlate}, although the absolute quantum efficiency for the platinum-undercoated cryogenic PMT is lower than the non-cryogenic version, the wavelength dependence is similar, and overlap between the TPB emission spectrum and the sensitive wavelength range of the PMT remains high.  Using the measured TPB emission spectrum for plate coatings and the PMT quantum efficiency curve provided, the spectrum-averaged PMT quantum efficiency is 15.3 $\pm$ 0.8\% per visible photon incident on the photocathode. 
+As shown in figure \ref{fig:TPBSpectraPlate}, although the absolute quantum efficiency for the platinum-undercoated cryogenic PMT is lower than the non-cryogenic version, the wavelength dependence is similar, and overlap between the TPB emission spectrum and the sensitive wavelength range of the PMT remains high.  Using the measured TPB emission spectrum for plate coatings and the PMT quantum efficiency curve provided, the spectrum-averaged PMT quantum efficiency is 15.3\% $\pm$ 0.8\% per visible photon incident on the photocathode. 
 
 \begin{figure}[t]
 \centering 
@@ -300,7 +299,7 @@ TPB coatings have been shown to degrade under exposure to ultraviolet light \cit
 
 %{\bf The following text is from  http://microboone-docdb.fnal.gov:8080/cgi-bin/ShowDocument?docid=2085 and  http://microboone-docdb.fnal.gov:8080/cgi-bin/ShowDocument?docid=2159}
 
-The trajectories of electrons within the 8" PMT can be deflected by the Earth's magnetic field.  This effect can be reduced or removed by surrounding the PMT with mu metal, a metal of low magnetic permeability.  Commonly used mu-metal fails to provide shielding at cryogenic temperatures. Two types of cryogenic mu metal,Cryoperm 10 and A4K, both products of Amuneal, were identified that did provide shielding at cryogenic temperature. 
+The trajectories of electrons within the 8" PMT can be deflected by the Earth's magnetic field.  This effect can be reduced or removed by surrounding the PMT with mu metal, a metal of low magnetic permeability.  Commonly used mu-metal fails to provide shielding at cryogenic temperatures. Two types of cryogenic mu metal, Cryoperm 10 and A4K, both products of Amuneal, were identified that did provide shielding at cryogenic temperature. 
 
 The mu metal shields were tested in the apparatus shown in figure~\ref{fig:shieldcartoon}.  The system allowed for the PMT to be positioned at an angle relative to the vertical axis, with the rotator set to 30 positions from 0 to 348$^\circ$.    The set-up was on a dolly that allowed for rotation about the vertical axis.  PMT tests were performed in air and in liquid nitrogen.   PMTs were dark adapted for 5 hours before testing.  %Each data run consisted of a single dolly position and 30 angles from vertical, and took about four hours to complete.
 A blue LED provided 1 to 2 single PEs of light through an optical fiber.   The fiber was fixed to the PMT mount such that the endpoint was stationary with respect to the tube as the system was rotated.   
@@ -413,7 +412,7 @@ Figure~\ref{fig:flasherresult} shows the results of flasher tests on all 32 opti
 \centering 
 %\includegraphics[width=0.55\textwidth]{./light_figures/PMT_xtalk_PE_plot.png}
 \includegraphics[width=0.55\textwidth]{./light_figures/PMT_xtalk_PE_plot.png}
-\caption{Area of signal pulses recorded on collection plane (in arb. units) as a function of wire number (arb. offset). The legend indicates the calibrated photo-electron count. The signal pulses are averaged over 50,000 repetitions. The plots are pinned together at wire 300, as the distribution baseline fluctuated over the course of the experiment due to intermittent noise.
+\caption{Area of signal pulses recorded on collection plane (in arbitrary units) as a function of wire number (arb. offset). The legend indicates the calibrated photo-electron count. The signal pulses are averaged over 50,000 repetitions. The plots are pinned together at wire 300, as the distribution baseline fluctuated over the course of the experiment due to intermittent noise.
  \label{fig:PMTxtalk}  }
 \end{figure}
 

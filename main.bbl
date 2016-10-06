@@ -288,12 +288,6 @@ B.~Jones, T.~Alexander, H.~Back, G.~Collin, J.~Conrad, et~al., {\it {The
   collection system}},  {\em JINST} {\bf 8} (2013) C10011,
   [\href{http://xxx.lanl.gov/abs/1307.5256}{{\tt arXiv:1307.5256}}].
 
-\bibitem{Bromberg:2013fla}
-B.~Baller, N.~Buchanan, F.~Cavanna, H.~Chen, E.~Church, et~al., {\it {Liquid
-  Argon Time Projection Chamber Research and Development in the United
-  States}},  {\em JINST} {\bf 9} (2014) T05005,
-  [\href{http://xxx.lanl.gov/abs/1307.8166}{{\tt arXiv:1307.8166}}].
-
 \bibitem{Moss:2014ota}
 Z.~Moss, L.~Bugel, G.~Collin, J.~Conrad, B.~Jones, et~al., {\it {Improved
   TPB-coated Light Guides for Liquid Argon TPC Light Detection Systems}},
@@ -305,20 +299,13 @@ Z.~Moss, L.~Bugel, G.~Collin, J.~Conrad, B.~Jones, et~al., {\it {Improved
   Experiment}},  {\em JINST} {\bf 10} (2015), no.~06 T06001,
   [\href{http://xxx.lanl.gov/abs/1502.0415}{{\tt arXiv:1502.0415}}].
 
-\bibitem{Acciarri:2015hha}
-R.~Acciarri, M.~Adamowski, D.~Artrip, B.~Baller, C.~Bromberg, et~al., {\it
-  {Summary of the Second Workshop on Liquid Argon Time Projection Chamber
-  Research and Development in the United States}},
-  \href{http://xxx.lanl.gov/abs/1504.0560}{{\tt arXiv:1504.0560}}.
-
 \bibitem{Moss:2015hha}
 Z.~Moss, M.~Toups, L.~Bugel, G.~Collin, and J.~Conrad, {\it {Anode-Coupled
   Readout for Light Collection in Liquid Argon TPCs}},
   \href{http://xxx.lanl.gov/abs/1507.0199}{{\tt arXiv:1507.0199}}.
 
 \bibitem{Jones:2015bya}
-B.~J.~P. Jones, {\em {Sterile Neutrinos in Cold Climates}}.
-\newblock PhD thesis, MIT, 2015.
+B.~J.~P. Jones, {\it {Sterile Neutrinos in Cold Climates}}, .
 
 \bibitem{SUZUKI1979197}
 M.~Suzuki and S.~Kubota, {\it Mechanism of proportional scintillation in argon,
