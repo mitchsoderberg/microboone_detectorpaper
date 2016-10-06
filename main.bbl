@@ -109,6 +109,11 @@ A.~Marchionni, {\it {Status and New Ideas Regarding Liquid Argon Detectors}},
   {\em Ann.Rev.Nucl.Part.Sci.} {\bf 63} (2013) 269--290,
   [\href{http://xxx.lanl.gov/abs/1307.6918}{{\tt arXiv:1307.6918}}].
 
+\bibitem{AguilarArevalo:2008yp}
+{\bf MiniBooNE} Collaboration, A.~A. Aguilar-Arevalo et~al., {\it {The Neutrino
+  Flux prediction at MiniBooNE}},  {\em Phys. Rev.} {\bf D79} (2009) 072002,
+  [\href{http://xxx.lanl.gov/abs/0806.1449}{{\tt arXiv:0806.1449}}].
+
 \bibitem{Adamson:2015dkw}
 P.~Adamson et~al., {\it {The NuMI Neutrino Beam}},  {\em Nucl. Instrum. Meth.}
   {\bf A806} (2016) 279--306, [\href{http://xxx.lanl.gov/abs/1507.0669}{{\tt
@@ -305,7 +310,8 @@ Z.~Moss, M.~Toups, L.~Bugel, G.~Collin, and J.~Conrad, {\it {Anode-Coupled
   \href{http://xxx.lanl.gov/abs/1507.0199}{{\tt arXiv:1507.0199}}.
 
 \bibitem{Jones:2015bya}
-B.~J.~P. Jones, {\it {Sterile Neutrinos in Cold Climates}}, .
+B.~J.~P. Jones, {\em {Sterile Neutrinos in Cold Climates}}.
+\newblock PhD thesis, MIT, 2015.
 
 \bibitem{SUZUKI1979197}
 M.~Suzuki and S.~Kubota, {\it Mechanism of proportional scintillation in argon,

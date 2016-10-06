@@ -43,7 +43,7 @@ A cold motherboard was designed to house the MicroBooNE CMOS ASICs. In this capa
 \begin{figure}[hbt]
 \centering
 \includegraphics[width=0.75\linewidth]{figures/mb2.pdf}
-\caption{\label{fig:figmb} Top version of cold motherboard with 12 ASIC chips including 6 chips are mounted on top layer and 6 chips on bottom layer}
+\caption{\label{fig:figmb} Top version of cold motherboard with 12 ASIC chips, including 6 chips mounted on top layer and 6 chips on bottom layer.}
 \end{figure}
 
 
@@ -66,7 +66,7 @@ The development of the analog front end ASICs was initiated using 180~nm CMOS te
 \begin{center}
 \includegraphics[scale=0.4]{figures/noise.pdf}
 \end{center}
-\caption{\label{fig:fignoise}Plot of noise vs. temperature of 12 ASICs, total 192 channels. Noise is $\sim$1,200$e^{-}$ at 293K, and $\sim$550$e^{-}$ at 77 K with 150 pF $C_{d}$}
+\caption{\label{fig:fignoise}Plot of noise vs. channel number for 192 channels (12 ASICs) and at two different temperatures. Noise is $\sim$1,200$e^{-}$ at 293K, and $\sim$550$e^{-}$ at 77 K with 150 pF $C_{d}$}
 \end{figure}
 
 \begin{figure}[hbt]
@@ -277,7 +277,7 @@ After data is written to disk, it is then copied to another server on the intern
 
 Additional software components handle the management of the main DAQ processes moving the data. A run control application issues configuration and state-progressing commands to the SEBs and EVB. Configuration states are stored in a dedicated run configuration database, which allows for the setting and preserving of configuration information for the DAQ, readout, and additional components. This database not only allows for creating the large ($\sim$200 parameters) intricate DAQ run configuration files, but also enforces certain conditions which must hold for consistency. For example, the configuration that initiates the ASICS charge-injection calibration also dials and captures the settings on the external pulser that drives the calibration signal and assures that ASICS gains and peaking time parameters are enforced and recorded. %The configuration that runs the PMT flasher calibration additionally ensures that the charge-injection is only run simultaneously, if desired, in certain allowed modes. 
 
-Another important aspect of the system is monitoring the health of the DAQ. Monitoring of DAQ components is accomplished through Ganglia which monitors basic system states (such as CPU, memory, and network usage) as well as allows use of custom metrics to monitor the data flow and status of the readout electronics \cite{GangliaBook}. These metrics are sampled and collected by the EPICS slow monitoring and control processes, which archives desired quantities and provides alarms when pre-defined thresholds are exceeded \cite{EPICS}. Some examples of Ganglia metrics that are monitored and alarmed in EPICS are the rates of growth of the SEB data buffers, the fragment rates leaving each SEB, and fragment arrival rates at the EVB.  Figure \ref{fig:ganglia} shows examples of Ganglia metrics.  
+Another important aspect of the system is monitoring the health of the DAQ. Monitoring of DAQ components is accomplished through Ganglia which monitors basic system states (such as CPU, memory, and network usage) as well as allows use of custom metrics to monitor the data flow and status of the readout electronics \cite{GangliaBook}. These metrics are sampled and collected by the Experimental Physics and Industrial Control System (EPICS) slow monitoring and control processes, which archives desired quantities and provides alarms when pre-defined thresholds are exceeded \cite{EPICS}. Some examples of Ganglia metrics that are monitored and alarmed in EPICS are the rates of growth of the SEB data buffers, the fragment rates leaving each SEB, and fragment arrival rates at the EVB.  Figure \ref{fig:ganglia} shows examples of Ganglia metrics.  
 
 \begin{figure}
 \centering
