@@ -61,7 +61,7 @@ As with any large detector operating with a high dynamic range, prevention of el
 \item{Direct or capacitive couplings between building and detector ground are constantly monitored during installation and operation with a custom-designed impedance monitor.}
 \end{itemize}
 
-A line drawing describing the production of clean power and clean ground is shown in figure~\ref{fig:ElecInfAC1}.  Two 200-Amp clean power circuits produced at isolation transformers are used to power all sensitive racks, which are indicated in figure~\ref{fig:ElecInfDiagrams}.  All racks containing \lartpc readout electronics are placed on one circuit, while all other sensitive equipment is placed on the alternate circuit.  On the platform, all racks utilize clean power with the exception of the calibration laser and in-line purity monitor racks, which either contain noise-producing elements or support building-grounded components.  All racks in the LArTF computer room utilize building power.
+A line drawing describing the production of clean power and clean ground is shown in figure~\ref{fig:ElecInfAC1}.  A pair of 200 A clean power circuits produced at isolation transformers are used to power all sensitive racks, which are indicated in figure~\ref{fig:ElecInfDiagrams}.  All racks containing \lartpc readout electronics are placed on one circuit, while all other sensitive equipment is placed on the alternate circuit.  On the platform, all racks utilize clean power with the exception of the calibration laser and in-line purity monitor racks, which either contain noise-producing elements or support building-grounded components.  All racks in the LArTF computer room utilize building power.
 
 \begin{figure}[htb!pb]
 \centering
@@ -103,20 +103,28 @@ Table~\ref{tab:DCPower} summarizes the required voltages or currents for each of
 \begin{table}[!htb]
 	\centering
 	  \caption{Overview of MicroBooNE DC power distribution.  Delivered voltages or currents are listed, along with power supply makes and models and whether each supply utilizes clean or building power.}
-    \begin{tabular}{|p{4.0cm}| p{4.0cm}| p{4.0cm} | p{2.5cm} | } \hline
+    \begin{tabular}{llll}
+     \hline
     %\begin{tabular}{l | l | l } \hline
-      Sub-System & Supplied Value & Supply Made/Model & Clean Power? \\ \hline \hline
-      Drift High Voltage & 120 kV & Glassman LX150N12 & Y \\ \hline
+      Subsystem & Supplied Value & Supply Made/Model & Clean Power? \\ 
+      \hline
+      Drift High Voltage & 120 kV & Glassman LX150N12 & Y \\ 
+      \hline
       Anode Plane Voltage & 1 kV / 8 mA & Wiener MPOD  & Y \\ 
-      & & ISEG$\_$EHS 82 10X$\_$805F  &\\ \hline
-      PMT High Voltage & 2 kV / 3 mA & BIRA T4 & Y \\ \hline
-      Cold Electronics Power & 8 V / 10 A & MPOD MPV 800l & Y \\ \hline
-      Warm LArTPC/PMT& +/-5V MDH 2-8V/25A& \multirow{3}{*}{Wiener PL508} & \multirow{3}{*}{Y}\\
-       Electronics & +12V MEH 8-15V/92A & & \\ 
-      & +3.3V MEH 2-7V/115A & & \\ \hline
+      & & ISEG$\_$EHS 82 10X$\_$805F  &\\ 
+      \hline
+      PMT High Voltage & 2 kV / 3 mA & BIRA T4 & Y \\ 
+      \hline
+      Cold Electronics Power & 8 V / 10 A & MPOD MPV 800l & Y \\ 
+      \hline
+      Warm LArTPC/PMT& +/-5 V MDH 2-8 V/25 A& \multirow{3}{*}{Wiener PL508} & \multirow{3}{*}{Y}\\
+       Electronics & +12 V MEH 8-15 V/92 A & & \\ 
+      & +3.3 V MEH 2-7 V/115 A & & \\ 
+      \hline
        Auxiliary Systems & \multirow{3}{*}{Various} & \multirow{3}{*}{Various} & Laser: N \\
       Power &&& Inline PM: N \\
-      &&& Cryostat PM: Y \\ \hline
+      &&& Cryostat PM: Y \\ 
+      \hline
   \end{tabular}
   \label{tab:DCPower}
 \end{table}

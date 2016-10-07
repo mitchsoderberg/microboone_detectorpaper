@@ -13,11 +13,11 @@ The use of large quantities of highly-purified liquid argon as a detector medium
     \hline
       Argon purity    & $<$100 ppt O$_2$ & MIP identification at longest drift\\
       Argon purity    & $<$2 ppm N$_2$ & Scintillation light output\\
-      LAr Temperature gradient & $<$1$^\circ$ K & Drift-velocity uniformity\\
+      LAr Temperature gradient & $<$0.1 K & Drift-velocity uniformity\\
       LAr recirculation rate & 1 volume change/day & Maintain purity\\
       Cryostat heat load & $<$15 W/m$^2$ & Minimize convection currents and bubbles\\
       Cryogenic capacity & 10 kW & Capacity to deal with expected heat load\\
-      Cryostat maximum pressure & 30 psig & Determines relief sizing\\
+      Cryostat maximum pressure & 2.1 bar & Determines relief sizing\\
             \hline
    \end{tabular}
    \label{tab:cryoreq}
@@ -44,7 +44,7 @@ Ionization electrons must not be significantly attenuated, via attachment to ele
 
 The electron drift velocity ($v_{d} = 1600$~m/s at an electric field of 500 V/cm, with a liquid argon temperature dependence $\Delta v_{d}/v_{d} = -0.019\Delta T$) must remain constant in magnitude and direction throughout the active liquid argon volume to avoid distortion of the mapping of drift time into the position along the drift ($\hat{x}$) direction. This requirement limits the allowable temperature variations of the liquid argon to less than 0.1~K and the laminar and turbulent flow rate of liquid argon to less than 1~m/s. These requirements limit fractional errors in velocity, and therefore in the drift-coordinate determination, to be less than 0.1\%. The constraints on constancy of drift velocity affect the design by imposing limits on the acceptable heat flux through the insulation.
 
-The cryostat is constructed to the latest American Society of Mechanical Engineers (ASME) boiler code requirements~\cite{pressure:1316452} and features a single-walled construction, cylindrical shape, and domed caps closing each end, as shown in figure~\ref{fig:cryostat-drawing}. One end was removed for installation of the active detectors, welded back in place upon completion of that task, and then recertified to the ASME code requirements.  Upon installation of the sealed cryostat in its final location at the Liquid Argon Test Facility (LArTF), 16 inches of spray-on, closed cell, Polyurethane insulation was applied to the exterior of the cryostat, as shown in figure~\ref{fig:cryostat-foam}.  At LArTF, to avoid ground loops that could interfere with the \lartpc signals, the cryostat vessel is grounded in only one place, allowing it to act as a Faraday cage.  This grounding scheme is explained further in section~\ref{sec:lartf}.
+The cryostat is constructed to the latest American Society of Mechanical Engineers (ASME) boiler code requirements~\cite{pressure:1316452} and features a single-walled construction, cylindrical shape, and domed caps closing each end, as shown in figure~\ref{fig:cryostat-drawing}. One end was removed for installation of the active detectors, welded back in place upon completion of that task, and then recertified to the ASME code requirements.  Upon installation of the sealed cryostat in its final location at the Liquid Argon Test Facility (LArTF), 41 cm of spray-on, closed cell, Polyurethane insulation was applied to the exterior of the cryostat, as shown in figure~\ref{fig:cryostat-foam}.  At LArTF, to avoid ground loops that could interfere with the \lartpc signals, the cryostat vessel is grounded in only one place, allowing it to act as a Faraday cage.  This grounding scheme is explained further in section~\ref{sec:lartf}.
 
 \begin{figure}[htb]
 \centering	
@@ -67,30 +67,30 @@ The vessel surface has 34 nozzle penetrations for cryogenic and electrical servi
 %\begin{}
 \begin{table}[!htb]
    \centering
-    \caption{List of nozzle penetrations in MicroBooNE cryostat.  CF=ConFlat flanges, RFWN=raised face weld neck flanges.} 
+    \caption{List of nozzle penetrations in MicroBooNE cryostat, their function, and their flange/pipe type and outer-diameter dimension.  CF=ConFlat flanges, RFWN=raised face weld neck flanges, SS = stainless steel pipe.} 
     \begin{tabular}{lcr} % Column formatting, @{} suppresses leading/trailing space
     \hline
     Nozzle ID & Function & Flange\\
     \hline
-     N1A-N1K & \lartpc Signal Feedthrough & 14'' CF\\
-     N2 & \lartpc HV Feedthrough & 8'' CF\\
-     N3A-N3B & Purity Monitor & 8'' CF\\
-     N4 & Temperature Signals & 6'' CF\\
-     N5 & Safety Vent & 4'' RFWN\\
-     N6A-N6B & Vacuum Pump-Out & 10'' RFWN\\
-     N7 & Condensor & 3''\\
-     N8 & Top Instrument Port & 3/4''\\
-     N9 & Bottom Instrument Port & 3/4''\\
-     N10A-N10B & Liquid Level Probe & 3/4''\\
-     N11 & Gas Circulation In & 2''\\
-     N12 & Gas Circulation Out & 2''\\
-     N13 & From LAr Filters & 3''\\
-     N14 & To LAr Pumps & 2''\\
-     N15A-N15B & Laser Calibration & 2-3/4'' CF \\
-     N16 & PMT Signal Feedthrough & 14'' CF\\
-     N17 & Spare & 6'' CF\\
-     N18 & Temperature Signals & 6'' CF\\
-     N19 & Spare & 6'' CF\\
+     N1A-N1K & \lartpc Signal Feedthrough & 356 mm CF\\
+     N2 & \lartpc HV Feedthrough & 203 mm CF\\
+     N3A-N3B & Purity Monitor & 203 mm CF\\
+     N4 & Temperature Signals & 152 mm CF\\
+     N5 & Safety Vent & 102 mm RFWN\\
+     N6A-N6B & Vacuum Pump-Out & 254 mm RFWN\\
+     N7 & Condensor & 76 mm SS\\
+     N8 & Top Instrument Port & 19 mm SS\\
+     N9 & Bottom Instrument Port & 19 mm SS\\
+     N10A-N10B & Liquid Level Probe & 19 mm SS\\
+     N11 & Gas Circulation In & 51 mm SS\\
+     N12 & Gas Circulation Out & 51 mm SS\\
+     N13 & From LAr Filters & 76 mm SS\\
+     N14 & To LAr Pumps & 51 mm SS\\
+     N15A-N15B & Laser Calibration & 70 mm CF \\
+     N16 & PMT Signal Feedthrough & 356 mm CF\\
+     N17 & Spare & 152 mm CF\\
+     N18 & Temperature Signals & 152 mm CF\\
+     N19 & Spare & 152 mm CF\\
                   \hline
    \end{tabular}
    \label{tab:cryostat-feedthroughs}
@@ -120,9 +120,9 @@ The recirculation pumps are Barber-Nichols~\cite{barber-nichols} BNCP-32B-000 ma
 
 %\subsubsubsection{Filter Skids}
 
-Each filter skid contains two filters, each having identically-sized filtration beds of 77~liters.  The first filter that the argon stream enters contains a 4A molecular sieve supplied by Sigma-Aldrich~\cite{sigma-aldrich} that primarily removes water contamination but can also remove small amounts of nitrogen and oxygen.  The second filter contains BASF~CU-0226~S, a highly-dispersed copper oxide impregnated on a high-surface-area alumina, which removes oxygen~\cite{basf} and, to a lesser extent, water.  Thus, the oxygen filter is placed downstream of the molecular sieve to maximize oxygen filtration.  The oxygen-filtering media must be reduced to copper with the procedure described below before it can remove oxygen from the liquid argon.  The filters are insulated with vacuum jackets and aluminum radiation shields.  The metallic radiation shields were chosen because the filter regeneration temperatures, described below, would damage traditional aluminized mylar insulation.  Pipe supplying the filter regeneration gas is insulated both inside the filter vacuum-insulation space and outside the filter with Pyrogel XT which is an aerogel-based insulation~\cite{aspen-aerogels} that can withstand temperatures up to $650^{\circ}{\rm C}$. 
+Each filter skid contains two filters, each having identically-sized filtration beds of 77~liters.  The first filter that the argon stream enters contains a 4A molecular sieve supplied by Sigma-Aldrich~\cite{sigma-aldrich} that primarily removes water contamination but can also remove small amounts of nitrogen and oxygen.  The second filter contains BASF~CU-0226~S, a highly-dispersed copper oxide impregnated on a high-surface-area alumina, which removes oxygen~\cite{basf} and, to a lesser extent, water.  Thus, the oxygen filter is placed downstream of the molecular sieve to maximize oxygen filtration.  The oxygen-filtering media must be reduced to copper with the procedure described below before it can remove oxygen from the liquid argon.  The filters are insulated with vacuum jackets and aluminum radiation shields.  The metallic radiation shields were chosen because the filter regeneration temperatures, described below, would damage traditional aluminized mylar insulation.  Pipe supplying the filter regeneration gas is insulated both inside the filter vacuum-insulation space and outside the filter with Pyrogel XT which is an aerogel-based insulation~\cite{aspen-aerogels} that can withstand temperatures up to 920 K. 
 
-The filters are regenerated {\it in situ} using heated gas, by a procedure developed for LAPD.  The filters are regenerated using a flow of argon gas that is heated to $200^{\circ}{\rm C}$, supplied by a commercial 500~liter liquid argon dewar.   Once the argon gas reaches $200^{\circ}{\rm C}$, a small flow of hydrogen is mixed into the primary argon flow and exothermically combines with oxygen captured by the filter to create water.  Too much hydrogen mixed in with the primary argon flow would induce temperatures that are sufficiently high to damage the copper-based filter media.  The damage is induced by sintering of the copper, which reduces the available filter surface area.  Thus, precautions are taken to maintain a hydrogen fraction below 2.5\% of the heated gas mixture.  During the heated gas regeneration, five filter-bed temperature sensors monitor the filter-material temperature and the water content of the regeneration exhaust gas is measured.  To remove any remaining trace amounts of water, the filters are then evacuated using turbomolecular vacuum pumps while they cool. 
+The filters are regenerated {\it in situ} using heated gas, by a procedure developed for LAPD.  The filters are regenerated using a flow of argon gas that is heated to 473 K, supplied by a commercial 500~liter liquid argon dewar.   Once the argon gas reaches 473 K, a small flow of hydrogen is mixed into the primary argon flow and exothermically combines with oxygen captured by the filter to create water.  Too much hydrogen mixed in with the primary argon flow would induce temperatures that are sufficiently high to damage the copper-based filter media.  The damage is induced by sintering of the copper, which reduces the available filter surface area.  Thus, precautions are taken to maintain a hydrogen fraction below 2.5\% of the heated gas mixture.  During the heated gas regeneration, five filter-bed temperature sensors monitor the filter-material temperature and the water content of the regeneration exhaust gas is measured.  To remove any remaining trace amounts of water, the filters are then evacuated using turbomolecular vacuum pumps while they cool. 
 
 A particulate filter with an effective filtration of 10 microns, positioned between the cryostat and the filter skids, prevents any debris in the piping from being introduced into the cryostat.  The particulate filter consists of a commercial stainless steel sintered-metal cylinder mounted in a custom cryogenic housing and vacuum jacket.  Filtration is accomplished by flowing liquid argon to the interior, then outward through the walls, of the sintered-metal cylinder.  Flanges on the argon piping, along with flanges and edge-welded bellows on the vacuum jacket, allow removal of the particulate filter.  
 
@@ -137,11 +137,11 @@ A particulate filter with an effective filtration of 10 microns, positioned betw
 
 %\subsubsubsection{Piping and Valves}
 
-The argon-purification piping is 1.0~in diameter stainless steel that was pre-insulated by the manufacturer with 10.2~cm of polyurethane foam.  During the fabrication process, all piping was washed with distilled water and detergent to remove oil and grease, then cleaned with ethanol.  All valves associated with the argon-purification piping utilize a metal seal with respect to ambient air, either through a bellows or a diaphragm, to prevent the diffusion of oxygen and water contamination.  The exhaust side of each relief valve is continuously purged with argon gas to prevent diffusion of oxygen and water from ambient air across the o-ring seal.  Where possible, ConFlat flanges with copper seals are used on both cryogenic and room-temperature argon piping.  Pipe flanges in the system are sealed using spiral-wound graphite gaskets.  Smaller connections are made with VCR fittings with stainless steel gaskets.  
+The argon-purification piping is 2.54 cm diameter stainless steel that was pre-insulated by the manufacturer with 10.2~cm of polyurethane foam.  During the fabrication process, all piping was washed with distilled water and detergent to remove oil and grease, then cleaned with ethanol.  All valves associated with the argon-purification piping utilize a metal seal with respect to ambient air, either through a bellows or a diaphragm, to prevent the diffusion of oxygen and water contamination.  The exhaust side of each relief valve is continuously purged with argon gas to prevent diffusion of oxygen and water from ambient air across the o-ring seal.  Where possible, ConFlat flanges with copper seals are used on both cryogenic and room-temperature argon piping.  Pipe flanges in the system are sealed using spiral-wound graphite gaskets.  Smaller connections are made with VCR fittings with stainless steel gaskets.  
 
 \subsection{Nitrogen Refrigeration}
 
-The cryostat and purification systems that contain the liquid argon are subject to heat load from the environment, as well as from the active detectors that have electrical power enabled.  To keep these systems operating at a stable temperature and pressure, a liquid nitrogen refrigeration system is present to provide the necessary cooling power.  The liquid nitrogen system contains two condensers that are arranged in parallel.  One of these is utilized for normal operations and one serves as a backup on standby.  Each condenser contains two liquid nitrogen coils, an inner and an outer, with the gas argon on the shell side, as shown in figure~\ref{fig:condenser}.  Typically only one coil is actively running and the second can be manually activated during situations where the system heat load is higher than usual.  Each condenser is sized to handle a heat load of approximately 9.5 kW.  With the vessel full of liquid argon and no pump or liquid argon circulation running, the condenser uses 600-650 gallons of liquid nitrogen per day, which equates to a 3.9 kW system heat load.  Once liquid argon begins circulating using the pumps, this usage rate will increase by 50-100$\%$.
+The cryostat and purification systems that contain the liquid argon are subject to heat load from the environment, as well as from the active detectors that have electrical power enabled.  To keep these systems operating at a stable temperature and pressure, a liquid nitrogen refrigeration system is present to provide the necessary cooling power.  The liquid nitrogen system contains two condensers that are arranged in parallel.  One of these is utilized for normal operations and one serves as a backup on standby.  Each condenser contains two liquid nitrogen coils, an inner and an outer, with the gas argon on the shell side, as shown in figure~\ref{fig:condenser}.  Typically only one coil is actively running and the second can be manually activated during situations where the system heat load is higher than usual.  Each condenser is sized to handle a heat load of approximately 9.5 kW.  With the vessel full of liquid argon and no pump or liquid argon circulation running, the condenser uses $\sim$2350 liters of liquid nitrogen per day, which equates to a 3.9 kW system heat load.  Once liquid argon begins circulating using the pumps, this usage rate will increase by 50-100$\%$.
 
 \begin{figure}[htb]
 \centering	
