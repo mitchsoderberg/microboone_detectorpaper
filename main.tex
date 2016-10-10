@@ -1,22 +1,14 @@
-%----------------------------------------------------------------
-%
-% declare the document class
+\documentclass[a4paper,11pt]{article}
+\pdfoutput=1 % if your are submitting a pdflatex (i.e. if you have
+             % images in pdf, png or jpg format)
 
-% for official submission
-%\documentclass[aps,prl,twocolumn,showpacs,superscriptaddress,epsfig]{revtex4}
+\usepackage{jinstpub} % for details on the use of the package, please
+                     % see the JINST-author-manual
 
 
-
-\RequirePackage{ifpdf}
-\RequirePackage{morefloats}
-%\RequirePackage{authblk}
-% for preprint
-%\documentclass[aps,prl,twocolumn,showpacs,preprintnumbers,superscriptaddress,floatfix,authblk]{revtex4}
-\documentclass[cits,floatfix,hyper]{JINST}
-\pdfoutput=1
 \usepackage{multirow}
 \usepackage{booktabs}
-
+%
 %needed for line-numbers during editing stage
 \usepackage{lineno}
 
@@ -30,17 +22,20 @@
 
 %***************************************************
 
+\collaboration{MicroBooNE Collaboration}
+
 %====================================
 % header
 \input{header}
-
-
 % begin document
 \begin{document}
+\maketitle
+\flushbottom
+
+
 %next two lines needed to turn on line-numbers during editing stage
 \setpagewiselinenumbers
 \linenumbers
-Date:~\today ; Paper Version:~2.0
 
 
 
