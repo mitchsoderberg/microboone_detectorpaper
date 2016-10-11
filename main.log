@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 OCT 2016 14:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 OCT 2016 08:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1885,11 +1885,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  11950 strings out of 493089
  184155 string characters out of 6134842
- 267649 words of memory out of 5000000
+ 267865 words of memory out of 5000000
  14704 multiletter control sequences out of 15000+600000
  97534 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,12n,96p,2003b,935s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 61i,12n,96p,2003b,923s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/newtxtt/txttEec.enc}{/usr
 /local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/t
 exlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2015/tex
@@ -1910,7 +1910,7 @@ st/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (99 pages, 36821524 bytes).
+Output written on main.pdf (99 pages, 36822116 bytes).
 PDF statistics:
  2274 PDF objects out of 2487 (max. 8388607)
  370 named destinations out of 1000 (max. 500000)
