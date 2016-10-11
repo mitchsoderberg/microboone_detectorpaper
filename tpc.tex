@@ -42,7 +42,7 @@ The \lartpc is composed of three major structures: the cathode, the field cage, 
 \end{table} 
 
 
-\begin{figure}[htb]
+\begin{figure}
 \centering	
 \includegraphics[width=0.8\linewidth]{figures/cryo_tpc.pdf}
 \caption{Schematic diagram of the MicroBooNE \lartpc, depicted as it is arranged inside the cryostat.}
@@ -55,7 +55,7 @@ The \lartpc is composed of three major structures: the cathode, the field cage, 
 %{\it{(Jen, (Bo?))}}
 The cathode is assembled from 9 individual stainless steel sheets (Type 304, 2.3 mm thick) that are fastened to a supporting frame by hex button head stainless steel screws. The outer edge of the cathode frame consists of round stainless steel tubes of 5.08 cm outer diameter and 3.18 mm wall thickness.  Within this outer edge, square tubes with 5.08 cm $\times$ 5.08 cm cross-sectional area, and 3.18 mm wall thickness, are fastened together with button head screws, forming a support structure upon which the cathode sheets are attached.  The individual components of the support structure are further welded together to eliminate sharp features from this high-potential surface.  The exterior frame and support structure of the cathode, and also an interior view, are shown in figure~\ref{fig:tpc-cathode}. The cathode plane sheets are shimmed according to survey data to make the cathode as flat and as parallel to the anode frame as possible. Flatness of the cathode is evaluated relative to a best fit plane of survey data (more than 10000 survey points recorded with a laser tracker). The largest deviations of the cathode from the best fit plane are +6.6 mm and -6.5 mm. Approximately 55$\%$ of the measured survey points fall within +/-3 mm of the best fit plane, and more than 90$\%$ of the points fall within $\pm$5 mm.  Figure~\ref{fig:tpc-cathode-survey} shows the results of the survey, with deviations from flat represented as color-coded data extending away from the nominal plane of an ideal cathode. %%Source: Jonathan's SBND DocDB #437
 
-\begin{figure}[htb]
+\begin{figure}
 \centering	
 \includegraphics[width=0.62\linewidth]{figures/tpc-completed-upstream-left.jpg}
 \includegraphics[width=0.62\linewidth]{figures/tpc-upstream-interior.jpg}
@@ -70,7 +70,7 @@ The cathode is assembled from 9 individual stainless steel sheets (Type 304, 2.3
 %\label{fig:tpc-cathode-interior}
 %\end{figure}
 
-\begin{figure}[htb]
+\begin{figure}
 \centering
 \includegraphics[width=0.75\linewidth]{figures/cathode_right.jpg}
 \includegraphics[width=0.75\linewidth]{figures/cathode_left.jpg}
@@ -86,7 +86,7 @@ Each field cage loop is assembled from 2.07 m long vertical pipes on the upstrea
 
 The four corners of each field cage loop are curved with a radius of 5.24 cm. Each corner is formed by three parts: two couplings and an elbow, shown in figure~\ref{fig:tpc-fieldcage-elbows}. The couplings make the connections between the pipes and the elbow. The thin-walled tubes and elbows slip-fit over the ends of the couplings with a 2.2 cm overlap. Each coupling has two 6-32~NC tapped holes and the connections to the adjoining pieces are made by hex head button screws and lock washers.
 
-\begin{figure}[htb]
+\begin{figure}
 \centering	
 \includegraphics[width=0.8\linewidth]{figures/tpc-fieldcage-elbows.jpg}
 \caption{Field cage loops, with two partially disassembled to show elbow and couplings.}
@@ -95,7 +95,7 @@ The four corners of each field cage loop are curved with a radius of 5.24 cm. Ea
 
 In order to avoid electrical breakdown between the inner cryostat surface and field cage parts at high potential on or near the cathode, the electric field strength is minimized at the corners and edges of the field cage. Loops 0, 1, and 2 are each designed differently than the other field cage loops.  Loop 0 is a special case in that it is made from larger diameter piping of 5.08 cm OD, and frames the cathode and also acts as its mechanical support.  It operates at the same electrical potential as the cathode plane sheets attached to it.  Loop 0 has a slightly smaller area than the other field cage loops, as shown in figure~\ref{fig:tpc-smooshed-elbow}.  Loop 1 is the first of the 64 loops in the field cage with 2.54 cm OD tube, and is the edge of the cathode, operating at the same electrical potential as loop 0.  The elbow of loop 1 has a specially designed geometry in order to minimize the electric field potential.  The elbow of loop 2 has a softer radius of curvature than the standard elbows, also for the purpose of minimizing the electric field potential. For all three of these loops (loop 0, 1, and 2), connections at corners and joints are made by welding instead of screws to avoid sharp edges that would result in higher electric fields and greater chance of electrical breakdown.
 
-\begin{figure}[htb]
+\begin{figure}
 \centering	
 \includegraphics[width=0.8\linewidth]{figures/tpc-smooshed-elbow-3.jpg}
 \caption{Field cage loops closest to (and including) the cathode are modified to reduce sharp edges that would result in higher electric fields.}
@@ -106,7 +106,7 @@ Another precaution to minimize the electrical field between the loops and the cr
 
 Figure \ref{fig:efield} shows the simulated electric field values inside the MicroBooNE \lartpc, and some of the surrounding volume inside the cryostat, when the cathode is set to an operating voltage of -128 kV.  
 
-\begin{figure}[htb]
+\begin{figure}
 \centering	
 \includegraphics[width=0.7\linewidth]{figures/efield.png}
 \caption{Cross-section view showing electric field simulation inside the field cage when the cathode is set to a voltage of -128 kV.  Loop 0 is represented by the larger diameter circle on the left of the image.  The legend shows the absolute values of electric field modulus in units of V/m.}
@@ -122,7 +122,7 @@ A resistor divider chain installed across the field cage loops steps the voltage
 
 The voltage divider chain is mounted on the inside of the field cage at the upstream end of the detector. The couplings at the top corner of each field cage loop have additional holes facing the inside of the field cage, where the resistors are mounted. On the first 16 field cage loops, pairs of Metallux HVR 969.23 499~M$\Omega$ resistors (rated to 23~W, 48~kV in air) are mounted electrically in parallel to establish the beginning of the voltage divider chain. On the remaining loops, thick-film Ohmite Slim-Mox 104E metal-oxide epoxy-coated resistors with a lower power and voltage rating (1.5~W, 10~kV in air) are used. Extensive testing was done on these two types of resistors \cite{Bagby:2014wva}. For redundancy, the desired 250~M$\Omega$ total resistance between each pair of field cage loops is composed of four individual 1~G$\Omega$ Slim-Mox 104E resistors placed electrically in parallel and attached to a printed circuit board. Printed circuit boards span across eight field cage gaps and therefore have eight 250~M$\Omega$ resistances in series, shown in figure~\ref{fig:tpc-voltage-divider-slimmox}. The electrical connection between the boards and each field cage loop is made by metal contact pads on the back side of the boards, held in electrical contact with the field cage tube by a button-head hex screw and lock washer.
 
-\begin{figure}[htb]
+\begin{figure}
 \centering	
 \includegraphics[width=0.8\linewidth]{figures/tpc-voltage-divider-slimmox.jpg}
 \caption{The Ohmite Slim-Mox 104E resistors arranged in parallel sets of four on printed circuit boards that span eight field cage tubes.}
@@ -135,7 +135,7 @@ The field cage behaves like a capacitance network at high frequencies. Based on 
 
 In order to protect the resistors near the cathode from damage which could potentially render the field cage inoperable, two strategies have been implemented.  First, due to the knowledge obtained in the breakdown electrical field studies mentioned before, on the first 16 field cage loops near the cathode the Ohmite Slim-Mox 104E resistors are replaced by 499~M$\Omega$ Metallux HVR 969.23 resistors that have a higher voltage rating of 48~kV. An extensive study of resistor breakdown in liquid argon of several resistor brands and models \cite{Bagby:2014wva} has revealed that the breakdown voltage observed in liquid argon exceeds the rating in air substantially for all resistors. No breakdown has been observed up to 32~kV for the Ohmite Slim-Mox 104E resistor. For the Metallux HVR 969.23 resistors, no breakdown has been observed up to the limit of the test apparatus of 130~kV.  Since the Metallux HVR 969.23 resistors are significantly larger physically than the loop-to-loop distance, they are mounted diagonally between each pair of field cage loops. They are held by copper brackets, which are attached to studs welded onto the field cage tubes, shown in figure~\ref{fig:tpc-voltage-divider-metallux}.
 
-\begin{figure}[htb]
+\begin{figure}
 \centering	
 \includegraphics[width=0.8\linewidth]{figures/tpc-voltage-divider-metallux.jpg}
 \caption{The Metallux HVR 969.23 resistors mounted on the 16 field cage loops closest to the cathode.}
@@ -145,7 +145,7 @@ In order to protect the resistors near the cathode from damage which could poten
 
 The second type of protection installed for all resistors on field cage loops 1 through 32 is a surge protection circuit. The chosen surge protection devices are designed to short the circuit in the case of a voltage spike, which protects any other electrical components installed in parallel.  Below their clamping voltage, they exhibit a very high resistance and do not influence the circuit. The behavior of Gas Discharge Tubes (GDTs) and varistors in liquid argon has been studied extensively for application in the MicroBooNE field cage \cite{Asaadi:2014iva}. The surge protection device chosen is a Panasonic ERZ-V14D182 varistor with a clamping voltage of 1700 V. In order to obtain a very high resistance in normal operation and a clamping voltage above the 2~kV in normal operation mode, three of these devices are mounted in series across a block of four Slim-Mox 104E or two Metallux 969.23 resistors. These additional varistor boards make electrical contact with the field cage via brass mounting brackets that are fastened to the field cage with button head screws, as shown in figure~\ref{fig:tpc-voltage-divider-varistors}.
 
-\begin{figure}[htb]
+\begin{figure}
 \centering	
 \includegraphics[width=0.8\linewidth]{figures/tpc-voltage-divider-varistors.jpg}
 \caption{Surge-protecting varistors are installed in parallel with the voltage divider resistors for the first 32 field cage loops. Here, they are shown mounted on small boards in sets of 3, and attached to the field cage by means of 6-32 hex button head screws.}
@@ -166,7 +166,7 @@ The anode frame holds the induction and collection plane sense wires at tension 
 
 The anode frame is comprised of a stainless steel C-channel hosting adjustable tensioning bars to which the wire carrier boards are attached. The C-channel and tensioning bar assembly is depicted for one corner of the anode frame in figure~\ref{fig:anode-frame-3dmodel}.  Wire carrier boards attach to precision alignment pins distributed along the length of the tensioning bars. 
 
-\begin{figure}[htb]
+\begin{figure}
 \centering	
 \includegraphics[width=0.8\linewidth]{figures/anode-frame-3dmodel.pdf}
 \caption{Rendering of the anode frame assembly.  The C-channel is depicted in gray, and the adjustable tensioning bar assembly is shown in orange.}
@@ -178,7 +178,7 @@ The anode frame is comprised of a stainless steel C-channel hosting adjustable t
 
 The three anode planes are constructed from wire carrier boards that have had individually-prepared wires attached to them in groups of 16 (for the U- and V- angled planes) or 32 (for the vertical Y-plane).  Consistent quality in wire preparation was achieved by a semi-automated winding machine, which terminated the ends of each wire via wrapping around 3~mm diameter brass ferrules as shown in figure~\ref{fig:ferrules}. Each wire was tested for strength by being placed on a tensioning stand where a load of 2.5~kg (more than 3 times the nominal load of 0.7 kg) was applied for 10 minutes, ensuring that the wire preparation did not leave any weaknesses that could result in a breakage later on.  Upon successful completion of the quality assurance testing for each wire, it was placed onto a wire carrier board, shown in figure~\ref{fig:carrier-boards}
 
-\begin{figure}[htb]
+\begin{figure}
 \centering
 %\includegraphics[width=2in]{figures/temp.pdf}
 \includegraphics[width=0.5\textwidth]{figures/wire-twist.pdf}
@@ -189,7 +189,7 @@ The three anode planes are constructed from wire carrier boards that have had in
 
 When installed, the wires make contact with gold pins positioned on the wire carrier board, and these pins are connected to a trace that routes to the cold electronics described in section \ref{sec:coldelectronics}.  After fully filling a wire carrier board with wires, a cover plate was installed and press-fit rivets were installed to hold the assembly together. The assembled wire carrier board was then placed onto a tension stand, to reapply a 2.5 kg tension/wire to the whole board for 10 minutes. This is to ensure that the wires were not weakened during the board assembly process. The tension stand is depicted in figure \ref{fig:stress-stand}.   A comprehensive description of the MicroBooNE wire preparation and associated quality assurance studies can be found in \cite{Acciarri:2016ugk}.%Finally, the assembled wire carrier boards were placed into storage boxes, as shown in figure \ref{boxes}, where they remained until the wire plane installation onto the anode frame. 
 
-\begin{figure}[htb]
+\begin{figure}
 \centering
 %\includegraphics[width=2in]{figures/temp.pdf}
 \includegraphics[angle =0,width=0.7\textwidth]{figures/wire-carrierboard.png}
@@ -198,7 +198,7 @@ When installed, the wires make contact with gold pins positioned on the wire car
 \end{figure}
 
 
-\begin{figure}[htb]
+\begin{figure}
 \centering
 %\includegraphics[width=2in]{figures/temp.pdf}
 \includegraphics[angle=0,width=0.7\textwidth]{figures/wire-boardtension.png}
@@ -264,7 +264,7 @@ When installed, the wires make contact with gold pins positioned on the wire car
 %{\it{Jonathan (and Ryan?)}}
 During detector construction the completed wire carrier assemblies were manually installed onto the adjustable tensioning bars residing in the C-channel of the supporting anode frame.  A team of two people installed each assembly (consisting of wires and supporting carrier boards on either end) onto the anode frame.  The collection plane was the first installed, followed by the middle induction plane, and then finally the inner induction plane.  Once all three anode planes were completely installed, the tensioning bars were adjusted and a survey was taken of the tension of all anode wires.  Tension was measured via measuring the resonant frequency of a laser beam reflected off of a plucked wire and incident on a photodiode connected to a spectrum analyzer program \cite{SpectrumLaboratory}.  The tension measuring equipment was developed and produced by the University of Wisconsin Physical Sciences Laboratory.  The tensioning bars were adjusted iteratively until the surveyed tension of all wires was within a range, approximately $\pm$1.0 N of the nominal value of 6.9 N, where no single wire was too taught or loose to create detector performance issues.  Figure \ref{fig:heatmap} shows the final surveyed tension of the wires within the LArTPC.
 
-\begin{figure}[htb]
+\begin{figure}
 \centering
 %\includegraphics[width=2in]{figures/temp.pdf}
 \includegraphics[width=0.95\textwidth]{figures/WireTension_201605_updatedcolors.png}
@@ -300,7 +300,7 @@ G-10 is known to absorb large quantities of water, which would outgas in the arg
 
 The full mechanical structure of the \lartpc is shown in figure~\ref{fig:tpc-full}, with the top image depicting the cathode frame on the left, made semi-transparent to show the support structures on which the cathode sheets are attached. The anode frame is on the right of this image, with I-beams configured in a crossed pattern to maintain the shape and rigidity of the outer C-channel structure. Ribs of G-10 connect the anode and cathode, electrically isolating them from each other while also providing mounting holes to hold in place each of 64 field cage loops that define the active volume of the LArTPC.  The field cage loops are visible in the photograph in the bottom frame of figure~\ref{fig:tpc-full}.
 
-\begin{figure}[htb]
+\begin{figure}
 \centering	
 \includegraphics[width=0.8\linewidth]{figures/tpc-3drendering.pdf}
 \includegraphics[width=0.8\linewidth]{figures/tpc-completed-upstream-right.jpg}
@@ -310,7 +310,7 @@ The full mechanical structure of the \lartpc is shown in figure~\ref{fig:tpc-ful
 
 Assembly was done inside of a clean tent, shown in figure \ref{fig:tent}, on a flat surface made up of adjustable-height metal platforms that were installed on the assembly room floor.  These platforms were leveled to better than 0.5~mm before beginning assembly.  The anode frame was the first part of the detector to be assembled on this surface, shown in figure~\ref{fig:tpc-anode-frame}. It was temporarily placed aside, and the cathode frame was assembled on the same set of platforms along with the G-10 ribs, which stood vertically with the help of temporary unistrut support pieces.  The combined cathode and G-10 frame was then lifted and rotated to the proper orientation, with G-10 ribs extending horizontally from the cathode to the anode, as shown in figure~\ref{fig:tpc-cathode-g10-frame}. Finally, the anode frame was brought back over and attached to the G-10 ribs, and the stainless steel tubes that make up the field cage loops were fed through the holes in the G-10 ribs to complete the mechanical structure of the LArTPC. 
 
-\begin{figure}[htb]
+\begin{figure}
 \centering	
 \includegraphics[width=0.8\linewidth]{figures/tent.jpg}
 \caption{Clean tent where MicroBooNE \lartpc assembly was conducted.}
@@ -318,14 +318,14 @@ Assembly was done inside of a clean tent, shown in figure \ref{fig:tent}, on a f
 \end{figure}
 
 
-\begin{figure}[htb]
+\begin{figure}
 \centering	
 \includegraphics[width=0.8\linewidth]{figures/tpc-anode-frame.jpg}
 \caption{Anode frame in the process of being moved from the metal assembly platforms.}
 \label{fig:tpc-anode-frame}
 \end{figure}
 
-\begin{figure}[htb]
+\begin{figure}
 \centering	
 \includegraphics[width=0.8\linewidth]{figures/tpc-cathode-g10-frame.jpg}
 \caption{Cathode frame and G-10 ribs on metal assembly platforms.}
@@ -345,7 +345,7 @@ The potential is introduced into the cryostat by a custom-designed HV feedthroug
 
 % The label/referencing is terrible here because
 % JINST does not like subfigures
-\begin{figure}[htb]
+\begin{figure}
 \centering{
 \includegraphics[width=\textwidth]{figures/hv-feedthrough}\\
 \includegraphics[width=\textwidth]{figures/hv-ftdrawing}

@@ -1,70 +1,70 @@
 \contentsline {section}{\numberline {1}Introduction and Physics Motivation}{2}{section.1}
 \contentsline {paragraph}{Organization of Document}{3}{section*.2}
-\contentsline {section}{\numberline {2}Experiment Overview}{3}{section.2}
+\contentsline {section}{\numberline {2}Experiment Overview}{4}{section.2}
 \contentsline {subsection}{\numberline {2.1}The MicroBooNE LArTPC\nobreakspace {}}{4}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}MicroBooNE LArTPC\nobreakspace {}Implementation}{6}{subsection.2.2}
-\contentsline {section}{\numberline {3}Cryogenic System}{8}{section.3}
+\contentsline {subsection}{\numberline {2.2}MicroBooNE LArTPC\nobreakspace {}Implementation}{7}{subsection.2.2}
+\contentsline {section}{\numberline {3}Cryogenic System}{9}{section.3}
 \contentsline {subsection}{\numberline {3.1}Cryostat Design Overview}{9}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Liquid Argon Purification Subsystem}{10}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Nitrogen Refrigeration}{14}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Controls and Purity Monitoring}{15}{subsection.3.4}
-\contentsline {section}{\numberline {4}Liquid Argon Time Projection Chamber}{16}{section.4}
-\contentsline {subsection}{\numberline {4.1}Cathode}{17}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Field Cage}{18}{subsection.4.2}
+\contentsline {subsection}{\numberline {3.2}Liquid Argon Purification Subsystem}{11}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Nitrogen Refrigeration}{16}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Controls and Purity Monitoring}{17}{subsection.3.4}
+\contentsline {section}{\numberline {4}Liquid Argon Time Projection Chamber}{18}{section.4}
+\contentsline {subsection}{\numberline {4.1}Cathode}{18}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Field Cage}{19}{subsection.4.2}
 \contentsline {subsubsection}{\numberline {4.2.1}Resistor Divider Chain}{23}{subsubsection.4.2.1}
-\contentsline {subsection}{\numberline {4.3}Anode}{26}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Mechanical structure}{26}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}Wire winding and quality assurance}{26}{subsubsection.4.3.2}
-\contentsline {subsubsection}{\numberline {4.3.3}Wire installation and tension measurements}{28}{subsubsection.4.3.3}
-\contentsline {subsection}{\numberline {4.4}Parts Preparation}{28}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}Cleaning stainless steel}{29}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Cleaning G-10}{30}{subsubsection.4.4.2}
-\contentsline {subsection}{\numberline {4.5}Assembly}{31}{subsection.4.5}
-\contentsline {subsection}{\numberline {4.6}High Voltage System}{31}{subsection.4.6}
-\contentsline {section}{\numberline {5}Light Collection System}{32}{section.5}
-\contentsline {subsection}{\numberline {5.1}Light Production in Argon }{36}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}The Primary Light Collection System}{38}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Photomultiplier Tubes and Bases}{39}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}Wavelength-Shifting Plates}{41}{subsubsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.3}UV Light Protection for the Wavelength-Shifting Plates }{42}{subsubsection.5.2.3}
-\contentsline {subsubsection}{\numberline {5.2.4}Cryogenic Mu Metal Shields}{43}{subsubsection.5.2.4}
-\contentsline {subsubsection}{\numberline {5.2.5}Implementation of the Primary System }{45}{subsubsection.5.2.5}
-\contentsline {subsection}{\numberline {5.3}PMT Testing and Quality Assurance}{47}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Secondary System: Acrylic Light Guides for R\&D}{49}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Calibration}{50}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Coupling of PMT Signals to the Anode Wires}{51}{subsection.5.6}
-\contentsline {subsection}{\numberline {5.7}Initial Performance of the MicroBooNE Light Collection System}{52}{subsection.5.7}
-\contentsline {section}{\numberline {6}Electronics and Readout Systems}{52}{section.6}
-\contentsline {subsection}{\numberline {6.1}Cryogenic Low-Noise Electronics}{53}{subsection.6.1}
-\contentsline {subsubsection}{\numberline {6.1.1}CMOS ASIC}{54}{subsubsection.6.1.1}
-\contentsline {subsubsection}{\numberline {6.1.2}Cold Motherboards}{56}{subsubsection.6.1.2}
-\contentsline {subsubsection}{\numberline {6.1.3}Cold Cables}{57}{subsubsection.6.1.3}
-\contentsline {subsubsection}{\numberline {6.1.4}Electronic Calibration}{58}{subsubsection.6.1.4}
-\contentsline {subsubsection}{\numberline {6.1.5}Performance Tests}{58}{subsubsection.6.1.5}
-\contentsline {subsection}{\numberline {6.2}Warm Electronic Amplification}{59}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Readout Electronics}{61}{subsection.6.3}
-\contentsline {subsubsection}{\numberline {6.3.1} Data Digitization}{62}{subsubsection.6.3.1}
-\contentsline {subsubsection}{\numberline {6.3.2} Data Handling}{62}{subsubsection.6.3.2}
-\contentsline {subsubsection}{\numberline {6.3.3}Compression Schemes}{64}{subsubsection.6.3.3}
-\contentsline {subsection}{\numberline {6.4}PMT Readout Electronics}{65}{subsection.6.4}
-\contentsline {subsubsection}{\numberline {6.4.1}Signal Amplification and Shaping}{67}{subsubsection.6.4.1}
-\contentsline {subsubsection}{\numberline {6.4.2}PMT Data Digitization}{67}{subsubsection.6.4.2}
-\contentsline {subsubsection}{\numberline {6.4.3}Data Handling and PMT Trigger Generation}{67}{subsubsection.6.4.3}
-\contentsline {subsection}{\numberline {6.5}Level-1 Trigger Generation}{68}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}DAQ Design}{70}{subsection.6.6}
-\contentsline {subsection}{\numberline {6.7}High-Level Software Trigger}{73}{subsection.6.7}
-\contentsline {section}{\numberline {7}Infrastructure and Monitoring Systems}{74}{section.7}
-\contentsline {subsection}{\numberline {7.1}Electronics Infrastructure at LArTF}{74}{subsection.7.1}
-\contentsline {subsubsection}{\numberline {7.1.1}AC Power Distribution and Grounding for Low-Noise LArTF Data-taking}{74}{subsubsection.7.1.1}
-\contentsline {subsubsection}{\numberline {7.1.2}DC Power Distribution to the MicroBooNE Detector}{77}{subsubsection.7.1.2}
-\contentsline {subsubsection}{\numberline {7.1.3}Network, Timing, and Data Distribution for Low-Noise LArTF Data-taking}{77}{subsubsection.7.1.3}
-\contentsline {subsubsection}{\numberline {7.1.4}Interlocks and Safety Systems}{79}{subsubsection.7.1.4}
-\contentsline {subsubsection}{\numberline {7.1.5}Performance Measurements}{80}{subsubsection.7.1.5}
-\contentsline {subsection}{\numberline {7.2}Slow monitoring and control system}{80}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Beam Monitoring}{81}{subsection.7.3}
-\contentsline {section}{\numberline {8}UV Laser System}{82}{section.8}
-\contentsline {subsection}{\numberline {8.1}UV Laser Calibration}{85}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Laser Source and Optics}{85}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}Steering System}{87}{subsection.8.3}
-\contentsline {subsection}{\numberline {8.4}Performance Tests and Initial Operation}{88}{subsection.8.4}
-\contentsline {section}{\numberline {9}Conclusion}{89}{section.9}
+\contentsline {subsection}{\numberline {4.3}Anode}{27}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Mechanical structure}{27}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Wire winding and quality assurance}{28}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}Wire installation and tension measurements}{29}{subsubsection.4.3.3}
+\contentsline {subsection}{\numberline {4.4}Parts Preparation}{30}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Cleaning stainless steel}{30}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Cleaning G-10}{31}{subsubsection.4.4.2}
+\contentsline {subsection}{\numberline {4.5}Assembly}{32}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}High Voltage System}{32}{subsection.4.6}
+\contentsline {section}{\numberline {5}Light Collection System}{37}{section.5}
+\contentsline {subsection}{\numberline {5.1}Light Production in Argon }{38}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}The Primary Light Collection System}{40}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Photomultiplier Tubes and Bases}{40}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Wavelength-Shifting Plates}{43}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.3}UV Light Protection for the Wavelength-Shifting Plates }{45}{subsubsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.4}Cryogenic Mu Metal Shields}{45}{subsubsection.5.2.4}
+\contentsline {subsubsection}{\numberline {5.2.5}Implementation of the Primary System }{47}{subsubsection.5.2.5}
+\contentsline {subsection}{\numberline {5.3}PMT Testing and Quality Assurance}{49}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Secondary System: Acrylic Light Guides for R\&D}{50}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Calibration}{52}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Coupling of PMT Signals to the Anode Wires}{53}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.7}Initial Performance of the MicroBooNE Light Collection System}{53}{subsection.5.7}
+\contentsline {section}{\numberline {6}Electronics and Readout Systems}{56}{section.6}
+\contentsline {subsection}{\numberline {6.1}Cryogenic Low-Noise Electronics}{57}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}CMOS ASIC}{57}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}Cold Motherboards}{59}{subsubsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.3}Cold Cables}{60}{subsubsection.6.1.3}
+\contentsline {subsubsection}{\numberline {6.1.4}Electronic Calibration}{60}{subsubsection.6.1.4}
+\contentsline {subsubsection}{\numberline {6.1.5}Performance Tests}{60}{subsubsection.6.1.5}
+\contentsline {subsection}{\numberline {6.2}Warm Electronic Amplification}{62}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Readout Electronics}{63}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1} Data Digitization}{64}{subsubsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.2} Data Handling}{65}{subsubsection.6.3.2}
+\contentsline {subsubsection}{\numberline {6.3.3}Compression Schemes}{67}{subsubsection.6.3.3}
+\contentsline {subsection}{\numberline {6.4}PMT Readout Electronics}{68}{subsection.6.4}
+\contentsline {subsubsection}{\numberline {6.4.1}Signal Amplification and Shaping}{69}{subsubsection.6.4.1}
+\contentsline {subsubsection}{\numberline {6.4.2}PMT Data Digitization}{70}{subsubsection.6.4.2}
+\contentsline {subsubsection}{\numberline {6.4.3}Data Handling and PMT Trigger Generation}{70}{subsubsection.6.4.3}
+\contentsline {subsection}{\numberline {6.5}Level-1 Trigger Generation}{71}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}DAQ Design}{72}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}High-Level Software Trigger}{75}{subsection.6.7}
+\contentsline {section}{\numberline {7}Infrastructure and Monitoring Systems}{76}{section.7}
+\contentsline {subsection}{\numberline {7.1}Electronics Infrastructure at LArTF}{76}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {7.1.1}AC Power Distribution and Grounding for Low-Noise LArTF Data-taking}{76}{subsubsection.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.2}DC Power Distribution to the MicroBooNE Detector}{79}{subsubsection.7.1.2}
+\contentsline {subsubsection}{\numberline {7.1.3}Network, Timing, and Data Distribution for Low-Noise LArTF Data-taking}{80}{subsubsection.7.1.3}
+\contentsline {subsubsection}{\numberline {7.1.4}Interlocks and Safety Systems}{82}{subsubsection.7.1.4}
+\contentsline {subsubsection}{\numberline {7.1.5}Performance Measurements}{82}{subsubsection.7.1.5}
+\contentsline {subsection}{\numberline {7.2}Slow monitoring and control system}{82}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Beam Monitoring}{84}{subsection.7.3}
+\contentsline {section}{\numberline {8}UV Laser System}{85}{section.8}
+\contentsline {subsection}{\numberline {8.1}UV Laser Calibration}{88}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Laser Source and Optics}{88}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Steering System}{89}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Performance Tests and Initial Operation}{90}{subsection.8.4}
+\contentsline {section}{\numberline {9}Conclusion}{92}{section.9}
