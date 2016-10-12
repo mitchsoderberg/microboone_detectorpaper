@@ -36,35 +36,6 @@ S.~Amerio et~al., {\it Design, construction and tests of the {ICARUS} {T600}
   A: Accelerators, Spectrometers, Detectors and Associated Equipment} {\bf 527}
   (2004), no.~3 329 -- 410.
 
-\bibitem{Amoruso:2004-muon}
-S.~Amoruso et~al., {\it Measurement of the muon decay spectrum with the icarus
-  liquid argon tpc},  {\em The European Physical Journal C - Particles and
-  Fields} {\bf 33} (2004), no.~2 233--241.
-
-\bibitem{Amoruso:2004-electron}
-S.~Amoruso et~al., {\it Study of electron recombination in liquid argon with
-  the \{ICARUS\} \{TPC\}},  {\em Nuclear Instruments and Methods in Physics
-  Research Section A: Accelerators, Spectrometers, Detectors and Associated
-  Equipment} {\bf 523} (2004), no.~3 275 -- 286.
-
-\bibitem{Antonello:2004-cherenkov}
-M.~Antonello et~al., {\it Detection of cherenkov light emission in liquid
-  argon},  {\em Nuclear Instruments and Methods in Physics Research Section A:
-  Accelerators, Spectrometers, Detectors and Associated Equipment} {\bf 516}
-  (2004), no.~2--3 348 -- 363.
-
-\bibitem{Amoruso:2004-purity}
-S.~Amoruso et~al., {\it Analysis of the liquid argon purity in the {{ICARUS}}
-  {{T600}} {{TPC}}},  {\em Nuclear Instruments and Methods in Physics Research
-  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
-  {\bf 516} (2004), no.~1 68 -- 79.
-
-\bibitem{Arneodo:2003-tracks}
-F.~Arneodo et~al., {\it Observation of long ionizing tracks with the {{ICARUS}}
-  {{T600}} first half-module},  {\em Nuclear Instruments and Methods in Physics
-  Research Section A: Accelerators, Spectrometers, Detectors and Associated
-  Equipment} {\bf 508} (2003), no.~3 287 -- 294.
-
 \bibitem{Anderson:2012-argoneut}
 {\bf ArgoNeuT} Collaboration, C.~Anderson et~al., {\it {The ArgoNeuT Detector
   in the NuMI Low-Energy beam line at Fermilab}},  {\em JINST} {\bf 7} (2012)
@@ -94,6 +65,17 @@ F.~Arneodo et~al., {\it Observation of long ionizing tracks with the {{ICARUS}}
   Neutrino and Antineutrino Coherent Charged Pion Production on Argon}},  {\em
   Phys. Rev. Lett.} {\bf 113} (2014), no.~26 261801,
   [\href{http://xxx.lanl.gov/abs/1408.0598}{{\tt arXiv:1408.0598}}].
+
+\bibitem{Antonello:2015lea}
+{\bf LAr1-ND, ICARUS-WA104, MicroBooNE} Collaboration, M.~Antonello et~al.,
+  {\it {A Proposal for a Three Detector Short-Baseline Neutrino Oscillation
+  Program in the Fermilab Booster Neutrino Beam}},
+  \href{http://xxx.lanl.gov/abs/1503.0152}{{\tt arXiv:1503.0152}}.
+
+\bibitem{Acciarri:2015uup}
+{\bf DUNE} Collaboration, R.~Acciarri et~al., {\it {Long-Baseline Neutrino
+  Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE)}},
+  \href{http://xxx.lanl.gov/abs/1512.0614}{{\tt arXiv:1512.0614}}.
 
 \bibitem{AguilarArevalo:2008rc}
 {\bf MiniBooNE} Collaboration, A.~A. Aguilar-Arevalo et~al., {\it {Unexplained
