@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 OCT 2016 09:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 OCT 2016 10:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1782,7 +1782,12 @@ File: t1newtxtt.fd 2014/12/23 Font definitions for T1/newtxtt.
 LaTeX Font Info:    Font shape `T1/newtxtt/m/n' will be
 (Font)              scaled to size 10.0pt on input line 31.
  [93]
-[94] [95] [96] [97])
+[94] [95] [96] [97]
+
+Package lineno Warning: Linenumber reference failed, 
+(lineno)                rerun to get it right.
+
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
  [98]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
@@ -1820,7 +1825,7 @@ st/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (101 pages, 33046135 bytes).
+Output written on main.pdf (101 pages, 33047207 bytes).
 PDF statistics:
  2285 PDF objects out of 2487 (max. 8388607)
  370 named destinations out of 1000 (max. 500000)
