@@ -66,32 +66,34 @@ F.~Arneodo et~al., {\it Observation of long ionizing tracks with the {{ICARUS}}
   Equipment} {\bf 508} (2003), no.~3 287 -- 294.
 
 \bibitem{Anderson:2012-argoneut}
-C.~Anderson et~al., {\it {The ArgoNeuT Detector in the NuMI Low-Energy beam
-  line at Fermilab}},  {\em JINST} {\bf 7} (2012) P10019,
-  [\href{http://xxx.lanl.gov/abs/1205.6747}{{\tt arXiv:1205.6747}}].
+{\bf ArgoNeuT} Collaboration, C.~Anderson et~al., {\it {The ArgoNeuT Detector
+  in the NuMI Low-Energy beam line at Fermilab}},  {\em JINST} {\bf 7} (2012)
+  P10019, [\href{http://xxx.lanl.gov/abs/1205.6747}{{\tt arXiv:1205.6747}}].
 
 \bibitem{Acciarri:2013-argoneut-recomb}
-R.~Acciarri et~al., {\it {A study of electron recombination using highly
-  ionizing particles in the ArgoNeuT Liquid Argon TPC}},  {\em JINST} {\bf 8}
-  (2013) P08005, [\href{http://xxx.lanl.gov/abs/1306.1712}{{\tt
-  arXiv:1306.1712}}].
+{\bf ArgoNeuT} Collaboration, R.~Acciarri et~al., {\it {A study of electron
+  recombination using highly ionizing particles in the ArgoNeuT Liquid Argon
+  TPC}},  {\em JINST} {\bf 8} (2013) P08005,
+  [\href{http://xxx.lanl.gov/abs/1306.1712}{{\tt arXiv:1306.1712}}].
 
 \bibitem{Anderson:2012-argoneut-CCincl}
-C.~Anderson et~al., {\it {First Measurements of Inclusive Muon Neutrino Charged
-  Current Differential Cross Sections on Argon}},  {\em Phys.Rev.Lett.} {\bf
-  108} (2012) 161802, [\href{http://xxx.lanl.gov/abs/1111.0103}{{\tt
-  arXiv:1111.0103}}].
+{\bf ArgoNeuT} Collaboration, C.~Anderson et~al., {\it {First Measurements of
+  Inclusive Muon Neutrino Charged Current Differential Cross Sections on
+  Argon}},  {\em Phys.Rev.Lett.} {\bf 108} (2012) 161802,
+  [\href{http://xxx.lanl.gov/abs/1111.0103}{{\tt arXiv:1111.0103}}].
 
 \bibitem{Acciarri:2014-argoneut-CCxsec}
-R.~Acciarri et~al., {\it {Measurements of Inclusive Muon Neutrino and
-  Antineutrino Charged Current Differential Cross Sections on Argon in the NuMI
-  Antineutrino Beam}},  {\em Phys.Rev.} {\bf D89} (2014) 112003,
-  [\href{http://xxx.lanl.gov/abs/1404.4809}{{\tt arXiv:1404.4809}}].
+{\bf ArgoNeuT} Collaboration, R.~Acciarri et~al., {\it {Measurements of
+  Inclusive Muon Neutrino and Antineutrino Charged Current Differential Cross
+  Sections on Argon in the NuMI Antineutrino Beam}},  {\em Phys.Rev.} {\bf D89}
+  (2014) 112003, [\href{http://xxx.lanl.gov/abs/1404.4809}{{\tt
+  arXiv:1404.4809}}].
 
-\bibitem{Acciarri:2014-argoneut-CCcohpi}
-R.~Acciarri et~al., {\it {First Measurement of Neutrino and Antineutrino
-  Coherent Charged Pion Production on Argon}},
-  \href{http://xxx.lanl.gov/abs/1408.0598}{{\tt arXiv:1408.0598}}.
+\bibitem{Acciarri:2014eit}
+{\bf ArgoNeuT} Collaboration, R.~Acciarri et~al., {\it {First Measurement of
+  Neutrino and Antineutrino Coherent Charged Pion Production on Argon}},  {\em
+  Phys. Rev. Lett.} {\bf 113} (2014), no.~26 261801,
+  [\href{http://xxx.lanl.gov/abs/1408.0598}{{\tt arXiv:1408.0598}}].
 
 \bibitem{AguilarArevalo:2008rc}
 {\bf MiniBooNE} Collaboration, A.~A. Aguilar-Arevalo et~al., {\it {Unexplained
@@ -254,6 +256,11 @@ B.~Rebel et~al., {\it {Results from the Fermilab materials test stand and
 \newblock
   {http://www.elma-ultrasonic.com/fileadmin/downloads/CleaningAgents/SafetyDataSheets/GB/S\_EC\%2065\_GB.pdf}.
 
+\bibitem{Katori:2013wqa}
+{\bf MicroBooNE} Collaboration, T.~Katori, {\it {The MicroBooNE light
+  collection system}},  {\em JINST} {\bf 8} (2013) C10011,
+  [\href{http://xxx.lanl.gov/abs/1307.5256}{{\tt arXiv:1307.5256}}].
+
 \bibitem{Bugel:2011xg}
 L.~Bugel, J.~M. Conrad, C.~Ignarra, B.~J.~P. Jones, T.~Katori, T.~Smidt, and
   H.~K. Tanaka, {\it {Demonstration of a Lightguide Detector for Liquid Argon
@@ -288,11 +295,6 @@ B.~Jones, T.~Alexander, H.~Back, G.~Collin, J.~Conrad, et~al., {\it {The
   JINST} {\bf 8} (2013) P12015, [\href{http://xxx.lanl.gov/abs/1308.3658}{{\tt
   arXiv:1308.3658}}].
 
-\bibitem{Katori:2013wqa}
-{\bf MicroBooNE} Collaboration, T.~Katori, {\it {The MicroBooNE light
-  collection system}},  {\em JINST} {\bf 8} (2013) C10011,
-  [\href{http://xxx.lanl.gov/abs/1307.5256}{{\tt arXiv:1307.5256}}].
-
 \bibitem{Moss:2014ota}
 Z.~Moss, L.~Bugel, G.~Collin, J.~Conrad, B.~Jones, et~al., {\it {Improved
   TPB-coated Light Guides for Liquid Argon TPC Light Detection Systems}},
@@ -312,11 +314,7 @@ Z.~Moss, M.~Toups, L.~Bugel, G.~Collin, and J.~Conrad, {\it {Anode-Coupled
 \bibitem{Jones:2015bya}
 B.~J.~P. Jones, {\em {Sterile Neutrinos in Cold Climates}}.
 \newblock PhD thesis, MIT, 2015.
-
-\bibitem{SUZUKI1979197}
-M.~Suzuki and S.~Kubota, {\it Mechanism of proportional scintillation in argon,
-  krypton and xenon},  {\em Nuclear Instruments and Methods} {\bf 164} (1979),
-  no.~1 197 -- 199.
+\newblock http://inspirehep.net/record/1389805.
 
 \bibitem{PhysRevB.27.5279}
 A.~Hitachi, T.~Takahashi, N.~Funayama, K.~Masuda, J.~Kikuchi, and T.~Doke, {\it
@@ -327,6 +325,11 @@ A.~Hitachi, T.~Takahashi, N.~Funayama, K.~Masuda, J.~Kikuchi, and T.~Doke, {\it
 {\bf WArP} Collaboration, R.~Acciarri et~al., {\it {Effects of Nitrogen
   contamination in liquid Argon}},  {\em JINST} {\bf 5} (2010) P06003,
   [\href{http://xxx.lanl.gov/abs/0804.1217}{{\tt arXiv:0804.1217}}].
+
+\bibitem{SUZUKI1979197}
+M.~Suzuki and S.~Kubota, {\it Mechanism of proportional scintillation in argon,
+  krypton and xenon},  {\em Nuclear Instruments and Methods} {\bf 164} (1979),
+  no.~1 197 -- 199.
 
 \bibitem{1997NIMPA.384..380I}
 N.~{Ishida}, M.~{Chen}, T.~{Doke}, K.~{Hasuike}, A.~{Hitachi}, M.~{Gaudreau},
@@ -369,6 +372,7 @@ W.~Burton and B.~Powell, {\it Fluorescence of tetraphenyl-butadiene in the
 \bibitem{Ignarra:2014yqa}
 C.~M. Ignarra, {\em {Sterile Neutrino Searches in MiniBooNE and MicroBooNE}}.
 \newblock PhD thesis, MIT, Cambridge, 2014.
+\newblock http://inspirehep.net/record/1316612.
 
 \bibitem{Gehman:2011}
 V.~Gehman, S.~Seibert, K.~Rielage, A.~Hime, Y.~Sun, et~al., {\it {Fluorescence
