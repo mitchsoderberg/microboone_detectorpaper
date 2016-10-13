@@ -4,21 +4,21 @@
 
 The knowledge of the electric field inside the drift volume of a \lartpc is a necessary aspect for performing subsequent event reconstruction. Distortions of particle tracks due to field non-uniformities affect the accuracy of the particle momentum reconstruction based on multiple scattering.  Deviations from a uniform drift field may arise mainly due to accumulation of positive argon ions in the drift volume. These ions are produced by ionizing particles from neutrino interactions, as well as by cosmic rays. While electrons produced by ionizing particles are quickly (within few milliseconds) swept towards the readout system, ions have significantly lower mobility. Their drift velocity in the MicroBooNE detector at nominal drift field is of the order of 0.8 cm/s. The rate of cosmic muons in the \lartpc volume is calculated to be 11,000 muons/s within the active volume (assuming no overburden, and a cosmic rate of 200 muons/m$^2$/s through a horizontal plane at the earth's surface and 63 muons/m$^2$/s through a vertical plane), traversing a combined length of 1.9$\times$10$^4$ m through the liquid argon \cite{mcdonald1,mcdonald2}.  Assuming that cosmic muons are minimum-ionizing (2.1 MeV/cm) and produce 23.6 eV per ion pair, positive ion charge is produced at a rate of 2.8$\times$10$^{-8}$ C/s in the MicroBooNE LArTPC. These ions are continuously neutralized at the cathode. The resulting charge distribution in equilibrium is shown in figure \ref{Ions}. Such accumulated space charge leads to noticeable distortion of the drift field and, consequently, to deviations of reconstructed track coordinates by up to 10 cm (see figure \ref{Coordinates}).  The ion drift velocity is comparable to local argon flow velocities, produced by global argon recirculation flow and thermal convection. Therefore the distribution of positive space charge inside the drift volume may be not only nonuniform (figure \ref{Voirin}), but also non-stationary.
 
-\begin{figure}[htb]
+\begin{figure}
 \centering	
 \includegraphics[width=0.8\textwidth]{figures/Potential.pdf}
 \caption{Distorting potential distribution due to positive space charge in equilibrium in the MicroBooNE detector.}
 \label{Ions}
 \end{figure}
 
-\begin{figure}[htb]
+\begin{figure}
 \centering	
 \includegraphics[width=0.8\textwidth]{figures/Coordinate.pdf}
 \caption{Deviation of a crossing track from its true coordinates due to positive ion space charge.}
 \label{Coordinates}
 \end{figure}
 
-\begin{figure}[htb]
+\begin{figure}
 \centering	
 \includegraphics[width=0.8\textwidth]{figures/Voirin.pdf}
 \caption{Distribution of the positive space charge in presence of argon circulation.}
@@ -36,7 +36,7 @@ In order to unambiguously reconstruct a drift field vector at any point within t
 An algorithm of drift field calibration utilizes an input array of detector events with one straight ionization track in each element of the array. The result of the calibration is a coordinate correction map, to be applied to each track, which converts apparently curved track images back to the true coordinate system where they are straight. The algorithm is iterative with an optimizable iteration step and required accuracy. An example of simulated reconstruction in 2-D space is depicted in figure \ref{Reco}, showing that the magnitude of the field distortions can potentially be reduced from 10~cm down to several millimeters in 99\% of the detector volume.
 
 
-\begin{figure}[htb]
+\begin{figure}
 \centering	
 \includegraphics[width=0.98\textwidth]{figures/Original_Tracks.pdf}
 \includegraphics[width=0.98\textwidth]{figures/Ydev.pdf}
@@ -65,7 +65,7 @@ Figure \ref{fig:optics} depicts the arrangement of the laser system.  An optical
 One of the main challenges of the laser calibration system is the introduction of a steerable laser beam into the detector. Earlier, an evacuated quartz-glass \cite{BernLaser} was utilized to introduce a laser beam into liquid argon, however this beam had a fixed path through the detector. For the purpose of scanning the full detector a fully steerable mirror in liquid argon is necessary. In the MicroBooNE detector, this is achieved by mounting a mirror on a horizontally-rotatable support structure. A rack and pinion construction, where the mirror is mounted on the frontside of a half gear (pinion), provides the necessary freedom for the vertical movement (see figure \ref{fig:feedthrough} right). To steer the horizontal movement from outside the cryostat, a commercial differentially-pumped rotational feedthrough is deployed (see figure \ref{fig:feedthrough} left). The rack and pinion construction is attached to a linear feedthrough. Both feedthroughs are motorized to allow for remote control and automation of the mirror movement. The mirror support structure was fabricated out of polyamide-imide (Duratron T4301 PAI), which has a very low outgassing rate and low thermal expansion coefficient, and is certified for operation at 87~K. To minimize the probability of discharges due to the close location of the feedthrough to the field cage structure in MicroBooNE, no conductive parts were used in the support structure. The support structure has a total length of 2.5~m in MicroBooNE.
 Both feedthroughs are equipped with high precision position encoders from Heidenhain. The accuracy of the encoders is chosen such that a position accuracy of 2~mm for the laser beam spot over 10~m distance is achieved.  An external interface box controls the encoders and records a position reading upon receiving a trigger signal from the photodiode. The DAQ computer accesses the position information over an ethernet connection. The same computer is also used for steering the two motors via a motor driver system (over a RS232 interface).
 
-\begin{figure}[htb]
+\begin{figure}
 \centering
      \includegraphics[height=0.6\textwidth]{figures/Feedthrough.pdf} \includegraphics[height=0.6\textwidth]{figures/Mirror.pdf}
      \caption[CAD drawing of the feedthrough and the mirror support structure.]{Left: CAD cutaway drawing of the feedthrough construction is shown. The yellow line indicates the laser path. Right, CAD drawing of the cold mirror including the support structure.}

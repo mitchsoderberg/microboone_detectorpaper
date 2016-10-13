@@ -25,7 +25,7 @@ The analog front end ASIC is designed in 180~nm CMOS technology, which integrate
 
 The CMOS ASICs consume only 6~mW/channel in its default configuration. The front end ASICs of the entire detector generate 50 W of heat load that is easily handled by the cryogenics system. Design guidelines that constrain the electric field and the current density to address the lifetime of CMOS devices operated at cryogenic temperatures have been applied to every single transistor (total $\sim$15,000 transistors) in the ASIC design. A picture of the layout of the CMOS ASIC is shown in figure~\ref{fig:figasic}. Test results agree well with simulations and indicate that the analog and the digital circuits (including the digital interface) operate as expected in the cryogenic environment. 
 
-\begin{figure}[hbt]
+\begin{figure}
 \centering
 \includegraphics[width=0.75\linewidth]{figures/asic.pdf}
 \caption{\label{fig:figasic}Layout of the CMOS analog front end ASIC}
@@ -40,7 +40,7 @@ The MicroBooNE \lartpc has  8,256 readout channels and a total of 516 CMOS ASICs
 
 A cold motherboard was designed to house the MicroBooNE CMOS ASICs. In this capacity, the motherboard provides signal interconnections both between the detector wires and preamplifier inputs as well as between the driver outputs and cold cables to the signal feed-through. The cold motherboard design provides sufficient protection of the ASICs against electrostatic discharge during installation. It also provides a calibration network and bias voltage distribution for the wire planes. Specifically, a calibration signal enters the cryostat via a feed-through and reaches the preamplifiers through the motherboard. Each preamplifier channel in the ASIC has a built-in switch to individually cycle the calibration injection. The bias voltage reaches the \lartpc wires via a two-fold redundant path on the motherboard that allows the detector to operate normally even if one bias voltage channel fails.  As with the PMT bases, the cold motherboards use Rogers 4000 series as the PC-board material due to the cleanliness and thermal properties previously described in section \ref{sec:pmt-bases}.  The different positions of the wire attachments along the top and sides of the \lartpc requires 2 types of cold motherboard. The top version of the motherboard has 192 readout channels that includes 96 Y channels, 48 U channels, and 48 V channels. The side version of the motherboard has 96 readout channels that are either U or V channels. A picture of the top version of a cold motherboard with 12 mounted ASIC chips is shown in figure~\ref{fig:figmb}. 
 
-\begin{figure}[hbt]
+\begin{figure}
 \centering
 \includegraphics[width=0.75\linewidth]{figures/mb2.pdf}
 \caption{\label{fig:figmb} Top version of cold motherboard with 12 ASIC chips, including 6 chips mounted on top layer and 6 chips on bottom layer.}
@@ -62,14 +62,14 @@ The MicroBooNE cold electronics include a precision charge calibration system. T
 The development of the analog front end ASICs was initiated using 180~nm CMOS technology and 300 K models, though the performance parameters are extracted at 77 K. CMOS was found to function at cryogenic temperatures with increased gain and lower noise. The noise, gain, and pulse shaping were found to be as expected in evaluation tests of the ASICs. Extensive testing of the ASICs mounted on the motherboards was performed; these tests were done in liquid nitrogen rather than at room temperature, since noise levels and characteristics of the ASIC performance in liquid nitrogen are similar to the performance in liquid argon.  Thus, cold tests were performed on all production cold motherboards fully populated with 12 chips. A total of $\sim$2,200 chip-immersions were accumulated in liquid nitrogen without any failures due to thermal contraction or expansion. 
 %($g_{m}/I_{ds}$)
 
-\begin{figure}[hbt]
+\begin{figure}
 \begin{center}
 \includegraphics[scale=0.4]{figures/noise.pdf}
 \end{center}
 \caption{\label{fig:fignoise}Plot of noise vs. channel number for 192 channels (12 ASICs) and at two different temperatures. Noise is $\sim$1,200 $e^{-}$ at 293 K, and $\sim$550 $e^{-}$ at 77 K with 150 pF $C_{d}$}
 \end{figure}
 
-\begin{figure}[hbt]
+\begin{figure}
 \begin{center}
 \includegraphics[scale=0.4]{figures/gain.pdf}
 \end{center}
@@ -82,16 +82,16 @@ The test results show the noise of the front end readout electronics system decr
 \label{sec:warmelectronics}
 Signals from the cold electronics are carried over the cold cables to dedicated feedthroughs mounted on the cryostat.  The cold cables are connected to pin-carriers located on 356 mm outer-diameter CF signal feedthrough flanges that are mounted on nozzles N1A-N1K of the cryostat (see figure \ref{fig:cryostat-drawing}).  The signal feedthrough design must accommodate 100$\%$ hermeticity and high signal density. A design based on the ATLAS pin carrier style was developed for this purpose.  Two 8-row pin carriers and two 7-row pin carriers are welded onto the CF flange, as shown in figure \ref{fig:feedthroughflange}, and create a vacuum-tight seal.  Nine of the 11 signal feedthroughs receive signals from the three \lartpc anode planes (384 Y-plane, 192 U-plane, 192 V-plane), while the remaining two on the extreme ends of the cryostat only receive signals from one of the angled induction planes (672 U-plane on one feedthrough, 672 V-plane on the other).
 
-\begin{figure}[hbt]
+\begin{figure}
 \begin{center}
-\includegraphics[width=0.8\linewidth]{figures/signal_feedthrough_standard.pdf}
+\includegraphics[width=0.6\linewidth]{figures/signal_feedthrough_standard.pdf}
 \end{center}
 \caption{\label{fig:feedthroughflange}Signal feedthrough flange consisting of a 356 mm CF flange with two 8-row and two 7-row pin carriers welded in place.}
 \end{figure}
 
 A Faraday cage is mounted on the external, warm, side of the signal feedthroughs to provide shielding for the intermediate amplifiers located inside.  The bias voltage feedthrough, which supplies anode plane bias voltages into the cryostat, is built onto a small 70 mm CF flange welded onto the signal feedthrough flange. A filter board mounted on the bias voltage flange filters noise and ensures a good ground connection. Figure \ref{fig:feedthroughassembly} shows details of the signal feedthrough assembly with electronics boards, bias voltage feedthrough, and Faraday cage.
 
-\begin{figure}[hbt]
+\begin{figure}
 \begin{center}
 \includegraphics[width=0.4\linewidth]{figures/signal_feedthrough_assembly.pdf}
 \includegraphics[width=0.4\linewidth]{figures/signal_feedthrough_assembly_photo.pdf}
@@ -103,7 +103,7 @@ The intermediate amplifiers provide $\sim$12 dB gain to the \lartpc signals to m
 
 In addition to the intermediate amplifiers, there are two service boards mounted on the top of each signal feedthrough. The service board provides regulated low voltage, control and monitoring signals to the analog front end ASICs. It also provides pulse injection to the preamplifiers for precision calibration. The control, monitoring, and calibration signals are provided to the front end electronics with two-fold redundancy. Should one set of signals become defective the detector can still operate normally with the redundant set. Each service board plugs onto a 64-pin carrier row. Figure \ref{fig:intermediateamplifier} shows a picture of a prototype service board.
 
-\begin{figure}[hbt]
+\begin{figure}
 \begin{center}
 \includegraphics[width=0.4\linewidth]{figures/intermediate_amplifier.pdf}
 \includegraphics[width=0.4\linewidth]{figures/serviceboard.pdf}
