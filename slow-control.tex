@@ -95,7 +95,7 @@ DC power is provided to the \lartpc and readout electronics by power supplies in
 \item{Operating the light collection system PMTs}
 \item{Powering the cold electronics located inside the \lartpc}
 \item{Powering the warm electronics located in the \lartpc readout electronics racks}
-\item{Powering auxiliary systems, such as \lartpc temperature sensors and purity monitors}
+\item{Powering auxiliary systems, such as purity monitors}
 \end{itemize}
 
 Table~\ref{tab:DCPower} summarizes the required voltages or currents for each of these purposes as well as the power supply make and model utilized in each case.  Power supplies are located in the relevant subsystem's electronics rack, with power and grounding connections as dictated by that rack.
@@ -109,7 +109,7 @@ Table~\ref{tab:DCPower} summarizes the required voltages or currents for each of
       \hline
       Drift High Voltage & 120 kV & Glassman LX150N12 & Y \\ 
       \hline
-      Anode Plane Voltage & 1 kV / 8 mA & Wiener MPOD  & Y \\ 
+      Wire Plane Voltage & $\pm$1 kV / 8 mA & Wiener MPOD  & Y \\ 
   %    & & ISEG$\_$EHS 82 10X$\_$805F  &\\ 
       \hline
       PMT High Voltage & 2 kV / 3 mA & BIRA T4 & Y \\ 
@@ -149,7 +149,7 @@ The RPS principally consists of a smoke sensor connected to a Fermilab-designed 
 
 Temperature sensors deployed in two or three locations in each electronics rack sample air temperature within each rack.  Temperatures at each sensor are read out and recorded in the slow-control database by the slow-control monitoring box.  In addition, the box also produces a 5 V interlock signal if all sampled temperatures are within pre-programmed thresholds.  In electronics racks distributing PMT- or LArTPC-related DC power these temperature interlock signals are input into each relevant power supply, allowing DC power distribution only when this interlock signal is present, for safety purposes.
 
-Additional hardware interlocks ensure the non-simultaneous operation of particular systems.  In particular, the PMT system is disabled when cryogenic system liquid level sensors detect a level below that of the highest PMT bases, or when the UV laser system is active.  The former requirement is enforced with a dry-contact hardware interlock, while the latter is enforced with a software interlock in the MicroBooNE online software.
+Additional hardware interlocks ensure the non-simultaneous operation of particular systems.  In particular, the PMT system is disabled when cryogenic system liquid level sensors detect a level below that of the highest PMT bases, or when the UV laser system is active.  The former requirement is enforced with a dry-contact hardware interlock, while the latter is enforced with a software interlock in the MicroBooNE online software.  The UV laser system is also dry-contact hardware interlocked.  Finally, the HV drift power supply is directly interlocked with the cryogenic system controls liquid-level sensor via a dry-contact hardware interlock.
 
 \subsubsection{Performance Measurements}
 
