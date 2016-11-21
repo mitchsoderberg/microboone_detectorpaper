@@ -48,7 +48,7 @@ The cryostat is constructed to the American Society of Mechanical Engineers (ASM
 
 \begin{figure}[htb]
 \centering	
-\includegraphics[width=\linewidth]{figures/cryostat_nozzles}
+\includegraphics[width=\linewidth]{figures/cryostat_nozzles.png}
 \caption{MicroBooNE cryostat with nozzle penetrations labeled.}
 \label{fig:cryostat-drawing}
 \end{figure}
@@ -145,14 +145,14 @@ The argon purification piping is 2.54 cm diameter stainless steel that was pre-i
 
 \subsection{Nitrogen Refrigeration}
 
-The cryostat and purification systems that contain the liquid argon are subject to heat load from the environment, as well as from the active detectors that have electrical power enabled.  To keep these systems operating at a stable temperature and pressure, a liquid nitrogen refrigeration system is present to provide the necessary cooling power.  The liquid nitrogen system contains two condensers that are arranged in parallel.  One of these is utilized for normal operations and one serves as a backup on standby.  Each condenser contains two liquid nitrogen coils, an inner and an outer, with the gas argon on the shell side, as shown in figure~\ref{fig:condenser}.  Typically only one coil is actively running and the second can be manually activated during situations where the system heat load is higher than usual.  Each condenser is sized to handle a heat load of approximately 9.5 kW.  With the vessel full of liquid argon and no pump or liquid argon circulation running, the condenser uses $\sim$2350 liters of liquid nitrogen per day, which equates to a 3.9 kW system heat load.  With the recirculation pumps and the electronics in operation, the usage rate is about 3400 liters/day corresponding to a total heat load from the cryostat system of about 6 kW.  
-\begin{figure}[htb]
-\centering	
-\includegraphics[width=0.75\linewidth]{figures/condenser.png}
-\caption{Diagram of a condenser.}
-\label{fig:condenser}
-\end{figure}
-
+The cryostat and purification systems that contain the liquid argon are subject to heat load from the environment, as well as from the active detectors that have electrical power enabled.  To keep these systems operating at a stable temperature and pressure, a liquid nitrogen refrigeration system is present to provide the necessary cooling power.  The liquid nitrogen system contains two condensers that are arranged in parallel.  One of these is utilized for normal operations and one serves as a backup on standby.  Each condenser contains two liquid nitrogen coils, an inner and an outer, with the gas argon on the shell side.  Typically only one coil is actively running and the second can be manually activated during situations where the system heat load is higher than usual.  Each condenser is sized to handle a heat load of approximately 9.5 kW.  With the vessel full of liquid argon and no pump or liquid argon circulation running, the condenser uses $\sim$2350 liters of liquid nitrogen per day, which equates to a 3.9 kW system heat load.  With the recirculation pumps and the electronics in operation, the usage rate is about 3400 liters/day corresponding to a total heat load from the cryostat system of about 6 kW.  
+%\begin{figure}[htb]
+%\centering	
+%\includegraphics[width=0.75\linewidth]{figures/condenser.png}
+%\caption{Diagram of a condenser.}
+%\label{fig:condenser}
+%\end{figure}
+%
 
 
 \subsection{Controls and Purity Monitoring}
@@ -170,5 +170,14 @@ Q_A/Q_C = e^{-t/\tau}.
 Measurement of liquid argon purity in the MicroBooNE cryogenic system are provided by three purity monitors of various lengths. One purity monitor with a drift distance of 50~cm sits in a vessel just downstream of the filters and is used to monitor filter effectiveness. Two purity monitors, one with a drift distance of 19~cm and the other with a drift distance of 50~cm, sit within the primary MicroBooNE vessel at each end of the LArTPC.
 
 
- 
+ \subsection{Initial Purification}
+ The MicroBooNE cryogenic system was designed to allow the cryostat to go from containing atmosphere (and the detector) to containing high purity liquid argon (and the detector) without ever evacuating the cryostat. Such a process is considered essential to the development of multi-kiloton experiments where the cost of an evacuable cryostat would be prohibitive, and while a successful test of had been carried out in the LAPD [reference to LAPD], this process had never been done in a cryostat with such a large detector.  A fuller description with operational details is available at~\cite{MZuck_talk}.
+
+The process for preparing the cryostat for filling with liquid involved three stages - a `piston-purge' stage where argon gas flowed into the cryostat at its lowest point and the argon being denser than the atmosphere pushes the atmosphere out of the top of cryostat, a recirculation stage where the argon-gas loop is closed and the argon flows through a water-removal filter to reduce outgassing of water from detector materials, and a cool-down stage where the loop remains closed and the argon gas is cooled in a heat-exchanger and cools the detector to the point where the insertion of liquid argon will not damage the detector.
+
+The so-called `piston-purge' was achieved using a single pipe for gas input at the bottom of the cryostat and an identical pipe for the output at the top; the pipes each have $\frac{3}{16}$ inch diameter holes every 5 inches on both sides.  Calculations of the mutual diffusion of argon and nitrogen suggested that a rate of 480 SCFH was adequate in avoiding turbulence and minimizing back-diffusion of the air ~\cite{EVoirin_purge}. A total of about 13 volume exchanges took one week and resulted in contamination levels of $<$ 10 ppm $H_2 O$, $<$ 1 ppm $O_2$ and $<$ 1 ppm $N_2$. We should note that the filters do not remove $N_2$ and so the ultimate $N_2$ contamination  is set by the quality of the delivered argon. 
+
+The recirculation phase used the same piping system as the piston-purge but at a significantly higher flow rate (3 cryostat changes/hr). As mentioned, the recirculation passed the gas through the water removal filter and over a period of three weeks, the water concentration was reduced to $<$ 1 ppm. To counteract the increase in $N_2$ and $O_2$ levels from outgassing observed during this phase, (typically a rise of a few ppb/hr), a small fraction of the gas was vented and replaced with fresh argon. 
+
+The final stage involved cooling the cryostat and detector to prepare for filling with liquid argon. The TPC design imposed two requirements on the cooldown. One was that  the input gas be less than 20 K colder than the frame of the TPC to avoid wire-breakage since the massive TPC frame takes a long time to cool while the wires immediately adopt the input gas temperature and shrink,  thereby increasing the stress on the wires.  The second requirement was that the temperature difference between the top and the bottom of the TPC be less than 20K at any time to avoid warpage of the frame.  A set of RTDs screwed into the TPC frame, RTDs in the inlet gas piping, and a set of RTDs attached to the anode side of the cryostat were used to measure and monitor the process. For the cooldown, the argon-gas was cooled using a three-pass counter-flow nitrogen heat-exchanger, and recirculated using the sparger pipes. The cooldown was declared complete after three weeks when the average temperature had reached 105 K and the temperature difference between the top and the bottom of the detector was $<$10 K. At this temperature, the oxygen level had been reduced to 18 ppb and the H2O concentration had fallen to 22 ppb. These levels are reduced a factor of about 833 in the liquid and presented an excellent environment for the start of filling.
 

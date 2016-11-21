@@ -1,18 +1,9 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
 
-\bibitem{Doke:1993}
-T.~Doke, {\it A historical view on the r\&d for liquid rare gas detectors},
-  {\em Nuclear Instruments and Methods in Physics Research Section A} {\bf 327}
-  (1993), no.~1 113 -- 118.
-
 \bibitem{Willis:1974}
 W.~Willis and V.~Radeka, {\it Liquid-argon ionization chambers as
   total-absorption detectors},  {\em Nuclear Instruments and Methods} {\bf 120}
   (1974), no.~2 221 -- 236.
-
-\bibitem{Rubbia:1977}
-C.~Rubbia, {\it The liquid-argon time projection chamber: A new concept for
-  neutrino detectors},  EP Internal Report 77-8, CERN, May, 1977.
 
 \bibitem{Benetti:1993-3ton}
 P.~Benetti et~al., {\it A three-ton liquid argon time projection chamber},
@@ -35,11 +26,6 @@ S.~Amerio et~al., {\it Design, construction and tests of the {ICARUS} {T600}
   detector},  {\em Nuclear Instruments and Methods in Physics Research Section
   A: Accelerators, Spectrometers, Detectors and Associated Equipment} {\bf 527}
   (2004), no.~3 329 -- 410.
-
-\bibitem{Anderson:2012-argoneut}
-{\bf ArgoNeuT} Collaboration, C.~Anderson et~al., {\it {The ArgoNeuT Detector
-  in the NuMI Low-Energy beam line at Fermilab}},  {\em JINST} {\bf 7} (2012)
-  P10019, [\href{http://xxx.lanl.gov/abs/1205.6747}{{\tt arXiv:1205.6747}}].
 
 \bibitem{Acciarri:2013-argoneut-recomb}
 {\bf ArgoNeuT} Collaboration, R.~Acciarri et~al., {\it {A study of electron
@@ -66,17 +52,6 @@ S.~Amerio et~al., {\it Design, construction and tests of the {ICARUS} {T600}
   Phys. Rev. Lett.} {\bf 113} (2014), no.~26 261801,
   [\href{http://xxx.lanl.gov/abs/1408.0598}{{\tt arXiv:1408.0598}}].
 
-\bibitem{Antonello:2015lea}
-{\bf LAr1-ND, ICARUS-WA104, MicroBooNE} Collaboration, M.~Antonello et~al.,
-  {\it {A Proposal for a Three Detector Short-Baseline Neutrino Oscillation
-  Program in the Fermilab Booster Neutrino Beam}},
-  \href{http://xxx.lanl.gov/abs/1503.0152}{{\tt arXiv:1503.0152}}.
-
-\bibitem{Acciarri:2015uup}
-{\bf DUNE} Collaboration, R.~Acciarri et~al., {\it {Long-Baseline Neutrino
-  Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE)}},
-  \href{http://xxx.lanl.gov/abs/1512.0614}{{\tt arXiv:1512.0614}}.
-
 \bibitem{AguilarArevalo:2008rc}
 {\bf MiniBooNE} Collaboration, A.~A. Aguilar-Arevalo et~al., {\it {Unexplained
   Excess of Electron-Like Events From a 1-GeV Neutrino Beam}},  {\em Phys. Rev.
@@ -102,11 +77,6 @@ A.~Marchionni, {\it {Status and New Ideas Regarding Liquid Argon Detectors}},
 P.~Adamson et~al., {\it {The NuMI Neutrino Beam}},  {\em Nucl. Instrum. Meth.}
   {\bf A806} (2016) 279--306, [\href{http://xxx.lanl.gov/abs/1507.0669}{{\tt
   arXiv:1507.0669}}].
-
-\bibitem{AguilarArevalo:2008-MBflux}
-{\bf MiniBooNE} Collaboration, A.~Aguilar-Arevalo et~al., {\it {The Neutrino
-  Flux prediction at MiniBooNE}},  {\em Phys.Rev.} {\bf D79} (2009) 072002,
-  [\href{http://xxx.lanl.gov/abs/0806.1449}{{\tt arXiv:0806.1449}}].
 
 \bibitem{Aprile:1985}
 E.~Aprile, K.~Giboni, and C.~Rubbia, {\it A study of ionization electrons
@@ -198,9 +168,8 @@ L.~F. Bagby et~al., {\it {Breakdown voltage of metal-oxide resistors in liquid
   [\href{http://xxx.lanl.gov/abs/1408.4013}{{\tt arXiv:1408.4013}}].
 
 \bibitem{Acciarri:2014ica}
-{\bf MicroBooNE} Collaboration, R.~Acciarri et~al., {\it {Liquid Argon
-  Dielectric Breakdown Studies with the MicroBooNE Purification System}},  {\em
-  JINST} {\bf 9} (2014), no.~11 P11001,
+R.~Acciarri et~al., {\it {Liquid Argon Dielectric Breakdown Studies with the
+  MicroBooNE Purification System}},  {\em JINST} {\bf 9} (2014), no.~11 P11001,
   [\href{http://xxx.lanl.gov/abs/1408.0264}{{\tt arXiv:1408.0264}}].
 
 \bibitem{Asaadi:2014iva}
@@ -215,33 +184,33 @@ R.~Acciarri et~al., {\it {Construction and Assembly of the Wire Planes for the
   MicroBooNE Time Projection Chamber}},
   \href{http://xxx.lanl.gov/abs/1609.0616}{{\tt arXiv:1609.0616}}.
 
-\bibitem{SpectrumLaboratory}
-W.~Buescher, {\it {Spectrum Laboratory}}, .
-  http://www.qsl.net/dl4yhf/spectra1.html.
-
 \bibitem{Rebel:2011-MTS}
 B.~Rebel et~al., {\it {Results from the Fermilab materials test stand and
   status of the liquid argon purity demonstrator}},  {\em J.Phys.Conf.Ser.}
   {\bf 308} (2011) 012023.
 
 \bibitem{citranox}
-``{Citranox acid detergent}.''
+{\it {Citranox acid detergent}},  (accessed Oct. 18, 2016).
 \newblock
   {http://www.alconox.com/resources/StandardDocuments/MSDS/msds\_citranox\_english\_ghs.pdf}.
 
 \bibitem{simplegreen}
-``{Simple Green detergent}.''
+{\it {Simple Green detergent}},  (accessed Oct. 18, 2016).
 \newblock {http://simplegreen.com/pdfs/MSDS\_EN-US\_AllPurposeCleaner.pdf}.
 
 \bibitem{elmaclean}
-``{Elma Clean 65}.''
+{\it {Elma Clean 65}},  (accessed Oct. 18, 2016).
 \newblock
   {http://www.elma-ultrasonic.com/fileadmin/downloads/CleaningAgents/SafetyDataSheets/GB/S\_EC\%2065\_GB.pdf}.
 
+\bibitem{SpectrumLaboratory}
+W.~Buescher, {\it {Spectrum Laboratory}},  (accessed Oct. 18, 2016).
+\newblock http://www.qsl.net/dl4yhf/spectra1.html.
+
 \bibitem{Katori:2013wqa}
-{\bf MicroBooNE} Collaboration, T.~Katori, {\it {The MicroBooNE light
-  collection system}},  {\em JINST} {\bf 8} (2013) C10011,
-  [\href{http://xxx.lanl.gov/abs/1307.5256}{{\tt arXiv:1307.5256}}].
+T.~Katori, {\it {The MicroBooNE light collection system}},  {\em JINST} {\bf 8}
+  (2013) C10011, [\href{http://xxx.lanl.gov/abs/1307.5256}{{\tt
+  arXiv:1307.5256}}].
 
 \bibitem{Bugel:2011xg}
 L.~Bugel, J.~M. Conrad, C.~Ignarra, B.~J.~P. Jones, T.~Katori, T.~Smidt, and
@@ -250,9 +219,8 @@ L.~Bugel, J.~M. Conrad, C.~Ignarra, B.~J.~P. Jones, T.~Katori, T.~Smidt, and
   [\href{http://xxx.lanl.gov/abs/1101.3013}{{\tt arXiv:1101.3013}}].
 
 \bibitem{Katori:2011uq}
-{\bf MicroBooNE} Collaboration, T.~Katori, {\it {MicroBooNE, A Liquid Argon
-  Time Projection Chamber (LArTPC) Neutrino Experiment}},  {\em AIP Conf.
-  Proc.} {\bf 1405} (2011) 250--255,
+T.~Katori, {\it {MicroBooNE, A Liquid Argon Time Projection Chamber (LArTPC)
+  Neutrino Experiment}},  {\em AIP Conf. Proc.} {\bf 1405} (2011) 250--255,
   [\href{http://xxx.lanl.gov/abs/1107.5112}{{\tt arXiv:1107.5112}}].
 
 \bibitem{Chiu:2012}
@@ -283,9 +251,9 @@ Z.~Moss, L.~Bugel, G.~Collin, J.~Conrad, B.~Jones, et~al., {\it {Improved
   \href{http://xxx.lanl.gov/abs/1410.6256}{{\tt arXiv:1410.6256}}.
 
 \bibitem{Conrad:2015xta}
-{\bf MicroBooNE} Collaboration, J.~Conrad, B.~Jones, Z.~Moss, T.~Strauss, and
-  M.~Toups, {\it {The Photomultiplier Tube Calibration System of the MicroBooNE
-  Experiment}},  {\em JINST} {\bf 10} (2015), no.~06 T06001,
+J.~Conrad, B.~Jones, Z.~Moss, T.~Strauss, and M.~Toups, {\it {The
+  Photomultiplier Tube Calibration System of the MicroBooNE Experiment}},  {\em
+  JINST} {\bf 10} (2015), no.~06 T06001,
   [\href{http://xxx.lanl.gov/abs/1502.0415}{{\tt arXiv:1502.0415}}].
 
 \bibitem{Moss:2015hha}
@@ -298,11 +266,6 @@ B.~J.~P. Jones, {\em {Sterile Neutrinos in Cold Climates}}.
 \newblock PhD thesis, MIT, 2015.
 \newblock http://inspirehep.net/record/1389805.
 
-\bibitem{PhysRevB.27.5279}
-A.~Hitachi, T.~Takahashi, N.~Funayama, K.~Masuda, J.~Kikuchi, and T.~Doke, {\it
-  Effect of ionization density on the time dependence of luminescence from
-  liquid argon and xenon},  {\em Phys. Rev. B} {\bf 27} (May, 1983) 5279--5285.
-
 \bibitem{Acciarri:2008kv}
 {\bf WArP} Collaboration, R.~Acciarri et~al., {\it {Effects of Nitrogen
   contamination in liquid Argon}},  {\em JINST} {\bf 5} (2010) P06003,
@@ -312,6 +275,11 @@ A.~Hitachi, T.~Takahashi, N.~Funayama, K.~Masuda, J.~Kikuchi, and T.~Doke, {\it
 M.~Suzuki and S.~Kubota, {\it Mechanism of proportional scintillation in argon,
   krypton and xenon},  {\em Nuclear Instruments and Methods} {\bf 164} (1979),
   no.~1 197 -- 199.
+
+\bibitem{PhysRevB.27.5279}
+A.~Hitachi, T.~Takahashi, N.~Funayama, K.~Masuda, J.~Kikuchi, and T.~Doke, {\it
+  Effect of ionization density on the time dependence of luminescence from
+  liquid argon and xenon},  {\em Phys. Rev. B} {\bf 27} (May, 1983) 5279--5285.
 
 \bibitem{1997NIMPA.384..380I}
 N.~{Ishida}, M.~{Chen}, T.~{Doke}, K.~{Hasuike}, A.~{Hitachi}, M.~{Gaudreau},
@@ -325,7 +293,8 @@ N.~{Ishida}, M.~{Chen}, T.~{Doke}, K.~{Hasuike}, A.~{Hitachi}, M.~{Gaudreau},
 \bibitem{Hamamatsu-Datasheet8inch}
 {Hamamatsu}, ``Large area photomultipier tubes.'' {Specification for R5912 and
   R5912-02 photomultiplier tubes:
-  http://www.hamamatsu.com/resources/pdf/etd/LARGE\_AREA\_PMT\_TPMH1286E05.pdf}.
+  http://www.hamamatsu.com/resources/pdf/etd/LARGE\_AREA\_PMT\_TPMH1286E.pdf},
+  (accessed Nov. 21, 2016).
 
 \bibitem{Bellamy:1994bv}
 E.~H. Bellamy, G.~Bellettini, F.~Gervelli, M.~Incagli, D.~Lucchesi,
@@ -344,8 +313,8 @@ H.~Meyer, {\it {Spontaneous electron emission from a cold surface}},  {\em EPL}
 
 \bibitem{HamamatsuBook}
 {Hamamatsu Photonics}, {\it {Photomultiplier Tubes, Basics and Applications,
-  Third Edition, Chapter 13.9}}, .
-  https://www.hamamatsu.com/resources/pdf/etd/PMT\_handbook\_v3aE.pdf.
+  Third Edition, Chapter 13.9}},  (accessed Oct. 18, 2016), 2007.
+\newblock https://www.hamamatsu.com/resources/pdf/etd/PMT\_handbook\_v3aE.pdf.
 
 \bibitem{Burton:1973}
 W.~Burton and B.~Powell, {\it Fluorescence of tetraphenyl-butadiene in the
@@ -376,10 +345,10 @@ B.~J.~P. Jones, {\it {A simulation of the optical attenuation of TPB coated
 
 \bibitem{LexanThermoclear}
 {Sundance Supply}, ``{Lexan Thermoclear Multiwall Polycarbonate Sheet}.''
-  {https://www.sundancesupply.com/Lexan.pdf}.
+  {https://www.sundancesupply.com/Lexan.pdf}, (accessed Oct. 18, 2016).
 
 \bibitem{stycast}
-``{Stycast 2850}.''
+{\it {Stycast 2850}},  (accessed Oct. 18, 2016).
 \newblock {http://www.ellsworth.com/manufacturers/emerson-cuming}.
 
 \bibitem{Birks:1959}
@@ -400,11 +369,13 @@ S.~Hanagodimath, B.~Siddlingeshwar, J.~Thipperudrappa, S.~Kumar, and
 \bibitem{Liu:1997}
 L.~Liu, ``Time resolved fluoresence studies of dye-polymers as excited by laser
   and beta radiation.'' {PhD Thesis at Texas Tech Univeristy -
-  http://repositories.tdl.org/ttu-ir/bitstream/handle/2346/13744/31295012500558.pdf?sequence=1}.
+  http://repositories.tdl.org/ttu-ir/bitstream/handle/2346/13744/31295012500558.pdf?sequence=1},
+  (accessed Oct. 18, 2016).
 
 \bibitem{Hamamatsu-Datasheet2inch}
 {Hamamatsu}, ``Photomultipler tube r7723, r7724, r7725.''
-  {http://www.hamamatsu.com/resources/pdf/etd/R7723\_TPMH1315E01.pdf}.
+  {http://www.hamamatsu.com/resources/pdf/etd/R7723\_R7724\_R7725\_TPMH1315E.pdf},
+  (accessed Oct. 18, 2016).
 
 \bibitem{Ankowski:2008aa}
 {\bf ICARUS} Collaboration, A.~Ankowski et~al., {\it {Energy reconstruction of
@@ -421,7 +392,7 @@ K.~Scholberg, {\it {The SuperNova Early Warning System}},  {\em Astron. Nachr.}
   arXiv:0803.0531}}].
 
 \bibitem{larsoft}
-``{LArSoft}.''
+{\it {LArSoft}},  (accessed Oct. 18, 2016).
 \newblock {http://larsoft.org}.
 
 \bibitem{GangliaBook}
@@ -430,7 +401,8 @@ M.~Massie et~al., {\em Monitoring with Ganglia: Tracking Dynamic Host and
 \newblock O'Reilly Media, 2012.
 
 \bibitem{EPICS}
-``Experimental physics and industrial control system.''
+{\it Experimental physics and industrial control system},  (accessed Oct. 18,
+  2016).
 \newblock http://www.aps.anl.gov/epics/.
 
 \bibitem{BRUN199781}
@@ -440,7 +412,7 @@ R.~Brun and F.~Rademakers, {\it Root --- an object oriented data analysis
   (1997), no.~1 81 -- 86.
 
 \bibitem{ControlSystemStudio}
-``Control system studio.''
+{\it Control system studio},  (accessed Oct. 18, 2016).
 \newblock http://controlsystemstudio.org/; developer's manual:
   http://cs-studio.sourceforge.net/docbook/.
 
@@ -449,7 +421,7 @@ R.~Brun and F.~Rademakers, {\it Root --- an object oriented data analysis
 \newblock http://www.aps.anl.gov/epics/docs/ca.php.
 
 \bibitem{NetSNMP}
-``Net-snmp.''
+{\it Net-snmp},  (accessed Oct. 18, 2016).
 \newblock http://www.net-snmp.org.
 
 \bibitem{devSNMP}
@@ -493,13 +465,15 @@ I.~Mandrichenko, A.~Norman, A.~Petrov, and V.~Podstavkov, {\it Implementation
 \newblock http://cd-docdb.fnal.gov/cgi-bin/ShowDocument?docid=4781.
 
 \bibitem{mcdonald1}
-K.~McDonald and H.~Jostlein, ``{Path Length of Muons Traversing an Arbitrary
-  Volume}.''
-\newblock http://physics.princeton.edu/~mcdonald/examples/muonpath.pdf.
+K.~McDonald and H.~Jostlein, {\it {Path Length of Muons Traversing an Arbitrary
+  Volume}},  (accessed Oct. 18, 2016).
+\newblock {http://physics.princeton.edu/$\sim$mcdonald/examples/muonpath.pdf}.
 
 \bibitem{mcdonald2}
-S.~Palestini and K.~McDonald, ``{Space Charge in Ionization Detectors}.''
-\newblock http://physics.princeton.edu/~mcdonald/examples/spacecharge.pdf.
+S.~Palestini and K.~McDonald, {\it {Space Charge in Ionization Detectors}},
+  (accessed Oct. 18, 2016).
+\newblock
+  {http://physics.princeton.edu/$\sim$mcdonald/examples/spacecharge.pdf}.
 
 \bibitem{Badhrees:2010}
 I.~Badhrees et~al., {\it {Measurement of the two-photon absorption
@@ -531,7 +505,7 @@ A.~Ereditato et~al., {\it {A steerable UV laser system for the calibration of
   \href{http://xxx.lanl.gov/abs/1406.6400}{{\tt arXiv:1406.6400}}.
 
 \bibitem{continuum}
-``{Continuum Lasers}.''
+{\it {Continuum Lasers}},  (accessed Oct. 18, 2016).
 \newblock {http://www.continuumlasers.com}.
 
 \bibitem{BernLaser}

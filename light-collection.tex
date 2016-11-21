@@ -23,10 +23,10 @@
 \section{Light Collection System}
 \label{sec:light-collection}
 
-Liquid argon is a bright scintillator, and sampling the light from interactions in the argon can bring powerful new capabilities and information to complement the charge information from the \lartpc.  The light collection system in MicroBooNE is designed to meet MicroBooNE's physics goals for light collection, which are twofold.  First, for accelerator-induced events, the light collection system is designed to enable the experiment to trigger on 40~MeV kinetic energy protons produced in neutrino interactions.  Second, for non-beam events,  the system is designed for efficient observation of 5 to 10~MeV electrons from supernova neutrinos.   
+Liquid argon is a bright scintillator, and sampling the light from interactions in the argon can bring powerful new capabilities and information to complement the charge information from the \lartpc.  The light collection system in MicroBooNE is designed to meet MicroBooNE's physics goals for light collection, which are twofold.  First, for accelerator-induced events, the light collection system is designed to enable the experiment to trigger on 40~MeV kinetic energy protons produced in beam neutrino interactions.  Second, for non-beam events,  the system is designed for efficient observation of 5 to 10~MeV electrons from supernova neutrino interactions.   
 
 The light produced by neutrino interactions in MicroBooNE is an important input for both event selection and reconstruction.  
-One of the critical capabilities the light collection system provides is the ability to form a beam-event trigger when a pulse of light is observed in coincidence with the beam spill.  Because typically only one beam spill in 600 will not produce a neutrino interaction in the detector, such a trigger will substantially reduce the data output rate.  
+One of the critical capabilities the light collection system provides is the ability to form a beam-event trigger when a pulse of light is observed in coincidence with the beam spill.  Because typically only one beam spill in 600 will not produce a neutrino interaction in the detector, such a trigger will substantially reduce the overall data output rate.  
 For non-beam physics studies, the light system provides triggering and an event $t_0$ for the \lartpc system.   For accelerator-induced events, the time of the beam spill (1.6 microsecond duration) provides an adequate t$|0$ for tracks from the event.  However, because of the long window over which the ionization electrons of an event drift (about 1.6 ms maximum drift time at 500 V/cm field), almost every (99.99\%) accelerator-induced event will include one or more cosmic ray muons crossing the detector during the TPC livetime.  Utilizing the distribution of hits across the photodetectors, one can better reject cosmic ray muon tracks.  
 The light can also be used to select and trigger on specific types of cosmic-ray calibration events (Michel electrons, straight-through muons, etc.) and non-beam events (supernova neutrinos, cosmic background events to proton decay studies, etc.).
 
@@ -89,7 +89,7 @@ This organic fluor absorbs in the UV (green line) and emits in the visible with 
 \begin{figure}
 	\centering 
 \includegraphics[width=\textwidth]{./figures/pmttpbeff.png} 
-        \caption{Scintillation light emission spectrum (red) and TPB re-emission spectrum (green), in arbitary units.  Superimposed are important efficiencies (see $y$ axis):  Dark green line -- absorption of VUV light by TPB;  Black line -- transmission of borosilicate glass;  Blue line -- efficiency of a R5912-02mod cryogenic PMT \cite{Jones:2015bya} }\label{fig:lightchallenge}
+        \caption{Scintillation light emission spectrum (red) and TPB re-emission spectrum (green), in arbitary units.  Superimposed are important efficiencies (see $y$ axis):  Dark green line -- absorption of VUV light by TPB;  Black line -- transmission of borosilicate glass;  Blue line -- efficiency of a R5912-02mod cryogenic PMT \cite{Jones:2015bya}.}\label{fig:lightchallenge}
 \end{figure}
 
 
@@ -151,7 +151,7 @@ Figure \ref{fig:TPBSpectraPlate} provides quantum efficiency curves for these PM
 
 The  R5912-02mod is a 14-stage PMT.
 The high gain at room temperature ($10^9$ at $\sim$1700 V), compensates for known reduced gain at 87 K in the liquid argon.  
-The high gain also has the additional advantage of allowing operation at lower than nominal voltage which reduces heat-loss in the cables and the potential for high voltage breakdown at the feedthroughs.
+The high gain also has the additional advantage of allowing operation at lower than nominal voltage which reduces heat-loss in the PMT bases and the potential for high voltage breakdown at the feedthroughs.
 
 
 
@@ -223,7 +223,7 @@ Second, it was found that the PMTs are noisier in the cryogenic environment.
 It would typically be expected that thermal emission is suppressed at cryogenic temperatures and one would expect a lower dark current 
 for PMTs operating in this regime.  
 However, the dark current measured in the liquid nitrogen is higher than at room temperature. 
-Although the cause is unknown, this phenomenon has previously been observed\cite{Meyer:2008qb}. A proposed explanation is provided in~\cite{MeyerDark}.
+Although the cause is unknown, this phenomenon has previously been observed~\cite{Meyer:2008qb}. A proposed explanation is provided in~\cite{MeyerDark}.
 
 Third, an LED pulse-rate-dependent gain shift was found during testing, as shown on figure~9 of reference~\cite{Briese:2013wua}.  This behavior is described qualitatively in \cite{HamamatsuBook}.  With 10 kHz LED pulsing, the gains of cold and dark-adapted PMTs were shown to steadily increase, requiring nearly 24 hours from turn-on to stabilize. The effect was not observable at 10 Hz.   This is relevant to MicroBooNE because the
 cosmic muon rate in the MicroBooNE detector is $\sim 5$ kHz.  Therefore a similar effect is expected in the MicroBooNE detector.  Preliminary results from measurements of the PMTs installed in the LAr-filled MicroBooNE cryostat shows the expected effect. 

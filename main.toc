@@ -7,6 +7,7 @@
 \contentsline {subsection}{\numberline {3.2}Liquid Argon Purification Subsystem}{11}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Nitrogen Refrigeration}{15}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Controls and Purity Monitoring}{16}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Initial Purification}{16}{subsection.3.5}
 \contentsline {section}{\numberline {4}Liquid Argon Time Projection Chamber}{18}{section.4}
 \contentsline {subsection}{\numberline {4.1}Cathode}{18}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Field Cage}{19}{subsection.4.2}
