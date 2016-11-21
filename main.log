@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  21 NOV 2016 14:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  21 NOV 2016 15:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1789,16 +1789,12 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 53310E59E3E0F98DF8F611AA940A5E5C;5537.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 10681 strings out of 493089
- 159867 string characters out of 6134842
- 243508 words of memory out of 5000000
- 13457 multiletter control sequences out of 15000+600000
+ 10679 strings out of 493089
+ 159852 string characters out of 6134842
+ 243470 words of memory out of 5000000
+ 13455 multiletter control sequences out of 15000+600000
  98120 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,35p,2001b,927s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1822,7 +1818,7 @@ st/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (101 pages, 19575222 bytes).
+Output written on main.pdf (101 pages, 19573604 bytes).
 PDF statistics:
  2294 PDF objects out of 2487 (max. 8388607)
  365 named destinations out of 1000 (max. 500000)
