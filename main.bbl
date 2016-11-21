@@ -162,6 +162,17 @@ G.~Carugno et~al., {\it Electron lifetime detector for liquid argon},  {\em
   Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
   Spectrometers, Detectors and Associated Equipment} {\bf 292} (1990) 580.
 
+\bibitem{zuckerbrot}
+M.~Zuckerbrot, M.~Geynisman, J.~Kilmer, B.~Norris, R.~Sanders, M.~Sarychev,
+  F.~Schwartz, and J.~Tillman, {\it {MicroBooNE Experience: Operations of the
+  cryogenic system for the Fermilab MicroBooNE Liquid Argon Neutrino
+  detector}},  {\em Fermilab 2016 Cryo Conference} (2016).
+  {http://microboone-docdb.fnal.gov/cgi-bin/ShowDocument?docid=6671}.
+
+\bibitem{voirin}
+E.~Voirin, {\it {MicroBooNE Argon Purge Simulation}},  {\em MicroBooNE DocDB}
+  (2015). {http://microboone-docdb.fnal.gov/cgi-bin/ShowDocument?docid=3846}.
+
 \bibitem{Bagby:2014wva}
 L.~F. Bagby et~al., {\it {Breakdown voltage of metal-oxide resistors in liquid
   argon}},  {\em JINST} {\bf 9} (2014), no.~11 T11004,
