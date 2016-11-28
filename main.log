@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 NOV 2016 13:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 NOV 2016 15:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -997,7 +997,7 @@ Package pdftex.def Info: figures/microboone_tpc_diagram.jpg used on input line
 100.
 (pdftex.def)             Requested size: 279.63152pt x 334.40369pt.
 ) [7] (./cryogenic-system.tex
-Overfull \hbox (91.74274pt too wide) in paragraph at lines 10--24
+Overfull \hbox (17.16243pt too wide) in paragraph at lines 10--24
  [][] 
  []
 
@@ -1033,9 +1033,6 @@ File: figures/foam2.jpg Graphic file (type jpg)
 <use figures/foam2.jpg>
 Package pdftex.def Info: figures/foam2.jpg used on input line 61.
 (pdftex.def)             Requested size: 292.53719pt x 390.06717pt.
-
-Underfull \vbox (badness 3302) has occurred while \output is active []
-
  [10]
 <figures/cryo_flow.pdf, id=550, 795.72281pt x 615.0478pt>
 File: figures/cryo_flow.pdf Graphic file (type pdf)
@@ -1714,34 +1711,34 @@ File: figures/Voirin.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/Voirin.pdf used on input line 23.
 (pdftex.def)             Requested size: 344.16641pt x 257.86581pt.
  [85] [86 <./figures/Potential.pdf> <./figures/Coordinate.pdf>] <figures/Origin
-al_Tracks.pdf, id=1939, 1236.62pt x 419.5675pt>
-File: figures/Original_Tracks.pdf Graphic file (type pdf)
+al_Tracks.jpg, id=1939, 1717.41624pt x 582.175pt>
+File: figures/Original_Tracks.jpg Graphic file (type jpg)
 
-<use figures/Original_Tracks.pdf>
-Package pdftex.def Info: figures/Original_Tracks.pdf used on input line 41.
-(pdftex.def)             Requested size: 421.60042pt x 143.04158pt.
+<use figures/Original_Tracks.jpg>
+Package pdftex.def Info: figures/Original_Tracks.jpg used on input line 41.
+(pdftex.def)             Requested size: 421.60042pt x 142.91394pt.
 
-<figures/Ydev.pdf, id=1940, 1238.6275pt x 409.53pt>
-File: figures/Ydev.pdf Graphic file (type pdf)
- <use figures/Ydev.pdf>
-Package pdftex.def Info: figures/Ydev.pdf used on input line 42.
-(pdftex.def)             Requested size: 421.60042pt x 139.39458pt.
+<figures/Ydev.jpg, id=1940, 1719.42375pt x 568.1225pt>
+File: figures/Ydev.jpg Graphic file (type jpg)
+ <use figures/Ydev.jpg>
+Package pdftex.def Info: figures/Ydev.jpg used on input line 42.
+(pdftex.def)             Requested size: 421.60042pt x 139.29958pt.
 
-<figures/Yresidual.pdf, id=1941, 1236.62pt x 419.5675pt>
-File: figures/Yresidual.pdf Graphic file (type pdf)
+<figures/Yresidual.jpg, id=1941, 1717.41624pt x 582.175pt>
+File: figures/Yresidual.jpg Graphic file (type jpg)
 
-<use figures/Yresidual.pdf>
-Package pdftex.def Info: figures/Yresidual.pdf used on input line 43.
-(pdftex.def)             Requested size: 421.60042pt x 143.04158pt.
+<use figures/Yresidual.jpg>
+Package pdftex.def Info: figures/Yresidual.jpg used on input line 43.
+(pdftex.def)             Requested size: 421.60042pt x 142.91394pt.
  [87 <./figures/Voirin.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [88 <./figures/Original_Tracks.pdf> <./figures/Ydev.pdf> <./figures/Yresidual.
-pdf>]
+ [88 <./figures/Original_Tracks.jpg> <./figures/Ydev.jpg> <./figures/Yresidual.
+jpg>]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/optics.pdf): PDF i
 nclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<figures/optics.pdf, id=1992, 386.5361pt x 258.03099pt>
+<figures/optics.pdf, id=1965, 386.5361pt x 258.03099pt>
 File: figures/optics.pdf Graphic file (type pdf)
 
 <use figures/optics.pdf>
@@ -1751,21 +1748,21 @@ Package pdftex.def Info: figures/optics.pdf used on input line 56.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/feedthrough2.pdf):
  PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<figures/feedthrough2.pdf, id=1993, 100.13837pt x 214.4992pt>
+<figures/feedthrough2.pdf, id=1966, 100.13837pt x 214.4992pt>
 File: figures/feedthrough2.pdf Graphic file (type pdf)
 
 <use figures/feedthrough2.pdf>
 Package pdftex.def Info: figures/feedthrough2.pdf used on input line 58.
 (pdftex.def)             Requested size: 86.03996pt x 184.30861pt.
  [89 <./figures/optics.pdf> <./figures/feedthrough2.pdf>] <figures/Feedthrough.
-pdf, id=2056, 939.587pt x 1001.21594pt>
+pdf, id=2029, 939.587pt x 1001.21594pt>
 File: figures/Feedthrough.pdf Graphic file (type pdf)
 
 <use figures/Feedthrough.pdf>
 Package pdftex.def Info: figures/Feedthrough.pdf used on input line 70.
 (pdftex.def)             Requested size: 242.23668pt x 258.12645pt.
 
-<figures/Mirror.pdf, id=2057, 465.58191pt x 999.57639pt>
+<figures/Mirror.pdf, id=2030, 465.58191pt x 999.57639pt>
 File: figures/Mirror.pdf Graphic file (type pdf)
 
 <use figures/Mirror.pdf>
@@ -1791,15 +1788,11 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 53310E59E3E0F98DF8F611AA940A5E5C;5537.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  10683 strings out of 493089
  159973 string characters out of 6134842
- 243531 words of memory out of 5000000
+ 243632 words of memory out of 5000000
  13458 multiletter control sequences out of 15000+600000
  98120 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1824,9 +1817,9 @@ st/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (101 pages, 19616534 bytes).
+Output written on main.pdf (101 pages, 20074226 bytes).
 PDF statistics:
- 2296 PDF objects out of 2487 (max. 8388607)
+ 2269 PDF objects out of 2487 (max. 8388607)
  366 named destinations out of 1000 (max. 500000)
  1041 words of extra memory for PDF output out of 10000 (max. 10000000)
 
