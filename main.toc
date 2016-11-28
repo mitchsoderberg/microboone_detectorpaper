@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {4.3}Anode Planes}{26}{subsection.4.3}
 \contentsline {subsubsection}{\numberline {4.3.1}Mechanical structure}{27}{subsubsection.4.3.1}
 \contentsline {subsubsection}{\numberline {4.3.2}Wire winding and quality assurance}{27}{subsubsection.4.3.2}
-\contentsline {subsection}{\numberline {4.4}Parts Preparation}{28}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.4}Parts Preparation}{30}{subsection.4.4}
 \contentsline {subsubsection}{\numberline {4.4.1}Cleaning stainless steel}{30}{subsubsection.4.4.1}
 \contentsline {subsubsection}{\numberline {4.4.2}Cleaning G-10}{30}{subsubsection.4.4.2}
 \contentsline {subsection}{\numberline {4.5}Assembly}{31}{subsection.4.5}
