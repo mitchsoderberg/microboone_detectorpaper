@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  29 NOV 2016 07:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  29 NOV 2016 08:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -988,7 +988,10 @@ Package pdftex.def Info: figures/LArTPC_Concept.pdf used on input line 27.
 
 Underfull \vbox (badness 2111) has occurred while \output is active []
 
- [5 <./figures/LArTPC_Concept.pdf>] [6]
+ [5 <./figures/LArTPC_Concept.pdf>]
+Underfull \vbox (badness 1472) has occurred while \output is active []
+
+ [6]
 <figures/microboone_tpc_diagram.jpg, id=505, 1163.34625pt x 1391.1975pt>
 File: figures/microboone_tpc_diagram.jpg Graphic file (type jpg)
 
@@ -1785,15 +1788,11 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 53310E59E3E0F98DF8F611AA940A5E5C;5537.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  10683 strings out of 493089
  159978 string characters out of 6134842
- 243697 words of memory out of 5000000
+ 243698 words of memory out of 5000000
  13458 multiletter control sequences out of 15000+600000
  98120 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1818,7 +1817,7 @@ st/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (101 pages, 19654134 bytes).
+Output written on main.pdf (101 pages, 19654309 bytes).
 PDF statistics:
  2286 PDF objects out of 2487 (max. 8388607)
  366 named destinations out of 1000 (max. 500000)
