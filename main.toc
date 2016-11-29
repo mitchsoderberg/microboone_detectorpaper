@@ -11,14 +11,14 @@
 \contentsline {section}{\numberline {4}Liquid Argon Time Projection Chamber}{18}{section.4}
 \contentsline {subsection}{\numberline {4.1}Cathode}{18}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Field Cage}{19}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}Resistor Divider Chain}{24}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1}Resistor Divider Chain}{23}{subsubsection.4.2.1}
 \contentsline {subsection}{\numberline {4.3}Anode Planes}{26}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Mechanical structure}{27}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}Wire winding and quality assurance}{27}{subsubsection.4.3.2}
-\contentsline {subsection}{\numberline {4.4}Parts Preparation}{30}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}Cleaning stainless steel}{30}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.3.1}Mechanical structure}{26}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Wire winding and quality assurance}{28}{subsubsection.4.3.2}
+\contentsline {subsection}{\numberline {4.4}Parts Preparation}{29}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Cleaning stainless steel}{29}{subsubsection.4.4.1}
 \contentsline {subsubsection}{\numberline {4.4.2}Cleaning G-10}{30}{subsubsection.4.4.2}
-\contentsline {subsection}{\numberline {4.5}Assembly}{31}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.5}Assembly}{30}{subsection.4.5}
 \contentsline {subsubsection}{\numberline {4.5.1}Wire installation and tension measurements}{31}{subsubsection.4.5.1}
 \contentsline {subsection}{\numberline {4.6}High Voltage System}{32}{subsection.4.6}
 \contentsline {section}{\numberline {5}Light Collection System}{35}{section.5}
