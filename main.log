@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  2 DEC 2016 11:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 DEC 2016 12:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1276,7 +1276,7 @@ File: ./figures/muondecay.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/muondecay.pdf used on input line 50.
 (pdftex.def)             Requested size: 408.69475pt x 315.81711pt.
  [36 <./figures/PMTPlacement.png>] [37 <./figures/muondecay.pdf>] <./figures/pm
-ttpbeff.png, id=952, 1445.4pt x 722.7pt>
+ttpbeff.png, id=953, 1445.4pt x 722.7pt>
 File: ./figures/pmttpbeff.png Graphic file (type png)
 
 <use ./figures/pmttpbeff.png>
@@ -1286,21 +1286,21 @@ Package pdftex.def Info: ./figures/pmttpbeff.png used on input line 91.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/PMTmount2.pdf): PD
 F inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<./figures/PMTmount2.pdf, id=958, 723.70375pt x 543.02875pt>
+<./figures/PMTmount2.pdf, id=959, 723.70375pt x 543.02875pt>
 File: ./figures/PMTmount2.pdf Graphic file (type pdf)
 
 <use ./figures/PMTmount2.pdf>
 Package pdftex.def Info: ./figures/PMTmount2.pdf used on input line 123.
 (pdftex.def)             Requested size: 193.59155pt x 145.26082pt.
 
-<./figures/13-0430-05D.jpg, id=959, 803.0pt x 534.99875pt>
+<./figures/13-0430-05D.jpg, id=960, 803.0pt x 534.99875pt>
 File: ./figures/13-0430-05D.jpg Graphic file (type jpg)
 
 <use ./figures/13-0430-05D.jpg>
 Package pdftex.def Info: ./figures/13-0430-05D.jpg used on input line 124.
 (pdftex.def)             Requested size: 193.59155pt x 128.98192pt.
  [38 <./figures/pmttpbeff.png>]
-<./figures/PlateSpectra.png, id=970, 1030.85126pt x 922.44624pt>
+<./figures/PlateSpectra.png, id=971, 1030.85126pt x 922.44624pt>
 File: ./figures/PlateSpectra.png Graphic file (type png)
 
 <use ./figures/PlateSpectra.png>
@@ -1317,7 +1317,7 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 192.
  [40]
-<./figures/PlateModeAndPhoto.pdf, id=1006, 867.24pt x 325.215pt>
+<./figures/PlateModeAndPhoto.pdf, id=1007, 867.24pt x 325.215pt>
 File: ./figures/PlateModeAndPhoto.pdf Graphic file (type pdf)
 
 <use ./figures/PlateModeAndPhoto.pdf>
@@ -1325,7 +1325,7 @@ Package pdftex.def Info: ./figures/PlateModeAndPhoto.pdf used on input line 252
 .
 (pdftex.def)             Requested size: 430.20639pt x 161.3268pt.
  [41]
-<./figures/EfficienciesIgnarraThesis.pdf, id=1021, 569.12625pt x 541.02126pt>
+<./figures/EfficienciesIgnarraThesis.pdf, id=1022, 569.12625pt x 541.02126pt>
 File: ./figures/EfficienciesIgnarraThesis.pdf Graphic file (type pdf)
 
 <use ./figures/EfficienciesIgnarraThesis.pdf>
@@ -1337,7 +1337,7 @@ Underfull \vbox (badness 1769) has occurred while \output is active []
 
  [42 <./figures/PlateModeAndPhoto.pdf> <./figures/EfficienciesIgnarraThesis.pdf
 , page is rotated 90 degrees>]
-<./figures/KendzioraRotator.jpg, id=1106, 635.976pt x 489.31432pt>
+<./figures/KendzioraRotator.jpg, id=1107, 635.976pt x 489.31432pt>
 File: ./figures/KendzioraRotator.jpg Graphic file (type jpg)
 
 <use ./figures/KendzioraRotator.jpg>
@@ -1345,7 +1345,7 @@ Package pdftex.def Info: ./figures/KendzioraRotator.jpg used on input line 291.
 
 (pdftex.def)             Requested size: 344.16641pt x 264.80069pt.
  [43]
-<./figures/shield.png, id=1117, 559.08875pt x 393.47pt>
+<./figures/shield.png, id=1118, 559.08875pt x 393.47pt>
 File: ./figures/shield.png Graphic file (type png)
 
 <use ./figures/shield.png>
@@ -1355,7 +1355,7 @@ Package pdftex.def Info: ./figures/shield.png used on input line 300.
 Underfull \vbox (badness 5189) has occurred while \output is active []
 
  [44 <./figures/KendzioraRotator.jpg> <./figures/shield.png>]
-<./figures/mountedpmtlabeled.jpg, id=1125, 426.8748pt x 534.3162pt>
+<./figures/mountedpmtlabeled.jpg, id=1126, 426.8748pt x 534.3162pt>
 File: ./figures/mountedpmtlabeled.jpg Graphic file (type jpg)
 
 <use ./figures/mountedpmtlabeled.jpg>
@@ -1366,14 +1366,14 @@ Package pdftex.def Info: ./figures/mountedpmtlabeled.jpg used on input line 317
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/PMTunit2.pdf): PDF
  inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<./figures/PMTunit2.pdf, id=1126, 643.40375pt x 480.79625pt>
+<./figures/PMTunit2.pdf, id=1127, 643.40375pt x 480.79625pt>
 File: ./figures/PMTunit2.pdf Graphic file (type pdf)
 
 <use ./figures/PMTunit2.pdf>
 Package pdftex.def Info: ./figures/PMTunit2.pdf used on input line 318.
 (pdftex.def)             Requested size: 279.63152pt x 208.9686pt.
 
-<./figures/splitter_modified.png, id=1133, 748.7975pt x 454.69875pt>
+<./figures/splitter_modified.png, id=1134, 748.7975pt x 454.69875pt>
 File: ./figures/splitter_modified.png Graphic file (type png)
 
 <use ./figures/splitter_modified.png>
@@ -1382,7 +1382,7 @@ Package pdftex.def Info: ./figures/splitter_modified.png used on input line 329
 (pdftex.def)             Requested size: 387.18312pt x 235.11258pt.
  [45] [46 <./figures/mountedpmtlabeled.jpg> <./figures/PMTunit2.pdf>] [47 <./fi
 gures/splitter_modified.png>]
-<./figures/nonlinear.png, id=1158, 501.875pt x 406.51875pt>
+<./figures/nonlinear.png, id=1159, 501.875pt x 406.51875pt>
 File: ./figures/nonlinear.png Graphic file (type png)
 
 <use ./figures/nonlinear.png>
@@ -1391,14 +1391,14 @@ Package pdftex.def Info: ./figures/nonlinear.png used on input line 350.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 9.0pt on input line 352.
  [48 <./figures/nonlinear.png>]
-<./figures/LightguideModeAndPhoto.pdf, id=1169, 722.7pt x 289.08pt>
+<./figures/LightguideModeAndPhoto.pdf, id=1170, 722.7pt x 289.08pt>
 File: ./figures/LightguideModeAndPhoto.pdf Graphic file (type pdf)
 
 <use ./figures/LightguideModeAndPhoto.pdf>
 Package pdftex.def Info: ./figures/LightguideModeAndPhoto.pdf used on input lin
 e 367.
 (pdftex.def)             Requested size: 430.20639pt x 172.08192pt.
- [49 <./figures/LightguideModeAndPhoto.pdf>] <./figures/BarSpectra.png, id=1207
+ [49 <./figures/LightguideModeAndPhoto.pdf>] <./figures/BarSpectra.png, id=1208
 , 1030.85126pt x 922.44624pt>
 File: ./figures/BarSpectra.png Graphic file (type png)
 
@@ -1406,14 +1406,14 @@ File: ./figures/BarSpectra.png Graphic file (type png)
 Package pdftex.def Info: ./figures/BarSpectra.png used on input line 379.
 (pdftex.def)             Requested size: 279.63152pt x 250.21799pt.
  [50 <./figures/BarSpectra.png>]
-<./figures/flasherresult.png, id=1221, 840.13875pt x 199.74625pt>
+<./figures/flasherresult.png, id=1222, 840.13875pt x 199.74625pt>
 File: ./figures/flasherresult.png Graphic file (type png)
 
 <use ./figures/flasherresult.png>
 Package pdftex.def Info: ./figures/flasherresult.png used on input line 397.
 (pdftex.def)             Requested size: 430.20639pt x 102.28374pt.
 
-<./figures/PMT_xtalk_PE_plot.png, id=1225, 578.16pt x 433.62pt>
+<./figures/PMT_xtalk_PE_plot.png, id=1226, 578.16pt x 433.62pt>
 File: ./figures/PMT_xtalk_PE_plot.png Graphic file (type png)
 
 <use ./figures/PMT_xtalk_PE_plot.png>
@@ -1421,14 +1421,14 @@ Package pdftex.def Info: ./figures/PMT_xtalk_PE_plot.png used on input line 412
 .
 (pdftex.def)             Requested size: 236.61482pt x 177.46114pt.
  [51 <./figures/flasherresult.png>]
-<./figures/eventtriplet.pdf, id=1239, 332.74312pt x 542.62717pt>
+<./figures/eventtriplet.pdf, id=1240, 332.74312pt x 542.62717pt>
 File: ./figures/eventtriplet.pdf Graphic file (type pdf)
 
 <use ./figures/eventtriplet.pdf>
 Package pdftex.def Info: ./figures/eventtriplet.pdf used on input line 436.
 (pdftex.def)             Requested size: 274.42506pt x 447.52448pt.
 
-<./figures/sample_flasher_spe.png, id=1240, 892.33376pt x 585.18625pt>
+<./figures/sample_flasher_spe.png, id=1241, 892.33376pt x 585.18625pt>
 File: ./figures/sample_flasher_spe.png Graphic file (type png)
 
 <use ./figures/sample_flasher_spe.png>
@@ -1436,7 +1436,7 @@ Package pdftex.def Info: ./figures/sample_flasher_spe.png used on input line 44
 4.
 (pdftex.def)             Requested size: 301.14316pt x 197.48737pt.
 
-<./figures/h2_ch0_pmt1.png, id=1241, 798.985pt x 575.14874pt>
+<./figures/h2_ch0_pmt1.png, id=1242, 798.985pt x 575.14874pt>
 File: ./figures/h2_ch0_pmt1.png Graphic file (type png)
 
 <use ./figures/h2_ch0_pmt1.png>
@@ -1445,7 +1445,7 @@ Package pdftex.def Info: ./figures/h2_ch0_pmt1.png used on input line 452.
 ) [52 <./figures/PMT_xtalk_PE_plot.png>]
 [53 <./figures/eventtriplet.pdf>] [54 <./figures/sample_flasher_spe.png> <./fig
 ures/h2_ch0_pmt1.png>] (./electronics.tex
-<./figures/MicroBooNEReadoutScheme.pdf, id=1298, 1228.59pt x 686.565pt>
+<./figures/MicroBooNEReadoutScheme.pdf, id=1299, 1228.59pt x 686.565pt>
 File: ./figures/MicroBooNEReadoutScheme.pdf Graphic file (type pdf)
 
 <use ./figures/MicroBooNEReadoutScheme.pdf>
@@ -1456,13 +1456,13 @@ ne 8.
 Underfull \vbox (badness 2662) has occurred while \output is active []
 
  [55 <./figures/MicroBooNEReadoutScheme.pdf>]
-<figures/asic.pdf, id=1311, 232.87pt x 227.85126pt>
+<figures/asic.pdf, id=1312, 232.87pt x 227.85126pt>
 File: figures/asic.pdf Graphic file (type pdf)
  <use figures/asic.pdf>
 Package pdftex.def Info: figures/asic.pdf used on input line 30.
 (pdftex.def)             Requested size: 322.65479pt x 315.73535pt.
 
-[56 <./figures/asic.pdf>] <figures/mb2.pdf, id=1325, 871.255pt x 392.46625pt>
+[56 <./figures/asic.pdf>] <figures/mb2.pdf, id=1326, 871.255pt x 392.46625pt>
 File: figures/mb2.pdf Graphic file (type pdf)
 
 <use figures/mb2.pdf>
@@ -1472,20 +1472,20 @@ Package pdftex.def Info: figures/mb2.pdf used on input line 45.
 Underfull \vbox (badness 3302) has occurred while \output is active []
 
  [57]
-[58 <./figures/mb2.pdf>] <figures/noise.pdf, id=1347, 849.1725pt x 596.2275pt>
+[58 <./figures/mb2.pdf>] <figures/noise.pdf, id=1348, 849.1725pt x 596.2275pt>
 File: figures/noise.pdf Graphic file (type pdf)
 
 <use figures/noise.pdf>
 Package pdftex.def Info: figures/noise.pdf used on input line 67.
 (pdftex.def)             Requested size: 339.66298pt x 238.48677pt.
- <figures/gain.pdf, id=1348, 849.1725pt x 596.2275pt>
+ <figures/gain.pdf, id=1349, 849.1725pt x 596.2275pt>
 File: figures/gain.pdf Graphic file (type pdf)
 
 <use figures/gain.pdf>
 Package pdftex.def Info: figures/gain.pdf used on input line 74.
 (pdftex.def)             Requested size: 339.66298pt x 238.48677pt.
  [59 <./figures/noise.pdf>]
-<figures/signal_feedthrough_standard.pdf, id=1366, 330.30513pt x 266.23314pt>
+<figures/signal_feedthrough_standard.pdf, id=1367, 330.30513pt x 266.23314pt>
 File: figures/signal_feedthrough_standard.pdf Graphic file (type pdf)
 
 <use figures/signal_feedthrough_standard.pdf>
@@ -1493,7 +1493,7 @@ Package pdftex.def Info: figures/signal_feedthrough_standard.pdf used on input
 line 87.
 (pdftex.def)             Requested size: 258.12645pt x 208.06723pt.
  [60 <./figures/gain.pdf> <./figures/signal_feedthrough_standard.pdf>]
-<figures/signal_feedthrough_assembly.pdf, id=1430, 397.11331pt x 405.26305pt>
+<figures/signal_feedthrough_assembly.pdf, id=1431, 397.11331pt x 405.26305pt>
 File: figures/signal_feedthrough_assembly.pdf Graphic file (type pdf)
 
 <use figures/signal_feedthrough_assembly.pdf>
@@ -1501,7 +1501,7 @@ Package pdftex.def Info: figures/signal_feedthrough_assembly.pdf used on input
 line 96.
 (pdftex.def)             Requested size: 172.07993pt x 175.60777pt.
 
-<figures/signal_feedthrough_assembly_photo.pdf, id=1431, 564.18199pt x 424.4206
+<figures/signal_feedthrough_assembly_photo.pdf, id=1432, 564.18199pt x 424.4206
 2pt>
 File: figures/signal_feedthrough_assembly_photo.pdf Graphic file (type pdf)
  <use figures/signal_feedthrough_assembly_photo.pdf>
@@ -1509,7 +1509,7 @@ Package pdftex.def Info: figures/signal_feedthrough_assembly_photo.pdf used on
 input line 97.
 (pdftex.def)             Requested size: 172.07993pt x 129.45132pt.
 
-<figures/intermediate_amplifier.pdf, id=1435, 329.7682pt x 256.94394pt>
+<figures/intermediate_amplifier.pdf, id=1436, 329.7682pt x 256.94394pt>
 File: figures/intermediate_amplifier.pdf Graphic file (type pdf)
 
 <use figures/intermediate_amplifier.pdf>
@@ -1517,7 +1517,7 @@ Package pdftex.def Info: figures/intermediate_amplifier.pdf used on input line
 108.
 (pdftex.def)             Requested size: 172.07993pt x 134.07816pt.
 
-<figures/serviceboard.pdf, id=1436, 600.76453pt x 459.60658pt>
+<figures/serviceboard.pdf, id=1437, 600.76453pt x 459.60658pt>
 File: figures/serviceboard.pdf Graphic file (type pdf)
 
 <use figures/serviceboard.pdf>
@@ -1525,23 +1525,21 @@ Package pdftex.def Info: figures/serviceboard.pdf used on input line 109.
 (pdftex.def)             Requested size: 172.07993pt x 131.64845pt.
  [61 <./figures/signal_feedthrough_assembly.pdf> <./figures/signal_feedthrough_
 assembly_photo.pdf>]
-<figures/rocrates.jpg, id=1503, 853.1875pt x 1104.125pt>
+<figures/rocrates.jpg, id=1504, 853.1875pt x 1104.125pt>
 File: figures/rocrates.jpg Graphic file (type jpg)
 
 <use figures/rocrates.jpg>
 Package pdftex.def Info: figures/rocrates.jpg used on input line 315.
-(pdftex.def)             Requested size: 129.06322pt x 167.00995pt.
-
-Underfull \vbox (badness 1082) has occurred while \output is active []
-
- [62 <./figures/intermediate_amplifier.pdf> <./figures/serviceboard.pdf> <./fig
-ures/rocrates.jpg>] <./figures/readout_2.png, id=1567, 193.2018pt x 229.3368pt>
+(pdftex.def)             Requested size: 215.1032pt x 278.37239pt.
+ [62 <./figures/intermediate_amplifier.pdf> <./figures/serviceboard.pdf>] [63 <
+./figures/rocrates.jpg>]
+<./figures/readout_2.png, id=1572, 193.2018pt x 229.3368pt>
 File: ./figures/readout_2.png Graphic file (type png)
 
 <use ./figures/readout_2.png>
 Package pdftex.def Info: ./figures/readout_2.png used on input line 334.
 (pdftex.def)             Requested size: 258.12645pt x 306.42438pt.
- [63]
+
 <./figures/readout_3.jpg, id=1574, 722.7pt x 542.025pt>
 File: ./figures/readout_3.jpg Graphic file (type jpg)
 
@@ -1549,56 +1547,59 @@ File: ./figures/readout_3.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./figures/readout_3.jpg used on input line 342.
 (pdftex.def)             Requested size: 344.16641pt x 258.12619pt.
  [64 <./figures/readout_2.png>]
-<./figures/readout_4.pdf, id=1584, 794.97pt x 614.295pt>
+<./figures/readout_4.pdf, id=1585, 794.97pt x 614.295pt>
 File: ./figures/readout_4.pdf Graphic file (type pdf)
 
 <use ./figures/readout_4.pdf>
 Package pdftex.def Info: ./figures/readout_4.pdf used on input line 350.
 (pdftex.def)             Requested size: 344.16641pt x 265.95076pt.
- [65 <./figures/readout_3.jpg> <./figures/readout_4.pdf>] <./figures/readout_6.
-jpg, id=1623, 1037.8775pt x 641.39626pt>
+ [65 <./figures/readout_3.jpg>]
+<./figures/readout_6.jpg, id=1593, 1037.8775pt x 641.39626pt>
 File: ./figures/readout_6.jpg Graphic file (type jpg)
 
 <use ./figures/readout_6.jpg>
 Package pdftex.def Info: ./figures/readout_6.jpg used on input line 370.
 (pdftex.def)             Requested size: 344.16641pt x 212.68904pt.
- [66]
-<./figures/readout_7.pdf, id=1635, 709.77654pt x 379.80453pt>
+ [66 <./figures/readout_4.pdf>] [67 <./figures/readout_6.jpg>] <./figures/reado
+ut_7.pdf, id=1641, 709.77654pt x 379.80453pt>
 File: ./figures/readout_7.pdf Graphic file (type pdf)
 
 <use ./figures/readout_7.pdf>
 Package pdftex.def Info: ./figures/readout_7.pdf used on input line 392.
 (pdftex.def)             Requested size: 344.16641pt x 184.1702pt.
- [67 <./figures/readout_6.jpg>]
-<./figures/PMTshaper.pdf, id=1642, 2569.6pt x 1927.2pt>
+ [68 <./figures/readout_7.pdf>]
+<./figures/PMTshaper.pdf, id=1699, 2569.6pt x 1927.2pt>
 File: ./figures/PMTshaper.pdf Graphic file (type pdf)
 
 <use ./figures/PMTshaper.pdf>
 Package pdftex.def Info: ./figures/PMTshaper.pdf used on input line 413.
 (pdftex.def)             Requested size: 344.16641pt x 258.10231pt.
- [68 <./figures/readout_7.pdf>] [69 <./figures/PMTshaper.pdf>] <./figures/reado
-ut_9.pdf, id=1716, 706.74857pt x 322.51482pt>
+ [69 <./figures/PMTshaper.pdf>]
+<./figures/readout_9.pdf, id=1717, 706.74857pt x 322.51482pt>
 File: ./figures/readout_9.pdf Graphic file (type pdf)
 
 <use ./figures/readout_9.pdf>
 Package pdftex.def Info: ./figures/readout_9.pdf used on input line 443.
 (pdftex.def)             Requested size: 344.16641pt x 157.05923pt.
-
-<./figures/det_figure_10.jpg, id=1718, 722.7pt x 542.025pt>
+ [70]
+<./figures/det_figure_10.jpg, id=1726, 722.7pt x 542.025pt>
 File: ./figures/det_figure_10.jpg Graphic file (type jpg)
 
 <use ./figures/det_figure_10.jpg>
 Package pdftex.def Info: ./figures/det_figure_10.jpg used on input line 451.
 (pdftex.def)             Requested size: 344.16641pt x 258.12619pt.
- [70] [71 <./figures/readout_9.pdf> <./figures/det_figure_10.jpg>] <./figures/d
-ataFlow.pdf, id=1759, 1027.84pt x 770.88pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71 <./figures/readout_9.pdf> <./figures/det_figure_10.jpg>]
+<./figures/dataFlow.pdf, id=1760, 1027.84pt x 770.88pt>
 File: ./figures/dataFlow.pdf Graphic file (type pdf)
 
 <use ./figures/dataFlow.pdf>
 Package pdftex.def Info: ./figures/dataFlow.pdf used on input line 471.
 (pdftex.def)             Requested size: 408.69475pt x 306.52333pt.
  [72]
-<./figures/ganglia_EXT_trigRate.png, id=1770, 287.0725pt x 96.36pt>
+<./figures/ganglia_EXT_trigRate.png, id=1771, 287.0725pt x 96.36pt>
 File: ./figures/ganglia_EXT_trigRate.png Graphic file (type png)
 
 <use ./figures/ganglia_EXT_trigRate.png>
@@ -1606,7 +1607,7 @@ Package pdftex.def Info: ./figures/ganglia_EXT_trigRate.png used on input line
 483.
 (pdftex.def)             Requested size: 193.59155pt x 64.98283pt.
 
-<./figures/ganglia_RECEIVEDfrag_rate.png, id=1771, 282.05376pt x 102.3825pt>
+<./figures/ganglia_RECEIVEDfrag_rate.png, id=1772, 282.05376pt x 102.3825pt>
 File: ./figures/ganglia_RECEIVEDfrag_rate.png Graphic file (type png)
 
 <use ./figures/ganglia_RECEIVEDfrag_rate.png>
@@ -1614,7 +1615,7 @@ Package pdftex.def Info: ./figures/ganglia_RECEIVEDfrag_rate.png used on input
 line 484.
 (pdftex.def)             Requested size: 193.59155pt x 70.27219pt.
 
-<./figures/ganglia_WRITEdata_rate.png, id=1772, 284.06125pt x 101.37875pt>
+<./figures/ganglia_WRITEdata_rate.png, id=1773, 284.06125pt x 101.37875pt>
 File: ./figures/ganglia_WRITEdata_rate.png Graphic file (type png)
 
 <use ./figures/ganglia_WRITEdata_rate.png>
@@ -1622,7 +1623,7 @@ Package pdftex.def Info: ./figures/ganglia_WRITEdata_rate.png used on input lin
 e 485.
 (pdftex.def)             Requested size: 193.59155pt x 69.09286pt.
 
-<./figures/ganglia_WRITEQUE_size.png, id=1773, 283.80429pt x 102.91248pt>
+<./figures/ganglia_WRITEQUE_size.png, id=1774, 283.80429pt x 102.91248pt>
 File: ./figures/ganglia_WRITEQUE_size.png Graphic file (type png)
 
 <use ./figures/ganglia_WRITEQUE_size.png>
@@ -1630,7 +1631,7 @@ Package pdftex.def Info: ./figures/ganglia_WRITEQUE_size.png used on input line
  486.
 (pdftex.def)             Requested size: 193.59155pt x 70.20096pt.
  [73 <./figures/dataFlow.pdf>]
-<./figures/daqLizard.png, id=1801, 2219.29124pt x 1132.23pt>
+<./figures/daqLizard.png, id=1802, 2219.29124pt x 1132.23pt>
 File: ./figures/daqLizard.png Graphic file (type png)
 
 <use ./figures/daqLizard.png>
@@ -1639,21 +1640,21 @@ Package pdftex.def Info: ./figures/daqLizard.png used on input line 496.
  [74 <./figures/ganglia_EXT_trigRate.png> <./figures/ganglia_RECEIVEDfrag_rate.
 png> <./figures/ganglia_WRITEdata_rate.png> <./figures/ganglia_WRITEQUE_size.pn
 g> <./figures/daqLizard.png>]) [75]
-(./slow-control.tex <./figures/ACDist.png, id=1819, 816.04875pt x 416.55624pt>
+(./slow-control.tex <./figures/ACDist.png, id=1820, 816.04875pt x 416.55624pt>
 File: ./figures/ACDist.png Graphic file (type png)
 
 <use ./figures/ACDist.png>
 Package pdftex.def Info: ./figures/ACDist.png used on input line 44.
 (pdftex.def)             Requested size: 344.16641pt x 175.68338pt.
 
-<./figures/ActualRacks.png, id=1820, 445.665pt x 304.13625pt>
+<./figures/ActualRacks.png, id=1821, 445.665pt x 304.13625pt>
 File: ./figures/ActualRacks.png Graphic file (type png)
 
 <use ./figures/ActualRacks.png>
 Package pdftex.def Info: ./figures/ActualRacks.png used on input line 45.
 (pdftex.def)             Requested size: 258.12645pt x 176.15318pt.
 
-<./figures/DataDist.png, id=1821, 808.01875pt x 413.545pt>
+<./figures/DataDist.png, id=1822, 808.01875pt x 413.545pt>
 File: ./figures/DataDist.png Graphic file (type png)
 
 <use ./figures/DataDist.png>
@@ -1661,70 +1662,67 @@ Package pdftex.def Info: ./figures/DataDist.png used on input line 46.
 (pdftex.def)             Requested size: 344.16641pt x 176.14236pt.
  [76] [77 <./figures/ACDist.png> <./figures/ActualRacks.png> <./figures/DataDis
 t.png>]
-<./figures/PowerDiagPic1.png, id=1835, 468.75125pt x 589.20125pt>
+<./figures/PowerDiagPic1.png, id=1836, 468.75125pt x 589.20125pt>
 File: ./figures/PowerDiagPic1.png Graphic file (type png)
 
 <use ./figures/PowerDiagPic1.png>
 Package pdftex.def Info: ./figures/PowerDiagPic1.png used on input line 68.
 (pdftex.def)             Requested size: 236.61482pt x 297.41391pt.
  [78 <./figures/PowerDiagPic1.png>]
-<./figures/PowerDiagPic2.png, id=1843, 317.185pt x 613.29124pt>
+<./figures/PowerDiagPic2.png, id=1844, 317.185pt x 613.29124pt>
 File: ./figures/PowerDiagPic2.png Graphic file (type png)
 
 <use ./figures/PowerDiagPic2.png>
 Package pdftex.def Info: ./figures/PowerDiagPic2.png used on input line 82.
 (pdftex.def)             Requested size: 236.61482pt x 457.51549pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [79 <./figures/PowerDiagPic2.png>]
 Overfull \hbox (1.26198pt too wide) in paragraph at lines 106--129
  [][] 
  []
 
 [80] [81] [82] [83]
-<figures/beam_monitoring.png, id=1900, 1270.7475pt x 714.67pt>
+<figures/beam_monitoring.png, id=1901, 1270.7475pt x 714.67pt>
 File: figures/beam_monitoring.png Graphic file (type png)
 
 <use figures/beam_monitoring.png>
 Package pdftex.def Info: figures/beam_monitoring.png used on input line 199.
 (pdftex.def)             Requested size: 408.69475pt x 229.855pt.
 ) [84 <./figures/beam_monitoring.png>]
-(./laser.tex <figures/Potential.pdf, id=1911, 579.16376pt x 440.64626pt>
+(./laser.tex <figures/Potential.pdf, id=1912, 579.16376pt x 440.64626pt>
 File: figures/Potential.pdf Graphic file (type pdf)
 
 <use figures/Potential.pdf>
 Package pdftex.def Info: figures/Potential.pdf used on input line 9.
 (pdftex.def)             Requested size: 344.16641pt x 261.85495pt.
 
-<figures/Coordinate.pdf, id=1912, 713.66624pt x 555.07375pt>
+<figures/Coordinate.pdf, id=1913, 713.66624pt x 555.07375pt>
 File: figures/Coordinate.pdf Graphic file (type pdf)
 
 <use figures/Coordinate.pdf>
 Package pdftex.def Info: figures/Coordinate.pdf used on input line 16.
 (pdftex.def)             Requested size: 344.16641pt x 267.68588pt.
 
-<figures/Voirin.pdf, id=1913, 656.4525pt x 491.8375pt>
+<figures/Voirin.pdf, id=1914, 656.4525pt x 491.8375pt>
 File: figures/Voirin.pdf Graphic file (type pdf)
 
 <use figures/Voirin.pdf>
 Package pdftex.def Info: figures/Voirin.pdf used on input line 23.
 (pdftex.def)             Requested size: 344.16641pt x 257.86581pt.
  [85] [86 <./figures/Potential.pdf> <./figures/Coordinate.pdf>] <figures/Origin
-al_Tracks.jpg, id=1956, 1717.41624pt x 582.175pt>
+al_Tracks.jpg, id=1957, 1717.41624pt x 582.175pt>
 File: figures/Original_Tracks.jpg Graphic file (type jpg)
 
 <use figures/Original_Tracks.jpg>
 Package pdftex.def Info: figures/Original_Tracks.jpg used on input line 41.
 (pdftex.def)             Requested size: 421.60042pt x 142.91394pt.
 
-<figures/Ydev.jpg, id=1957, 1719.42375pt x 568.1225pt>
+<figures/Ydev.jpg, id=1958, 1719.42375pt x 568.1225pt>
 File: figures/Ydev.jpg Graphic file (type jpg)
  <use figures/Ydev.jpg>
 Package pdftex.def Info: figures/Ydev.jpg used on input line 42.
 (pdftex.def)             Requested size: 421.60042pt x 139.29958pt.
 
-<figures/Yresidual.jpg, id=1958, 1717.41624pt x 582.175pt>
+<figures/Yresidual.jpg, id=1959, 1717.41624pt x 582.175pt>
 File: figures/Yresidual.jpg Graphic file (type jpg)
 
 <use figures/Yresidual.jpg>
@@ -1735,7 +1733,7 @@ v.jpg> <./figures/Yresidual.jpg>]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/optics.pdf): PDF i
 nclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<figures/optics.pdf, id=1982, 386.5361pt x 258.03099pt>
+<figures/optics.pdf, id=1983, 386.5361pt x 258.03099pt>
 File: figures/optics.pdf Graphic file (type pdf)
 
 <use figures/optics.pdf>
@@ -1745,21 +1743,21 @@ Package pdftex.def Info: figures/optics.pdf used on input line 56.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/feedthrough2.pdf):
  PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<figures/feedthrough2.pdf, id=1983, 100.13837pt x 214.4992pt>
+<figures/feedthrough2.pdf, id=1984, 100.13837pt x 214.4992pt>
 File: figures/feedthrough2.pdf Graphic file (type pdf)
 
 <use figures/feedthrough2.pdf>
 Package pdftex.def Info: figures/feedthrough2.pdf used on input line 58.
 (pdftex.def)             Requested size: 86.03996pt x 184.30861pt.
  [89 <./figures/optics.pdf> <./figures/feedthrough2.pdf>] <figures/Feedthrough.
-pdf, id=2046, 939.587pt x 1001.21594pt>
+pdf, id=2047, 939.587pt x 1001.21594pt>
 File: figures/Feedthrough.pdf Graphic file (type pdf)
 
 <use figures/Feedthrough.pdf>
 Package pdftex.def Info: figures/Feedthrough.pdf used on input line 70.
 (pdftex.def)             Requested size: 242.23668pt x 258.12645pt.
 
-<figures/Mirror.pdf, id=2047, 465.58191pt x 999.57639pt>
+<figures/Mirror.pdf, id=2048, 465.58191pt x 999.57639pt>
 File: figures/Mirror.pdf Graphic file (type pdf)
 
 <use figures/Mirror.pdf>
@@ -1785,12 +1783,16 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: AFAE6976A26B38A8EA584C651A3C427E;5537.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 10683 strings out of 493089
- 159978 string characters out of 6134842
- 243822 words of memory out of 5000000
- 13458 multiletter control sequences out of 15000+600000
+ 10685 strings out of 493089
+ 159993 string characters out of 6134842
+ 244058 words of memory out of 5000000
+ 13460 multiletter control sequences out of 15000+600000
  98120 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,35p,2056b,927s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1814,9 +1816,9 @@ st/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (101 pages, 19653918 bytes).
+Output written on main.pdf (101 pages, 19654862 bytes).
 PDF statistics:
- 2286 PDF objects out of 2487 (max. 8388607)
+ 2287 PDF objects out of 2487 (max. 8388607)
  366 named destinations out of 1000 (max. 500000)
  1041 words of extra memory for PDF output out of 10000 (max. 10000000)
 

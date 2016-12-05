@@ -44,19 +44,19 @@
 \contentsline {subsection}{\numberline {6.2}Warm Electronic Amplification}{59}{subsection.6.2}
 \contentsline {subsection}{\numberline {6.3}LArTPC Readout Electronics}{61}{subsection.6.3}
 \contentsline {subsubsection}{\numberline {6.3.1} Data Digitization}{63}{subsubsection.6.3.1}
-\contentsline {subsubsection}{\numberline {6.3.2} Data Handling}{63}{subsubsection.6.3.2}
-\contentsline {subsubsection}{\numberline {6.3.3}Compression Schemes}{66}{subsubsection.6.3.3}
-\contentsline {subsection}{\numberline {6.4}PMT Readout Electronics}{66}{subsection.6.4}
+\contentsline {subsubsection}{\numberline {6.3.2} Data Handling}{64}{subsubsection.6.3.2}
+\contentsline {subsubsection}{\numberline {6.3.3}Compression Schemes}{65}{subsubsection.6.3.3}
+\contentsline {subsection}{\numberline {6.4}PMT Readout Electronics}{67}{subsection.6.4}
 \contentsline {subsubsection}{\numberline {6.4.1}PMT Signal Amplification and Shaping}{68}{subsubsection.6.4.1}
 \contentsline {subsubsection}{\numberline {6.4.2}PMT Data Digitization}{68}{subsubsection.6.4.2}
 \contentsline {subsubsection}{\numberline {6.4.3}PMT Data Handling and PMT Trigger Generation}{69}{subsubsection.6.4.3}
-\contentsline {subsection}{\numberline {6.5}Level-1 Trigger Generation}{69}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}DAQ Design}{70}{subsection.6.6}
-\contentsline {subsection}{\numberline {6.7}High-Level Software Trigger}{74}{subsection.6.7}
+\contentsline {subsection}{\numberline {6.5}Level-1 Trigger Generation}{70}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}DAQ Design}{72}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}High-Level Software Trigger}{75}{subsection.6.7}
 \contentsline {section}{\numberline {7}Infrastructure and Monitoring Systems}{76}{section.7}
 \contentsline {subsection}{\numberline {7.1}Electronics Infrastructure at LArTF}{76}{subsection.7.1}
 \contentsline {subsubsection}{\numberline {7.1.1}AC Power Distribution and Grounding for Low-Noise LArTF Data-taking}{76}{subsubsection.7.1.1}
-\contentsline {subsubsection}{\numberline {7.1.2}DC Power Distribution to the MicroBooNE Detector}{80}{subsubsection.7.1.2}
+\contentsline {subsubsection}{\numberline {7.1.2}DC Power Distribution to the MicroBooNE Detector}{79}{subsubsection.7.1.2}
 \contentsline {subsubsection}{\numberline {7.1.3}Network, Timing, and Data Distribution for Low-Noise LArTF Data-taking}{80}{subsubsection.7.1.3}
 \contentsline {subsubsection}{\numberline {7.1.4}Interlocks and Safety Systems}{81}{subsubsection.7.1.4}
 \contentsline {subsubsection}{\numberline {7.1.5}Performance Measurements}{82}{subsubsection.7.1.5}
