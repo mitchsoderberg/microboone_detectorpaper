@@ -65,10 +65,10 @@
 \contentsline {paragraph}{Power supply controls}{82}{section*.3}
 \contentsline {paragraph}{Slow controls box}{83}{section*.4}
 \contentsline {paragraph}{External data sources}{83}{section*.5}
-\contentsline {subsection}{\numberline {7.3}Beam Monitoring}{83}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.3}Beam Monitoring}{84}{subsection.7.3}
 \contentsline {section}{\numberline {8}UV Laser System}{85}{section.8}
-\contentsline {subsection}{\numberline {8.1}UV Laser Calibration}{85}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Laser Source and Optics}{87}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.1}UV Laser Calibration}{88}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Laser Source and Optics}{88}{subsection.8.2}
 \contentsline {subsection}{\numberline {8.3}Steering System}{89}{subsection.8.3}
 \contentsline {subsection}{\numberline {8.4}Performance Tests and Initial Operation}{90}{subsection.8.4}
-\contentsline {section}{\numberline {9}Conclusion}{92}{section.9}
+\contentsline {section}{\numberline {9}Conclusion}{93}{section.9}

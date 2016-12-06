@@ -161,7 +161,16 @@ The proper operation of each production electronics rack's AC and DC distributio
 %{\it{(Slow controls team: Glenn, Sowjanya)}}
 
 % Definition, scope of functionality, and software products
-MicroBooNE uses EPICS for controlling and monitoring most devices and conditions important to the experiment.  These include power supply controls, temperatures, fan speeds, rack protection interlock status, and various environmental conditions.  The DAQ, cryogenics systems, and beam data collection systems operate independently of the EPICS slow monitoring, but export data which are imported into EPICS for archiving and status displays.  Applications from the Control System Studio software collection \cite{ControlSystemStudio} are used for providing displays, alarm notifications, and data archiving.
+MicroBooNE uses EPICS for controlling and monitoring most devices and conditions important to the experiment.  These include power supply controls, temperatures, fan speeds, rack protection interlock status, and various environmental conditions.  The DAQ, cryogenics systems, and beam data collection systems operate independently of the EPICS slow monitoring, but export data which are imported into EPICS for archiving and status displays.  Applications from the Control System Studio software collection \cite{ControlSystemStudio} are used for providing displays, alarm notifications, and data archiving.  Figure \ref{fig:slowmoncon} is a screenshot of the slow monitoring and controls display.  This system is responsible for monitoring approximately 4500 different variables for MicroBooNE.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.95\textwidth]{./figures/slowmoncon.png}
+\caption[]{Standard detector controls and monitoring operator page.  The overview panel (top, middle) provides a ``one-click-away'' access to any sub-system panel of the MicroBooNE detector. The alarm area (top, right), alarm tree (bottom, left) and the alarm table (bottom) panels alert the operator and provide alarm related information at various levels. The 
+heartbeats (top, right) show whether programs for important subsystems such as cryogenics, drift high voltage and beam are running. The green LEDs (bottom, right) show the status of important power supplies used in the detector.}
+\label{fig:slowmoncon}
+\end{figure}
+
 
 \paragraph{EPICS architecture}
 % Controllers

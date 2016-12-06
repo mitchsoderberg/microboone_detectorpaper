@@ -368,7 +368,7 @@ In the case of the NU data stream, a lossless Huffman coding scheme implemented 
 \begin{figure}
 \centering
 \includegraphics[width=0.8\linewidth]{./figures/readout_6.jpg}%
-\caption{\label{fig:readout_6}Compression factors achieved on ADC data with Huffman compression.}
+\caption{\label{fig:readout_6}Compression factors achieved on ADC data with Huffman compression.  The default shaping time in MicroBooNE is 2~$\mu$s.}
 \end{figure}
 
 Because of the low trigger rate (the BNB trigger dictates an upper bound on the trigger rate of 15 Hz), lossless Huffman coding compression proves sufficient for the NU data stream. However, for the continuous SN stream, further compression becomes necessary, resulting in unavoidable data loss. A method called ``dynamic decimation'' (DD) handles this case. The DD scheme relies on recognizing regions of interest (ROI) in the data stream that contain waveforms corresponding to drift ionization charges. Portions of the data stream not containing ROI contribute to pedestal determination, and ROI are identified as deviations from the continually-updated pedestal, buffered, and read out to disk. At the time of this writing, the MicroBooNE SN stream compression scheme is being finalized and the SN readout stream is being commissioned.
