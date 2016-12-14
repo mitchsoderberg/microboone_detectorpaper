@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 DEC 2016 10:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 DEC 2016 03:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1021,27 +1021,27 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: figures/cryostat_nozzles.png Graphic file (type png)
 
 <use figures/cryostat_nozzles.png>
-Package pdftex.def Info: figures/cryostat_nozzles.png used on input line 51.
+Package pdftex.def Info: figures/cryostat_nozzles.png used on input line 50.
 (pdftex.def)             Requested size: 430.20639pt x 286.36453pt.
 
 <figures/14-0222-03D.jpg, id=535, 803.0pt x 534.99875pt>
 File: figures/14-0222-03D.jpg Graphic file (type jpg)
 
 <use figures/14-0222-03D.jpg>
-Package pdftex.def Info: figures/14-0222-03D.jpg used on input line 60.
+Package pdftex.def Info: figures/14-0222-03D.jpg used on input line 59.
 (pdftex.def)             Requested size: 292.53719pt x 194.90964pt.
  <figures/foam2.jpg, id=536, 602.25pt x 803.0pt>
 File: figures/foam2.jpg Graphic file (type jpg)
 
 <use figures/foam2.jpg>
-Package pdftex.def Info: figures/foam2.jpg used on input line 61.
+Package pdftex.def Info: figures/foam2.jpg used on input line 60.
 (pdftex.def)             Requested size: 292.53719pt x 390.06717pt.
  [10]
-<figures/cryo_flow.pdf, id=550, 795.72281pt x 615.0478pt>
+<figures/cryo_flow.pdf, id=549, 795.72281pt x 615.0478pt>
 File: figures/cryo_flow.pdf Graphic file (type pdf)
 
 <use figures/cryo_flow.pdf>
-Package pdftex.def Info: figures/cryo_flow.pdf used on input line 112.
+Package pdftex.def Info: figures/cryo_flow.pdf used on input line 111.
 (pdftex.def)             Requested size: 365.67805pt x 282.64388pt.
  [11 <./figures/cryostat_nozzles.png>]
 
@@ -1052,26 +1052,26 @@ Overfull \vbox (0.7784pt too high) has occurred while \output is active []
 
 
 [12 <./figures/14-0222-03D.jpg> <./figures/foam2.jpg>]
-<figures/cryo-filter-skid.jpg, id=568, 675.52374pt x 928.46875pt>
+Underfull \vbox (badness 1424) has occurred while \output is active []
+
+ [13]
+<figures/cryo-filter-skid.jpg, id=575, 675.52374pt x 928.46875pt>
 File: figures/cryo-filter-skid.jpg Graphic file (type jpg)
 
 <use figures/cryo-filter-skid.jpg>
-Package pdftex.def Info: figures/cryo-filter-skid.jpg used on input line 129.
+Package pdftex.def Info: figures/cryo-filter-skid.jpg used on input line 128.
 (pdftex.def)             Requested size: 193.59155pt x 266.07558pt.
 
-<figures/cryo-filter-skid-cutaway.jpg, id=569, 649.42625pt x 913.4125pt>
+<figures/cryo-filter-skid-cutaway.jpg, id=576, 649.42625pt x 913.4125pt>
 File: figures/cryo-filter-skid-cutaway.jpg Graphic file (type jpg)
 
 <use figures/cryo-filter-skid-cutaway.jpg>
 Package pdftex.def Info: figures/cryo-filter-skid-cutaway.jpg used on input lin
-e 130.
+e 129.
 (pdftex.def)             Requested size: 193.59155pt x 272.28368pt.
-
-Underfull \vbox (badness 1424) has occurred while \output is active []
-
- [13]
-[14 <./figures/cryo_flow.pdf>] [15 <./figures/cryo-filter-skid.jpg> <./figures/
-cryo-filter-skid-cutaway.jpg>] [16]) [17] (./tpc.tex
+ [14 <./figures/cryo_flow.pdf>]
+[15 <./figures/cryo-filter-skid.jpg> <./figures/cryo-filter-skid-cutaway.jpg>]
+[16]) [17] (./tpc.tex
 <figures/cryo_tpc.pdf, id=641, 415.82135pt x 362.97577pt>
 File: figures/cryo_tpc.pdf Graphic file (type pdf)
 
@@ -1788,12 +1788,7 @@ File: t1newtxtt.fd 2014/12/23 Font definitions for T1/newtxtt.
 LaTeX Font Info:    Font shape `T1/newtxtt/m/n' will be
 (Font)              scaled to size 10.0pt on input line 22.
  [93]
-[94] [95] [96] [97] [98]
-
-Package lineno Warning: Linenumber reference failed, 
-(lineno)                rerun to get it right.
-
-)
+[94] [95] [96] [97] [98])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
  [99]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
@@ -1806,7 +1801,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  10695 strings out of 493089
  160171 string characters out of 6134842
- 244226 words of memory out of 5000000
+ 244346 words of memory out of 5000000
  13467 multiletter control sequences out of 15000+600000
  98120 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1831,7 +1826,7 @@ st/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (102 pages, 19910992 bytes).
+Output written on main.pdf (102 pages, 19911102 bytes).
 PDF statistics:
  2296 PDF objects out of 2487 (max. 8388607)
  368 named destinations out of 1000 (max. 500000)
