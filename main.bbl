@@ -297,6 +297,11 @@ A.~Hitachi, T.~Takahashi, N.~Funayama, K.~Masuda, J.~Kikuchi, and T.~Doke, {\it
   Effect of ionization density on the time dependence of luminescence from
   liquid argon and xenon},  {\em Phys. Rev. B} {\bf 27} (May, 1983) 5279--5285.
 
+\bibitem{PhysRevB.17.2762}
+S.~Kubota, A.~Nakamoto, T.~Takahashi, T.~Hamada, E.~Shibamura, M.~Miyajima,
+  K.~Masuda, and T.~Doke, {\it Recombination luminescence in liquid argon and
+  in liquid xenon},  {\em Phys. Rev. B} {\bf 17} (Mar, 1978) 2762--2765.
+
 \bibitem{1997NIMPA.384..380I}
 N.~{Ishida}, M.~{Chen}, T.~{Doke}, K.~{Hasuike}, A.~{Hitachi}, M.~{Gaudreau},
   M.~{Kase}, Y.~{Kawada}, J.~{Kikuchi}, T.~{Komiyama}, K.~{Kuwahara},
@@ -362,10 +367,6 @@ B.~J.~P. Jones, {\it {A simulation of the optical attenuation of TPB coated
 \bibitem{LexanThermoclear}
 {Sundance Supply}, ``{Lexan Thermoclear Multiwall Polycarbonate Sheet}.''
   {https://www.sundancesupply.com/Lexan.pdf}, (accessed Oct. 18, 2016).
-
-\bibitem{stycast}
-{\it {Stycast 2850}},  (accessed Oct. 18, 2016).
-\newblock {http://www.ellsworth.com/manufacturers/emerson-cuming}.
 
 \bibitem{Birks:1959}
 J.~B. Birks and K.~N. Kuchela, {\it Energy transfer in fluorescent plastic
